@@ -1,0 +1,21 @@
+{
+  "name": "flip_crawler",
+  "version": "1.0.0",
+  "description": "\"The backend system to fetch offers on cards from webpages.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"https://github.com/akash-vardhan/flip_crawler.git\""
+  },
+  "author": "Flip",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
+    "pdf-parse": "^1.1.1",
+    "puppeteer": "^24.16.0"
+  }
+}
