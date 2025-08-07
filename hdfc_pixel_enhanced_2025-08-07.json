@@ -1,0 +1,749 @@
+{
+  "PIXEL Play – Born Digital Credit Card for The Born Digital": [
+    "Welcome to the first all-digital credit card experience with PIXEL Play - A card that allows you to customize benefits to fit your lifestyle.",
+    "Seamless Digital Onboarding - Experience a seamless digital onboarding via PayZapp and receive an instant digital credit card.",
+    "Customize your card - Select merchants of your choice to earn cashback, choose card design, and select your preferred billing cycle date.",
+    "All in One-App - Digitally manage your PIXEL Play credit card from PayZapp. Access features such as Card Controls, Rewards, EMI Dashboard, Statements, Repayments, Recent Transactions, Disputes, Hotlisting, Help Center, Notifications, and much more",
+    "Steps to set UPI PIN on PayZapp for Pixel RuPay Credit Card:Login to PayZapp -> View Pixel Home -> Settings -> Pixel Play RuPay Card -> Reset RuPay UPI PIN -> Verify OTP -> Set UPI PIN",
+    {
+      "title": "Steps to set UPI PIN on PayZapp for Pixel RuPay Credit Card:",
+      "items": [
+        "Login to PayZapp -> View Pixel Home -> Settings -> Pixel Play RuPay Card -> Reset RuPay UPI PIN -> Verify OTP -> Set UPI PIN"
+      ]
+    }
+  ],
+  "Category": [
+    "Cashback"
+  ],
+  "Rewards": [
+    {
+      "title": "5% Cashback on choice of any two packs:",
+      "items": [
+        "Dining & Entertainment Category - BookMyShow & Zomato",
+        "Travel Category - MakeMyTrip & Uber",
+        "Grocery Category - Blinkit & Reliance Smart Bazaar",
+        "Electronics Category - Croma & Reliance Digital",
+        "Fashion Category - Nykaa & Myntra"
+      ]
+    },
+    "5% Cashback on Smartbuy",
+    {
+      "title": "3% Cashback on choice of any one E-commerce merchant:",
+      "items": [
+        "Amazon or Flipkart or PayZapp"
+      ]
+    },
+    "1% Unlimited Cashback across all other spends",
+    "1% Cashback on UPI Spends (Applicable only on PIXEL RuPay Credit Card holders)",
+    {
+      "type": "reference_link",
+      "text": "click here",
+      "url": "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/PIXEL-Rupay-Credit-Card-FAQs.pdf"
+    },
+    {
+      "type": "pdf_document",
+      "source_url": "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/PIXEL-Rupay-Credit-Card-FAQs.pdf",
+      "status": "success",
+      "content": [
+        "PIXEL RuPay Credit Card FAQs 1.",
+        "Will I get physical card for both PIXEL RuPay and Visa variants?",
+        "Digital card will be issued to customer holding both Visa and RuPay franchise cards which can be accessed in PayZapp application, Physical card will be issued: a) Customer with Visa & RuPay - Physical card only for Visa b) Customer with only Visa - Physical card only for Visa c) Customer with RuPay - Physical card only for RuPay 2.",
+        "How do I link my PIXEL RuPay Credit card for UPI scan to Pay in PayZapp?",
+        "Your PIXEL RuPay Credit card is auto linked to your PayZapp account.",
+        "3.",
+        "How to enable Scan&Pay transactions via PayZapp app for UPI RuPay Card?",
+        "You can also follow below steps to link your PIXEL RuPay Card for Scan&Pay: • Open the PayZapp app • Click on the menu bar on the top left corner of the screen.",
+        "• Click on “UPI Accounts” under Account Management.",
+        "• Here, under Credit Cards, click on “Add new”.",
+        "In the select your bank page, click on HDFC Bank Credit Card.",
+        "• On this page, enter the last 6 digits of your credit card number and the expiry date, and proceed.",
+        "• Enter the OTP, and then enter your card PIN.",
+        "Now, enter the UPI PIN you want to set for your card.",
+        "Your card is now linked.",
+        "4.",
+        "How do I link my PIXEL RuPay Credit card for UPI scan to Pay in PhonePe and Gpay?",
+        "To link your card on PhonePe, please follow the given steps: • Open the PhonePe app • On your profile, under “Profile and Payments” click on “Debit & Credit Cards”.",
+        "• On the “Add New Card” page, click on “Link your RuPay Credit Card to UPI”.",
+        "• Select your bank, and verify your device and phone number with OTP.",
+        "Your card has now been added to your PhonePe account.",
+        "To link your card on Gpay, please follow the given steps: • Open the Gpay app.",
+        "• Under Payment methods, select “Add RuPay Credit Card on UPI”.",
+        "Select your bank and continue.",
+        "• “Add HDFC Bank RuPay Credit Card” dialog box will appear.",
+        "Click on continue.",
+        "• Your PIXEL RuPay Credit card will automatically get added to your Gpay account as one of the payment methods.",
+        "5.",
+        "Why am I unable to make any transactions after activating my PIXEL RuPay Card?",
+        "Please check the online transactions should be enabled for PIXEL RuPay Cards.",
+        "You can check the same by following the listed steps: • Go to \"Settings\" on PIXEL homepage • Under settings, choose \"PIXEL Play RuPay Card\" • Tap on \"Card Controls\" and enable the online transactions for both the cards on the next screen 6.",
+        "Will the billing date be the same for both Visa & RuPay PIXEL Credit Cards?",
+        "In case of cardholders holding both Visa & RuPay variants of PIXEL Credit card, a single statement will be issued including transactions incurred on both the cards.",
+        "The Minimum Amount Due (MAD) & Total Amount Due (TAD) will be calculated on the combined outstanding of both the cards.",
+        "7.",
+        "Will the limit be different for PIXEL RuPay & Visa variants?",
+        "In Case of Cardholders holding both Visa & RuPay Variants of PIXEL, credit limit will be combined for both cards.",
+        "8.",
+        "Is there any capping on the 1% Cashback on UPI Spends on my PIXEL RuPay Credit card?",
+        "The 1% Cashback on UPI Spends for PIXEL RuPay Credit Card is capped at 500 CashPoints per Calendar month.",
+        "9.",
+        "Can I link my PIXEL RuPay Credit Card to other Third-Party Application Providers (TPAPs) like Gpay, PhonePe, Paytm etc?",
+        "Yes, you can link your PIXEL RuPay Credit Card in other TPAPs by adding your PIXEL RuPay card in the credit card section of these apps by entering the required details.",
+        "10.",
+        "What are the prerequisites for linking HDFC Bank PIXEL RuPay Credit Card on UPI Payment app?",
+        "HDFC Bank PIXEL RuPay Credit Card PIN needs to be setup before linking Credit Card on UPI apps.",
+        "You can set your UPI PIN through PayZapp.",
+        "To link, follow the given steps: Open PayZapp > View PIXEL home > Settings > PIXEL RuPay Credit Card > Set RuPay UPI PIN.",
+        "11.",
+        "Will I have to set UPI PIN or can I authenticate Credit Card transactions using Card pin?",
+        "You will have to setup UPI PIN to authenticate UPI transactions on PIXEL RuPay Card.",
+        "12.",
+        "How can I change my UPI PIN?",
+        "You can change your UPI PIN through the PayZapp application.",
+        "Open PayZapp > View PIXEL home > Settings > PIXEL RuPay Credit Card > Reset RuPay UPI PIN.",
+        "13.",
+        "How can I make payment to a retail offline merchant using PIXEL RuPay Credit Card on UPI?",
+        "Once you have added your PIXEL RuPay Credit Card to the UPI app, open UPI app on your mobile, click on ‘Scan’.",
+        "QR scanner will be open on UPI app, scan the QR, enter the amount, select HDFC Bank PIXEL RuPay credit card from the drop-down menu, confirm the payment by entering UPI Pin.",
+        "Payment confirmation will be displayed, once the payment is done.",
+        "14.",
+        "How can I make payment to an e-commerce merchant using PIXEL RuPay Credit Card on UPI?",
+        "Payment can be made for e-commerce merchant either through an Intent request or collect request from the merchant.",
+        "Select UPI app as payment mode at merchant website /app, login into UPI app, select HDFC Bank PIXEL RuPay Credit Card from the drop-down menu, confirm the payment using UPI Pin.",
+        "Payment confirmation will be displayed, once the payment is done, you will be routed back to the merchant page.",
+        "15.",
+        "Can I make payment to any person or other Credit Card using the PIXEL RuPay Credit Card on UPI?",
+        "No, only payment to merchant (P2M) will be allowed from the PIXEL RuPay Credit Card.",
+        "16.",
+        "Can I link my PIXEL Visa Credit Card on UPI?",
+        "Currently, only PIXEL RuPay Credit Card can be linked on UPI.",
+        "17.",
+        "What are the number of transactions allowed from linked Credit Card on UPI?",
+        "There is no limit for the number of transactions carried out from linked Credit Card on UPI.",
+        "18.",
+        "What are the restricted merchant categories on which customer won’t be able to make payment using PIXEL RuPay Credit Card on UPI?",
+        "Categories - P2P, P2PM, digital account opening, lending platform, cash withdrawal at merchant, cash withdrawal at ATM, ERUPI, IPO, Foreign Inward Remittances, Mutual Funds and any other categories as restricted by HDFC Bank from time to time.",
+        "19.",
+        "Is there any restriction on the transactions that can be carried out from linked Credit card on UPI?",
+        "Amount limit per card per day can be upto UPI limit (i.e, 1 lakh per day and 2 lakh for some special MCC codes i.e 5960, 6300 & 6529 (Excludes the restricted categories merchant in previous Question), however, it will be subject to the available credit limit on your credit card.",
+        "To note - Amount limit per day per card is Rs.5,000 for first 24 hrs of linking the card in UPI app.",
+        "UPI transactions shall be subject to restrictions like maximum transaction amount or maximum daily limits or periodic limits that may be imposed by the TPAP or the Issuing entity or by the NPCI, from time to time and cardholders shall at all times be bound by such limits and restrictions.",
+        "20.",
+        "Can I make my linked PIXEL Credit Card as default account to receive funds?",
+        "Funds cannot be received on linked PIXEL credit card on UPI.",
+        "21.",
+        "Do I need to enable card controls on PIXEL RuPay Credit card to use for online or contactless transactions?",
+        "Yes, Customer needs to enable PIXEL RuPay card controls (Ecommerce, contactless etc) separately to use Credit card for regular purchases"
+      ]
+    },
+    {
+      "type": "reference_link",
+      "text": "Click here",
+      "url": "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Common/Campaign/PDFs/2023/Nov/Terms-and-Conditions-ZappMax-Credit-Card.pdf"
+    },
+    {
+      "type": "pdf_document",
+      "source_url": "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Common/Campaign/PDFs/2023/Nov/Terms-and-Conditions-ZappMax-Credit-Card.pdf",
+      "status": "success",
+      "content": [
+        "Terms & Conditions - HDFC Bank PIXEL Play Credit Card Cashback Proposition • Cashback will be awarded in the customer’s credit card account under the cashpoints scheme.",
+        "• The Cashback will be processed as per the following table: Spends on Cashback Maximum Cashback per cycle 5% Cashback on choice of any two packs* 5% 500 Points per month 5% Cashback on SmartBuy Platform** 5% 500 Points per month 3% Cashback on choice of any one e-commerce platform*** 3% 500 Points per month 1% Cashback on all UPI spends on RuPay credit card**** 1% 500 Points per month All other spends***** 1% Unlimited * Choice of packs to choose for the 5% Cashback (each pack will comprise of two merchants) are: o Dining & Entertainment Category - BookMyShow & Zomato o Travel Category - MakeMyTrip & Uber o Grocery Category - Blinkit & Reliance Smart Bazaar o Electronics Category - Croma & Reliance Digital o Fashion Category - Nykaa & Myntra **Offer is valid on Successful Transactions completed on SmartBuy under categories IGP, Flights, Hotels, Bus, Rail, Instant Vouchers, Apple Imagine Tresor only.",
+        "*** Choice of any one e-commerce platform to choose are o PayZapp o Amazon o Flipkart **** Applicable only for PIXEL RuPay Credit card holders.",
+        "***** CashPoints will not be accrued for the following spends/transactions on the card o Fuel Spends o Wallet Spends o Rent payments o Government related transactions o EMI Transactions o Purchases converted to EMI post facto o Cash Advances o Payment of Outstanding Balances o Payment of card fees and other charges For eg: If the cardholder spends ₹25,000 in calendar month cycle and the cardholder selected Dining & Entertainment and Grocery packs under 5% CashPoints and under 3% CashPoints, the cardholder selected PayZapp.",
+        "The following break up of spends as follows: 5% for CashPoints: ₹8,000 | 3% for CashPoints: ₹7,000 | Other Spends: ₹6,000 | Fuel Spends: ₹3,000 | EMI Purchase: ₹1,000 Out of these, Fuel spends won’t be rewarded with CashPoints.",
+        "But the Cardholder will get 1% Fuel surcharge waiver for the eligible transactions.",
+        "Thus, the total expenditure eligible for CashPoints would be only ₹21,000.",
+        "The CashPoints earned for the month in the above example would be calculated as follows: 5% CashPoints of ₹8,000 = 400 3% CashPoints of ₹7,000 = 210 1% CashPoints of ₹6,000 = 60 Thus, the total CashPoints for the above example would be 670.",
+        "5% Cashback on choice of any two packs - Terms & Conditions • The Cashback will be awarded in the form of CashPoints in the reward balance account in the Mobile app.",
+        "• The CashPoints capping will be applicable on a calendar month basis.",
+        "• The Choice of packs to choose from the 5% CashPoints (each pack will comprise of two merchants) are: o Dining & Entertainment Category - BookMyShow & Zomato o Travel Category - MakeMyTrip & Uber o Grocery Category - Blinkit & Reliance Smart Bazaar o Electronics Category - Croma & Reliance Digital o Fashion Category Nykaa & Myntra • The transaction settled from the selected merchant will be eligible for CashPoints and the settlement/Posting date of the transaction will be considered for points calculation.",
+        "• CashPoints will reflect in the cardholder\"s available points balance once the transaction is settled by the merchant.",
+        "• The cardholder can select a maximum of only two packs under the 5% Cashback benefit.",
+        "• The merchants in each pack are fixed and the same can’t be changed by the cardholder.",
+        "• The merchants under each pack will be eligible for the 5% CashPoints and the cardholder can earn up to 500 CashPoints under the selected Categories (each Category will comprise two merchants) in a calendar month.",
+        "• Spends beyond the capping of 500 shall not be considered for CashPoints posting.",
+        "• The CashPoints capping will be basis the calendar month, the transaction settled in the system between the 1st to 30/31st of the calendar month will be considered for the capping calculations.",
+        "• The choice of any two Categories under the 5% CashPoints would be provided to the cardholder post the card getting approved in the app.",
+        "The cardholder can select his choice of two Categories from the available options to earn accelerated CashPoints.",
+        "• CashPoints of 5% of the cardholder selected Category are calculated basis Terminal / merchant IDs (TIDs & MIDs) shared by the respective merchant partners.",
+        "If in case the TID / MID is not available from the list received from the merchant, such transactions will not qualify for the benefit.",
+        "• Cardholder can change the Categories post the first selection after every 3 months.",
+        "The revised Categories selected by the cardholder will come into existence, immediately post swapping request acknowledgement in the app.",
+        "The transactions settled in the system post the change request will be rewarded basis of a new pack selection from the cardholder.",
+        "• During the Category change request from the cardholder, the user can swap the Categories in both the 5% Cashpoints & 3% Cashpoints feature at once.",
+        "• In case the cardholder is doing transactions under the selected key merchants via PayZapp, then the customer will get the maximum cashpoints (i.e.",
+        "5%) • In case the purchase/transaction is returned/cancelled/reversed post-calendar month completion.",
+        "Then the equivalent CashPoints will be reversed/adjusted from the cardholder reward balance.",
+        "• CashPoints will not be accrued for the following spends/transactions on the card, o Fuel Spends o Wallet Spends/ Gift or Prepaid Card load/ Voucher purchase** o Rent payments o Government related transactions o EMI Transactions o Purchases converted to EMI post facto o Cash Advances o Payment of Outstanding Balances, card fees and other charges • CashPoints will be calculated and posted on the lowest rounded integer.",
+        "For example, Rs 230 transaction will get calculated as (230*5% = 11.5 CashPoints = 11 CashPoints (rounded down towards the lowest integer).",
+        "Fractional CashPoints will not get accrued.",
+        "• CashPoints is not applicable on transactions less than ₹100.",
+        "• The 5% CashPoints on Uber (if selected by the cardholder) are eligible for travel/commute-related spending.",
+        "The Uber transactions carried out through the MCC code 4121 & 7512 (as defined by the card network Visa) will only be considered for 5% CashPoints.",
+        "• In case the cardholder opts for the EMI option during checkout at the selected merchants under the 5% CashPoints feature.",
+        "Then those transactions will not qualify for the CashPoints.",
+        "• In case of conversion of a transaction to EMI at a later date, CashPoints earned on such transaction will be reversed from the available CashPoints balance.",
+        "• In case the available CashPoints balance is negative for two consecutive statement months.",
+        "Then, the negative CashPoints will be charged back into the card account at 1 CashPoint = ₹1.",
+        "• A cardholder will not be eligible for CashPoints on the prepaid card/gift Card/ wallet load and/or voucher purchases.",
+        "i.e., the transactions carried out through the following Merchant Category Code (MCC) of 6540 (as defined by card networks Visa) will not be considered.",
+        "• The following MCCs have been excluded from the 5% CashPoints eligibility (fuel, rental payments, Government related, or any such payments made through the following MCCs): 1361, 5172, 5541, 5542, 5983,9752, 6513, 7349, 9211, 9222, 9223, 9311, 9399, 9402, 9405, 9950.",
+        "• Promised CashPoints shown in the app indicate the tentative points earned for the unsettled transaction.",
+        "Actual eligible CashPoints will get added to the rewards balance post-settlement of the transaction.",
+        "3% CashPoints on choice of anyone e-commerce platform - Terms & Conditions • The Cashback will be awarded in the form of CashPoints in the reward balance account in the Mobile app.",
+        "• The CashPoints capping will be applicable on a calendar month basis.",
+        "• The Choice of one shopping E-Commerce Platform to choose are: o PayZapp o Amazon o Flipkart • 3% Cashback is not applicable on RuPay UPI Scan & Pay & UPI Ecom transactions using HDFC Bank Pixel Play Credit Card.",
+        "All RuPay UPI Scan & Pay transactions & UPI Ecom transactions are eligible for 1% Cashback as per the T&C applicable.",
+        "• The transaction settled from the selected E-Commerce Platform will be eligible for CashPoints.",
+        "The settlement/Posting date of the transaction will get considered for points calculation.",
+        "• CashPoints will reflect in the cardholder\"s available points balance once the transaction is settled by the E- Commerce Platform.",
+        "• The cardholder can select a maximum of one E-Commerce Platform under the 3% Cashback benefit.",
+        "• The cardholder can earn up to 500 CashPoints under the selected E-Commerce Platform in a calendar month.",
+        "• Spends beyond the capping of 500 shall not be considered for CashPoints posting.",
+        "• The CashPoints capping is calculated based on the calendar month.",
+        "The transaction settled in the system between the 1st to 30/31st of the calendar month will be considered for the capping calculations.",
+        "• The choice of any one E-Commerce Platform under the 3% CashPoints would be provided to the cardholder post the card getting approved in the app.",
+        "The cardholder can select his/her choice of one E-Commerce Platform from the available options to earn accelerated CashPoints.",
+        "• CashPoints of 3% of the cardholder selected E-Commerce Platform are calculated basis the Terminal / E- Commerce Platform IDs (TIDs & MIDs) shared by the respective E-Commerce Platform partners.",
+        "If in case the TID / MID is not available from the list received from the E-Commerce Platform, such transactions will not qualify for the benefit.",
+        "• The choice of selection of the E-Commerce Platform under 3% Cashback post the card approval stage is complimentary for the cardholder.",
+        "• Cardholder can change the E-Commerce platform post the first selection after every 3 months.",
+        "The revised E-Commerce platform selected by the cardholder will come into existence immediately post swapping request acknowledgement in the app.",
+        "The transactions settled in the system post the change request will be rewarded basis of a new pack selection from the cardholder.",
+        "• During the Category change request from the cardholder, the user can swap the Categories in both the 5% Cashpoints & 3% Cashpoints feature at once.",
+        "• In case the purchase/transaction is returned/cancelled/reversed post calendar month completion.",
+        "Then the equivalent CashPoints will be reversed/adjusted from the cardholder reward balance.",
+        "• CashPoints will not be accrued for the following spends/transactions on the card, o Fuel Spends o Wallet Spends/ Gift or Prepaid Card load/ Voucher purchase** o Rent payments o Government related transactions o EMI Transactions o Purchases converted to EMI post facto o Cash Advances o Payment of Outstanding Balances, card fees and other charges • 3% Cashback is not applicable on Amazon Pay wallet load transactions using HDFC Bank Pixel Play Credit Card • CashPoints will be calculated and posted on the lowest rounded integer.",
+        "For example, Rs 230 transaction will get calculated as (240*3% = 7.2 CashPoints = 7 CashPoints (rounding down towards the lowest integer).",
+        "Fractional CashPoints will not get accrued.",
+        "• CashPoints is not applicable on transactions less than ₹100.",
+        "• In case the cardholder opts for the EMI option during checkout at the selected E-Commerce Platforms under the 3% CashPoints feature.",
+        "Then those transactions will not qualify for the CashPoints.",
+        "• In case of conversion of a transaction to EMI at a later date, CashPoints earned on such transaction will be reversed from the available CashPoints balance.",
+        "• In case the available CashPoints balance is negative for two consecutive statement months.",
+        "Then, the negative CashPoints will be charged back into the card account at 1 CashPoint = ₹1.",
+        "• A cardholder will not be eligible for CashPoints on the prepaid card/gift Card/ wallet load and/or voucher purchases.",
+        "i.e., the transactions carried out through the E-Commerce Platform Category Code (MCC) of 6540 (as defined by card networks Visa) will not be considered.",
+        "• The following MCCs have been excluded from the 3% CashPoints eligibility (fuel, rental payments, Government related, or any such payments made through the following MCCs): 1361, 5172, 5541, 5542, 5983,9752, 6513, 7349, 9211, 9222, 9223, 9311, 9399, 9402, 9405, 9950.",
+        "Promised CashPoints shown in the app indicate the tentative points earned for the unsettled transaction.",
+        "Actual eligible CashPoints will get added to the rewards balance post-settlement of the transaction.",
+        "1% Unlimited CashPoints - Terms & Conditions • The transaction settled from the merchant will be eligible for CashPoints.",
+        "The settlement/Posting date of the transaction will get considered for points calculation.",
+        "• CashPoints will not be accrued for the following spends/transactions on the card, o Fuel Spends o Wallet Spends/ Gift or Prepaid Card load/ Voucher purchase** o Rent payments o Government related transactions o EMI Transactions o Purchases converted to EMI post facto o Cash Advances o Payment of Outstanding Balances, card fees and other charges • CashPoints will reflect in the cardholder\"s available points balance once the transaction is settled by the merchant.",
+        "• CashPoints will be calculated and posted on the lowest rounded integer.",
+        "For example, Rs 140 transaction will get calculated as (140*1% = 1.4 CashPoints = 1 CashPoint (rounding down towards the lowest integer).",
+        "Fractional CashPoints will not get accrued.",
+        "• CashPoints is not applicable on transactions less than ₹100.",
+        "• The CashPoints for Insurance Spends will get capped at 2,000 CashPoints per day.",
+        "In case the purchase/transaction is returned/cancelled/reversed post calendar month completion.",
+        "Then the equivalent CashPoints will be reversed/adjusted from the cardholder reward balance.",
+        "• In case of any cancellation, refund or reversal of EMI/loan amount, the CashPoints provided for the transaction will be reversed/adjusted.",
+        "In case of any Pre-closure of the EMI/loan, the remaining principal amount will not be rewarded with CashPoints.",
+        "• In case of conversion of a transaction to EMI at a later date, CashPoints earned on such transaction will be reversed from the available CashPoints balance.",
+        "• In case the available CashPoints balance is in negative for consecutive two statement months.",
+        "Then, the negative CashPoints will be charged back into the card account at 1 CashPoint = ₹1.",
+        "• A cardholder will not be eligible for CashPoints on the prepaid card/gift Card/ wallet load and/or voucher purchases.",
+        "i.e., the transactions carried out through the Merchant Category Code (MCC) of 6540 (as defined by card networks Visa) will not be considered.",
+        "• The following MCCs have been excluded from the 1% CashPoints eligibility (fuel, rental payments, Government related, or any such payments made through the following MCCs): 1361, 5172, 5541, 5542, 5983,9752, 6513, 7349, 9211, 9222, 9223, 9311, 9399, 9402, 9405, 9950.",
+        "• Promised CashPoints shown in the app indicate the tentative points earned for the unsettled transaction."
+      ]
+    }
+  ],
+  "Pay in Parts": [
+    "Enjoy hassle-free, one-click instant conversion of the PIXEL Play credit card outstanding balance* to EMIs from your PayZapp.",
+    "EMI Dashboard: Manage all your live EMIs within the EMI dashboard from PayZapp.",
+    "Flexibility: Choose low-cost and flexible tenures that suit best for your choice of repayment. You can choose between select transactions or outstanding balances*.",
+    "100% Digital: No documentation, email, or calling required. Simply convert to EMI and manage EMI repayments fully from your Payzapp.",
+    {
+      "type": "reference_link",
+      "text": "click here",
+      "url": "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/Pay-in-Parts-Terms-and-Condition.pdf"
+    },
+    {
+      "type": "pdf_document",
+      "source_url": "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/Pay-in-Parts-Terms-and-Condition.pdf",
+      "status": "success",
+      "content": [
+        "Classification - Public Classification - Public Terms & Conditions - Pay in Parts o The availed loan amount will be blocked against your credit limit on the card.",
+        "o Monthly payment dues will include EMI and GST on the interest amount of the EMI.",
+        "Cashpoints earned for any transaction, will be reversed if that transaction gets converted into Pay in Parts.",
+        "o This monthly payment due will be billed in the monthly statement starting from the immediate billing cycle date and be part of the Minimum Amount Due (MAD) appearing in your monthly HDFC Bank Credit Card statement.",
+        "o While converting the billed outstanding balance to Pay in Parts, the minimum amount due (MAD) is excluded from the loan amount and must be paid by the customer.",
+        "o Please note that: o EMI = Principal Amount + Interest Amount o Monthly Loan Repayment = EMI + GST on Interest amount of EMI o For the First EMI, the Interest will be calculated from the loan booking date till the Statement date.",
+        "o Payment of MAD is required to keep your card regular.",
+        "o GST @ 18% are applicable on: (i) Interest amount of EMI on a monthly basis, (ii) Processing fee (if any) (iii) Pre-closure charges (if any) o Processing fee (as applicable) amount will get levied during the immediate billing cycle post loan booking.",
+        "o Partial pre-payment or partial closure is not permitted on this loan.",
+        "o The loan can be pre-closed any time during the tenure.",
+        "In case of pre-closure of the loan, a charge, currently 3% of the balance principal outstanding plus GST @ 18% will be applicable.",
+        "o As the pre-closure charge is subject to change, we request you to raise a service ticket on PayZapp Mobile app for the applicable charge if you decide to pre-close the Loan.",
+        "HDFC Bank reserves the right to revise the pre-closure penalty at its discretion.",
+        "Additional interest if any on the principal outstanding from last statement date till date of loan pre closure need to be paid by customer.",
+        "o The loan cannot be availed on Gold & Jewellery related transactions as per internal policy and guidelines.",
+        "If found so, the bank has the right to cancel the loan at any point of time.",
+        "If there are multiple transactions clubbed as one loan, the entire loan will be cancelled.",
+        "o The loan once approved and processed cannot be cancelled.",
+        "Tenure confirmed at the time of booking cannot be changed.",
+        "o If your HDFC Bank Credit Card get closed before all the instalments have been charged, the loan outstanding will get debited to your card account.",
+        "o In case of default in payment of EMI on the Due date, your loan account services shall be suspended and could further be terminated.",
+        "o Notwithstanding anything stated above, the continuation of the loan shall be at the sole discretion of the bank and outstanding will be payable to the bank on demand.",
+        "o HDFC Bank reserves the right at any time, without previous notice, to add, alter, modify, change or vary all or any of these terms and conditions or to replace wholly or in part this scheme by another offer, whether similar to the offer or not, or to withdraw it all together.",
+        "You will not hold HDFC Bank responsible for, or liable for, any actions, claims, demands, losses, damages, costs, charges, Classification - Public Classification - Public expenses, which a participant may suffer, sustain or incur by the Offer.",
+        "All disputes, if any, arising out of or in connection with or as a result of the Offer or otherwise relating hereto shall be subject to the exclusive jurisdiction of the competent Courts/Tribunals in Chennai only.",
+        "o The terms and conditions contained in the Card Member Agreement apply over and above the terms and conditions for this Loan."
+      ]
+    }
+  ],
+  "Additional Features": [
+    "Zero lost card liability : In the unfortunate event of losing your PIXEL Play Credit Card, on reporting it immediately to our 24-hour call centre, you have zero liability on any fraudulent transactions made on your Credit Card.",
+    "Interest Free Credit Period : Up to 50 days of interest free period on your PIXEL Play Credit Card from the date of purchase (subject to the submission of the charge by the Merchant)",
+    "Revolving Credit : Available at a nominal interest rate on your PIXEL Play Credit Card. Please refer to Fees and Charges section to know more.",
+    "Flat 10% Savings for HDFC Bank PIXEL Credit card payments via Swiggy Dineout.",
+    {
+      "type": "reference_link",
+      "text": "know more",
+      "url": "/personal/pay/cards/credit-cards/pixel-play-credit-card/fees-and-charges"
+    },
+    {
+      "type": "webpage_document",
+      "source_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/pixel-play-credit-card/fees-and-charges",
+      "status": "success",
+      "content": [
+        {
+          "type": "heading",
+          "content": "Pixel Play Credit Card - Fees & Charges",
+          "level": "h1"
+        },
+        {
+          "type": "heading",
+          "content": "All You Need To Know",
+          "level": "h2"
+        },
+        {
+          "type": "heading",
+          "content": "Features",
+          "level": "h3"
+        },
+        {
+          "type": "heading",
+          "content": "Eligibility",
+          "level": "h3"
+        },
+        {
+          "type": "heading",
+          "content": "Fees & Charges",
+          "level": "h3"
+        },
+        {
+          "type": "heading",
+          "content": "Other Payment Methods",
+          "level": "h3"
+        },
+        {
+          "type": "heading",
+          "content": "PayZapp",
+          "level": "h4"
+        },
+        {
+          "type": "heading",
+          "content": "PayZapp",
+          "level": "h2"
+        },
+        {
+          "type": "paragraph",
+          "content": "You\"ve Been Logged Out"
+        },
+        {
+          "type": "paragraph",
+          "content": "For security reasons, we have logged you out of HDFC Bank NetBanking. We do this when you refresh/move back on the browser on any NetBanking page."
+        },
+        {
+          "type": "paragraph",
+          "content": "You are about to leave the HDFC Bank website and go to an external link. Please click OK to continue to the link or CANCEL to return to the previous page."
+        },
+        {
+          "type": "paragraph",
+          "content": "Joining/Renewal Membership Fee - ₹500/- + Applicable Taxes"
+        },
+        {
+          "type": "paragraph",
+          "content": "Spend ₹1,00,000 or more in a year, before your Credit Card renewal date and get your renewal fee waived off ."
+        },
+        {
+          "type": "paragraph",
+          "content": "Click below to view details of HDFC Bank Pixel Play Credit Card Fees and Charges."
+        },
+        {
+          "type": "paragraph",
+          "content": "Click here for MITC in English"
+        },
+        {
+          "type": "paragraph",
+          "content": "Click here for MITC in Hindi"
+        },
+        {
+          "type": "paragraph",
+          "content": "Click here for MITC in Kannada"
+        },
+        {
+          "type": "paragraph",
+          "content": "Click here for MITC in Telugu"
+        },
+        {
+          "type": "paragraph",
+          "content": "Click here for MITC in Bangla"
+        },
+        {
+          "type": "paragraph",
+          "content": "Click here for MITC in Punjabi"
+        },
+        {
+          "type": "paragraph",
+          "content": "Click here for MITC in Malayalam"
+        },
+        {
+          "type": "paragraph",
+          "content": "Click here for MITC in Gujarati"
+        },
+        {
+          "type": "paragraph",
+          "content": "Click here for MITC in Marathi"
+        },
+        {
+          "type": "paragraph",
+          "content": "Click here for MITC in Tamil"
+        },
+        {
+          "type": "paragraph",
+          "content": "Click here for MITC in Urdu"
+        },
+        {
+          "type": "paragraph",
+          "content": "Click here for MITC in Odia"
+        },
+        {
+          "type": "paragraph",
+          "content": "Click here for MITC in Assamese"
+        },
+        {
+          "type": "paragraph",
+          "content": "Click here for MITC Konkani"
+        },
+        {
+          "type": "paragraph",
+          "content": "Click here for MITC Kashmiri"
+        },
+        {
+          "type": "paragraph",
+          "content": "Click here to view the HDFC Bank Pixel Play card member agreement"
+        },
+        {
+          "type": "paragraph",
+          "content": "The power to pay with just one click"
+        },
+        {
+          "type": "list_item",
+          "content": "PAY Cards, Bill Pay Money Transfer To Other Account To Own Account UPI (Instant Mobile Money Transfer) IMPS (Immediate Payment 24 * 7) RTGS (Available 24 * 7) NEFT (Available 24 * 7) RemitNow Foreign Outward Remittance Remittance (International Money Transfers ) Religious Offering\"s & Donation Visa CardPay RemitNow (For Expat) Forex Services for students Pay your overseas education fees with Flywire ESOP Remittances Cards Credit Cards Debit Cards Prepaid Cards Forex Cards Millennia Cards Commercial Credit Cards Business Credit Cards Loan on Credit Card Pixel Credit Card Bill Payments Smart Pay Merchant SI Biller Categories Electricity Bill Payment Mobile Post-Paid Insurance Premium Telephone-Landline Gas Water Magazine Subscriptions HDFC Bank Credit Card Bill Payment Rent Payment Club Membership Other Bank Credit Card Bill Mutual Fund Installment Visa Bill Pay Recharge Broadband & Data Card Mobile Pre-Paid Recharge DTH Recharge Payment Solutions Taxes Payzapp FASTAG MyCards Cash, cheque, Demand Draft Loan Repayment Education Fees Donations Stay Secure DirectPay PFMS_ePA"
+        },
+        {
+          "type": "list_item",
+          "content": "Money Transfer To Other Account To Own Account UPI (Instant Mobile Money Transfer) IMPS (Immediate Payment 24 * 7) RTGS (Available 24 * 7) NEFT (Available 24 * 7) RemitNow Foreign Outward Remittance Remittance (International Money Transfers ) Religious Offering\"s & Donation Visa CardPay RemitNow (For Expat) Forex Services for students Pay your overseas education fees with Flywire ESOP Remittances"
+        },
+        {
+          "type": "list_item",
+          "content": "To Other Account"
+        },
+        {
+          "type": "list_item",
+          "content": "To Own Account"
+        },
+        {
+          "type": "list_item",
+          "content": "UPI (Instant Mobile Money Transfer)"
+        },
+        {
+          "type": "list_item",
+          "content": "IMPS (Immediate Payment 24 * 7)"
+        },
+        {
+          "type": "list_item",
+          "content": "RTGS (Available 24 * 7)"
+        },
+        {
+          "type": "list_item",
+          "content": "NEFT (Available 24 * 7)"
+        },
+        {
+          "type": "list_item",
+          "content": "RemitNow Foreign Outward Remittance"
+        }
+      ]
+    },
+    {
+      "type": "reference_link",
+      "text": "click here",
+      "url": "https://offers.smartbuy.hdfcbank.com/offer_details/swiggy-dineout/26020/Z2mjlWM%3D"
+    },
+    {
+      "type": "webpage_document",
+      "source_url": "https://offers.smartbuy.hdfcbank.com/offer_details/swiggy-dineout/26020/Z2mjlWM%3D",
+      "status": "success",
+      "content": [
+        {
+          "type": "heading",
+          "content": "Disclaimer",
+          "level": "h5"
+        },
+        {
+          "type": "heading",
+          "content": "You cannot redeem points here.",
+          "level": "h6"
+        },
+        {
+          "type": "heading",
+          "content": "Sign In",
+          "level": "h4"
+        },
+        {
+          "type": "heading",
+          "content": "Sign In",
+          "level": "h4"
+        },
+        {
+          "type": "heading",
+          "content": "Sign In",
+          "level": "h4"
+        },
+        {
+          "type": "heading",
+          "content": "Verify with OTP",
+          "level": "h4"
+        },
+        {
+          "type": "heading",
+          "content": "Create New Password",
+          "level": "h4"
+        },
+        {
+          "type": "heading",
+          "content": "Continue as a Guest",
+          "level": "h4"
+        },
+        {
+          "type": "heading",
+          "content": "Welcome to SmartBuy!",
+          "level": "h1"
+        },
+        {
+          "type": "heading",
+          "content": "Verify with OTP",
+          "level": "h4"
+        },
+        {
+          "type": "heading",
+          "content": "Create Account",
+          "level": "h4"
+        },
+        {
+          "type": "heading",
+          "content": "You cannot redeem points here.",
+          "level": "h4"
+        },
+        {
+          "type": "heading",
+          "content": "We value your Feedback.",
+          "level": "h3"
+        },
+        {
+          "type": "heading",
+          "content": "How was your SmartBuy experience?",
+          "level": "h4"
+        },
+        {
+          "type": "heading",
+          "content": "Tell us how we can Improve (optional)",
+          "level": "h4"
+        },
+        {
+          "type": "heading",
+          "content": "Thank You !",
+          "level": "h3"
+        },
+        {
+          "type": "heading",
+          "content": "SmartBuy",
+          "level": "h4"
+        },
+        {
+          "type": "heading",
+          "content": "Your session is about to expire in",
+          "level": "h2"
+        },
+        {
+          "type": "heading",
+          "content": "Sorry!",
+          "level": "h2"
+        },
+        {
+          "type": "heading",
+          "content": "Smartbuy can be best viewed on",
+          "level": "h4"
+        },
+        {
+          "type": "heading",
+          "content": "1024x768 Pixels and above Resolution",
+          "level": "h5"
+        },
+        {
+          "type": "heading",
+          "content": "LOADING...",
+          "level": "h6"
+        },
+        {
+          "type": "paragraph",
+          "content": "By clicking \"I ACCEPT,\" you are acknowledging and agreeing to this disclaimer and the subsequent automatic redirection to a third-party website, i.e., the website of Reward360, which you may proceed to use for your transactions."
+        },
+        {
+          "type": "paragraph",
+          "content": "This Website is not owned, controlled or endorsed by HDFC Bank Limited, its affiliates, subsidiaries, employees, officers, directors, personnel or agents (hereinafter \"HDFC Bank\")"
+        },
+        {
+          "type": "paragraph",
+          "content": "HDFC Bank does not warrant the accuracy or completeness of the services, information, materials, tools or reliability of any service, advice, opinion, statement or information displayed or distributed through the Website. Furthermore, it is advised that you make your own enquiries and arrangements to verify, scan and check the Website for any viruses, malicious code or malware. HDFC Bank provides no warranties whatsoever in this regard. Upon agreeing, you understand and acknowledge that accessing/availing any service offered on the Website or relying on any opinion, statement, or information presented on the Website shall be at your sole risk."
+        },
+        {
+          "type": "paragraph",
+          "content": "The information/services available on the Website is subject to change, revision, verification and/or amendment without notice. Such services/information may change materially at any time, and you agree and accept the same."
+        },
+        {
+          "type": "paragraph",
+          "content": "HDFC Bank SmartBuy is designed to bring valuable offers and deals. The customer can use his / her discretion to check merchant offers available online or at stores and purchase / avail them from any other stores / online platforms basis their payment needs."
+        },
+        {
+          "type": "paragraph",
+          "content": "SmartBuy offer benefits are not applicable on usage of non HDFC Bank payment instruments"
+        },
+        {
+          "type": "paragraph",
+          "content": "By clicking on the hyperlink you will be exiting HDFC Bank SmartBuy website and entering into the Merchant‘s website. This link is provided only for the convenience of HDFC Bank‘s customers, HDFC Bank will not earn any commission or any other fee upon its Customers viewing the offers made available by Merchants or purchasing/ availing of a Product/Service offered by Merchants, except the customary considerations for use of credit card/debit cards/net banking facility. The Customer is free to purchase/avail them from any other stores/online platforms and by using any other payment mechanism."
+        },
+        {
+          "type": "paragraph",
+          "content": "HDFC Bank is not selling/rendering any of these Products/Services. Neither is HDFC Bank guaranteeing nor making any representation with respect to the offers made by the merchants and HDFC Bank is not liable /responsible for sale/quality/features of the Products/Services selected for purchase by the customers. HDFC Bank is merely facilitating the payment by its Customers by providing the Payment Gateway Services."
+        },
+        {
+          "type": "paragraph",
+          "content": "HDFC Bank SmartBuy is designed to bring valuable offers and deals. The customer can use his / her discretion to check merchant offers available online or at stores and purchase / avail them from any other stores / online platforms basis their payment needs."
+        },
+        {
+          "type": "paragraph",
+          "content": "Thank you for visiting https://offers.smartbuy.hdfcbank.com. Please click here for detailed terms & conditions."
+        },
+        {
+          "type": "paragraph",
+          "content": "By clicking on the hyperlink you will be exiting HDFC Bank SmartBuy website and entering into the Merchant‘s website. This link is provided only for the convenience of HDFC Bank‘s customers, HDFC Bank will not earn any commission or any other fee upon its Customers viewing the offers made available by Merchants or purchasing/ availing of a Product/Service offered by Merchants, except the customary considerations for use of credit card/debit cards/net banking facility. The Customer is free to purchase/avail them from any other stores/online platforms and by using any other payment mechanism."
+        },
+        {
+          "type": "paragraph",
+          "content": "HDFC Bank is not selling/rendering any of these Products/Services. Neither is HDFC Bank guaranteeing nor making any representation with respect to the offers made by the merchants and HDFC Bank is not liable /responsible for sale/quality/features of the Products/Services selected for purchase by the customers. HDFC Bank is merely facilitating the payment by its Customers by providing the Payment Gateway Services."
+        },
+        {
+          "type": "paragraph",
+          "content": "Upto 3X Reward Points on select HDFC Bank Credit Card/ 1% Cashback on other HDFC Bank Debit, Credit Cards & PayZapp offer."
+        },
+        {
+          "type": "paragraph",
+          "content": "Thank you for visiting . https://offers.smartbuy.hdfcbank.com. Please click here for detailed terms & conditions."
+        },
+        {
+          "type": "paragraph",
+          "content": "Upto 10X Reward Points / 10% Cashback with HDFC Bank Cards & EasyEMI"
+        },
+        {
+          "type": "paragraph",
+          "content": "New to SmartBuy?SIGN UP"
+        },
+        {
+          "type": "paragraph",
+          "content": "Upto 10X Reward Points / 10% Cashback with HDFC Bank Cards & EasyEMI"
+        },
+        {
+          "type": "paragraph",
+          "content": "New to SmartBuy?SIGN UP"
+        }
+      ]
+    }
+  ],
+  "PIXEL CashPoints": [
+    "Cashback will be credited in the form of PIXEL CashPoints and can be easily managed under the rewards section of the PIXEL Homepage in Payzapp.",
+    "Upon the accumulation of 1000 PIXEL CashPoints, they can be redeemed easily to the PayZapp Wallet and used to purchase your choice of brand vouchers within PayZapp digitally.",
+    "PIXEL CashPoints are valid for 2 years from the date of accumulation."
+  ],
+  "How to Apply?": [
+    "You can easily apply for the PIXEL Play Credit Card by following the steps below:",
+    {
+      "step": "Step 1",
+      "description": "Download or update the PayZapp app from the Google Play Store for Android or the App Store for iOS"
+    },
+    {
+      "step": "Step 2",
+      "description": "Click on the \"Apply Now for PIXEL Play\" banner on the PayZapp homepage.Note:A. Upon approval of your PIXEL Credit Card, please complete the card setup process in PayZapp to ensure timely delivery. This step is compulsory and includes choosing your card design (POP, LIT, or ICE), choosing your offer pack (5% or 3% cashback) choice of brands, and the billing cycle date.B. In case you do not select the credit card design within 3 days of approval, you\"ll be issued a digital RuPay card, while the bank will dispatch a default VISA network credit card with the ICE design to your registered postal address as part of the standard issuance process.C. Customers applying for PIXEL Credit Card via PayZapp will get the option to choose network(Visa/RuPay/Both). This option will be available up to 3 days from the day of card application approval, post that, you\"ll be issued with both RuPay & Visa network cards with RuPay as a Digital Card and Visa as a physical plastic card to your registered postal address with ICE colour card design as a standard issuance process. Please note a single consolidated PIXEL statement will be generated for both the cards together every month."
+    }
+  ],
+  "How to activate your PIXEL Card?": [
+    "(Note: Customers applying for PIXEL Credit Card via PayZapp will get the option to choose network(Visa/RuPay/Both). This option will be available up to 3 days from the day of card application approval, post that, you\"ll be issued with both RuPay & Visa network cards with RuPay as a Digital Card and Visa as a physical plastic card to your registered postal address with ICE colour card design as a standard issuance process. Please note a single consolidated PIXEL statement will be generated for both the cards together every month.)",
+    "Download HDFC Bank PayZapp from Google Play or Apple App Store.",
+    "Sign up using your mobile number (ensure it matches the one used for your PIXEL Card application)",
+    "Look for the in-app nudge or notification on the PayZapp Home Page to access PIXEL Play.",
+    "Customize Your Experience by choosing a vibrant card colour - POP, LIT, or ICE and brand offer pack that fits your lifestyle (Dining & Entertainment, Fashion, Electronics, Travel, Grocery, etc.).",
+    "Set Preferences & Activate by choosing your billing cycle date.",
+    "Confirm your email ID and tap \"Activate & Proceed\".",
+    "Done! Your PIXEL Play Card is instantly activated and ready for use."
+  ],
+  "How to set-up UPI PIN ?": [
+    "Set Up Your UPI PIN in a few steps:",
+    "Open PayZapp and tap on \"View PIXEL Home\" on the home screen",
+    "Navigate to Settings > \"Set RuPay UPI\"",
+    "Verify your OTP, set your card PIN, and you\"re all set!"
+  ],
+  "How to enable Scan&Pay payments?": [
+    "Link Your HDFC Bank PIXEL RuPay Credit Card for Scan & Pay:",
+    "Open PayZapp and tap the menu bar on the top left corner.",
+    "Go to \"UPI Accounts\" under Account Management.",
+    "Under Credit Cards, tap \"Add New\" and select HDFC Bank Credit Card.",
+    "Enter the last 6 digits of your card and its expiry date, then proceed.",
+    "Verify with OTP, enter your credit card PIN, and create your UPI PIN.",
+    "Done! Your card is now linked for Scan & Pay transactions."
+  ],
+  "How to enable Scan&Pay payments for third party apps?": [
+    "Enable Scan & Pay on Third-Party Apps in a few steps:",
+    "Open the app and go to Payment Methods.",
+    "Select \"Add RuPay Credit Card on UPI\", choose HDFC Bank, and continue.",
+    "When the \"Add HDFC Bank RuPay Credit Card\" prompt appears, tap Continue.",
+    "That\"s it! Your PIXEL RuPay Credit Card is now linked and ready for Scan & Pay transactions."
+  ],
+  "Fuel Surcharge Waiver": [
+    "1% fuel surcharge waiver at all fuel stations across India (on a minimum transaction of ₹400 and a maximum transaction of ₹5,000. Maximum waiver of ₹250 per statement cycle)."
+  ],
+  "Joining Benefit": [
+    "Get a joining fee waiver by spending ₹20,000 within 90 days of issuance"
+  ],
+  "Renewal Waiver": [
+    "Spend ₹1 lakh or more in the preceding 12 months and get renewal membership fee waived off for next year."
+  ],
+  "Contactless Payment": [
+    "Swipe to Pay",
+    "PIXEL Play Credit Card lets you make E- commerce transactions effortlessly with - Swipe to Pay. Now make quick and secure online payments without need of one-time password (OTP) sent via SMS.",
+    "Tap & Pay",
+    "PIXEL Play Credit Card has enabled contactless payments to facilitate fast, convenient and secure payments at retail outlets. Just tap once with either your phone or physical card and make hassle free offline payments.",
+    "Scan and Pay",
+    "Through the PIXEL RuPay credit card, customers will be able to make payment to a merchant by scanning the QR code for unified Payment Interface (UPI) Payments."
+  ],
+  "Statement & Repayments": [
+    "You can easily view and download the digital statements in the PayZapp.",
+    "View the current outstanding on the card and make card repayment within the PIXEL Home page using payment methods like UPI, Debit card, & Netbanking."
+  ],
+  "Servicing via Help Center": [
+    "You can easily refer to the FAQs for every section by clicking on “?” in the app screen to view and get answers to your questions.",
+    "You can also raise a query ticket within the app if you need more help by clicking “Raise a Ticket”, and the service team will respond to your query in the app.",
+    "How to Raise a Ticket?1. Tap \"?\" on the Pixel Play Credit Card Home Page.2. Choose the relevant category and query.3. If your query isn’t listed, select \"My query is not listed\" to raise a ticket."
+  ]
+}
