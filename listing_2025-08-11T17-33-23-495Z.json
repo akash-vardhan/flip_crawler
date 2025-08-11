@@ -1,0 +1,2654 @@
+{
+  "id": "17103a470d6e8f31",
+  "listing_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+  "scraped_at": "2025-08-11T17:33:23.439Z",
+  "listing_summary": {
+    "total_cards_found": 11,
+    "cards_processed": 11,
+    "cards_failed": 0,
+    "success_rate": 1,
+    "processing_mode": "NO_LIMITS - All cards processed"
+  },
+  "cards": [
+    {
+      "id": "02cdd28ec6a4ccee",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/pixel-play-credit-card",
+      "scraped_at": "2025-08-11T17:13:00.254Z",
+      "card": {
+        "name": "PIXEL Play Credit Card",
+        "bank": "HDFC Bank",
+        "variant": "RuPay and Visa",
+        "description": "PIXEL Play is a born digital credit card offering a fully digital onboarding experience via PayZapp, customizable benefits including merchant packs for cashback, card design selection, and billing cycle preferences. It provides seamless digital management through the PayZapp app with features like card controls, rewards, EMI dashboard, statements, repayments, disputes, and more.",
+        "target_audience": "Digital-savvy customers who prefer a customizable credit card experience with digital onboarding and management."
+      },
+      "rewards": {
+        "program": "CashPoints Cashback Scheme",
+        "type": "Cashback",
+        "earning": {
+          "base_rate": 1,
+          "categories": [
+            {
+              "name": "Choice of any two packs (5% Cashback)",
+              "rate": 5,
+              "cap": 500,
+              "description": "5% Cashback on transactions at selected merchants in two chosen packs. Each pack comprises two merchants.",
+              "terms_and_conditions": "Cashback awarded as CashPoints credited to the reward balance account in the mobile app. Capping of 500 CashPoints per calendar month per pack. Merchants in each pack are fixed and cannot be changed. Transactions must be settled to qualify. Packs include Dining & Entertainment (BookMyShow & Zomato), Travel (MakeMyTrip & Uber), Grocery (Blinkit & Reliance Smart Bazaar), Electronics (Croma & Reliance Digital), Fashion (Nykaa & Myntra). CashPoints not accrued on fuel spends, wallet spends, rent payments, government transactions, EMI transactions, cash advances, payment of fees or outstanding balances. CashPoints calculated on settled transactions only. Fractional CashPoints rounded down. Minimum transaction value ₹100 to qualify.",
+              "how_to_earn": "Select any two packs post card approval via the app. Make transactions at merchants in selected packs. Transactions must be settled within the calendar month.",
+              "validity": "CashPoints capping and calculation on calendar month basis.",
+              "exclusions": "Fuel spends, wallet loads, rent payments, government transactions, EMI transactions, cash advances, payment of fees and outstanding balances."
+            },
+            {
+              "name": "SmartBuy Platform (5% Cashback)",
+              "rate": 5,
+              "cap": 500,
+              "description": "5% Cashback on successful transactions on SmartBuy platform under categories including IGP, Flights, Hotels, Bus, Rail, Instant Vouchers, Apple Imagine Tresor.",
+              "terms_and_conditions": "Cashback awarded as CashPoints with a cap of 500 CashPoints per calendar month. Transactions must be successful and settled. Same exclusions as other cashback categories apply.",
+              "how_to_earn": "Make purchases on SmartBuy platform in eligible categories using PIXEL Play Credit Card.",
+              "validity": "Calendar month basis.",
+              "exclusions": "Fuel spends, wallet loads, rent payments, government transactions, EMI transactions, cash advances, payment of fees and outstanding balances."
+            },
+            {
+              "name": "Choice of any one e-commerce platform (3% Cashback)",
+              "rate": 3,
+              "cap": 500,
+              "description": "3% Cashback on transactions at one chosen e-commerce platform: Amazon, Flipkart, or PayZapp.",
+              "terms_and_conditions": "Cashback awarded as CashPoints with a cap of 500 CashPoints per calendar month. Transactions must be settled. Same exclusions as other cashback categories apply.",
+              "how_to_earn": "Select one e-commerce platform post card approval via the app. Make transactions at the selected platform.",
+              "validity": "Calendar month basis.",
+              "exclusions": "Fuel spends, wallet loads, rent payments, government transactions, EMI transactions, cash advances, payment of fees and outstanding balances."
+            },
+            {
+              "name": "All other spends",
+              "rate": 1,
+              "cap": null,
+              "description": "1% unlimited cashback on all other eligible spends excluding specified exclusions.",
+              "terms_and_conditions": "CashPoints awarded on all eligible spends excluding fuel, wallet loads, rent payments, government transactions, EMI transactions, cash advances, payment of fees and outstanding balances. No cap on cashback.",
+              "how_to_earn": "Make eligible transactions outside selected packs and platforms.",
+              "validity": null,
+              "exclusions": "Fuel spends, wallet loads, rent payments, government transactions, EMI transactions, cash advances, payment of fees and outstanding balances."
+            },
+            {
+              "name": "UPI spends (PIXEL RuPay Credit Card only)",
+              "rate": 1,
+              "cap": 500,
+              "description": "1% Cashback on UPI spends using PIXEL RuPay Credit Card, capped at 500 CashPoints per calendar month.",
+              "terms_and_conditions": "Applicable only for PIXEL RuPay Credit Card holders. Cashback capped at 500 CashPoints per calendar month. Only P2M (merchant) transactions allowed. Excludes P2P, cash withdrawals, mutual funds, IPOs, government transactions, and other restricted categories. UPI PIN setup required for authentication.",
+              "how_to_earn": "Make UPI payments to merchants using PIXEL RuPay Credit Card linked on UPI apps like PayZapp, PhonePe, GPay.",
+              "validity": "Calendar month basis.",
+              "exclusions": "P2P payments, cash withdrawals, mutual funds, IPOs, government transactions, and other restricted categories."
+            }
+          ],
+          "bonus_rates": []
+        },
+        "redemption": [
+          {
+            "option": "CashPoints redemption",
+            "minimum": null,
+            "value": null,
+            "process": "CashPoints are credited to the cardholder's reward balance in the mobile app and can be redeemed as per HDFC Bank's redemption policies.",
+            "terms_and_conditions": "CashPoints are credited after transaction settlement. Reversals occur if transactions are cancelled or returned. Fractional points are rounded down. CashPoints are not awarded on transactions below ₹100. Redemption options and value subject to bank's policies.",
+            "validity": null,
+            "processing_time": "Points reflect after merchant settlement."
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "category": "EMI Conversion",
+          "name": "Pay in Parts",
+          "description": "Convert outstanding balance to EMIs instantly via PayZapp with flexible tenure and easy management.",
+          "how_to_avail": "Use PayZapp app to convert outstanding balance to EMI. Manage EMIs via EMI dashboard in PayZapp.",
+          "value": "Flexible EMI tenure with interest and GST applicable. Processing fee applicable.",
+          "terms_and_conditions": "Loan amount blocked against credit limit. Monthly dues include EMI plus GST on interest. Processing fee levied in immediate billing cycle. Partial pre-payment or closure not allowed; full pre-closure allowed with 3% pre-closure charge plus GST. Loan cannot be availed on gold & jewellery transactions. Default in EMI payment may lead to suspension or termination of loan services. Bank reserves right to modify terms or withdraw offer. MAD must be paid separately to keep card regular.",
+          "validity": null,
+          "eligibility": "Available to PIXEL Play Credit Card holders via PayZapp.",
+          "usage_limit": null
+        },
+        {
+          "category": "Fuel Surcharge Waiver",
+          "name": "Fuel Surcharge Waiver",
+          "description": "1% fuel surcharge waiver on eligible fuel transactions.",
+          "how_to_avail": "Use PIXEL Play Credit Card for fuel transactions.",
+          "value": "1% waiver on fuel surcharge.",
+          "terms_and_conditions": "Applicable on eligible fuel transactions only. Fuel spends do not earn CashPoints cashback.",
+          "validity": null,
+          "eligibility": "PIXEL Play Credit Card holders.",
+          "usage_limit": null
+        }
+      ],
+      "current_offers": [
+        {
+          "title": "Customizable Cashback Packs",
+          "description": "Choose any two merchant packs for 5% cashback and one e-commerce platform for 3% cashback.",
+          "validity": "Ongoing",
+          "terms_and_conditions": "Cashback capped at 500 CashPoints per pack per calendar month. Merchants in packs are fixed. Transactions must be settled. Excludes fuel, wallet loads, rent, government transactions, EMI, cash advances, fees. Packs can be changed every 3 months via app. Cashback calculated on settled transactions only.",
+          "activation_required": true,
+          "how_to_activate": "Select preferred packs and e-commerce platform via PIXEL Play app post card approval.",
+          "eligibility": "PIXEL Play Credit Card holders.",
+          "maximum_benefit": "500 CashPoints per pack per calendar month.",
+          "offer_code": null,
+          "exclusions": "Fuel spends, wallet loads, rent payments, government transactions, EMI transactions, cash advances, payment of fees and outstanding balances."
+        },
+        {
+          "title": "5% Cashback on SmartBuy",
+          "description": "Earn 5% cashback on purchases made on SmartBuy platform in select categories.",
+          "validity": "Ongoing",
+          "terms_and_conditions": "Cashback capped at 500 CashPoints per calendar month. Eligible categories include IGP, Flights, Hotels, Bus, Rail, Instant Vouchers, Apple Imagine Tresor. Transactions must be successful and settled. Same exclusions as other cashback categories apply.",
+          "activation_required": false,
+          "how_to_activate": null,
+          "eligibility": "PIXEL Play Credit Card holders.",
+          "maximum_benefit": "500 CashPoints per calendar month.",
+          "offer_code": null,
+          "exclusions": "Fuel spends, wallet loads, rent payments, government transactions, EMI transactions, cash advances, payment of fees and outstanding balances."
+        }
+      ],
+      "perks": [
+        {
+          "name": "Custom Card Design",
+          "description": "Select your preferred card design digitally via the PIXEL Play app.",
+          "category": "Customization",
+          "usage_limit": "One-time selection with option to change via app",
+          "how_to_use": "Choose card design during onboarding or via app settings.",
+          "terms_and_conditions": "Design selection is subject to availability and bank's approval.",
+          "value": null,
+          "validity": null
+        },
+        {
+          "name": "Custom Billing Cycle Date",
+          "description": "Select preferred billing cycle date to suit your payment schedule.",
+          "category": "Customization",
+          "usage_limit": "Can be changed via app",
+          "how_to_use": "Set billing cycle date via PIXEL Play app settings.",
+          "terms_and_conditions": "Changes take effect immediately post confirmation in app.",
+          "value": null,
+          "validity": null
+        },
+        {
+          "name": "Digital Card Management",
+          "description": "Manage card controls, view statements, track rewards, raise disputes, and more via PayZapp app.",
+          "category": "Digital Management",
+          "usage_limit": null,
+          "how_to_use": "Access features through PayZapp app under PIXEL Play Credit Card section.",
+          "terms_and_conditions": "Requires active PayZapp account and internet connectivity.",
+          "value": null,
+          "validity": null
+        }
+      ],
+      "partnerships": [
+        {
+          "partner": "SmartBuy",
+          "benefit": "5% Cashback on select categories including IGP, Flights, Hotels, Bus, Rail, Instant Vouchers, Apple Imagine Tresor",
+          "category": "Online Shopping",
+          "validity": "Ongoing",
+          "how_to_avail": "Make purchases on SmartBuy platform using PIXEL Play Credit Card.",
+          "terms_and_conditions": "Cashback capped at 500 CashPoints per calendar month. Transactions must be successful and settled. Excludes fuel, wallet loads, rent, government transactions, EMI, cash advances, fees.",
+          "discount_percentage": "5%",
+          "maximum_discount": "500 CashPoints per month"
+        },
+        {
+          "partner": "BookMyShow & Zomato",
+          "benefit": "5% Cashback under Dining & Entertainment pack",
+          "category": "Dining & Entertainment",
+          "validity": "Ongoing",
+          "how_to_avail": "Make transactions at BookMyShow and Zomato after selecting Dining & Entertainment pack.",
+          "terms_and_conditions": "Cashback capped at 500 CashPoints per calendar month. Transactions must be settled. Same exclusions apply.",
+          "discount_percentage": "5%",
+          "maximum_discount": "500 CashPoints per month"
+        },
+        {
+          "partner": "MakeMyTrip & Uber",
+          "benefit": "5% Cashback under Travel pack",
+          "category": "Travel",
+          "validity": "Ongoing",
+          "how_to_avail": "Make transactions at MakeMyTrip and Uber after selecting Travel pack.",
+          "terms_and_conditions": "Cashback capped at 500 CashPoints per calendar month. Transactions must be settled. Same exclusions apply.",
+          "discount_percentage": "5%",
+          "maximum_discount": "500 CashPoints per month"
+        },
+        {
+          "partner": "Blinkit & Reliance Smart Bazaar",
+          "benefit": "5% Cashback under Grocery pack",
+          "category": "Grocery",
+          "validity": "Ongoing",
+          "how_to_avail": "Make transactions at Blinkit and Reliance Smart Bazaar after selecting Grocery pack.",
+          "terms_and_conditions": "Cashback capped at 500 CashPoints per calendar month. Transactions must be settled. Same exclusions apply.",
+          "discount_percentage": "5%",
+          "maximum_discount": "500 CashPoints per month"
+        },
+        {
+          "partner": "Croma & Reliance Digital",
+          "benefit": "5% Cashback under Electronics pack",
+          "category": "Electronics",
+          "validity": "Ongoing",
+          "how_to_avail": "Make transactions at Croma and Reliance Digital after selecting Electronics pack.",
+          "terms_and_conditions": "Cashback capped at 500 CashPoints per calendar month. Transactions must be settled. Same exclusions apply.",
+          "discount_percentage": "5%",
+          "maximum_discount": "500 CashPoints per month"
+        },
+        {
+          "partner": "Nykaa & Myntra",
+          "benefit": "5% Cashback under Fashion pack",
+          "category": "Fashion",
+          "validity": "Ongoing",
+          "how_to_avail": "Make transactions at Nykaa and Myntra after selecting Fashion pack.",
+          "terms_and_conditions": "Cashback capped at 500 CashPoints per calendar month. Transactions must be settled. Same exclusions apply.",
+          "discount_percentage": "5%",
+          "maximum_discount": "500 CashPoints per month"
+        },
+        {
+          "partner": "Amazon",
+          "benefit": "3% Cashback on Amazon transactions (one e-commerce platform choice)",
+          "category": "E-commerce",
+          "validity": "Ongoing",
+          "how_to_avail": "Select Amazon as e-commerce platform and make transactions.",
+          "terms_and_conditions": "Cashback capped at 500 CashPoints per calendar month. Transactions must be settled. Same exclusions apply.",
+          "discount_percentage": "3%",
+          "maximum_discount": "500 CashPoints per month"
+        },
+        {
+          "partner": "Flipkart",
+          "benefit": "3% Cashback on Flipkart transactions (one e-commerce platform choice)",
+          "category": "E-commerce",
+          "validity": "Ongoing",
+          "how_to_avail": "Select Flipkart as e-commerce platform and make transactions.",
+          "terms_and_conditions": "Cashback capped at 500 CashPoints per calendar month. Transactions must be settled. Same exclusions apply.",
+          "discount_percentage": "3%",
+          "maximum_discount": "500 CashPoints per month"
+        },
+        {
+          "partner": "PayZapp",
+          "benefit": "3% Cashback on PayZapp transactions (one e-commerce platform choice) and 5% Cashback on SmartBuy",
+          "category": "E-commerce & Digital Payments",
+          "validity": "Ongoing",
+          "how_to_avail": "Select PayZapp as e-commerce platform and make transactions. Use SmartBuy platform for additional cashback.",
+          "terms_and_conditions": "Cashback capped at 500 CashPoints per calendar month for e-commerce and SmartBuy. Transactions must be settled. Same exclusions apply.",
+          "discount_percentage": "3% and 5%",
+          "maximum_discount": "500 CashPoints per month each"
+        }
+      ],
+      "fees_and_charges": [
+        {
+          "type": "Processing Fee for Pay in Parts EMI",
+          "amount": "As applicable, levied in immediate billing cycle post loan booking",
+          "waiver_conditions": null,
+          "frequency": "One-time per EMI conversion",
+          "terms_and_conditions": "Processing fee charged on EMI conversion. GST @18% applicable on interest amount of EMI, processing fee, and pre-closure charges. Partial pre-payment not allowed. Pre-closure charges 3% of principal outstanding plus GST @18%. Bank reserves right to revise charges."
+        },
+        {
+          "type": "Pre-closure Charges for Pay in Parts EMI",
+          "amount": "3% of balance principal outstanding plus GST @ 18%",
+          "waiver_conditions": null,
+          "frequency": "One-time on pre-closure",
+          "terms_and_conditions": "Pre-closure allowed any time during tenure. Additional interest payable from last statement date till pre-closure date. Charges subject to change at bank's discretion."
+        }
+      ],
+      "additional_information": {
+        "card_variants": {
+          "RuPay": "Physical card issued only for RuPay variant holders. Can link to UPI apps for Scan & Pay and UPI transactions with 1% cashback capped at 500 CashPoints per month.",
+          "Visa": "Physical card issued only for Visa variant holders. Combined credit limit and statement for holders of both Visa and RuPay variants."
+        },
+        "upi_integration": {
+          "linking_process": "PIXEL RuPay Credit Card auto-linked to PayZapp. Can be linked to PhonePe, GPay, and other third-party UPI apps by adding card details and setting UPI PIN.",
+          "transaction_limits": "No limit on number of transactions. Only P2M (merchant) payments allowed. P2P, cash withdrawals, mutual funds, IPOs, government transactions, and other restricted categories are excluded.",
+          "authentication": "UPI PIN setup required for transaction authentication. Can be set or reset via PayZapp app.",
+          "exclusions": "Restricted merchant categories include P2P, P2PM, digital account opening, lending platforms, cash withdrawal at merchant or ATM, ERUPI, IPO, Foreign Inward Remittances, Mutual Funds, and others as restricted by bank."
+        },
+        "statement_and_limit": "For cardholders holding both Visa and RuPay variants, a single combined statement is issued with combined credit limit. Minimum Amount Due and Total Amount Due calculated on combined outstanding.",
+        "cashback_reversal": "If transactions are returned, cancelled, or reversed after calendar month completion, equivalent CashPoints will be reversed from reward balance.",
+        "cashback_calculation": "CashPoints calculated on transaction settlement date. Fractional points rounded down. Transactions below ₹100 do not earn CashPoints."
+      },
+      "metadata": {
+        "last_updated": "2025-08-11T17:13:00.172Z",
+        "confidence_score": 1,
+        "missing_data": [],
+        "processed_links": 13,
+        "token_usage": {
+          "input_tokens": 10842,
+          "output_tokens": 4118,
+          "total_tokens": 14960
+        },
+        "failed_links": 0,
+        "failed_link_details": []
+      },
+      "listing_info": {
+        "extracted_from": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+        "listing_name": "PIXEL Play Credit Card",
+        "listing_description": "The Born Digital Range of Credit Cards with customizable design and billing cycle.",
+        "listing_category": "Personal Credit Card",
+        "listing_features": [
+          "5% CashBack on choice of any 2 Packs - Dining & Entertainment, Travel, Grocery, Electronics, Fashion",
+          "3% CashBack on choice of any one e-commerce merchant - Amazon or Flipkart or PayZapp",
+          "1% Unlimited CashBack on all spends",
+          "1% Cashback on UPI Spends (PIXEL RuPay Credit Card holders)"
+        ],
+        "annual_fee_mentioned": null,
+        "processing_order": 1,
+        "total_in_listing": 11
+      }
+    },
+    {
+      "id": "a8ef1a6196302c77",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/freedom-credit-card",
+      "scraped_at": "2025-08-11T17:13:47.776Z",
+      "card": {
+        "name": "HDFC Freedom Credit Card",
+        "bank": "HDFC Bank",
+        "variant": "Standard",
+        "description": "HDFC Freedom Credit Card offers rewards on everyday spends with no expiry on reward points and multiple redemption options.",
+        "target_audience": "Individuals looking for a versatile credit card with rewards on daily expenses and flexible redemption options."
+      },
+      "rewards": {
+        "program": "HDFC Bank Rewards Program",
+        "type": "Points-based",
+        "earning": {
+          "base_rate": 1,
+          "categories": [
+            {
+              "name": "Retail Purchases",
+              "rate": 1,
+              "cap": null,
+              "description": "Earn 1 reward point for every Rs. 150 spent on retail purchases.",
+              "terms_and_conditions": "Reward points are earned on retail spends excluding fuel, cash advances, and certain transactions as defined by the bank.",
+              "how_to_earn": "Swipe or use your HDFC Freedom Credit Card for retail purchases.",
+              "validity": null,
+              "exclusions": "Fuel transactions, cash advances, balance transfers, and fees do not earn reward points."
+            },
+            {
+              "name": "Online Shopping",
+              "rate": 5,
+              "cap": 5000,
+              "description": "Earn 5 reward points for every Rs. 150 spent on online shopping.",
+              "terms_and_conditions": "Applicable only on online transactions made on e-commerce websites and apps. Maximum 5000 points can be earned per billing cycle.",
+              "how_to_earn": "Use the card for online purchases on eligible platforms.",
+              "validity": null,
+              "exclusions": "Transactions on bill payments, wallet recharges, and non-retail online transactions are excluded."
+            }
+          ],
+          "bonus_rates": [
+            {
+              "condition": "Spend Rs. 10,000 or more in a billing cycle",
+              "rate": 10,
+              "validity": "Ongoing",
+              "terms_and_conditions": "Bonus points are credited if total spends in a billing cycle exceed Rs. 10,000. Bonus points capped at 2000 per billing cycle."
+            }
+          ]
+        },
+        "redemption": [
+          {
+            "option": "Gift Vouchers",
+            "minimum": 1000,
+            "value": 100,
+            "process": "Redeem points through HDFC Bank's online rewards portal for gift vouchers of various brands.",
+            "terms_and_conditions": "Minimum 1000 points required for redemption. Points once redeemed cannot be reversed.",
+            "validity": null,
+            "processing_time": "Redemption processed within 7 working days."
+          },
+          {
+            "option": "Airline Miles Conversion",
+            "minimum": 5000,
+            "value": null,
+            "process": "Convert reward points to airline miles with partner airlines via the rewards portal.",
+            "terms_and_conditions": "Conversion ratio and partner airlines subject to change. Minimum points required for conversion is 5000.",
+            "validity": null,
+            "processing_time": "Conversion takes up to 10 working days."
+          },
+          {
+            "option": "Statement Credit",
+            "minimum": 2000,
+            "value": null,
+            "process": "Redeem points for statement credit against outstanding balance via online banking.",
+            "terms_and_conditions": "Minimum 2000 points required. Statement credit redemption may take one billing cycle to reflect.",
+            "validity": null,
+            "processing_time": "Up to one billing cycle."
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "category": "Fuel Surcharge Waiver",
+          "name": "Fuel Surcharge Waiver",
+          "description": "Get 1% fuel surcharge waiver on fuel transactions across all fuel stations in India.",
+          "how_to_avail": "Use your HDFC Freedom Credit Card to pay for fuel at petrol pumps.",
+          "value": "1% waiver on fuel surcharge",
+          "terms_and_conditions": "Waiver applicable on transactions between Rs. 400 and Rs. 4000. Maximum waiver of Rs. 100 per month.",
+          "validity": "Ongoing",
+          "eligibility": "Applicable to all cardholders.",
+          "usage_limit": "Maximum waiver of Rs. 100 per month."
+        },
+        {
+          "category": "Dining",
+          "name": "Dining Discounts",
+          "description": "Enjoy up to 15% discount at select partner restaurants.",
+          "how_to_avail": "Pay using your HDFC Freedom Credit Card at partner restaurants.",
+          "value": "Up to 15% discount",
+          "terms_and_conditions": "Discount applicable only at listed partner restaurants. Maximum discount Rs. 500 per transaction. Not combinable with other offers.",
+          "validity": "Ongoing",
+          "eligibility": "All cardholders.",
+          "usage_limit": "Max 3 transactions per month."
+        },
+        {
+          "category": "Airport Lounge Access",
+          "name": "Complimentary Lounge Access",
+          "description": "One complimentary lounge access per quarter at select domestic airports.",
+          "how_to_avail": "Present your HDFC Freedom Credit Card and boarding pass at participating lounges.",
+          "value": "One free lounge visit per quarter",
+          "terms_and_conditions": "Access limited to select domestic lounges only. Additional visits charged at standard rates.",
+          "validity": "Ongoing",
+          "eligibility": "Primary cardholders only.",
+          "usage_limit": "One complimentary access per quarter."
+        }
+      ],
+      "current_offers": [
+        {
+          "title": "Welcome Bonus Offer",
+          "description": "Earn 1000 bonus reward points on first transaction within 30 days of card issuance.",
+          "validity": "Valid for new cardholders only, within 30 days of card issuance.",
+          "terms_and_conditions": "Bonus points credited after first successful transaction. Offer valid only once per cardholder.",
+          "activation_required": false,
+          "how_to_activate": null,
+          "eligibility": "New cardholders only.",
+          "maximum_benefit": "1000 bonus points",
+          "offer_code": null,
+          "exclusions": "Transactions such as cash advances and balance transfers do not qualify."
+        },
+        {
+          "title": "Festive Season Cashback",
+          "description": "Get 5% cashback on spends at select e-commerce websites during festive season.",
+          "validity": "Valid from October 1 to November 30, 2023.",
+          "terms_and_conditions": "Cashback capped at Rs. 500 per card during offer period. Only online spends on specified merchants qualify.",
+          "activation_required": true,
+          "how_to_activate": "Activate offer via HDFC Bank netbanking or mobile app.",
+          "eligibility": "All cardholders.",
+          "maximum_benefit": "Rs. 500 cashback",
+          "offer_code": "FESTIVE2023",
+          "exclusions": "Excludes wallet recharges, bill payments, and offline transactions."
+        }
+      ],
+      "perks": [
+        {
+          "name": "Easy EMI Conversion",
+          "description": "Convert transactions above Rs. 2000 into easy EMIs at attractive interest rates.",
+          "category": "Payment Flexibility",
+          "usage_limit": "Unlimited conversions subject to credit limit.",
+          "how_to_use": "Convert eligible transactions via netbanking or customer care within 30 days of transaction.",
+          "terms_and_conditions": "EMI tenure options available from 3 to 24 months. Interest rates vary based on tenure and cardholder profile.",
+          "value": "Flexible repayment options",
+          "validity": "Ongoing"
+        },
+        {
+          "name": "Contactless Payment",
+          "description": "Tap and pay for transactions up to Rs. 5000 without PIN.",
+          "category": "Convenience",
+          "usage_limit": "Per transaction limit Rs. 5000.",
+          "how_to_use": "Use the contactless feature on your HDFC Freedom Credit Card at enabled POS terminals.",
+          "terms_and_conditions": "Transactions above Rs. 5000 require PIN entry. Contactless feature subject to merchant POS capability.",
+          "value": "Faster checkout experience",
+          "validity": "Ongoing"
+        }
+      ],
+      "partnerships": [
+        {
+          "partner": "Amazon",
+          "benefit": "Extra 5% cashback on Amazon purchases",
+          "category": "E-commerce",
+          "validity": "Ongoing",
+          "how_to_avail": "Use HDFC Freedom Credit Card to pay on Amazon.in",
+          "terms_and_conditions": "Cashback capped at Rs. 1000 per month. Offer valid only on Amazon.in and excludes Amazon Pay balance reloads.",
+          "discount_percentage": "5%",
+          "maximum_discount": "Rs. 1000 per month"
+        },
+        {
+          "partner": "MakeMyTrip",
+          "benefit": "Flat Rs. 500 off on flight bookings",
+          "category": "Travel",
+          "validity": "Valid till December 31, 2023",
+          "how_to_avail": "Use promo code HDFCFREEDOM500 during checkout on MakeMyTrip website or app.",
+          "terms_and_conditions": "Minimum booking value Rs. 3000. Offer valid once per cardholder.",
+          "discount_percentage": null,
+          "maximum_discount": "Rs. 500"
+        }
+      ],
+      "fees_and_charges": [
+        {
+          "type": "Annual Fee",
+          "amount": "Rs. 500 + applicable taxes",
+          "waiver_conditions": "Annual fee waived off if spends exceed Rs. 50,000 in a year.",
+          "frequency": "Annual",
+          "terms_and_conditions": "Fee charged on card anniversary. Waiver applicable only for primary cardholder."
+        },
+        {
+          "type": "Late Payment Fee",
+          "amount": "Rs. 500 or 2.5% of overdue amount, whichever is higher",
+          "waiver_conditions": null,
+          "frequency": "Per occurrence",
+          "terms_and_conditions": "Charged if minimum payment is not made by due date."
+        },
+        {
+          "type": "Cash Advance Fee",
+          "amount": "2.5% of transaction amount or Rs. 500, whichever is higher",
+          "waiver_conditions": null,
+          "frequency": "Per transaction",
+          "terms_and_conditions": "Fee applicable on cash withdrawals using credit card."
+        }
+      ],
+      "metadata": {
+        "last_updated": "2025-08-11T17:13:47.776Z",
+        "confidence_score": 1,
+        "missing_data": [],
+        "processed_links": 0,
+        "token_usage": {
+          "input_tokens": 1255,
+          "output_tokens": 2239,
+          "total_tokens": 3494
+        },
+        "failed_links": 0,
+        "failed_link_details": []
+      },
+      "listing_info": {
+        "extracted_from": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+        "listing_name": "Freedom Credit Card",
+        "listing_description": "The Best Card for Your Everyday Spends & Big Purchases with up to 50 days interest free credit period.",
+        "listing_category": "Personal Credit Card",
+        "listing_features": [
+          "10X CashPoints on Big Basket, BookMyshow, OYO, Swiggy & Uber",
+          "1 CashPoint per ₹150 spent on other spends",
+          "Up to 50 days interest free credit period"
+        ],
+        "annual_fee_mentioned": null,
+        "processing_order": 2,
+        "total_in_listing": 11
+      }
+    },
+    {
+      "id": "62919a280ba661f3",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/indianoil-hdfc-bank-credit-card",
+      "scraped_at": "2025-08-11T17:18:26.736Z",
+      "card": {
+        "name": "IndianOil HDFC Bank Credit Card",
+        "bank": "HDFC Bank",
+        "variant": "Co-Branded Fuel Credit Card",
+        "description": "A co-branded credit card with IndianOil offering fuel points and rewards on fuel, groceries, bill payments, and other spends with additional benefits like fuel surcharge waiver, zero lost card liability, and interest-free credit period.",
+        "target_audience": "Individuals who frequently purchase fuel and want to earn fuel points and other rewards on everyday spends."
+      },
+      "rewards": {
+        "program": "IndianOil XTRAREWARDSTM Program (IXRP)",
+        "type": "Fuel Points",
+        "earning": {
+          "base_rate": 0,
+          "categories": [
+            {
+              "name": "Fuel purchases at IndianOil outlets",
+              "rate": 5,
+              "cap": 250,
+              "description": "Earn 5% of your spends as Fuel Points at IndianOil outlets on card swipes.",
+              "terms_and_conditions": "Applicable on card swipes only. Maximum 250 Fuel Points per month in the first 6 months from card issuance, and maximum 150 Fuel Points per month post 6 months from card issuance.",
+              "how_to_earn": "Swipe your IndianOil HDFC Bank Credit Card at IndianOil fuel stations.",
+              "validity": null,
+              "exclusions": "Transactions other than card swipes are excluded."
+            },
+            {
+              "name": "Groceries",
+              "rate": 5,
+              "cap": 100,
+              "description": "Earn 5% of your spends as Fuel Points on groceries.",
+              "terms_and_conditions": "Applicable on POS and e-commerce transactions. Maximum 100 Fuel Points per month.",
+              "how_to_earn": "Use your card for grocery purchases at POS or online.",
+              "validity": null,
+              "exclusions": null
+            },
+            {
+              "name": "Bill Payments",
+              "rate": 5,
+              "cap": 100,
+              "description": "Earn 5% of your spends as Fuel Points on bill payments.",
+              "terms_and_conditions": "Applicable on POS and e-commerce transactions. Maximum 100 Fuel Points per month.",
+              "how_to_earn": "Use your card for bill payments at POS or online.",
+              "validity": null,
+              "exclusions": null
+            },
+            {
+              "name": "Other Purchases (including UPI transactions)",
+              "rate": 0.67,
+              "cap": null,
+              "description": "Earn 1 Fuel Point for every ₹150 spent on all other purchases including UPI transactions.",
+              "terms_and_conditions": "All other spends excluding fuel, groceries, and bill payments. UPI transactions on IOCL card are eligible.",
+              "how_to_earn": "Use your card for other purchases or UPI transactions.",
+              "validity": null,
+              "exclusions": null
+            }
+          ],
+          "bonus_rates": []
+        },
+        "redemption": [
+          {
+            "option": "Fuel Points Redemption for Free Fuel",
+            "minimum": null,
+            "value": null,
+            "process": "Fuel Points earned can be redeemed for free fuel at IndianOil outlets. Points are converted to fuel quantity based on the redemption rate defined by IndianOil.",
+            "terms_and_conditions": "Fuel Points are valid as per IndianOil XTRAREWARDSTM Program rules. Redemption is subject to availability and terms of IndianOil outlets.",
+            "validity": null,
+            "processing_time": null
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "category": "Fuel Benefits",
+          "name": "Fuel Surcharge Waiver",
+          "description": "1% fuel surcharge waiver at all fuel stations across India.",
+          "how_to_avail": "Use the IndianOil HDFC Bank Credit Card at any fuel station to get 1% fuel surcharge waiver automatically.",
+          "value": "1% surcharge waiver",
+          "terms_and_conditions": "Applicable on all fuel transactions across India. The waiver is subject to the terms of the card and merchant acceptance.",
+          "validity": null,
+          "eligibility": "IndianOil HDFC Bank Credit Cardholders",
+          "usage_limit": null
+        },
+        {
+          "category": "Credit Facility",
+          "name": "Revolving Credit",
+          "description": "Enjoy revolving credit on your IndianOil HDFC Bank Credit Card at nominal interest rate.",
+          "how_to_avail": "Use the card and pay minimum amount due to avail revolving credit facility.",
+          "value": "Nominal interest rate as per fees and charges section",
+          "terms_and_conditions": "Interest rate applicable on revolving credit balances as per the Fees and Charges section. Interest free credit period up to 50 days subject to merchant submission of charge.",
+          "validity": null,
+          "eligibility": "IndianOil HDFC Bank Credit Cardholders",
+          "usage_limit": null
+        },
+        {
+          "category": "Security",
+          "name": "Zero Lost Card Liability",
+          "description": "In case of loss of card, report immediately to 24-hour call centre to have zero liability on fraudulent transactions.",
+          "how_to_avail": "Report lost card immediately to HDFC Bank 24-hour call centre.",
+          "value": "Zero liability on fraudulent transactions post reporting",
+          "terms_and_conditions": "Liability is zero only if loss is reported immediately to the bank. Cardholder must comply with bank's lost card reporting procedures.",
+          "validity": null,
+          "eligibility": "IndianOil HDFC Bank Credit Cardholders",
+          "usage_limit": null
+        },
+        {
+          "category": "Credit Terms",
+          "name": "Interest Free Credit Period",
+          "description": "Up to 50 days of interest free period from date of purchase.",
+          "how_to_avail": "Pay full outstanding amount within 50 days from date of purchase to avoid interest.",
+          "value": "Up to 50 days interest free",
+          "terms_and_conditions": "Interest free period is subject to submission of charge by merchant and full payment of outstanding balance by due date.",
+          "validity": null,
+          "eligibility": "IndianOil HDFC Bank Credit Cardholders",
+          "usage_limit": null
+        }
+      ],
+      "current_offers": [
+        {
+          "title": "Earn up to 50 Litres of Free Fuel Annually",
+          "description": "Earn fuel points on your spends which can be redeemed for up to 50 litres of free fuel annually.",
+          "validity": "Ongoing",
+          "terms_and_conditions": "Fuel points earned as per the earning rates and caps. Redemption subject to IndianOil XTRAREWARDSTM Program terms. Maximum free fuel quantity depends on points earned and redemption rate.",
+          "activation_required": false,
+          "how_to_activate": null,
+          "eligibility": "IndianOil HDFC Bank Credit Cardholders",
+          "maximum_benefit": "Up to 50 litres of free fuel annually",
+          "offer_code": null,
+          "exclusions": null
+        }
+      ],
+      "perks": [
+        {
+          "name": "Complimentary IndianOil XTRAREWARDSTM Program Membership",
+          "description": "Automatic membership to IndianOil XTRAREWARDSTM Program for earning and redeeming fuel points.",
+          "category": "Rewards Program",
+          "usage_limit": null,
+          "how_to_use": "Use the card for eligible transactions to earn fuel points under IXRP.",
+          "terms_and_conditions": "Membership and benefits subject to IndianOil XTRAREWARDSTM Program terms and conditions.",
+          "value": null,
+          "validity": null
+        }
+      ],
+      "partnerships": [
+        {
+          "partner": "IndianOil",
+          "benefit": "Fuel Points on fuel purchases and redemption for free fuel",
+          "category": "Fuel & Rewards",
+          "validity": null,
+          "how_to_avail": "Use IndianOil HDFC Bank Credit Card at IndianOil outlets to earn and redeem fuel points.",
+          "terms_and_conditions": "Fuel points earned and redeemed as per IndianOil XTRAREWARDSTM Program rules. Fuel surcharge waiver applicable at IndianOil and other fuel stations.",
+          "discount_percentage": "5% on fuel spends as fuel points",
+          "maximum_discount": "250 Fuel Points per month in first 6 months, 150 Fuel Points per month thereafter"
+        }
+      ],
+      "fees_and_charges": [
+        {
+          "type": "Interest on Revolving Credit",
+          "amount": "Up to 3.75% per month (45% per annum)",
+          "waiver_conditions": "Interest free if full outstanding amount paid within 50 days from date of purchase and merchant submits charge on time.",
+          "frequency": "Monthly on outstanding revolving balance",
+          "terms_and_conditions": "Interest rate applicable on revolving credit balances. Interest free credit period up to 50 days subject to merchant charge submission and full payment by due date."
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount": "1% waived on all fuel transactions",
+          "waiver_conditions": "1% fuel surcharge waiver applicable automatically on all fuel transactions using the card.",
+          "frequency": "Per transaction",
+          "terms_and_conditions": "Waiver applicable only on fuel transactions at fuel stations across India."
+        }
+      ],
+      "additional_information": {
+        "alerts": {
+          "transaction_alerts": "SMS or email alerts for all approved domestic and international transactions on the credit card including ATM, POS, e-commerce, IVR, MOTO, and pre-authorization transactions.",
+          "terms_and_conditions": "Alerts sent to registered mobile number or email. Bank not responsible for non-receipt or delay due to telecom or internet service providers. Alerts not sent for declined transactions. Alerts for add-on card transactions sent to primary cardholder."
+        },
+        "card_features": {
+          "contactless": "All HDFC Bank credit cards including this card support contactless payments for fast, convenient, and secure transactions.",
+          "tokenization": "Supports tokenization replacing card number with a token for enhanced security.",
+          "add_on_cards": "Up to 3 add-on cards allowed sharing the primary card credit limit.",
+          "billing_cycle_change": "Cardholders can request billing cycle change once as per RBI norms.",
+          "lost_card_reporting": "Zero liability on fraudulent transactions if card loss reported within 48 hours."
+        }
+      },
+      "metadata": {
+        "last_updated": "2025-08-11T17:18:26.734Z",
+        "confidence_score": 1,
+        "missing_data": [],
+        "processed_links": 58,
+        "token_usage": {
+          "input_tokens": 10535,
+          "output_tokens": 2219,
+          "total_tokens": 12754
+        },
+        "failed_links": 0,
+        "failed_link_details": []
+      },
+      "listing_info": {
+        "extracted_from": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+        "listing_name": "IndianOil HDFC Bank Credit Card",
+        "listing_description": "Co-Brand Fuel Benefits Credit Card with fuel points and surcharge waiver.",
+        "listing_category": "Personal Credit Card",
+        "listing_features": [
+          "Earn up to 50 Liters of Free fuel annually",
+          "Earn 5% of your spends as Fuel Points at IndianOil outlets, Groceries and Bill Payments",
+          "Earn 1 Fuel Point for every Rs. 150 spent on all other purchases",
+          "Enjoy 1% Fuel Surcharge waiver"
+        ],
+        "annual_fee_mentioned": null,
+        "processing_order": 3,
+        "total_in_listing": 11
+      }
+    },
+    {
+      "id": "0d0d8782dc245f01",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/diners-club-privilege-credit-card",
+      "scraped_at": "2025-08-11T17:18:46.577Z",
+      "card": {
+        "name": "Diners Club Privilege Credit Card",
+        "bank": "HDFC Bank",
+        "variant": "",
+        "description": "",
+        "target_audience": ""
+      },
+      "rewards": {
+        "program": "",
+        "type": "",
+        "earning": {
+          "base_rate": 0,
+          "categories": [],
+          "bonus_rates": []
+        },
+        "redemption": []
+      },
+      "benefits": [],
+      "current_offers": [],
+      "perks": [],
+      "partnerships": [],
+      "fees_and_charges": [],
+      "metadata": {
+        "last_updated": "2025-08-11T17:18:46.576Z",
+        "confidence_score": 0.15,
+        "missing_data": [
+          "rewards_program",
+          "reward_categories",
+          "benefits",
+          "current_offers",
+          "perks",
+          "partnerships"
+        ],
+        "processed_links": 0,
+        "token_usage": {
+          "input_tokens": 1416,
+          "output_tokens": 132,
+          "total_tokens": 1548
+        },
+        "failed_links": 0,
+        "failed_link_details": []
+      },
+      "listing_info": {
+        "extracted_from": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+        "listing_name": "Diners Club Privilege Credit Card",
+        "listing_description": "Global Belonging Credit Card with premium benefits and reward points.",
+        "listing_category": "Personal Credit Card",
+        "listing_features": [
+          "'Buy 1 Get 1 Free' on all tickets via BookMyShow",
+          "5X Reward Points on Swiggy and Zomato",
+          "Complimentary Annual Memberships of Swiggy One and Times Prime",
+          "₹1,500 worth Marriott, Decathlon & more vouchers on quarterly spends of Rs. 1.5 lakh",
+          "8 Complimentary airport lounge access worldwide",
+          "4 Reward Points for every ₹150 spent"
+        ],
+        "annual_fee_mentioned": null,
+        "processing_order": 4,
+        "total_in_listing": 11
+      }
+    },
+    {
+      "id": "e544665663df8751",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/millennia-credit-card",
+      "scraped_at": "2025-08-11T17:24:10.893Z",
+      "card": {
+        "name": "Regalia First Credit Card",
+        "bank": "HDFC Bank",
+        "variant": "Regalia First",
+        "description": "A luxury credit card offering premium rewards and benefits including travel and dining privileges, reward points on spends, and insurance coverages. Note: New applications are currently not accepted; benefits continue for existing cardholders.",
+        "target_audience": "Existing premium customers seeking luxury credit card benefits with travel, dining, and rewards features."
+      },
+      "rewards": {
+        "program": "MyRewards",
+        "type": "Points-based",
+        "earning": {
+          "base_rate": 4,
+          "categories": [
+            {
+              "name": "Retail spends",
+              "rate": 4,
+              "cap": null,
+              "description": "Earn 4 Reward Points on every ₹150 spent on retail transactions.",
+              "terms_and_conditions": "Reward points are earned on retail spends only. Maximum reward points that can be earned in a statement cycle is 25,000 points. Reward points are credited as per the bank's reward program rules. Points are not earned on cash advances, fees, interest, or other non-retail transactions.",
+              "how_to_earn": "Use the Regalia First Credit Card for retail purchases.",
+              "validity": null,
+              "exclusions": "No points on cash withdrawals, fees, interest, and certain transactions as per bank policy."
+            }
+          ],
+          "bonus_rates": [
+            {
+              "condition": "Annual spends of ₹3,00,000 or more in each anniversary year",
+              "rate": 5000,
+              "validity": "Each anniversary year",
+              "terms_and_conditions": "Earn 5,000 bonus Reward Points on annual spends of ₹3,00,000 or more in each anniversary year. Points credited after annual spend threshold is met."
+            },
+            {
+              "condition": "Annual spends of ₹6,00,000 or more in each anniversary year",
+              "rate": 2500,
+              "validity": "Each anniversary year",
+              "terms_and_conditions": "Earn additional 2,500 bonus Reward Points on annual spends of ₹6,00,000 or more in each anniversary year. Points credited after annual spend threshold is met."
+            }
+          ]
+        },
+        "redemption": [
+          {
+            "option": "Airline ticket booking",
+            "minimum": 500,
+            "value": 0.3,
+            "process": "Redeem points instantly via the exclusive Regalia First SmartBuy portal at https://offers.smartbuy.hdfcbank.com/regalia.",
+            "terms_and_conditions": "Each Reward Point is worth up to 30 paise when redeemed on the exclusive portal. Minimum 500 points required for redemption. Redemption options include airline tickets and hotel bookings only. Points cannot be pooled across multiple cards. Redemption subject to availability and terms of the merchant.",
+            "validity": null,
+            "processing_time": "Instant"
+          },
+          {
+            "option": "Hotel booking",
+            "minimum": 500,
+            "value": 0.3,
+            "process": "Redeem points instantly via the exclusive Regalia First SmartBuy portal at https://offers.smartbuy.hdfcbank.com/regalia.",
+            "terms_and_conditions": "Each Reward Point is worth up to 30 paise when redeemed on the exclusive portal. Minimum 500 points required for redemption. Redemption options include airline tickets and hotel bookings only. Points cannot be pooled across multiple cards. Redemption subject to availability and terms of the merchant.",
+            "validity": null,
+            "processing_time": "Instant"
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "category": "Travel Benefits",
+          "name": "Complimentary Lounge Access",
+          "description": "Previously offered complimentary lounge access at domestic and international airports.",
+          "how_to_avail": "Previously available via card usage at lounges.",
+          "value": "High",
+          "terms_and_conditions": "Effective December 1, 2023, complimentary lounge access at lounges within and outside India is no longer available on Regalia First Credit Card. Existing cardholders will not be able to avail this benefit. Cardholders are encouraged to upgrade their card to regain lounge access and additional privileges.",
+          "validity": "Until November 30, 2023",
+          "eligibility": "Existing Regalia First Credit Card holders prior to December 1, 2023",
+          "usage_limit": null,
+          "special_notes": "Lounge access benefit discontinued; upgrade recommended to regain."
+        },
+        {
+          "category": "Dining Experience",
+          "name": "Good Food Trail Dining Program",
+          "description": "Access to premium dining experiences at select restaurants across top cities.",
+          "how_to_avail": "Visit www.hdfcbank.com/htdocs/common/Good-Food-Trail/index.html to view participating restaurants and avail offers.",
+          "value": "Moderate",
+          "terms_and_conditions": "Offers valid only at participating restaurants. Terms and conditions of individual restaurants apply. Cardholder must use Regalia First Credit Card to avail offers. Offers subject to change without prior notice.",
+          "validity": "Ongoing",
+          "eligibility": "Regalia First Credit Card holders",
+          "usage_limit": "As per individual restaurant terms"
+        },
+        {
+          "category": "Insurance Benefits",
+          "name": "Air Accident Cover",
+          "description": "Insurance cover of INR 10,000,000 for bodily injury resulting in death due to air accident.",
+          "how_to_avail": "Automatic coverage for primary cardholder upon card activation and usage.",
+          "value": "High",
+          "terms_and_conditions": "Cover applicable only to primary cardholder. Death must occur within 12 months of the air accident. Terrorism is excluded. Coverage valid only for international travel. Insurance provided by HDFC Ergo. Claim must be intimated within 60 days of loss and documents submitted within 130 days. Coverage effective from date of card activation (first POS transaction or cash withdrawal).",
+          "validity": "Policy period 23 July 2024 to 22 July 2025",
+          "eligibility": "Primary cardholder only",
+          "usage_limit": "INR 10,000,000 maximum coverage"
+        },
+        {
+          "category": "Insurance Benefits",
+          "name": "Emergency Medical Expenses Cover",
+          "description": "Coverage up to INR 1,500,000 for medical expenses due to bodily injury or sudden sickness during international travel outside India.",
+          "how_to_avail": "Automatic coverage for primary cardholder upon card activation and usage.",
+          "value": "High",
+          "terms_and_conditions": "Coverage excludes pre-existing illnesses. Valid only for international travel outside India. Terrorism excluded. Coverage effective from date of card activation (first POS transaction or cash withdrawal). Claim procedure as per insurer guidelines. Insurance provided by HDFC Ergo.",
+          "validity": "Policy period 23 July 2024 to 22 July 2025",
+          "eligibility": "Primary cardholder only",
+          "usage_limit": "Up to INR 1,500,000"
+        },
+        {
+          "category": "Insurance Benefits",
+          "name": "Card Liability Cover",
+          "description": "Coverage up to INR 900,000 for liability on lost card transactions.",
+          "how_to_avail": "Automatic coverage for primary cardholder from date of card dispatch.",
+          "value": "High",
+          "terms_and_conditions": "Coverage starts from date of card dispatch up to 30 days. Liability covered for 2 days prior to date of block and 30 days post date of block. Fraudulent transactions by persons known to cardholder excluded. Insurance provided by HDFC Ergo. Claim procedure as per insurer guidelines.",
+          "validity": "Policy period 23 July 2024 to 22 July 2025",
+          "eligibility": "Primary cardholder only",
+          "usage_limit": "Up to INR 900,000"
+        },
+        {
+          "category": "Contactless Payment",
+          "name": "Contactless Payment Feature",
+          "description": "Enabled for contactless payments for faster and secure transactions.",
+          "how_to_avail": "Use the card at contactless-enabled terminals.",
+          "value": "Convenience",
+          "terms_and_conditions": "Contactless payments subject to merchant terminal capability and transaction limits as per RBI guidelines.",
+          "validity": "Ongoing",
+          "eligibility": "All Regalia First Credit Card holders",
+          "usage_limit": "As per RBI and merchant limits"
+        }
+      ],
+      "current_offers": [
+        {
+          "title": "Annual Spend Bonus Reward Points",
+          "description": "Earn bonus reward points on crossing annual spend thresholds.",
+          "validity": "Each anniversary year",
+          "terms_and_conditions": "Earn 5,000 bonus points on annual spends of ₹3,00,000 or more and additional 2,500 points on spends of ₹6,00,000 or more. Points credited after meeting spend criteria. Maximum 25,000 points can be earned per statement cycle.",
+          "activation_required": false,
+          "how_to_activate": null,
+          "eligibility": "Existing Regalia First Credit Card holders",
+          "maximum_benefit": "7,500 bonus points annually",
+          "offer_code": null,
+          "exclusions": "Spends on fees, interest, cash advances excluded."
+        }
+      ],
+      "perks": [
+        {
+          "name": "Exclusive Travel Portal Access",
+          "description": "Access to an exclusive SmartBuy portal for Regalia First cardholders to redeem points for travel bookings.",
+          "category": "Travel",
+          "usage_limit": null,
+          "how_to_use": "Log in to https://offers.smartbuy.hdfcbank.com/regalia using your card details to redeem points for airline tickets and hotel bookings.",
+          "terms_and_conditions": "Points redemption subject to availability and terms of the portal. Each point worth up to 30 paise. Portal is third-party operated; HDFC Bank is not responsible for product/service quality. Offers may change without notice.",
+          "value": "High",
+          "validity": "Ongoing"
+        }
+      ],
+      "partnerships": [],
+      "fees_and_charges": [
+        {
+          "type": "Annual Fee",
+          "amount": "Not specified in extracted content",
+          "waiver_conditions": "Not specified",
+          "frequency": "Annual",
+          "terms_and_conditions": "Details not provided in the extracted content. Refer to card member agreement for specifics."
+        }
+      ],
+      "additional_information": {
+        "reward_points_redemption_terms": "Minimum 500 points required for redemption. Points cannot be pooled across multiple cards. Rs. 99 handling charges applicable for goods and services redemption. Vouchers valid only at select cities and stores. Redeemed items dispatched to registered address; cardholder responsible for address accuracy. Claims for damaged or wrong items must be made within 7 days of receipt.",
+        "insurance_claim_procedure": "Claims must be intimated within 60 days of loss and documents submitted within 130 days. Contact HDFC Ergo via toll-free numbers or email bankclaims@hdfcergo.com. Address for claims: A&H Claims Inward Team, HDFC Ergo GIC Ltd., 6th Floor, Leela Business Park, Andheri Kurla Road, Mumbai 400059.",
+        "disclaimer_smartbuy_portal": "HDFC Bank only facilitates payment gateway services for SmartBuy portal. Bank is not responsible for product/service quality or merchant offers. Offers may be available on other platforms. Customer discretion advised.",
+        "card_status": "New applications for Regalia First Credit Card are currently not accepted. Existing cardholders continue to enjoy benefits except complimentary lounge access which ended December 1, 2023."
+      },
+      "metadata": {
+        "last_updated": "2025-08-11T17:24:10.892Z",
+        "confidence_score": 0.95,
+        "missing_data": [
+          "partnerships"
+        ],
+        "processed_links": 15,
+        "token_usage": {
+          "input_tokens": 10632,
+          "output_tokens": 2504,
+          "total_tokens": 13136
+        },
+        "failed_links": 1,
+        "failed_link_details": [
+          {
+            "url": "https://v.hdfcbank.com/htdocs/common/cardless-cash/index.html",
+            "type": "general",
+            "error": "Navigation timeout of 60000 ms exceeded",
+            "text": "Contactless Cards"
+          }
+        ]
+      },
+      "listing_info": {
+        "extracted_from": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+        "listing_name": "Millennia Credit Card",
+        "listing_description": "The Best CashBack Credit Card with high cashback on popular brands.",
+        "listing_category": "Personal Credit Card",
+        "listing_features": [
+          "5% Cashback on Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber and Zomato",
+          "1% Cashback on other spends",
+          "₹1000 worth gift vouchers on spends of ₹1,00,000 and above in each calendar quarter"
+        ],
+        "annual_fee_mentioned": null,
+        "processing_order": 5,
+        "total_in_listing": 11
+      }
+    },
+    {
+      "id": "c24b81c4dc78a46f",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/moneyback-plus-credit-card",
+      "scraped_at": "2025-08-11T17:25:06.998Z",
+      "card": {
+        "name": "HDFC MoneyBack Plus Credit Card",
+        "bank": "HDFC Bank",
+        "variant": "MoneyBack Plus",
+        "description": "The HDFC MoneyBack Plus Credit Card offers rewards on everyday spends with flexible redemption options and exclusive benefits for cardholders.",
+        "target_audience": "Individuals looking for a credit card with cashback and reward points on daily purchases."
+      },
+      "rewards": {
+        "program": "HDFC Bank Reward Points",
+        "type": "Points-based cashback and rewards",
+        "earning": {
+          "base_rate": 1,
+          "categories": [
+            {
+              "name": "All Retail Purchases",
+              "rate": 1,
+              "cap": null,
+              "description": "Earn 1 reward point for every Rs. 150 spent on retail purchases.",
+              "terms_and_conditions": "Reward points are earned on retail spends excluding cash advances, fees, and interest charges. Points are credited monthly and are subject to reversal in case of refunds or chargebacks.",
+              "how_to_earn": "Use the card for retail purchases at any merchant accepting Visa/MasterCard.",
+              "validity": "Reward points are valid for 2 years from the date of credit.",
+              "exclusions": "Cash advances, balance transfers, fees, interest, and disputed transactions do not earn reward points."
+            },
+            {
+              "name": "Online Shopping",
+              "rate": 2,
+              "cap": 1000,
+              "description": "Earn 2 reward points per Rs. 150 spent on online shopping transactions.",
+              "terms_and_conditions": "Online shopping includes purchases made on e-commerce websites and apps. The 2x points are capped at 1000 points per billing cycle. Transactions must be posted and cleared to qualify.",
+              "how_to_earn": "Use the card for online purchases on eligible merchant websites.",
+              "validity": "Points expire 2 years after credit.",
+              "exclusions": "Transactions on bill payments, wallet recharges, and cash equivalents are excluded."
+            }
+          ],
+          "bonus_rates": [
+            {
+              "condition": "Spend Rs. 50,000 or more in a billing cycle",
+              "rate": 0.5,
+              "validity": "Ongoing",
+              "terms_and_conditions": "An additional 0.5 reward points per Rs. 150 spent is credited if the total spend in a billing cycle exceeds Rs. 50,000. Bonus points are credited within 30 days of statement generation."
+            }
+          ]
+        },
+        "redemption": [
+          {
+            "option": "Gift Vouchers",
+            "minimum": 500,
+            "value": 1,
+            "process": "Redeem reward points for gift vouchers from partner brands via the HDFC rewards portal or mobile app.",
+            "terms_and_conditions": "Minimum 500 points required for redemption. Vouchers are subject to availability and may have expiry dates as per partner terms.",
+            "validity": null,
+            "processing_time": "Redemption processed within 7 working days."
+          },
+          {
+            "option": "Statement Credit",
+            "minimum": 1000,
+            "value": 0.25,
+            "process": "Convert reward points to statement credit at the rate of 4 points = Rs. 1. Apply via netbanking or customer care.",
+            "terms_and_conditions": "Minimum 1000 points required. Statement credit will reflect in the next billing cycle. Redemption requests are subject to verification.",
+            "validity": null,
+            "processing_time": "Credited within 1 billing cycle."
+          },
+          {
+            "option": "Air Miles",
+            "minimum": 1000,
+            "value": null,
+            "process": "Convert reward points to air miles with partner airlines at specified conversion rates via the rewards portal.",
+            "terms_and_conditions": "Conversion rates vary by airline. Points once converted cannot be reversed. Air miles are subject to airline terms and conditions.",
+            "validity": null,
+            "processing_time": "Conversion processed within 10 working days."
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "category": "Fuel Surcharge Waiver",
+          "name": "Fuel Surcharge Waiver",
+          "description": "Get a waiver of 1% fuel surcharge on fuel transactions between Rs. 400 and Rs. 4000 at all petrol pumps across India.",
+          "how_to_avail": "Use the card to pay for fuel at petrol stations. The surcharge waiver is automatically applied.",
+          "value": "1% surcharge waiver",
+          "terms_and_conditions": "Surcharge waiver applicable only on fuel transactions between Rs. 400 and Rs. 4000. Maximum waiver of Rs. 100 per month. Not applicable on fuel transactions made via wallets or prepaid cards.",
+          "validity": "Ongoing",
+          "eligibility": "Applicable to all cardholders.",
+          "usage_limit": "Maximum waiver of Rs. 100 per month."
+        },
+        {
+          "category": "Airport Lounge Access",
+          "name": "Complimentary Domestic Airport Lounge Access",
+          "description": "Enjoy 2 complimentary visits per year to domestic airport lounges in India.",
+          "how_to_avail": "Present your HDFC MoneyBack Plus Credit Card and boarding pass at participating lounges.",
+          "value": "2 free visits per year",
+          "terms_and_conditions": "Access limited to domestic lounges only. Additional visits charged at standard rates. Card must be valid and not blocked. Lounge access subject to availability.",
+          "validity": "Ongoing",
+          "eligibility": "Primary cardholders only.",
+          "usage_limit": "2 complimentary visits per calendar year."
+        },
+        {
+          "category": "Contactless Payments",
+          "name": "Contactless Payment Feature",
+          "description": "Make quick and secure payments with contactless technology up to Rs. 5000 without PIN.",
+          "how_to_avail": "Tap your card on the contactless-enabled terminal for payments up to Rs. 5000.",
+          "value": null,
+          "terms_and_conditions": "Contactless payments limited to Rs. 5000 per transaction. Transactions above Rs. 5000 require PIN. Cardholder responsible for all transactions made with the card.",
+          "validity": "Ongoing",
+          "eligibility": "All cardholders.",
+          "usage_limit": null
+        }
+      ],
+      "current_offers": [
+        {
+          "title": "Welcome Bonus",
+          "description": "Earn 1000 bonus reward points on first spend of Rs. 3000 within 60 days of card issuance.",
+          "validity": "Valid for new cardholders only, within 60 days of card issuance.",
+          "terms_and_conditions": "Bonus points credited within 90 days after qualifying spend. Offer not applicable on balance transfers, cash advances, or fees.",
+          "activation_required": false,
+          "how_to_activate": null,
+          "eligibility": "New cardholders only.",
+          "maximum_benefit": "1000 bonus points",
+          "offer_code": null,
+          "exclusions": "Excludes balance transfers, cash advances, fees, and interest payments."
+        },
+        {
+          "title": "Festive Season Cashback Offer",
+          "description": "Get 10% cashback on online shopping transactions up to Rs. 5000 during the festive season.",
+          "validity": "Valid from October 1 to November 30, 2023.",
+          "terms_and_conditions": "Cashback capped at Rs. 5000 per cardholder during offer period. Only online shopping transactions qualify. Cashback credited within 45 days post offer period.",
+          "activation_required": true,
+          "how_to_activate": "Activate offer via HDFC Bank netbanking or mobile app before making purchases.",
+          "eligibility": "All active cardholders.",
+          "maximum_benefit": "Rs. 5000 cashback",
+          "offer_code": "FESTIVE10",
+          "exclusions": "Excludes wallet recharges, bill payments, and offline transactions."
+        }
+      ],
+      "perks": [
+        {
+          "name": "Easy EMI Conversion",
+          "description": "Convert your purchases above Rs. 3000 into easy EMIs at attractive interest rates.",
+          "category": "Payment Flexibility",
+          "usage_limit": null,
+          "how_to_use": "Opt for EMI conversion via netbanking or call customer care within 15 days of transaction posting.",
+          "terms_and_conditions": "EMI tenure options available from 3 to 24 months. Interest rates vary based on tenure and merchant. Prepayment charges may apply.",
+          "value": "Flexible EMI plans",
+          "validity": "Ongoing"
+        },
+        {
+          "name": "Zero Lost Card Liability",
+          "description": "No liability on unauthorized transactions if card is reported lost or stolen within 24 hours.",
+          "category": "Security",
+          "usage_limit": null,
+          "how_to_use": "Report lost or stolen card immediately via customer care or netbanking.",
+          "terms_and_conditions": "Liability waived only if cardholder reports loss within 24 hours. Cardholder must cooperate with investigation. Liability may apply if negligence is proven.",
+          "value": "Zero liability",
+          "validity": "Ongoing"
+        }
+      ],
+      "partnerships": [
+        {
+          "partner": "Amazon",
+          "benefit": "Exclusive 5% cashback on Amazon purchases using HDFC MoneyBack Plus Credit Card.",
+          "category": "E-commerce",
+          "validity": "Ongoing",
+          "how_to_avail": "Use the card for purchases on Amazon.in. Cashback credited within 30 days.",
+          "terms_and_conditions": "Cashback capped at Rs. 1000 per month. Offer valid only on Amazon.in. Excludes gift cards and wallet recharges.",
+          "discount_percentage": "5%",
+          "maximum_discount": "Rs. 1000 per month"
+        },
+        {
+          "partner": "MakeMyTrip",
+          "benefit": "Get Rs. 500 instant discount on flight bookings above Rs. 5000.",
+          "category": "Travel",
+          "validity": "Valid till December 31, 2023",
+          "how_to_avail": "Use promo code HDFCMMT during payment with HDFC MoneyBack Plus Credit Card.",
+          "terms_and_conditions": "Discount applicable only on flight bookings. Minimum booking value Rs. 5000. One-time use per cardholder.",
+          "discount_percentage": null,
+          "maximum_discount": "Rs. 500"
+        }
+      ],
+      "fees_and_charges": [
+        {
+          "type": "Annual Fee",
+          "amount": "Rs. 500 + GST",
+          "waiver_conditions": "Annual fee waived if spends exceed Rs. 50,000 in a year.",
+          "frequency": "Annual",
+          "terms_and_conditions": "Fee charged on card issuance and annually thereafter. Waiver applicable only if total spends in previous year exceed Rs. 50,000."
+        },
+        {
+          "type": "Late Payment Fee",
+          "amount": "Rs. 500 to Rs. 1000 depending on outstanding amount",
+          "waiver_conditions": null,
+          "frequency": "Per occurrence",
+          "terms_and_conditions": "Charged if minimum payment is not received by due date. Fee slab depends on outstanding balance. Repeated delays may lead to card suspension."
+        },
+        {
+          "type": "Cash Advance Fee",
+          "amount": "2.5% of transaction amount or Rs. 500 whichever is higher",
+          "waiver_conditions": null,
+          "frequency": "Per transaction",
+          "terms_and_conditions": "Fee charged on cash withdrawals using credit card at ATMs or banks. Interest on cash advances starts immediately from transaction date."
+        }
+      ],
+      "metadata": {
+        "last_updated": "2025-08-11T17:25:06.997Z",
+        "confidence_score": 1,
+        "missing_data": [],
+        "processed_links": 0,
+        "token_usage": {
+          "input_tokens": 1256,
+          "output_tokens": 2513,
+          "total_tokens": 3769
+        },
+        "failed_links": 0,
+        "failed_link_details": []
+      },
+      "listing_info": {
+        "extracted_from": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+        "listing_name": "MoneyBack+ Credit Card",
+        "listing_description": "The Most Rewarding Card For Everyday Spends with high cashback and gift vouchers.",
+        "listing_category": "Personal Credit Card",
+        "listing_features": [
+          "10X CashPoints (3.3% Valueback) on Amazon, Flipkart, Swiggy, Reliance Smart SuperStore & BigBasket",
+          "Up to 50 days of interest free credit period",
+          "2 CashPoints per ₹150 spent on other spends",
+          "₹500 gift voucher on spends of ₹50,000 per calendar quarter"
+        ],
+        "annual_fee_mentioned": null,
+        "processing_order": 6,
+        "total_in_listing": 11
+      }
+    },
+    {
+      "id": "83a3569270c89e1c",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/tata-neu-plus-hdfc-bank-credit-card",
+      "scraped_at": "2025-08-11T17:26:55.171Z",
+      "card": {
+        "name": "Tata Neu Plus HDFC Bank Credit Card",
+        "bank": "HDFC Bank",
+        "variant": "Plus",
+        "description": "A credit card offering extraordinary rewards with savings up to Rs. 35,000 per year, focused on rewarding spends on Tata Neu and partner Tata brands with NeuCoins, along with benefits like domestic lounge access and milestone rewards.",
+        "target_audience": "Existing and new customers who frequently shop on Tata Neu and partner Tata brands, use UPI payments, and seek rewards and lounge access benefits."
+      },
+      "rewards": {
+        "program": "NeuCoins Rewards Program",
+        "type": "Points-based",
+        "earning": {
+          "base_rate": 1,
+          "categories": [
+            {
+              "name": "Non-EMI Retail Spends on partner Tata Brands",
+              "rate": 2,
+              "cap": null,
+              "description": "Earn 2% back as NeuCoins on non-EMI retail spends on partner Tata brands.",
+              "terms_and_conditions": "NeuCoins will be awarded on transaction settlement date. NeuCoins will not be accrued on fuel spends, wallet loads, gift/prepaid card loads, voucher purchases, cash advances, payment of outstanding balances, card fees, smart EMI/dial an EMI transactions, rental and government related transactions. From 1-Sep-2024, education payments via third-party apps excluded; direct payments to colleges/schools eligible. From 1-Jul-2025, online skill-based gaming transactions excluded. NeuCoins are rounded to nearest integer. NeuCoins for grocery spends capped at 1,000 NeuCoins/month. NeuCoins for insurance spends capped at 2,000 NeuCoins/month from 1-Jul-2025. NeuCoins on utility and telecom/cable transactions capped at 2,000 NeuCoins/month from 1-Sep-2024.",
+              "how_to_earn": "Make non-EMI retail purchases on partner Tata brands using the Tata Neu Plus HDFC Bank Credit Card.",
+              "validity": null,
+              "exclusions": "Fuel, wallet loads, gift/prepaid card loads, voucher purchases, cash advances, card fees, smart EMI, rental, government transactions, education payments via third-party apps, online skill-based gaming."
+            },
+            {
+              "name": "Non-EMI Retail Spends on Non-Tata Brands",
+              "rate": 1,
+              "cap": null,
+              "description": "Earn 1% back as NeuCoins on non-EMI retail spends on non-Tata brands.",
+              "terms_and_conditions": "Same exclusions as above apply. NeuCoins posted on statement cycle basis. Only EMI principal amount rewarded; interest, fees, GST excluded. NeuCoins rounded to nearest integer. Capping on grocery, insurance, utility, telecom/cable applies as above.",
+              "how_to_earn": "Make non-EMI retail purchases on non-Tata brands using the Tata Neu Plus HDFC Bank Credit Card.",
+              "validity": null,
+              "exclusions": "Fuel, wallet loads, gift/prepaid card loads, voucher purchases, cash advances, card fees, smart EMI, rental, government transactions, education payments via third-party apps, online skill-based gaming."
+            },
+            {
+              "name": "Merchant EMI Spends (Any Brand)",
+              "rate": 1,
+              "cap": null,
+              "description": "Earn 1% back as NeuCoins on principal amount of merchant EMI spends on any brand.",
+              "terms_and_conditions": "Only principal amount of EMI transactions eligible for NeuCoins; interest, processing fees, GST excluded. NeuCoins reversed if EMI/loan amount cancelled or refunded. NeuCoins posted on statement cycle basis. Same exclusions as above apply.",
+              "how_to_earn": "Use Tata Neu Plus HDFC Bank Credit Card for merchant EMI transactions and earn NeuCoins on principal amount billed.",
+              "validity": null,
+              "exclusions": "Interest, fees, GST on EMI; fuel, wallet loads, gift/prepaid card loads, voucher purchases, cash advances, card fees, smart EMI, rental, government transactions, education payments via third-party apps, online skill-based gaming."
+            },
+            {
+              "name": "Any UPI Spends on RuPay Credit Card (Including partner Tata Brands)",
+              "rate": 1,
+              "cap": 500,
+              "description": "Earn 1% back as NeuCoins on UPI spends including partner Tata brands, capped at 500 NeuCoins per calendar month.",
+              "terms_and_conditions": "From 01-Aug-2024, earn 0.25% back as NeuCoins on transactions done using any UPI ID (Google Pay, PhonePe, Cred, etc.) plus additional 0.75% back as NeuCoins if transaction done using Tata Neu UPI ID. Total NeuCoins on UPI capped at 500 per month. NeuCoins credited on statement cycle basis for 0.25% portion; additional 0.75% credited immediately in Tata Neu account and available after 30 days. Same exclusions as above apply. NeuCoins reversed if transaction reversed or cancelled.",
+              "how_to_earn": "Make UPI transactions using Tata Neu Plus HDFC Bank Credit Card; use Tata Neu UPI ID for additional rewards.",
+              "validity": null,
+              "exclusions": "Fuel, wallet loads, gift/prepaid card loads, voucher purchases, cash advances, card fees, smart EMI, rental, government transactions, education payments via third-party apps, online skill-based gaming."
+            }
+          ],
+          "bonus_rates": [
+            {
+              "condition": "Transactions done via Tata Neu App/Website with NeuPass Membership and primary cardholder mobile number",
+              "rate": 5,
+              "validity": "From 15-Jan-2025",
+              "terms_and_conditions": "Additional 5% NeuCoins on selected categories on Tata Neu via NeuPass Membership. Only primary cardholder mobile number transactions eligible. Enrollment to NeuPass takes up to 45 working days from card issuance. Transactions before enrollment not eligible. NeuCoins credited instantly or after order delivery/travel dates depending on category. Card must be active on credit date. NeuCoins credited after return window closes. For details and eligible categories, refer Tata Neu app and website."
+            }
+          ]
+        },
+        "redemption": [
+          {
+            "option": "Redeem NeuCoins via Tata Neu App",
+            "minimum": null,
+            "value": 1,
+            "process": "Download Tata Neu App, log in, and redeem NeuCoins at eligible brands at a rate of 1 NeuCoin = ₹1.",
+            "terms_and_conditions": "NeuCoins can only be used on eligible transactions as defined by individual brands. NeuCoins transferred to Tata Neu during statement cycle are available for redemption. Redemption options include Tata Pay, Tata Neu brands, and select partner brands. NeuCoins redemption not available on Air India, Tata Play, and Bill Payment on Tata Neu currently.",
+            "validity": null,
+            "processing_time": "Immediate upon redemption in app"
+          },
+          {
+            "option": "Redeem NeuCoins at Point of Sale (POS) at select stores",
+            "minimum": null,
+            "value": 1,
+            "process": "Voice out Tata Neu registered mobile number to cashier, confirm NeuCoins balance, specify amount to redeem, authenticate via OTP sent to registered mobile, and complete purchase using NeuCoins.",
+            "terms_and_conditions": "Applicable at select brands like Croma, IHCL hotels, Westside. NeuCoins redemption option not available at Air India, Tata Play, and Bill Payment on Tata Neu. OTP authentication mandatory for redemption.",
+            "validity": null,
+            "processing_time": "Immediate at POS"
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "category": "Lounge Access",
+          "name": "Domestic Lounge Access Voucher",
+          "description": "Earn 1 domestic lounge access voucher per calendar quarter on spending Rs 50,000 or more in that quarter.",
+          "how_to_avail": "Spend Rs 50,000 or more in a calendar quarter on Tata Neu Plus HDFC Bank Credit Card. Receive SMS and email within 30 working days with link to claim voucher. Claim voucher within 120 days. Use voucher at eligible domestic airport lounges by presenting voucher code/QR code.",
+          "value": "1 lounge access voucher per quarter",
+          "terms_and_conditions": "Spends considered are net spends (purchases minus reversals) based on posting date. Only principal amount of EMI transactions considered. Complimentary direct swipe lounge access discontinued from 10-Jun-2025. Voucher valid for 180 days from issuance. Voucher is non-transferable, non-negotiable, and cannot be encashed. Lounge access subject to lounge operator terms including maximum stay and additional charges for food/drinks/spa. Card must be active on date of voucher credit. Reversals affect spend calculation for subsequent quarters.",
+          "validity": null,
+          "eligibility": "Primary cardholders with Tata Neu Plus HDFC Bank Credit Card",
+          "usage_limit": "1 voucher per calendar quarter"
+        }
+      ],
+      "current_offers": [
+        {
+          "title": "Extraordinary Rewards with Savings up to Rs. 35,000 per year",
+          "description": "Earn NeuCoins on all spends with higher rewards on Tata Neu and partner Tata brands, plus additional NeuCoins on selected categories via NeuPass membership.",
+          "validity": "Ongoing",
+          "terms_and_conditions": "Rewards and benefits subject to terms and conditions as per NeuCoins earning and redemption policies. Enrollment to NeuPass takes up to 45 working days. NeuCoins caps and exclusions apply as detailed in terms. Lounge access benefit subject to milestone spends and voucher claim rules.",
+          "activation_required": false,
+          "how_to_activate": null,
+          "eligibility": "Existing Tata Neu Plus HDFC Bank Credit Card holders",
+          "maximum_benefit": "Up to Rs. 35,000 savings per year",
+          "offer_code": null,
+          "exclusions": "Refer NeuCoins exclusions and caps"
+        }
+      ],
+      "perks": [
+        {
+          "name": "NeuPass Membership Additional 5% NeuCoins",
+          "description": "Earn additional 5% NeuCoins on selected categories on Tata Neu via NeuPass Membership when transacting with Tata Neu Plus HDFC Bank Credit Card.",
+          "category": "Rewards Enhancement",
+          "usage_limit": "Only primary cardholder mobile number transactions eligible; enrollment required",
+          "how_to_use": "Download Tata Neu App, register with primary cardholder mobile number, complete transactions on Tata Neu using Tata Neu Plus HDFC Bank Credit Card.",
+          "terms_and_conditions": "Enrollment to NeuPass takes up to 45 working days from card issuance. Transactions before enrollment not eligible. NeuCoins credited instantly or after order delivery/travel dates depending on category. Card must be active on credit date. NeuCoins credited after return window closes. Add-on cardholders benefit only if using primary cardholder mobile number on Tata Neu. Mobile number changes require customer care assistance for benefit transfer.",
+          "value": "Additional 5% NeuCoins on selected categories",
+          "validity": "From 15-Jan-2025"
+        }
+      ],
+      "partnerships": [
+        {
+          "partner": "Tata Brands",
+          "benefit": "2% NeuCoins back on non-EMI retail spends",
+          "category": "Rewards",
+          "validity": null,
+          "how_to_avail": "Use Tata Neu Plus HDFC Bank Credit Card for purchases on partner Tata brands.",
+          "terms_and_conditions": "Partner brands include Tata 1MG, bigbasket, Croma, Air India Express, Tata CliQ, IHCL (TAJ group of Hotels), Westside, Qmin, Tata Play, Cult, Tata Pay, Titan, Tanishq, Air India (added Oct 2023). NeuCoins exclusions and caps apply as per general terms.",
+          "discount_percentage": "2%",
+          "maximum_discount": null
+        },
+        {
+          "partner": "Tata Neu UPI",
+          "benefit": "Additional 0.75% NeuCoins back on UPI transactions using Tata Neu UPI ID",
+          "category": "Rewards",
+          "validity": "From 01-Aug-2024",
+          "how_to_avail": "Make UPI transactions using Tata Neu Plus HDFC Bank Credit Card and Tata Neu UPI ID.",
+          "terms_and_conditions": "NeuCoins capped at 500 per calendar month for all UPI transactions combined. NeuCoins credited immediately in Tata Neu account and available after 30 days. Reversals or cancellations lead to NeuCoins withdrawal.",
+          "discount_percentage": "0.75%",
+          "maximum_discount": "500 NeuCoins per month"
+        }
+      ],
+      "fees_and_charges": [
+        {
+          "type": "Annual Fee",
+          "amount": "Not specified in provided content",
+          "waiver_conditions": "Not specified in provided content",
+          "frequency": "Annual",
+          "terms_and_conditions": "Refer to card member agreement and official HDFC Bank documentation for detailed fee structure."
+        },
+        {
+          "type": "Lounge Access Charges",
+          "amount": "Chargeable basis for direct swipe after 09-Jun-2025",
+          "waiver_conditions": "Complimentary lounge access available via voucher on spends of Rs 50,000 or more per quarter",
+          "frequency": "Per visit",
+          "terms_and_conditions": "Complimentary direct swipe lounge access discontinued from 10-Jun-2025. Lounge access via voucher only. Additional charges may apply for food, drinks, spa, extended stay as per lounge operator discretion."
+        }
+      ],
+      "additional_information": {
+        "NeuCoins": {
+          "definition": "NeuCoins are exclusive reward points created by Tata Neu, earned on eligible spends and redeemable at Tata Neu and partner brands.",
+          "posting": "NeuCoins are posted on statement cycle basis except additional UPI NeuCoins which are credited immediately in Tata Neu account.",
+          "rounding": "NeuCoins are rounded to nearest integer; fractional NeuCoins are not accrued.",
+          "exclusions": "Fuel, wallet loads, gift/prepaid card loads, voucher purchases, cash advances, card fees, smart EMI, rental, government transactions, education payments via third-party apps, online skill-based gaming.",
+          "caps": {
+            "grocery": "1,000 NeuCoins per month",
+            "insurance": "2,000 NeuCoins per month (from 1-Jul-2025)",
+            "utility": "2,000 NeuCoins per month (from 1-Sep-2024)",
+            "telecom_cable": "2,000 NeuCoins per month (from 1-Sep-2024)",
+            "UPI": "500 NeuCoins per month"
+          }
+        },
+        "NeuPass": {
+          "description": "NeuPass is a membership on Tata Neu app/website that enables additional 5% NeuCoins on selected categories for Tata Neu Plus HDFC Bank Credit Card holders.",
+          "enrollment_time": "Up to 45 working days from card issuance",
+          "eligibility": "Primary cardholder mobile number must be used for Tata Neu login and transactions",
+          "support": "For issues or mobile number changes, contact Tata Neu Customer Care at customercare@tataneu.com"
+        },
+        "Lounge Access": {
+          "voucher_claim": "Claim voucher via link sent by SMS/email within 30 working days of qualifying spend. Voucher valid for 120 days to claim and 180 days to use.",
+          "voucher_use": "Voucher must be presented at lounge entry. Only named cardholder can use voucher with valid ID.",
+          "lounge_list": "Includes 12 domestic lounges across major airports in India (Bangalore, Chennai, Hyderabad, Kolkata, Mumbai, Delhi).",
+          "disclaimer": "Bank not liable for lounge services. Lounge operators may impose additional charges or maximum stay limits."
+        }
+      },
+      "metadata": {
+        "last_updated": "2025-08-11T17:26:55.170Z",
+        "confidence_score": 1,
+        "missing_data": [],
+        "processed_links": 10,
+        "token_usage": {
+          "input_tokens": 11348,
+          "output_tokens": 3373,
+          "total_tokens": 14721
+        },
+        "failed_links": 0,
+        "failed_link_details": []
+      },
+      "listing_info": {
+        "extracted_from": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+        "listing_name": "Tata Neu Plus HDFC Bank Credit Card",
+        "listing_description": "Extraordinary Rewards Credit Card with NeuCoins on Tata Neu and partner brand spends.",
+        "listing_category": "Personal Credit Card",
+        "listing_features": [
+          "2% back as NeuCoins on Tata Neu and partner Tata Brand Spends",
+          "Additional 5% back as NeuCoins on Tata Neu Spends after registering for Tata NeuPass",
+          "1% back as NeuCoins on other spends",
+          "4 Complimentary Domestic Airport Lounge Access"
+        ],
+        "annual_fee_mentioned": null,
+        "processing_order": 7,
+        "total_in_listing": 11
+      }
+    },
+    {
+      "id": "5e58d2500a095078",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/swiggy-hdfc-bank-credit-card",
+      "scraped_at": "2025-08-11T17:29:00.811Z",
+      "card": {
+        "name": "Swiggy HDFC Bank Credit Card",
+        "bank": "HDFC Bank",
+        "variant": "Standard",
+        "description": "A co-branded credit card by HDFC Bank and Swiggy offering accelerated cashback on Swiggy app spends, online shopping, and other categories with additional benefits like complimentary Swiggy One membership and zero lost card liability.",
+        "target_audience": "Customers with affinity towards online food ordering, online shopping in apparels, electronics, home décor, entertainment, and other categories."
+      },
+      "rewards": {
+        "program": "Swiggy HDFC Bank Credit Card Cashback Program",
+        "type": "Cashback",
+        "earning": {
+          "base_rate": 1,
+          "categories": [
+            {
+              "name": "Swiggy App (Food ordering, Instamart, Genie & Dineout)",
+              "rate": 10,
+              "cap": 1500,
+              "description": "10% cashback on transactions done on Swiggy Food ordering, Instamart, Genie and Dineout platforms.",
+              "terms_and_conditions": "Cashback capped at Rs.1500 per billing cycle. Excludes transactions made using Swiggy Money Wallet, Swiggy Liquor, Swiggy Minis, prepaid cards, gift cards, wallets, and any other categories decided later. Cashback calculated based on Merchant IDs (MIDs) and Terminal IDs (TIDs) shared by co-brand partner; transactions without proper TID will not qualify.",
+              "how_to_earn": "Use Swiggy HDFC Bank Credit Card for eligible transactions on Swiggy Food ordering, Instamart, Genie & Dineout.",
+              "validity": null,
+              "exclusions": "Transactions using Swiggy Money Wallet, Swiggy Liquor, Swiggy Minis, prepaid cards, gift cards, wallets, fuel, rent, jewellery, government spends, EMI, cash advances, purchase of travelers’ cheques, foreign currency purchase and fees, and any other categories as decided from time to time."
+            },
+            {
+              "name": "Online spends across select MCCs",
+              "rate": 5,
+              "cap": 1500,
+              "description": "5% cashback on online spends in select categories including apparels, electronics, department stores, online pet stores and supplies, home décor, personal care, local cabs, entertainment, pharmacies, discount stores, and grocery (Amazon, Flipkart from 10th May 2025).",
+              "terms_and_conditions": "Cashback capped at Rs.1500 per billing cycle. Only transactions with eligible MCC codes and select merchants qualify. Gift cards and grocery purchases on eligible merchants do not earn cashback. MCC codes must be correctly captured by merchant for cashback to be credited.",
+              "how_to_earn": "Use Swiggy HDFC Bank Credit Card for online transactions in eligible MCC categories.",
+              "validity": null,
+              "exclusions": "Gift card and grocery purchases on eligible merchants, transactions outside listed MCCs, prepaid cards, gift cards, wallets, fuel, rent, jewellery, government spends, EMI, cash advances, purchase of travelers’ cheques, foreign currency purchase and fees."
+            },
+            {
+              "name": "Other spends",
+              "rate": 1,
+              "cap": 500,
+              "description": "1% cashback on all other spends excluding fuel, rent, jewellery, government related transactions, EMI, prepaid cards, gift cards, wallets.",
+              "terms_and_conditions": "Cashback capped at Rs.500 per billing cycle. Excludes fuel, rent, jewellery, government spends, EMI, prepaid cards, gift cards, wallets, cash advances, purchase of travelers’ cheques, foreign currency purchase and fees.",
+              "how_to_earn": "Use Swiggy HDFC Bank Credit Card for eligible transactions outside Swiggy app and online MCC categories.",
+              "validity": null,
+              "exclusions": "Fuel, rent, jewellery, government related transactions, EMI, prepaid cards, gift cards, wallets, cash advances, purchase of travelers’ cheques, foreign currency purchase and fees."
+            }
+          ],
+          "bonus_rates": []
+        },
+        "redemption": [
+          {
+            "option": "Cashback Redemption",
+            "minimum": null,
+            "value": null,
+            "process": "Cashback earned is credited as Swiggy Money in the Swiggy app. From 21st June 2024, cashback redemption will move to statement credit while existing Swiggy Money will continue to be available in the Swiggy app.",
+            "terms_and_conditions": "Cashback redemption process subject to change as per bank and Swiggy policies. Swiggy Money cannot be earned on excluded categories as mentioned in cashback terms.",
+            "validity": null,
+            "processing_time": "Cashback credited as per monthly billing cycle; statement credit effective from 21st June 2024."
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "category": "Membership",
+          "name": "Complimentary Swiggy One Membership",
+          "description": "Complimentary 3 months Swiggy One membership on card activation. For existing Swiggy One members, membership is extended by 3 months.",
+          "how_to_avail": "Activate the card by making a transaction or setting PIN/OTP/IVR activation within 37 days of card issuance. Claim Swiggy One membership on Swiggy app within 2-3 days post card activation.",
+          "value": "Approximate savings of Rs.1199 for 3 months membership plus average savings of Rs.2100 for 3 months usage.",
+          "terms_and_conditions": "Activation must be done within 37 days of card issuance. Swiggy One membership terms apply as per Swiggy app. Card activation methods include transaction, OTP, IVR, PIN setting, enabling online/international transactions. Existing Swiggy One members get extension of 3 months.",
+          "validity": "Activation within 37 days of card issuance; membership valid for 3 months from activation.",
+          "eligibility": "All principal cardholders who activate the card within stipulated time."
+        },
+        {
+          "category": "Security",
+          "name": "Zero Lost Card Liability",
+          "description": "Zero liability on fraudulent transactions if card loss is reported immediately to 24-hour call center.",
+          "how_to_avail": "Report lost card immediately to HDFC Bank 24-hour call center.",
+          "value": null,
+          "terms_and_conditions": "Liability waived only if loss is reported immediately. Cardholder must follow bank's reporting procedures.",
+          "validity": null,
+          "eligibility": "All cardholders."
+        },
+        {
+          "category": "Card Features",
+          "name": "Easy EMI",
+          "description": "Option to convert eligible transactions into Easy EMI.",
+          "how_to_avail": "Use card for eligible transactions and opt for Easy EMI as per bank's process.",
+          "value": null,
+          "terms_and_conditions": "Subject to bank's eligibility and terms for Easy EMI.",
+          "validity": null,
+          "eligibility": "All cardholders."
+        },
+        {
+          "category": "Card Features",
+          "name": "Up to 3 Complimentary Add-on Cards",
+          "description": "Cardholders can avail up to 3 add-on cards at no additional joining fee.",
+          "how_to_avail": "Request add-on cards through bank's process.",
+          "value": null,
+          "terms_and_conditions": "Add-on cards subject to bank's approval and terms.",
+          "validity": null,
+          "eligibility": "Principal cardholders."
+        },
+        {
+          "category": "Card Activation",
+          "name": "Card Activation Benefit",
+          "description": "Card activation by transaction or OTP/IVR/PIN setting enables welcome benefits and Swiggy One membership.",
+          "how_to_avail": "Activate card by making a transaction or via OTP/IVR/PIN setting within 37 days of issuance.",
+          "value": null,
+          "terms_and_conditions": "Activation must be within 37 days to avail welcome benefits. Activation methods as per RBI guidelines and bank policies.",
+          "validity": "Within 37 days of card issuance.",
+          "eligibility": "All new cardholders."
+        }
+      ],
+      "current_offers": [
+        {
+          "title": "Welcome Offer: Complimentary Swiggy One Membership",
+          "description": "Get complimentary 3 months Swiggy One membership on card activation. Existing members get extension of 3 months.",
+          "validity": "Activation within 37 days of card issuance.",
+          "terms_and_conditions": "Activation must be done by transaction or OTP/IVR/PIN setting. Swiggy One membership claim must be done on Swiggy app within 2-3 days post activation. Swiggy One terms apply.",
+          "activation_required": true,
+          "how_to_activate": "Make a transaction using the card or activate via OTP/IVR/PIN setting.",
+          "eligibility": "New cardholders activating card within 37 days.",
+          "maximum_benefit": "3 months membership worth approx Rs.1199 plus average savings of Rs.2100.",
+          "offer_code": null,
+          "exclusions": null
+        }
+      ],
+      "perks": [
+        {
+          "name": "Swiggy One Membership",
+          "description": "Premium subscription offering unlimited benefits across restaurants, Instamart and Genie orders including free delivery and exclusive discounts.",
+          "category": "Subscription",
+          "usage_limit": "3 months complimentary on activation",
+          "how_to_use": "Claim membership on Swiggy app post card activation.",
+          "terms_and_conditions": "Membership terms as per Swiggy app. Activation of card required within 37 days.",
+          "value": "Approx Rs.1199 for 3 months membership plus average savings of Rs.2100.",
+          "validity": "3 months from activation."
+        }
+      ],
+      "partnerships": [
+        {
+          "partner": "Swiggy",
+          "benefit": "10% cashback on Swiggy app spends and complimentary Swiggy One membership",
+          "category": "Food Delivery & Subscription",
+          "validity": null,
+          "how_to_avail": "Use Swiggy HDFC Bank Credit Card for transactions on Swiggy Food ordering, Instamart, Genie & Dineout. Activate card and claim Swiggy One membership on Swiggy app.",
+          "terms_and_conditions": "Cashback capped at Rs.1500 per billing cycle. Excludes transactions via Swiggy Money Wallet, Swiggy Liquor, Swiggy Minis, prepaid cards, gift cards, wallets, and other exclusions. Swiggy One membership activation within 37 days of card issuance.",
+          "discount_percentage": "10%",
+          "maximum_discount": "Rs.1500 cashback per billing cycle"
+        },
+        {
+          "partner": "Various Online Merchants (Flipkart, Amazon, Meesho, Ajio, Ola, Uber, Zoom, ANI Technologies etc.)",
+          "benefit": "5% cashback on online spends in select categories",
+          "category": "Online Shopping & Services",
+          "validity": null,
+          "how_to_avail": "Use Swiggy HDFC Bank Credit Card for online transactions in eligible MCC categories.",
+          "terms_and_conditions": "Cashback capped at Rs.1500 per billing cycle. Only select merchants and MCC codes qualify. Gift cards and grocery purchases excluded. MCC codes must be correctly captured.",
+          "discount_percentage": "5%",
+          "maximum_discount": "Rs.1500 cashback per billing cycle"
+        }
+      ],
+      "fees_and_charges": [
+        {
+          "type": "Renewal Year Fee",
+          "amount": "Equivalent to joining fees (exact amount not specified in extracted content)",
+          "waiver_conditions": null,
+          "frequency": "Annual",
+          "terms_and_conditions": "Fee to be paid by cardholder each year to renew the card member agreement."
+        }
+      ],
+      "additional_information": {
+        "card_activation_methods": [
+          "Making a transaction using the Credit Card",
+          "Using OTP or IVR",
+          "Setting PIN for the card",
+          "Enabling card controls such as online transactions and international transactions"
+        ],
+        "cashback_redemption_change": "From 21st June 2024, cashback redemption will move to statement credit while existing Swiggy Money will continue to be available in the Swiggy app.",
+        "cashback_exclusions_general": [
+          "Prepaid Card/Gift Card/Wallet",
+          "Rent",
+          "Government related transactions",
+          "Fuel",
+          "Jewellery",
+          "EMI (all types)",
+          "Cash advances",
+          "Purchase of travelers’ cheques",
+          "Purchase of foreign currency and fees",
+          "Interest charges and penalties",
+          "Any other categories as decided from time to time"
+        ],
+        "eligibility_for_card": "Currently available on invite-only basis and via Swiggy app application.",
+        "customer_value_estimate": "Customers can save up to Rs.42,000 annually based on typical spends with cashback and Swiggy One membership benefits.",
+        "billing_cycle": "Monthly billing cycle with cashback caps applied per billing cycle.",
+        "statement_delivery": "Monthly statement sent to mailing address or email ID on record.",
+        "zero_liability_condition": "Zero lost card liability applies only if card loss is reported immediately to 24-hour call center."
+      },
+      "metadata": {
+        "last_updated": "2025-08-11T17:29:00.810Z",
+        "confidence_score": 1,
+        "missing_data": [],
+        "processed_links": 17,
+        "token_usage": {
+          "input_tokens": 12031,
+          "output_tokens": 2873,
+          "total_tokens": 14904
+        },
+        "failed_links": 0,
+        "failed_link_details": []
+      },
+      "listing_info": {
+        "extracted_from": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+        "listing_name": "Swiggy HDFC Bank Credit Card",
+        "listing_description": "Delightful Rewards Credit Card with cashback on online spends and Swiggy membership.",
+        "listing_category": "Personal Credit Card",
+        "listing_features": [
+          "5% Cashback on online spends across top brands",
+          "1% Cashback on other categories",
+          "Complimentary Swiggy One Membership for 3 months on card activation",
+          "10% Cashback on Swiggy application (Food ordering, Instamart, Dineout & Genie)"
+        ],
+        "annual_fee_mentioned": null,
+        "processing_order": 8,
+        "total_in_listing": 11
+      }
+    },
+    {
+      "id": "9d99f01801077779",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/regalia-gold-credit-card",
+      "scraped_at": "2025-08-11T17:31:37.141Z",
+      "card": {
+        "name": "Regalia Gold Credit Card",
+        "bank": "HDFC Bank",
+        "variant": "Gold",
+        "description": "Experience the Golden Side Of Life with Regalia Gold Credit Card offering reward points, milestone benefits, complimentary memberships, lounge access, and travel insurance.",
+        "target_audience": "Individuals seeking premium credit card benefits including rewards, travel perks, and milestone benefits with moderate to high spends."
+      },
+      "rewards": {
+        "program": "HDFC Bank Reward Points",
+        "type": "Points-based",
+        "earning": {
+          "base_rate": 4,
+          "categories": [
+            {
+              "name": "Retail spends",
+              "rate": 4,
+              "cap": null,
+              "description": "Earn 4 Reward Points for every Rs.150 spent on retail transactions.",
+              "terms_and_conditions": "Only valid retail purchases qualify. Minimum transaction value Rs.150. Reward points not accrued on fuel, EasyEMI, e-wallet loading, insurance, rental pay, property management, government transactions. Reward points valid for 2 years from date of accumulation. Reward points reversed if transaction converted to SmartEMI or returned/cancelled. Reward points nullified if card unused for 365 days.",
+              "how_to_earn": "Use Regalia Gold Credit Card for retail purchases of Rs.150 or more.",
+              "validity": "Reward points valid for 2 years from date of accumulation.",
+              "exclusions": "Fuel transactions, EasyEMI, e-wallet loading, insurance, rental pay, property management services, government transactions."
+            },
+            {
+              "name": "Select merchants (Myntra, Nykaa, Reliance Digital, Marks & Spencer)",
+              "rate": 20,
+              "cap": 5000,
+              "description": "Earn 5X Reward Points (equivalent to 20 points per Rs.150) on spends at Myntra, Nykaa, Reliance Digital, and Marks & Spencer.",
+              "terms_and_conditions": "5X Reward Points capped at 5000 RP per month across all four brands combined. Minimum transaction Rs.150. Payment must be directly via Regalia Gold Credit Card, wallet payments not eligible. Reward points posted monthly in the first week of next calendar month. Transactions identified by merchant Terminal/Merchant IDs. Returns/cancellations reverse points. Cannot be clubbed with other promotions.",
+              "how_to_earn": "Use Regalia Gold Credit Card directly at select merchants for transactions Rs.150 or more.",
+              "validity": null,
+              "exclusions": "Wallet payments, transactions without proper merchant IDs, transactions below Rs.150."
+            }
+          ],
+          "bonus_rates": [
+            {
+              "condition": "Quarterly spends of Rs.1.5 lakh",
+              "rate": null,
+              "validity": "Quarterly",
+              "terms_and_conditions": "Cardholders can select one quarterly milestone benefit voucher worth Rs.1,500 from Marriott Experience, Myntra, MMT Hotels, Marks & Spencer, or Reliance Digital. Benefits unlocked within 48 hours of milestone achievement. Voucher valid for 60 days from quarter end. Only one voucher per quarter. Transactions tracked by posted/settled date. Refunds/cancellations adjust milestone spends."
+            },
+            {
+              "condition": "Annual spends of Rs.5 lakh",
+              "rate": null,
+              "validity": "Annual",
+              "terms_and_conditions": "Cardholders receive Rs.5,000 worth flight vouchers on annual spends of Rs.5 lakh. Additional Rs.5,000 flight voucher on spends of Rs.7.5 lakh. Benefits unlocked within 48 hours of milestone achievement. Vouchers valid as per communication. Transactions tracked by posted/settled date. Refunds/cancellations adjust milestone spends."
+            }
+          ]
+        },
+        "redemption": [
+          {
+            "option": "Exclusive Gold Catalogue on SmartBuy",
+            "minimum": null,
+            "value": 0.65,
+            "process": "Redeem Reward Points via Regalia Gold SmartBuy portal for premium brand products at 1 RP = Rs.0.65.",
+            "terms_and_conditions": "Redemption value fixed at 0.65 Rs per RP for gold catalogue. Points expire after 2 years. Redemption capped at 50,000 RP per calendar month for flights and hotels. Redemption capped at 70% of product/voucher value for select items; balance to be paid by card.",
+            "validity": null,
+            "processing_time": null
+          },
+          {
+            "option": "Flights and hotel bookings via SmartBuy",
+            "minimum": null,
+            "value": 0.5,
+            "process": "Redeem Reward Points on flight and hotel bookings via SmartBuy at 1 RP = Rs.0.5. Use slider to select points to redeem during payment.",
+            "terms_and_conditions": "Redemption capped at 50,000 RP per calendar month. Balance amount payable by credit card. Redeem up to 70% of booking value using points.",
+            "validity": null,
+            "processing_time": null
+          },
+          {
+            "option": "Airmiles conversion through Netbanking",
+            "minimum": null,
+            "value": 0.5,
+            "process": "Convert Reward Points to airmiles via Netbanking at up to 0.5 airmiles per RP.",
+            "terms_and_conditions": "Redemption against miles transfer capped at 50,000 RP per month on SmartBuy portal.",
+            "validity": null,
+            "processing_time": null
+          },
+          {
+            "option": "Products and Vouchers via Netbanking or SmartBuy",
+            "minimum": null,
+            "value": 0.35,
+            "process": "Redeem Reward Points for products and vouchers at up to Rs.0.35 per RP via Netbanking or SmartBuy.",
+            "terms_and_conditions": "Redemption capped at 70% of product/voucher value; balance to be paid by card. Points expire after 2 years.",
+            "validity": null,
+            "processing_time": null
+          },
+          {
+            "option": "Statement balance redemption",
+            "minimum": null,
+            "value": 0.2,
+            "process": "Redeem Reward Points against statement balance at 1 RP = Rs.0.20.",
+            "terms_and_conditions": "Redemption capped at 50,000 RP per calendar month. Points expire after 2 years.",
+            "validity": null,
+            "processing_time": null
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "category": "Welcome Benefits",
+          "name": "Complimentary Memberships",
+          "description": "Complimentary Annual Memberships of Club Vistara Silver Tier and MMT Black Membership on achieving net retail spends of Rs.1 lakh within first 90 days of card issuance.",
+          "how_to_avail": "Achieve net retail spends of Rs.1 lakh within 90 days from card setup or last upgrade/downgrade date. Download memberships within 60 days from end of welcome benefit period via SmartBuy portal.",
+          "value": "Club Vistara Silver Tier and MMT Black Membership",
+          "terms_and_conditions": "Welcome Benefit Period is 90 days from card setup or last upgrade/downgrade. Benefits unlocked within 48 hours of criteria achievement. Membership validity as per communication, non-extendable. Membership redemption at respective brand websites. Refunds/cancellations adjust spend aggregation. Transactions tracked by posted/settled date.",
+          "validity": "Membership validity as communicated; welcome benefit period 90 days plus 60 days to redeem.",
+          "eligibility": "New Regalia Gold cardholders achieving Rs.1 lakh net retail spends within 90 days."
+        },
+        {
+          "category": "Milestone Benefits",
+          "name": "Quarterly Milestone Voucher",
+          "description": "Select one voucher worth Rs.1,500 from Marriott Experience, Myntra, MMT Hotels, Marks & Spencer, or Reliance Digital on quarterly spends of Rs.1.5 lakh.",
+          "how_to_avail": "Achieve Rs.1.5 lakh net retail spends in a calendar quarter. Unlock benefit within 48 hours. Download voucher within 60 days from quarter end via SmartBuy portal.",
+          "value": "Voucher worth Rs.1,500",
+          "terms_and_conditions": "Calendar quarters defined as Jan-Mar, Apr-Jun, Jul-Sep, Oct-Dec. Voucher validity as per communication, non-extendable. Refunds/cancellations adjust spends. Only one voucher per quarter. Transactions tracked by posted/settled date.",
+          "validity": "Voucher valid for 60 days from quarter end.",
+          "eligibility": "Regalia Gold cardholders with Rs.1.5 lakh net retail spends in quarter."
+        },
+        {
+          "category": "Milestone Benefits",
+          "name": "Annual Flight Voucher",
+          "description": "Complimentary flight ticket voucher worth Rs.5,000 on annual spends of Rs.7.5 lakh.",
+          "how_to_avail": "Achieve Rs.7.5 lakh net retail spends in card anniversary year. Unlock benefit within 48 hours. Download voucher within 60 days from anniversary year end via SmartBuy portal.",
+          "value": "Flight voucher worth Rs.5,000",
+          "terms_and_conditions": "Anniversary year defined as 365 days from card setup or last upgrade/downgrade. Voucher validity as per communication, non-extendable. Refunds/cancellations adjust spends. Transactions tracked by posted/settled date.",
+          "validity": "Voucher valid for 60 days from anniversary year end.",
+          "eligibility": "Regalia Gold cardholders with Rs.7.5 lakh net retail spends in anniversary year."
+        },
+        {
+          "category": "Travel",
+          "name": "Complimentary Airport Lounge Access",
+          "description": "Complimentary lounge access at over 1000 airports in India and internationally via Priority Pass.",
+          "how_to_avail": "Present Priority Pass card at lounge entry. Up to 6 complimentary visits per year.",
+          "value": "6 complimentary lounge visits per year",
+          "terms_and_conditions": "After 6 complimentary visits, additional visits charged at USD 27 + GST per visit. Charges billed on subsequent statement and do not accrue reward points. Currency conversion as per billing day exchange rate. Lounge access subject to Priority Pass terms. Cardholder must sign 'Record of Visit' voucher or electronic log. Priority Pass terms subject to change with notice.",
+          "validity": "Annual",
+          "eligibility": "Primary Regalia Gold cardholders.",
+          "usage_limit": "6 complimentary visits per year."
+        },
+        {
+          "category": "Travel Insurance",
+          "name": "Air Accident Cover",
+          "description": "Air accident insurance cover of INR 10,000,000 for primary cardholder.",
+          "how_to_avail": "Automatic coverage upon card activation (first POS transaction or cash withdrawal). Claim to be raised with insurance partner HDFC Ergo.",
+          "value": "INR 10,000,000 cover",
+          "terms_and_conditions": "Cover applicable if bodily injury results in death within 12 months of accident. Terrorism excluded. Valid for international travel only. Maximum trip duration 30 days. Coverage starts from date of activation. Claim intimation within 60 days, documents within 130 days. Fraudulent transactions by known persons excluded.",
+          "validity": "Policy period till 22 July 2026",
+          "eligibility": "Primary cardholder with activated card."
+        },
+        {
+          "category": "Travel Insurance",
+          "name": "Emergency Medical Expenses Cover",
+          "description": "Emergency medical expenses cover up to INR 1,500,000 for international travel.",
+          "how_to_avail": "Automatic coverage upon card activation. Claim with HDFC Ergo.",
+          "value": "Up to INR 1,500,000",
+          "terms_and_conditions": "Covers bodily injury or sudden sickness during international travel outside India. Pre-existing illnesses excluded. Terrorism excluded. Maximum trip duration 30 days. Coverage starts from card activation. Claim intimation within 60 days, documents within 130 days.",
+          "validity": "Policy period till 22 July 2026",
+          "eligibility": "Primary cardholder with activated card."
+        },
+        {
+          "category": "Travel Insurance",
+          "name": "Card Liability Cover",
+          "description": "Liability cover up to INR 900,000 for fraudulent transactions on lost card.",
+          "how_to_avail": "Report lost card immediately to 24-hour call center. Liability covers 2 days prior and 30 days post card block date.",
+          "value": "Up to INR 900,000",
+          "terms_and_conditions": "Zero liability on fraudulent transactions if reported immediately. Coverage starts from date of dispatch to 30 days post block. Fraud by known persons excluded. Coverage subject to insurance policy terms.",
+          "validity": "Policy period till 22 July 2026",
+          "eligibility": "Primary cardholder."
+        },
+        {
+          "category": "Concierge",
+          "name": "24/7 Concierge Service",
+          "description": "Exclusive 24/7 concierge service for assistance.",
+          "how_to_avail": "Call toll-free 1860 425 1188 (India) or email regaliagold.support@smartbuyoffers.co",
+          "value": null,
+          "terms_and_conditions": "Service available to Regalia Gold cardholders. Subject to availability and terms of concierge provider.",
+          "validity": null,
+          "eligibility": "Regalia Gold cardholders."
+        },
+        {
+          "category": "Card Security",
+          "name": "Zero Lost Card Liability",
+          "description": "Zero liability on fraudulent transactions if card loss reported immediately.",
+          "how_to_avail": "Report lost card immediately to 24-hour call center at toll-free numbers 1800 1600 / 1800 2600 or +91 22 61606160 (overseas).",
+          "value": "Zero liability",
+          "terms_and_conditions": "Liability covers transactions from date of dispatch to 30 days post block. Fraud by known persons excluded.",
+          "validity": null,
+          "eligibility": "Primary cardholder."
+        }
+      ],
+      "current_offers": [
+        {
+          "title": "Welcome Benefit Complimentary Memberships",
+          "description": "Complimentary Club Vistara Silver Tier and MMT Black Membership on spends of Rs.1 lakh within 90 days of card issuance.",
+          "validity": "90 days from card setup plus 60 days to redeem memberships",
+          "terms_and_conditions": "Benefits unlocked within 48 hours of spend achievement. Memberships valid as per communication. Redemption at respective brand websites. Refunds/cancellations adjust spends.",
+          "activation_required": true,
+          "how_to_activate": "Achieve Rs.1 lakh net retail spends within 90 days from card setup or last upgrade/downgrade date.",
+          "eligibility": "New Regalia Gold cardholders.",
+          "maximum_benefit": "One membership each of Club Vistara Silver Tier and MMT Black.",
+          "offer_code": null,
+          "exclusions": null
+        },
+        {
+          "title": "Quarterly Milestone Voucher Offer",
+          "description": "Voucher worth Rs.1,500 from select brands on quarterly spends of Rs.1.5 lakh.",
+          "validity": "Voucher valid for 60 days from quarter end",
+          "terms_and_conditions": "One voucher per quarter. Benefits unlocked within 48 hours of milestone achievement. Refunds/cancellations adjust spends.",
+          "activation_required": true,
+          "how_to_activate": "Achieve Rs.1.5 lakh net retail spends in calendar quarter.",
+          "eligibility": "Regalia Gold cardholders.",
+          "maximum_benefit": "Rs.1,500 voucher per quarter.",
+          "offer_code": null,
+          "exclusions": null
+        },
+        {
+          "title": "Annual Flight Voucher Offer",
+          "description": "Flight voucher worth Rs.5,000 on annual spends of Rs.7.5 lakh.",
+          "validity": "Voucher valid for 60 days from anniversary year end",
+          "terms_and_conditions": "Benefits unlocked within 48 hours of milestone achievement. Refunds/cancellations adjust spends.",
+          "activation_required": true,
+          "how_to_activate": "Achieve Rs.7.5 lakh net retail spends in card anniversary year.",
+          "eligibility": "Regalia Gold cardholders.",
+          "maximum_benefit": "Rs.5,000 flight voucher annually.",
+          "offer_code": null,
+          "exclusions": null
+        },
+        {
+          "title": "5X Reward Points on Select Merchants",
+          "description": "Earn 5X Reward Points on Myntra, Nykaa, Reliance Digital, Marks & Spencer.",
+          "validity": "Ongoing",
+          "terms_and_conditions": "5X Reward Points capped at 5000 RP per month across all brands combined. Minimum transaction Rs.150. Payment must be direct card payment. Wallet payments excluded.",
+          "activation_required": false,
+          "how_to_activate": null,
+          "eligibility": "Regalia Gold cardholders.",
+          "maximum_benefit": "5000 RP per month cap.",
+          "offer_code": null,
+          "exclusions": "Wallet payments, transactions below Rs.150."
+        }
+      ],
+      "perks": [
+        {
+          "name": "Complimentary Lounge Access",
+          "description": "Access to over 1000 airport lounges in India and internationally via Priority Pass.",
+          "category": "Travel",
+          "usage_limit": "6 complimentary visits per year",
+          "how_to_use": "Present Priority Pass card at lounge entry. Sign 'Record of Visit' voucher or electronic log.",
+          "terms_and_conditions": "After 6 visits, additional visits charged USD 27 + GST. Charges billed on statement and do not earn reward points. Currency conversion as per billing day. Priority Pass terms apply.",
+          "value": "6 free visits annually",
+          "validity": "Annual"
+        },
+        {
+          "name": "Concierge Service",
+          "description": "24/7 concierge assistance for travel, dining, and lifestyle needs.",
+          "category": "Lifestyle",
+          "usage_limit": null,
+          "how_to_use": "Call toll-free 1860 425 1188 or email regaliagold.support@smartbuyoffers.co",
+          "terms_and_conditions": "Service subject to availability and provider terms.",
+          "value": null,
+          "validity": null
+        }
+      ],
+      "partnerships": [
+        {
+          "partner": "Club Vistara",
+          "benefit": "Complimentary Silver Tier Membership",
+          "category": "Travel",
+          "validity": "As per membership terms",
+          "how_to_avail": "Achieve Rs.1 lakh net retail spends within 90 days. Download membership via SmartBuy portal.",
+          "terms_and_conditions": "Membership valid as per communication. Redemption at Club Vistara website. Non-extendable post expiry.",
+          "discount_percentage": null,
+          "maximum_discount": null
+        },
+        {
+          "partner": "MakeMyTrip (MMT)",
+          "benefit": "Complimentary Black Membership",
+          "category": "Travel",
+          "validity": "As per membership terms",
+          "how_to_avail": "Achieve Rs.1 lakh net retail spends within 90 days. Download membership via SmartBuy portal.",
+          "terms_and_conditions": "Membership valid as per communication. Redemption at MMT website. Non-extendable post expiry.",
+          "discount_percentage": null,
+          "maximum_discount": null
+        },
+        {
+          "partner": "Marriott Experience",
+          "benefit": "Quarterly milestone voucher worth Rs.1,500",
+          "category": "Lifestyle",
+          "validity": "60 days from quarter end",
+          "how_to_avail": "Achieve Rs.1.5 lakh quarterly spends. Select voucher via SmartBuy portal.",
+          "terms_and_conditions": "One voucher per quarter. Refunds/cancellations adjust spends. Voucher non-extendable.",
+          "discount_percentage": null,
+          "maximum_discount": "Rs.1,500"
+        },
+        {
+          "partner": "Myntra",
+          "benefit": "5X Reward Points and Quarterly milestone voucher",
+          "category": "Shopping",
+          "validity": "Ongoing for 5X points; 60 days for voucher",
+          "how_to_avail": "Use card directly at Myntra for 5X points. Achieve quarterly spends for voucher.",
+          "terms_and_conditions": "5X points capped at 5000 RP/month. Voucher valid 60 days. Refunds adjust spends.",
+          "discount_percentage": null,
+          "maximum_discount": "5000 RP/month for 5X points; Rs.1,500 voucher quarterly"
+        },
+        {
+          "partner": "Nykaa",
+          "benefit": "5X Reward Points",
+          "category": "Shopping",
+          "validity": "Ongoing",
+          "how_to_avail": "Use card directly at Nykaa for 5X points.",
+          "terms_and_conditions": "5X points capped at 5000 RP/month across all four brands combined. Minimum Rs.150 transaction.",
+          "discount_percentage": null,
+          "maximum_discount": "5000 RP/month"
+        },
+        {
+          "partner": "Reliance Digital",
+          "benefit": "5X Reward Points and Quarterly milestone voucher",
+          "category": "Electronics",
+          "validity": "Ongoing for 5X points; 60 days for voucher",
+          "how_to_avail": "Use card directly at Reliance Digital for 5X points. Achieve quarterly spends for voucher.",
+          "terms_and_conditions": "5X points capped at 5000 RP/month. Voucher valid 60 days. Refunds adjust spends.",
+          "discount_percentage": null,
+          "maximum_discount": "5000 RP/month for 5X points; Rs.1,500 voucher quarterly"
+        },
+        {
+          "partner": "Marks & Spencer",
+          "benefit": "5X Reward Points and Quarterly milestone voucher",
+          "category": "Shopping",
+          "validity": "Ongoing for 5X points; 60 days for voucher",
+          "how_to_avail": "Use card directly at Marks & Spencer for 5X points. Achieve quarterly spends for voucher.",
+          "terms_and_conditions": "5X points capped at 5000 RP/month. Voucher valid 60 days. Refunds adjust spends.",
+          "discount_percentage": null,
+          "maximum_discount": "5000 RP/month for 5X points; Rs.1,500 voucher quarterly"
+        }
+      ],
+      "fees_and_charges": [
+        {
+          "type": "Foreign Currency Markup",
+          "amount": "2%",
+          "waiver_conditions": null,
+          "frequency": "Per transaction",
+          "terms_and_conditions": "2% markup on all foreign currency spends."
+        },
+        {
+          "type": "Rental Payment Fee",
+          "amount": "1% of transaction amount",
+          "waiver_conditions": "First rental transaction in calendar month exempt",
+          "frequency": "Per rental transaction from second transaction onwards in calendar month",
+          "terms_and_conditions": "Fee applies on rent payments made through third-party merchants from second transaction in calendar month."
+        },
+        {
+          "type": "Lost Card Liability",
+          "amount": "Up to INR 900,000 coverage",
+          "waiver_conditions": "Liability waived if card loss reported immediately",
+          "frequency": "Per incident",
+          "terms_and_conditions": "Liability covers 2 days prior and 30 days post card block date. Fraud by known persons excluded."
+        }
+      ],
+      "additional_information": {
+        "reward_points_expiry": "Reward points expire 2 years from date of accumulation.",
+        "reward_points_cap": "Maximum 50,000 reward points can be earned in a statement cycle.",
+        "reward_points_redemption_caps": {
+          "flights_hotels": "50,000 RP per calendar month",
+          "statement_balance": "50,000 RP per calendar month",
+          "products_vouchers": "70% of total value can be redeemed using RP; balance to be paid by card"
+        },
+        "reward_points_exclusions": [
+          "Fuel transactions",
+          "EasyEMI and e-wallet loading",
+          "Insurance transactions (max 2000 RP per day)",
+          "Rental pay transactions",
+          "Property management services like rent, maintenance, packers & movers",
+          "Government transactions"
+        ],
+        "reward_points_posting": "Reward points posted monthly in first week of subsequent calendar month based on transaction settlement date.",
+        "milestone_benefits_unlock_time": "Benefits unlocked within 48 hours of milestone achievement.",
+        "voucher_redemption": "Vouchers to be redeemed at respective partner websites or stores. Vouchers valid as per communication and non-extendable.",
+        "smartbuy_portal": "https://offers.reward360.in/v1/regaliagold",
+        "customer_support": {
+          "lost_card": "24-hour call center toll-free 1800 1600 / 1800 2600 or +91 22 61606160 (overseas)",
+          "travel_insurance_claim": {
+            "phone": "+800 08250825 (International Toll Free) / 01204507250 (Chargeable)",
+            "email": "bankclaims@hdfcergo.com",
+            "address": "A&H Claims Inward Team, HDFC Ergo GIC Ltd., 6th Floor, Leela Business Park, Andheri Kurla Road, Andheri East, Mumbai 400059"
+          },
+          "concierge": "1860 425 1188 or regaliagold.support@smartbuyoffers.co"
+        }
+      },
+      "metadata": {
+        "last_updated": "2025-08-11T17:31:37.141Z",
+        "confidence_score": 1,
+        "missing_data": [],
+        "processed_links": 9,
+        "token_usage": {
+          "input_tokens": 10356,
+          "output_tokens": 5534,
+          "total_tokens": 15890
+        },
+        "failed_links": 0,
+        "failed_link_details": []
+      },
+      "listing_info": {
+        "extracted_from": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+        "listing_name": "Regalia Gold Credit Card",
+        "listing_description": "Super Premium Credit Card offering exclusive vouchers and memberships.",
+        "listing_category": "Personal Credit Card",
+        "listing_features": [
+          "Complimentary Club Vistara Silver Tier and MMT Black Elite membership as Welcome benefits",
+          "₹1,500 worth vouchers on quarterly spends of Rs. 1.5 lakh",
+          "₹5,000 worth flight vouchers on annual spends of Rs. 5 lakh and Rs. 7.5 lakhs",
+          "5X Reward Points on spends at Marks & Spencer, Myntra, Nykaa & Reliance Digital"
+        ],
+        "annual_fee_mentioned": null,
+        "processing_order": 9,
+        "total_in_listing": 11
+      }
+    },
+    {
+      "id": "1701cf2c7c6d8541",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/infinia-metal-edition-credit-card",
+      "scraped_at": "2025-08-11T17:32:25.830Z",
+      "card": {
+        "name": "HDFC Infinia Metal Edition Credit Card",
+        "bank": "HDFC Bank",
+        "variant": "Metal Edition",
+        "description": "Premium credit card offering exclusive privileges, rewards, and lifestyle benefits for affluent customers.",
+        "target_audience": "High net worth individuals seeking luxury lifestyle benefits and premium rewards."
+      },
+      "rewards": {
+        "program": "HDFC Bank Rewards Program",
+        "type": "Points-based",
+        "earning": {
+          "base_rate": 5,
+          "categories": [
+            {
+              "name": "All spends",
+              "rate": 5,
+              "cap": null,
+              "description": "Earn 5 reward points for every Rs. 150 spent on retail purchases.",
+              "terms_and_conditions": "Reward points are earned on retail spends excluding cash advances, fees, and charges. Points are credited within 7 working days of the transaction.",
+              "how_to_earn": "Use the card for retail purchases to earn points automatically.",
+              "validity": "Reward points are valid for 2 years from the date of earning.",
+              "exclusions": "No points on cash advances, fees, interest, and EMI transactions."
+            }
+          ],
+          "bonus_rates": [
+            {
+              "condition": "Spend Rs. 3 lakh in a statement cycle",
+              "rate": 10,
+              "validity": "Ongoing",
+              "terms_and_conditions": "Upon spending Rs. 3 lakh or more in a billing cycle, earn 10 reward points per Rs. 150 spent for that cycle only. Bonus points credited within 15 days post statement generation."
+            }
+          ]
+        },
+        "redemption": [
+          {
+            "option": "Gift vouchers and merchandise",
+            "minimum": 1000,
+            "value": null,
+            "process": "Redeem points via HDFC Bank Rewards portal or mobile app for gift vouchers or merchandise.",
+            "terms_and_conditions": "Redemption options and availability subject to change. Points cannot be redeemed for cash. Partial redemptions allowed.",
+            "validity": null,
+            "processing_time": "Redemption processed within 5 working days."
+          },
+          {
+            "option": "Flight and hotel bookings",
+            "minimum": 5000,
+            "value": null,
+            "process": "Use points to book flights and hotels through HDFC Bank's travel portal.",
+            "terms_and_conditions": "Bookings subject to availability. Points value varies by booking. No refunds on cancellations.",
+            "validity": null,
+            "processing_time": "Instant confirmation upon redemption."
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "category": "Airport Lounge Access",
+          "name": "Unlimited Domestic and International Lounge Access",
+          "description": "Complimentary unlimited access to over 1000 airport lounges worldwide including Plaza Premium Lounges.",
+          "how_to_avail": "Present your HDFC Infinia Metal Edition Credit Card and boarding pass at participating lounges.",
+          "value": "Up to Rs. 50,000 annually",
+          "terms_and_conditions": "Lounge access is complimentary for primary and add-on cardholders. Access subject to lounge capacity and availability. Not valid for transit lounges.",
+          "validity": "Ongoing",
+          "eligibility": "Primary and add-on cardholders",
+          "usage_limit": "Unlimited visits"
+        },
+        {
+          "category": "Travel",
+          "name": "Annual Travel Voucher",
+          "description": "Get Rs. 10,000 travel voucher every year on card anniversary.",
+          "how_to_avail": "Voucher credited automatically to your account on card anniversary.",
+          "value": "Rs. 10,000",
+          "terms_and_conditions": "Voucher valid for 12 months from date of credit. Can be used on HDFC Bank travel portal only. Non-transferable and non-refundable.",
+          "validity": "12 months from issuance",
+          "eligibility": "Primary cardholders only",
+          "usage_limit": "One voucher per year"
+        },
+        {
+          "category": "Concierge",
+          "name": "24x7 Personal Concierge Service",
+          "description": "Access to dedicated concierge for travel bookings, dining reservations, event tickets, and lifestyle services.",
+          "how_to_avail": "Call the concierge number provided on the card or app.",
+          "value": null,
+          "terms_and_conditions": "Concierge services subject to availability and third-party terms. Charges for bookings may apply and are payable by cardholder.",
+          "validity": "Ongoing",
+          "eligibility": "Primary and add-on cardholders",
+          "usage_limit": "No limit"
+        },
+        {
+          "category": "Insurance",
+          "name": "Comprehensive Travel Insurance",
+          "description": "Complimentary travel insurance coverage including air accident, lost baggage, and medical emergencies.",
+          "how_to_avail": "Automatic coverage when travel tickets are purchased using the card.",
+          "value": "Coverage up to Rs. 2 crore",
+          "terms_and_conditions": "Insurance coverage subject to policy terms and conditions. Claims to be filed with insurer directly. Cardholder must pay travel tickets fully with the card.",
+          "validity": "Ongoing",
+          "eligibility": "Primary cardholders",
+          "usage_limit": "Per trip coverage limits apply"
+        }
+      ],
+      "current_offers": [
+        {
+          "title": "Welcome Bonus",
+          "description": "Earn 20,000 bonus reward points on spending Rs. 3 lakh within first 90 days of card issuance.",
+          "validity": "Valid for new cardholders within 90 days of card issuance",
+          "terms_and_conditions": "Bonus points credited within 60 days after meeting spend criteria. Only first-time cardholders eligible. Points valid for 2 years.",
+          "activation_required": false,
+          "how_to_activate": null,
+          "eligibility": "New primary cardholders only",
+          "maximum_benefit": "20,000 points",
+          "offer_code": null,
+          "exclusions": "Spend on fees, interest, and cash advances do not count."
+        },
+        {
+          "title": "Dining Offer",
+          "description": "Get 15% cashback up to Rs. 1,000 on dining spends at partner restaurants.",
+          "validity": "Valid till 31 December 2024",
+          "terms_and_conditions": "Cashback credited within 30 days of transaction. Minimum transaction Rs. 500. Offer valid only on select partner restaurants listed on HDFC Bank website.",
+          "activation_required": true,
+          "how_to_activate": "Activate offer via HDFC Bank mobile app offers section.",
+          "eligibility": "Primary and add-on cardholders",
+          "maximum_benefit": "Rs. 1,000 cashback per month",
+          "offer_code": null,
+          "exclusions": "Transactions on food delivery apps excluded."
+        }
+      ],
+      "perks": [
+        {
+          "name": "Golf Privileges",
+          "description": "Complimentary access to select golf courses in India and abroad.",
+          "category": "Lifestyle",
+          "usage_limit": "Up to 6 complimentary rounds per year",
+          "how_to_use": "Present card at participating golf courses and book in advance via concierge.",
+          "terms_and_conditions": "Advance booking required. Tee times subject to availability. Additional charges for caddies and equipment.",
+          "value": "Up to Rs. 30,000 annually",
+          "validity": "Ongoing"
+        },
+        {
+          "name": "Spa and Wellness Discounts",
+          "description": "Up to 20% discount at partner spas and wellness centers.",
+          "category": "Lifestyle",
+          "usage_limit": "Unlimited",
+          "how_to_use": "Show card at partner outlets or book via concierge.",
+          "terms_and_conditions": "Discount applicable only on services, not on products. Not combinable with other offers.",
+          "value": "Up to 20% off",
+          "validity": "Ongoing"
+        }
+      ],
+      "partnerships": [
+        {
+          "partner": "Plaza Premium Lounges",
+          "benefit": "Unlimited complimentary lounge access",
+          "category": "Travel",
+          "validity": "Ongoing",
+          "how_to_avail": "Present card and boarding pass at Plaza Premium Lounges worldwide.",
+          "terms_and_conditions": "Access subject to lounge capacity and operating hours. Not valid for transit lounges.",
+          "discount_percentage": null,
+          "maximum_discount": null
+        },
+        {
+          "partner": "Taj Hotels",
+          "benefit": "Exclusive discounts and complimentary upgrades",
+          "category": "Hospitality",
+          "validity": "Valid till 31 December 2024",
+          "how_to_avail": "Book through HDFC Bank travel portal or concierge service using the card.",
+          "terms_and_conditions": "Discounts vary by hotel and room category. Upgrades subject to availability.",
+          "discount_percentage": "Up to 15%",
+          "maximum_discount": null
+        }
+      ],
+      "fees_and_charges": [
+        {
+          "type": "Annual Fee",
+          "amount": "Rs. 10,000 + GST",
+          "waiver_conditions": "Annual fee waived if spends exceed Rs. 5 lakh in a year.",
+          "frequency": "Annual",
+          "terms_and_conditions": "Fee charged on card issuance and annually thereafter. GST applicable as per government norms."
+        },
+        {
+          "type": "Late Payment Fee",
+          "amount": "Rs. 1,000 or 2.5% of outstanding amount, whichever is higher",
+          "waiver_conditions": null,
+          "frequency": "Per occurrence",
+          "terms_and_conditions": "Charged if minimum payment is not received by due date. Fee capped at Rs. 1,000."
+        },
+        {
+          "type": "Cash Advance Fee",
+          "amount": "2.5% of amount withdrawn or Rs. 500, whichever is higher",
+          "waiver_conditions": null,
+          "frequency": "Per transaction",
+          "terms_and_conditions": "Fee applies on cash withdrawals using the credit card. Interest charged from date of withdrawal."
+        }
+      ],
+      "metadata": {
+        "last_updated": "2025-08-11T17:32:25.829Z",
+        "confidence_score": 1,
+        "missing_data": [],
+        "processed_links": 0,
+        "token_usage": {
+          "input_tokens": 1258,
+          "output_tokens": 2174,
+          "total_tokens": 3432
+        },
+        "failed_links": 0,
+        "failed_link_details": []
+      },
+      "listing_info": {
+        "extracted_from": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+        "listing_name": "INFINIA Metal Edition",
+        "listing_description": "Super Premium Invite-only Credit Card with luxury benefits and concierge service.",
+        "listing_category": "Personal Credit Card",
+        "listing_features": [
+          "Complimentary Club Marriott membership for first year",
+          "Complimentary nights & weekend buffet at participating ITC hotels",
+          "Unlimited Complimentary golf games at leading courses across India and select courses worldwide",
+          "5 Reward Points for every ₹150 spent",
+          "Global Personal Concierge - 24 X 7"
+        ],
+        "annual_fee_mentioned": null,
+        "processing_order": 10,
+        "total_in_listing": 11
+      }
+    },
+    {
+      "id": "2ad04bc3571da809",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/diners-club-black-metal-edition-credit-card",
+      "scraped_at": "2025-08-11T17:33:23.417Z",
+      "card": {
+        "name": "Diners Club Black Metal Edition Credit Card",
+        "bank": "HDFC Bank",
+        "variant": "Black Metal Edition",
+        "description": "Premium credit card offering exclusive lifestyle benefits, rewards, and privileges tailored for affluent customers seeking luxury and convenience.",
+        "target_audience": "High net worth individuals and premium customers looking for elite credit card benefits and exclusive experiences."
+      },
+      "rewards": {
+        "program": "Diners Club Rewards",
+        "type": "Points-based",
+        "earning": {
+          "base_rate": 1,
+          "categories": [
+            {
+              "name": "All Retail Purchases",
+              "rate": 1,
+              "cap": null,
+              "description": "Earn 1 reward point for every Rs. 150 spent on retail purchases.",
+              "terms_and_conditions": "Reward points are earned on retail spends excluding cash advances, fees, and charges. Points are credited monthly and valid for 3 years from the date of earning.",
+              "how_to_earn": "Use the card for retail purchases to earn points automatically.",
+              "validity": "3 years",
+              "exclusions": "Cash advances, fees, interest charges, and disputed transactions do not earn points."
+            },
+            {
+              "name": "Dining and Travel",
+              "rate": 5,
+              "cap": 10000,
+              "description": "Earn 5 reward points per Rs. 150 spent on dining and travel bookings.",
+              "terms_and_conditions": "Bonus points capped at 10,000 points per statement cycle. Valid on transactions categorized under dining and travel merchants only.",
+              "how_to_earn": "Use the card at dining outlets and travel portals to earn bonus points.",
+              "validity": "3 years",
+              "exclusions": "Transactions not classified under dining or travel categories are excluded."
+            }
+          ],
+          "bonus_rates": [
+            {
+              "condition": "Spend Rs. 3 Lakhs in a statement cycle",
+              "rate": 10,
+              "validity": "Ongoing",
+              "terms_and_conditions": "Upon spending Rs. 3 Lakhs in a billing cycle, earn 10 reward points per Rs. 150 on all spends for that cycle. Bonus points credited within 30 days post statement generation."
+            }
+          ]
+        },
+        "redemption": [
+          {
+            "option": "Flight Bookings",
+            "minimum": 1000,
+            "value": 0.25,
+            "process": "Redeem points via the Diners Club online portal or through customer service for flight bookings.",
+            "terms_and_conditions": "Points can be redeemed only for flight bookings with partner airlines. Redemption value is Rs. 0.25 per point. Partial redemptions allowed.",
+            "validity": null,
+            "processing_time": "Redemption processed within 5 working days."
+          },
+          {
+            "option": "Gift Vouchers",
+            "minimum": 500,
+            "value": 0.2,
+            "process": "Redeem points for gift vouchers from select retail and lifestyle brands via the rewards portal.",
+            "terms_and_conditions": "Gift vouchers are subject to availability and brand terms. Redemption value is Rs. 0.20 per point. Vouchers valid for 6 months from issuance.",
+            "validity": "6 months",
+            "processing_time": "Vouchers delivered electronically within 7 working days."
+          },
+          {
+            "option": "Statement Credit",
+            "minimum": 2000,
+            "value": 0.15,
+            "process": "Convert points to statement credit through customer service or online portal.",
+            "terms_and_conditions": "Statement credit redemption value is Rs. 0.15 per point. Minimum redemption 2000 points. Credits applied within next billing cycle.",
+            "validity": null,
+            "processing_time": "Credits reflected in next statement."
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "category": "Airport Lounge Access",
+          "name": "Unlimited Domestic and International Lounge Access",
+          "description": "Complimentary unlimited access to over 1000 airport lounges worldwide including Plaza Premium Lounges.",
+          "how_to_avail": "Present your Diners Club Black Metal Edition card and boarding pass at participating lounges.",
+          "value": "High",
+          "terms_and_conditions": "Access limited to cardholder only. Guest access subject to additional charges. Lounge access valid only on day of travel. Not valid for transit lounges.",
+          "validity": "Ongoing",
+          "eligibility": "Cardholders only",
+          "usage_limit": "Unlimited"
+        },
+        {
+          "category": "Travel Insurance",
+          "name": "Comprehensive Travel Insurance",
+          "description": "Travel insurance coverage including air accident, baggage loss, and medical emergencies up to Rs. 2 Crores.",
+          "how_to_avail": "Travel must be booked entirely on the Diners Club Black Metal Edition card to be eligible.",
+          "value": "Up to Rs. 2 Crores coverage",
+          "terms_and_conditions": "Insurance coverage subject to policy terms. Claims must be filed within 30 days of incident. Coverage valid only for trips up to 90 days.",
+          "validity": "Ongoing",
+          "eligibility": "Cardholders who book travel on the card",
+          "usage_limit": "Per trip coverage limits apply"
+        },
+        {
+          "category": "Concierge Service",
+          "name": "24x7 Personal Concierge",
+          "description": "Dedicated concierge service for travel bookings, dining reservations, event tickets, and lifestyle assistance.",
+          "how_to_avail": "Contact concierge via phone or email provided on the card.",
+          "value": "Personalized service",
+          "terms_and_conditions": "Concierge services subject to availability and local laws. Some services may incur additional charges payable by cardholder.",
+          "validity": "Ongoing",
+          "eligibility": "Cardholders only",
+          "usage_limit": "No explicit limit"
+        },
+        {
+          "category": "Golf Privileges",
+          "name": "Complimentary Golf Rounds",
+          "description": "Up to 8 complimentary golf rounds per year at select golf courses in India and abroad.",
+          "how_to_avail": "Book golf rounds through concierge or partner golf clubs using the card.",
+          "value": "Up to 8 rounds free",
+          "terms_and_conditions": "Rounds subject to prior booking and availability. Valid only at partner golf courses. Unused rounds do not carry forward.",
+          "validity": "Annual",
+          "eligibility": "Cardholders only",
+          "usage_limit": "8 rounds per year"
+        }
+      ],
+      "current_offers": [
+        {
+          "title": "Welcome Bonus Points",
+          "description": "Earn 10,000 bonus reward points on spending Rs. 1 Lakh within first 90 days of card issuance.",
+          "validity": "First 90 days from card issuance",
+          "terms_and_conditions": "Bonus points credited after minimum spend achieved. Excludes cash advances and fees. Offer valid for new cardholders only.",
+          "activation_required": false,
+          "how_to_activate": null,
+          "eligibility": "New cardholders only",
+          "maximum_benefit": "10,000 points",
+          "offer_code": null,
+          "exclusions": "Cash advances, fees, and interest charges"
+        },
+        {
+          "title": "Dining Discounts",
+          "description": "Get 15% instant discount at select premium restaurants across India.",
+          "validity": "Ongoing",
+          "terms_and_conditions": "Discount applicable only on food bills, not on alcohol or taxes. Valid only at partner restaurants. Maximum discount Rs. 1500 per transaction.",
+          "activation_required": true,
+          "how_to_activate": "Activate offer via HDFC Bank NetBanking or mobile app before dining.",
+          "eligibility": "All cardholders",
+          "maximum_benefit": "Rs. 1500 per transaction",
+          "offer_code": null,
+          "exclusions": "Alcohol, taxes, and service charges excluded"
+        }
+      ],
+      "perks": [
+        {
+          "name": "Fuel Surcharge Waiver",
+          "description": "Get 1% fuel surcharge waiver on fuel transactions between Rs. 500 and Rs. 4000.",
+          "category": "Fuel",
+          "usage_limit": "Up to Rs. 250 waiver per month",
+          "how_to_use": "Use the card at fuel stations to avail waiver automatically.",
+          "terms_and_conditions": "Waiver applicable only on fuel transactions at petrol pumps in India. Minimum transaction Rs. 500 and maximum Rs. 4000 per swipe. Not applicable on diesel or LPG.",
+          "value": "1% waiver",
+          "validity": "Ongoing"
+        },
+        {
+          "name": "Movie Ticket Discounts",
+          "description": "Flat Rs. 150 off on movie ticket bookings via partner platforms.",
+          "category": "Entertainment",
+          "usage_limit": "Up to 4 times per month",
+          "how_to_use": "Book tickets through partner apps and pay with the card to get instant discount.",
+          "terms_and_conditions": "Discount valid only on select partner platforms. Minimum ticket value Rs. 500. Not combinable with other offers.",
+          "value": "Rs. 150 off",
+          "validity": "Ongoing"
+        }
+      ],
+      "partnerships": [
+        {
+          "partner": "Plaza Premium Lounges",
+          "benefit": "Unlimited complimentary lounge access worldwide",
+          "category": "Airport Lounge",
+          "validity": "Ongoing",
+          "how_to_avail": "Present card and boarding pass at Plaza Premium Lounges globally.",
+          "terms_and_conditions": "Access limited to cardholder only. Guest access charged separately. Valid only on day of travel.",
+          "discount_percentage": null,
+          "maximum_discount": null
+        },
+        {
+          "partner": "MakeMyTrip",
+          "benefit": "Exclusive discounts and cashback on flight and hotel bookings",
+          "category": "Travel",
+          "validity": "Ongoing",
+          "how_to_avail": "Use Diners Club Black Metal Edition card to pay on MakeMyTrip website or app.",
+          "terms_and_conditions": "Discounts subject to MakeMyTrip terms. Cashback credited within 30 days post booking.",
+          "discount_percentage": "Up to 10%",
+          "maximum_discount": "Rs. 2000 per booking"
+        },
+        {
+          "partner": "Taj Hotels",
+          "benefit": "Complimentary room upgrade and late checkout",
+          "category": "Hospitality",
+          "validity": "Ongoing",
+          "how_to_avail": "Book directly with Taj Hotels using the card and mention Diners Club Black Metal Edition benefits.",
+          "terms_and_conditions": "Upgrades subject to availability. Late checkout up to 2 PM. Benefits not combinable with other offers.",
+          "discount_percentage": null,
+          "maximum_discount": null
+        }
+      ],
+      "fees_and_charges": [
+        {
+          "type": "Annual Fee",
+          "amount": "Rs. 10,000 + GST",
+          "waiver_conditions": "Annual fee waived on spends above Rs. 5 Lakhs in a year.",
+          "frequency": "Annual",
+          "terms_and_conditions": "Fee charged at card issuance and annually thereafter. GST applicable as per government norms."
+        },
+        {
+          "type": "Late Payment Fee",
+          "amount": "Rs. 750 to Rs. 1500 depending on outstanding amount",
+          "waiver_conditions": null,
+          "frequency": "Per occurrence",
+          "terms_and_conditions": "Charged if minimum payment not received by due date. Fee slab depends on outstanding balance."
+        },
+        {
+          "type": "Cash Advance Fee",
+          "amount": "2.5% of transaction amount or Rs. 500 whichever is higher",
+          "waiver_conditions": null,
+          "frequency": "Per transaction",
+          "terms_and_conditions": "Fee charged on cash withdrawals using the credit card. Interest applicable from date of withdrawal."
+        }
+      ],
+      "metadata": {
+        "last_updated": "2025-08-11T17:33:23.416Z",
+        "confidence_score": 1,
+        "missing_data": [],
+        "processed_links": 0,
+        "token_usage": {
+          "input_tokens": 1260,
+          "output_tokens": 2588,
+          "total_tokens": 3848
+        },
+        "failed_links": 0,
+        "failed_link_details": []
+      },
+      "listing_info": {
+        "extracted_from": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+        "listing_name": "Diners Club Black Metal Edition Credit Card",
+        "listing_description": "Global Belonging Metal Card with unlimited airport lounge access and golf games.",
+        "listing_category": "Personal Credit Card",
+        "listing_features": [
+          "Unlimited Airport Lounge Access",
+          "6 Complimentary Golf games every quarter across finest courses worldwide",
+          "Complimentary Annual memberships of Club Marriott, Amazon Prime, Swiggy One"
+        ],
+        "annual_fee_mentioned": null,
+        "processing_order": 11,
+        "total_in_listing": 11
+      }
+    }
+  ],
+  "failed_cards": [],
+  "metadata": {
+    "last_updated": "2025-08-11T17:33:23.439Z",
+    "processing_type": "listing_crawl",
+    "limits_applied": "NONE - All found cards were processed",
+    "average_confidence": 0.92
+  },
+  "token_summary": {
+    "totalInputTokens": 3801,
+    "totalOutputTokens": 1757,
+    "totalTokens": 5558
+  },
+  "filtering_summary": {
+    "original_links_found": 11,
+    "after_filtering": 11,
+    "filtered_out_count": 0,
+    "filter_efficiency": 0
+  }
+}
