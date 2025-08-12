@@ -1,0 +1,98 @@
+{
+  "Metadata": {
+    "PK": "CARD#SBI Cards and Payment Services Limited",
+    "SK": "METADATA",
+    "card_name": "CASHBACK SBI Card",
+    "issuer": "SBI Cards and Payment Services Limited",
+    "network": [
+      "VISA"
+    ],
+    "type": "Credit Card",
+    "category": [
+      "Reward",
+      "Cashback"
+    ]
+  },
+  "features": {
+    "PK": "CARD#SBI Cards and Payment Services Limited",
+    "SK": "FEATURES",
+    "digital_onboarding": true,
+    "contactless_payments": true,
+    "customization_options": {},
+    "app_management": [
+      "SBI Card Mobile App"
+    ],
+    "security_features": [
+      "EMV Chip",
+      "Contactless Technology",
+      "PIN",
+      "CVV"
+    ]
+  },
+  "rewards": {
+    "PK": "CARD#SBI Cards and Payment Services Limited",
+    "SK": "REWARDS",
+    "reward_currency": "INR",
+    "cashback_program": [
+      {
+        "type": "Online Spends",
+        "rate": 5,
+        "cap": 5000,
+        "exclusions": [
+          "Merchant EMI",
+          "Flexipay EMI",
+          "Fuel",
+          "Utility",
+          "Insurance",
+          "Rent",
+          "Wallet",
+          "School & Educational Services",
+          "Jewelry",
+          "Railways"
+        ]
+      },
+      {
+        "type": "Offline Spends",
+        "rate": 1,
+        "cap": 5000,
+        "exclusions": [
+          "Merchant EMI",
+          "Flexipay EMI",
+          "Fuel",
+          "Utility",
+          "Insurance",
+          "Rent",
+          "Wallet",
+          "School & Educational Services",
+          "Jewelry",
+          "Railways"
+        ]
+      }
+    ],
+    "earning_structure": [],
+    "redemption": {}
+  },
+  "fees": {
+    "PK": "CARD#SBI Cards and Payment Services Limited",
+    "SK": "FEES",
+    "joining_fee": 999,
+    "renewal_fee": 999,
+    "tax_applicable": true,
+    "renewal_waiver_condition": "Renewal Fee reversed if annual spends for last year >= Rs. 2,00,000.",
+    "joining_fee_waiver_condition": null,
+    "other_charges": {}
+  },
+  "eligibility": {
+    "PK": "CARD#SBI Cards and Payment Services Limited",
+    "SK": "ELIGIBILITY",
+    "salaried": {},
+    "self_employed": {}
+  },
+  "related_docs": {
+    "PK": "CARD#SBI Cards and Payment Services Limited",
+    "SK": "PDFS",
+    "pdfs": [
+      "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-tnc-booklet.pdf"
+    ]
+  }
+}

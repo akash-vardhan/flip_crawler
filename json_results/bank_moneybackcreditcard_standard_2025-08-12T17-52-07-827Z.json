@@ -1,0 +1,34 @@
+{
+  "id": "c3b320c7f6efaec5",
+  "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/moneyback-plus",
+  "scraped_at": "2025-08-12T17:52:07.827Z",
+  "card": {
+    "name": "MoneyBack+ Credit Card",
+    "bank": null,
+    "variant": null
+  },
+  "rewards": {
+    "program": null,
+    "type": null,
+    "earning": {
+      "base_rate": null,
+      "categories": []
+    },
+    "redemption": []
+  },
+  "benefits": [],
+  "current_offers": [],
+  "perks": [],
+  "partnerships": [],
+  "metadata": {
+    "last_updated": "2025-08-12T17:52:07.812Z",
+    "confidence_score": 0.1,
+    "missing_data": [
+      "all_sections"
+    ],
+    "processed_links": 0,
+    "fallback_used": true,
+    "failed_links": 0,
+    "failed_link_details": []
+  }
+}

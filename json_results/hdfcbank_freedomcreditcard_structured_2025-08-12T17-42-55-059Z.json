@@ -1,0 +1,133 @@
+{
+  "Metadata": {
+    "PK": "CARD#HDFC BANK",
+    "SK": "METADATA",
+    "card_name": "Freedom Credit Card",
+    "issuer": "HDFC Bank",
+    "network": [
+      "Visa",
+      "MasterCard",
+      "RuPay"
+    ],
+    "type": "Credit Card",
+    "category": [
+      "Classic",
+      "Cashback",
+      "Rewards"
+    ]
+  },
+  "features": {
+    "PK": "CARD#HDFC BANK",
+    "SK": "FEATURES",
+    "digital_onboarding": true,
+    "contactless_payments": true,
+    "customization_options": {},
+    "app_management": [
+      "Net Banking",
+      "Mobile App",
+      "SmartBuy Portal"
+    ],
+    "security_features": [
+      "Chip+PIN",
+      "Contactless Payment",
+      "Verified by Visa/MasterCard SecureCode"
+    ]
+  },
+  "rewards": {
+    "PK": "CARD#HDFC BANK",
+    "SK": "REWARDS",
+    "reward_currency": "CashPoints",
+    "cashback_program": [
+      {
+        "condition": "Spend on BigBasket, BookMyShow, OYO, Swiggy & Uber",
+        "rate": 10,
+        "cap": 2500
+      },
+      {
+        "condition": "Other spends excluding EMI, fuel, wallet loads, prepaid card loads, voucher purchases",
+        "rate": 1,
+        "cap": null
+      }
+    ],
+    "earning_structure": [
+      {
+        "category": "Select merchants",
+        "rate": 10,
+        "cap": 2500,
+        "description": "10X CashPoints on BigBasket, BookMyShow, OYO, Swiggy & Uber"
+      },
+      {
+        "category": "Other spends",
+        "rate": 1,
+        "cap": null,
+        "description": "1 CashPoint per ₹150 spent on other eligible spends"
+      }
+    ],
+    "redemption": {
+      "statement_credit": {
+        "minimum_points": 3334,
+        "value_per_point": 0.15,
+        "process": "Redeem via Net Banking, Phone Banking or physical form",
+        "fee": 50,
+        "validity": "2 years"
+      },
+      "travel_and_rewards_catalogue": {
+        "max_redeem_percent": 50,
+        "value_per_point": 0.15,
+        "monthly_cap": 50000,
+        "validity": "2 years"
+      }
+    }
+  },
+  "fees": {
+    "PK": "CARD#HDFC BANK",
+    "SK": "FEES",
+    "joining_fee": 500,
+    "renewal_fee": 500,
+    "tax_applicable": true,
+    "renewal_waiver_condition": "Spend ₹50,000 or more in 12 months",
+    "joining_fee_waiver_condition": null,
+    "other_charges": {
+      "fuel_surcharge_waiver": "1% waiver on fuel transactions with min ₹400 and max ₹5,000 per transaction, max ₹250 waiver per statement cycle",
+      "late_payment_charges": "Varies as per outstanding amount slab",
+      "finance_charges": "3.75% per month on revolving credit",
+      "easy_emi_processing_fee": "Up to ₹299 + GST"
+    }
+  },
+  "eligibility": {
+    "PK": "CARD#HDFC BANK",
+    "SK": "ELIGIBILITY",
+    "salaried": {
+      "min_age": 21,
+      "max_age": 60,
+      "min_gross_monthly_income": 12000
+    },
+    "self_employed": {
+      "min_age": 21,
+      "max_age": 65,
+      "min_itr_amount": 600000
+    }
+  },
+  "related_docs": {
+    "PK": "CARD#HDFC BANK",
+    "SK": "PDFS",
+    "pdfs": [
+      {
+        "title": "Freedom Credit Card Terms and Conditions",
+        "url": "https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/6d0db352-ab1f-420b-bec5-fdb38c73a02f?#"
+      },
+      {
+        "title": "Freedom Credit Card Product Details",
+        "url": "https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/0c8931ba-b4d4-437f-9bb9-84b41d896657?#"
+      },
+      {
+        "title": "Most Important Terms and Conditions (MITC)",
+        "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/personal-mitc"
+      },
+      {
+        "title": "Chip+PIN Credit Card Details",
+        "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/chip-pin-credit-card"
+      }
+    ]
+  }
+}

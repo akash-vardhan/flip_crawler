@@ -1,0 +1,96 @@
+{
+  "Metadata": {
+    "PK": "CARD#SBI_PRIME",
+    "SK": "METADATA",
+    "card_name": "SBI Card Prime",
+    "issuer": "SBI Card",
+    "network": ["Visa"],
+    "type": "Credit Card",
+    "category": ["Lifestyle", "Premium", "Travel"]
+  },
+  "features": {
+    "PK": "CARD#SBI_PRIME",
+    "SK": "FEATURES",
+    "digital_onboarding": true,
+    "contactless_payments": true,
+    "app_management": [
+      "Card Controls", "Rewards", "Statement", "Bill Payment",
+      "EMI Conversion", "Offers", "Customer Service"
+    ],
+    "security_features": [
+      "SMS Alerts", "Transaction Limits", "Card Lock/Unlock"
+    ]
+  },
+  "rewards": {
+    "PK": "CARD#SBI_PRIME",
+    "SK": "REWARDS",
+    "reward_currency": "Reward Points",
+    "earning_structure": [
+      {
+        "rate": 5,
+        "category": "Dining",
+        "cap_per_month": 1000
+      },
+      {
+        "rate": 2,
+        "category": "Grocery & Fuel", 
+        "cap_per_month": 1000
+      },
+      {
+        "rate": 1,
+        "category": "All other spends",
+        "cap_per_month": null
+      }
+    ],
+    "redemption": {
+      "rate": "1 Reward Point = ₹0.25",
+      "minimum_points": 1000,
+      "validity_years": 3
+    }
+  },
+  "fees": {
+    "PK": "CARD#SBI_PRIME",
+    "SK": "FEES",
+    "joining_fee": 2999,
+    "renewal_fee": 2999,
+    "tax_applicable": true,
+    "renewal_waiver_condition": "Spend ₹3,00,000 or more in a year",
+    "other_charges": {
+      "cash_advance": "3.5% (Min ₹500)",
+      "foreign_transaction": "3.5%",
+      "overlimit": "2.5% (Min ₹500)"
+    }
+  },
+  "eligibility": {
+    "PK": "CARD#SBI_PRIME", 
+    "SK": "ELIGIBILITY",
+    "salaried": {
+      "age": {"min": 21, "max": 60},
+      "min_income_per_month": 30000
+    },
+    "self_employed": {
+      "age": {"min": 21, "max": 65},
+      "min_itr_per_annum": 800000
+    }
+  },
+  "related_docs": {
+    "PK": "CARD#SBI_PRIME",
+    "SK": "PDFS", 
+    "pdfs": [
+      {
+        "type": "terms_and_conditions",
+        "storage": {
+          "s3_key": "creditcards/sbi_prime/terms.pdf",
+          "extracted_text_key": "creditcards/sbi_prime/terms.txt"
+        }
+      },
+      {
+        "type": "fees_and_charges", 
+        "storage": {
+          "s3_key": "creditcards/sbi_prime/fees.pdf",
+          "extracted_text_key": "creditcards/sbi_prime/fees.txt"
+        }
+      }
+    ]
+  }
+}

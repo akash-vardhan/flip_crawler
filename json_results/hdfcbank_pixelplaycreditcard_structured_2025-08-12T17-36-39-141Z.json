@@ -1,0 +1,156 @@
+{
+  "Metadata": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "METADATA",
+    "card_name": "PIXEL Play Credit Card",
+    "issuer": "HDFC Bank",
+    "network": [
+      "RuPay",
+      "Visa"
+    ],
+    "type": "Credit Card",
+    "category": [
+      "Cashback",
+      "Digital",
+      "Customizable"
+    ]
+  },
+  "features": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "FEATURES",
+    "digital_onboarding": true,
+    "contactless_payments": true,
+    "customization_options": {
+      "card_design": [
+        "POP",
+        "LIT",
+        "ICE"
+      ],
+      "billing_cycle_date": true,
+      "merchant_selection_for_cashback": true
+    },
+    "app_management": [
+      "Card Controls",
+      "Rewards",
+      "EMI Dashboard",
+      "Statements",
+      "Repayments",
+      "Recent Transactions",
+      "Disputes",
+      "Hotlisting",
+      "Help Center",
+      "Notifications"
+    ],
+    "security_features": [
+      "Zero lost card liability",
+      "Swipe to Pay without OTP",
+      "Contactless Tap & Pay",
+      "UPI PIN setup for RuPay card"
+    ]
+  },
+  "rewards": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "REWARDS",
+    "reward_currency": "PIXEL CashPoints",
+    "cashback_program": [
+      {
+        "category": "Any two packs",
+        "rate": 5,
+        "cap": 500,
+        "description": "5% Cashback on choice of any two packs"
+      },
+      {
+        "category": "SmartBuy Platform",
+        "rate": 5,
+        "cap": 500,
+        "description": "5% Cashback on SmartBuy spends"
+      },
+      {
+        "category": "Any one e-commerce merchant",
+        "rate": 3,
+        "cap": 500,
+        "description": "3% Cashback on choice of any one e-commerce merchant"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "cap": null,
+        "description": "1% unlimited Cashback"
+      },
+      {
+        "category": "UPI spends (RuPay card only)",
+        "rate": 1,
+        "cap": 500,
+        "description": "1% Cashback on UPI spends"
+      }
+    ],
+    "earning_structure": [
+      {
+        "base_rate": 1,
+        "categories": [
+          "General spends",
+          "UPI spends (RuPay card only)"
+        ],
+        "caps": {
+          "UPI": 500,
+          "General": null
+        }
+      }
+    ],
+    "redemption": {
+      "method": "Redeem PIXEL CashPoints to PayZapp Wallet",
+      "minimum_points": 1000,
+      "value_per_point": "₹1",
+      "validity": "2 years",
+      "processing_time": "Immediate"
+    }
+  },
+  "fees": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "FEES",
+    "joining_fee": 500,
+    "renewal_fee": 500,
+    "tax_applicable": true,
+    "renewal_waiver_condition": "Spend ₹1,00,000 or more in preceding 12 months",
+    "joining_fee_waiver_condition": "Spend ₹20,000 in first 90 days",
+    "other_charges": {
+      "EMI_processing_fee": "Applicable as per EMI terms",
+      "Pay in Parts pre-closure": "3% of balance principal + GST",
+      "GST": "18% on interest and fees"
+    }
+  },
+  "eligibility": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "ELIGIBILITY",
+    "salaried": {
+      "age_min": 21,
+      "age_max": 60,
+      "monthly_income_min": 25000,
+      "nationality": "Indian"
+    },
+    "self_employed": {
+      "age_min": 21,
+      "age_max": 65,
+      "ITR_min": 600000,
+      "nationality": "Indian"
+    }
+  },
+  "related_docs": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "PDFS",
+    "pdfs": [
+      {
+        "title": "PIXEL RuPay Credit Card FAQs",
+        "url": "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/PIXEL-Rupay-Credit-Card-FAQs.pdf"
+      },
+      {
+        "title": "Terms and Conditions - PIXEL Play Credit Card",
+        "url": "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Common/Campaign/PDFs/2023/Nov/Terms-and-Conditions-ZappMax-Credit-Card.pdf"
+      },
+      {
+        "title": "Pay in Parts Terms and Conditions",
+        "url": "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/Pay-in-Parts-Terms-and-Condition.pdf"
+      }
+    ]
+  }
+}

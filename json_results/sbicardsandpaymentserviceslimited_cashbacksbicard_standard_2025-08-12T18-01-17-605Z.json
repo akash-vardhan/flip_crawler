@@ -1,0 +1,247 @@
+{
+  "id": "ef0692da5334e2d1",
+  "url": "https://www.sbicard.com/en/personal/credit-cards/rewards/cashback-sbi-card.page",
+  "scraped_at": "2025-08-12T18:01:17.605Z",
+  "card": {
+    "name": "CASHBACK SBI Card",
+    "bank": "SBI Cards and Payment Services Limited",
+    "variant": "CASHBACK",
+    "description": "A credit card offering cashback rewards on online and offline spends with various benefits including fuel surcharge waiver and contactless payments.",
+    "target_audience": "Personal users seeking cashback rewards on everyday spends."
+  },
+  "rewards": {
+    "program": "SBI Card Cashback Program",
+    "type": "Cashback",
+    "earning": {
+      "base_rate": null,
+      "categories": [
+        {
+          "name": "Online Spends",
+          "rate": 5,
+          "cap": 5000,
+          "description": "5% cashback on online spends without any merchant restriction.",
+          "terms_and_conditions": "Cashback not applicable on Merchant EMI & Flexipay EMI transactions and on specified categories such as Utility, Insurance, Fuel, Rent, Wallet, School & Educational Services, Jewelry, Railways etc. Maximum cashback capped at ₹5000 per statement cycle.",
+          "how_to_earn": "Make online transactions using the CASHBACK SBI Card.",
+          "validity": "Cashback credited within two working days of statement generation.",
+          "exclusions": "Merchant EMI, Flexipay EMI, fuel spends, and other specified MCC categories."
+        },
+        {
+          "name": "Offline Spends",
+          "rate": 1,
+          "cap": 5000,
+          "description": "1% cashback on offline spends.",
+          "terms_and_conditions": "Same exclusions as online spends apply.",
+          "how_to_earn": "Make offline transactions using the CASHBACK SBI Card.",
+          "validity": "Cashback credited within two working days of statement generation.",
+          "exclusions": "Merchant EMI, Flexipay EMI, fuel spends, and other specified MCC categories."
+        }
+      ],
+      "bonus_rates": [
+        {
+          "condition": "Annual spends of Rs. 2 Lakh or more",
+          "rate": 999,
+          "validity": "Renewal fee reversed if annual spends for last year >= Rs. 2,00,000.",
+          "terms_and_conditions": "Renewal fee waiver applies on meeting annual spend criteria."
+        }
+      ]
+    },
+    "redemption": [
+      {
+        "option": "Cashback Credit",
+        "minimum": null,
+        "value": null,
+        "process": "Cashback is auto-credited to the SBI Card account within two working days of the next statement generation.",
+        "terms_and_conditions": "Cashback is adjusted automatically in the next statement.",
+        "validity": "Cashback does not expire.",
+        "processing_time": "Within two working days of statement generation."
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "category": "Fuel Surcharge",
+      "name": "Fuel Surcharge Waiver",
+      "description": "1% fuel surcharge waiver across all petrol pumps in India on transactions between Rs. 500 and Rs. 3,000.",
+      "how_to_avail": "Use the card for fuel transactions within specified limits.",
+      "value": "1% waiver, maximum Rs. 100 per statement cycle.",
+      "terms_and_conditions": "Applicable only on transactions of Rs. 500 - Rs. 3,000, exclusive of GST and other charges.",
+      "validity": null,
+      "eligibility": "All cardholders",
+      "usage_limit": "Max Rs. 100 per statement cycle"
+    },
+    {
+      "category": "Contactless Payments",
+      "name": "Contactless Advantage",
+      "description": "Make fast and secure payments by tapping the card at contactless-enabled terminals.",
+      "how_to_avail": "Tap the card at a secure reader for transactions up to Rs. 5000 without PIN.",
+      "value": "Convenience and security",
+      "terms_and_conditions": "Payment limit of Rs. 5000 per transaction for contactless payments.",
+      "validity": null,
+      "eligibility": "All cardholders",
+      "usage_limit": "Rs. 5000 per transaction"
+    },
+    {
+      "category": "Worldwide Acceptance",
+      "name": "Global Usage",
+      "description": "Use your CASHBACK SBI Card at over 24 million outlets worldwide including 3,25,000 outlets in India.",
+      "how_to_avail": "Use the card wherever VISA is accepted.",
+      "value": "Global acceptance",
+      "terms_and_conditions": null,
+      "validity": null,
+      "eligibility": "All cardholders",
+      "usage_limit": null
+    },
+    {
+      "category": "Add-on Cards",
+      "name": "Family Empowerment",
+      "description": "Issue add-on cards for family members above 18 years.",
+      "how_to_avail": "Apply for add-on cards for parents, spouse, children, or siblings.",
+      "value": "Shared credit limit and benefits",
+      "terms_and_conditions": null,
+      "validity": null,
+      "eligibility": "Primary cardholders",
+      "usage_limit": null
+    },
+    {
+      "category": "Cash on the Go",
+      "name": "Cash Withdrawal",
+      "description": "Withdraw cash from over 1 million VISA ATMs globally.",
+      "how_to_avail": "Use the card at VISA ATMs worldwide.",
+      "value": "Cash access worldwide",
+      "terms_and_conditions": "Cash advance fees apply.",
+      "validity": null,
+      "eligibility": "All cardholders",
+      "usage_limit": null
+    },
+    {
+      "category": "Utility Bill Payment",
+      "name": "Easy Bill Pay",
+      "description": "Pay electricity, telephone, mobile and other utility bills using the card.",
+      "how_to_avail": "Use Easy Bill Pay facility on SBI Card platforms.",
+      "value": "Convenient bill payments",
+      "terms_and_conditions": null,
+      "validity": null,
+      "eligibility": "All cardholders",
+      "usage_limit": null
+    },
+    {
+      "category": "Balance Transfer",
+      "name": "Balance Transfer on EMI",
+      "description": "Transfer outstanding balances from other credit cards to CASHBACK SBI Card and pay in EMIs at lower interest rates.",
+      "how_to_avail": "Apply online or call helpline within 30 days of purchase.",
+      "value": "Save on interest payments",
+      "terms_and_conditions": "Minimum transfer amount Rs. 5,000; max 75% of available credit limit; processing fee applicable.",
+      "validity": null,
+      "eligibility": "All cardholders",
+      "usage_limit": null
+    }
+  ],
+  "current_offers": [
+    {
+      "title": "5% Cashback on Online Spends",
+      "description": "Earn 5% cashback on online spends with no merchant restriction.",
+      "validity": null,
+      "terms_and_conditions": "Exclusions apply as per cardholder T&Cs.",
+      "activation_required": false,
+      "how_to_activate": null,
+      "eligibility": "All cardholders",
+      "maximum_benefit": "₹5,000 cashback per statement cycle",
+      "offer_code": null,
+      "exclusions": "Merchant EMI, Flexipay EMI, fuel, utility, insurance, rent, wallet, school & educational services, jewelry, railways, etc."
+    },
+    {
+      "title": "1% Cashback on Offline Spends",
+      "description": "Earn 1% cashback on offline spends.",
+      "validity": null,
+      "terms_and_conditions": "Exclusions apply as per cardholder T&Cs.",
+      "activation_required": false,
+      "how_to_activate": null,
+      "eligibility": "All cardholders",
+      "maximum_benefit": "₹5,000 cashback per statement cycle",
+      "offer_code": null,
+      "exclusions": "Same as online spends."
+    },
+    {
+      "title": "Fuel Surcharge Waiver",
+      "description": "1% fuel surcharge waiver on transactions between Rs. 500 and Rs. 3,000.",
+      "validity": null,
+      "terms_and_conditions": "Max Rs. 100 per statement cycle.",
+      "activation_required": false,
+      "how_to_activate": null,
+      "eligibility": "All cardholders",
+      "maximum_benefit": "Rs. 100 per statement cycle",
+      "offer_code": null,
+      "exclusions": null
+    }
+  ],
+  "perks": [
+    {
+      "name": "Contactless Payments",
+      "description": "Tap and pay up to Rs. 5000 without PIN for fast and secure transactions.",
+      "category": "Payment Convenience",
+      "usage_limit": "Rs. 5000 per transaction",
+      "how_to_use": "Tap card at contactless-enabled POS terminal.",
+      "terms_and_conditions": "Payment limit of Rs. 5000 per transaction.",
+      "value": "Speed and security",
+      "validity": null
+    },
+    {
+      "name": "Worldwide Acceptance",
+      "description": "Use the card at over 24 million outlets worldwide.",
+      "category": "Global Usage",
+      "usage_limit": null,
+      "how_to_use": "Use wherever VISA is accepted.",
+      "terms_and_conditions": null,
+      "value": "Global acceptance",
+      "validity": null
+    }
+  ],
+  "partnerships": [
+    {
+      "partner": "VISA",
+      "benefit": "Worldwide acceptance and contactless payment technology",
+      "category": "Network",
+      "validity": null,
+      "how_to_avail": "Use card at VISA-accepting merchants and contactless terminals.",
+      "terms_and_conditions": null,
+      "discount_percentage": null,
+      "maximum_discount": null
+    }
+  ],
+  "fees_and_charges": [
+    {
+      "type": "Joining Fee",
+      "amount": "Rs. 999 + Taxes",
+      "waiver_conditions": null,
+      "frequency": "One-time",
+      "terms_and_conditions": "Subject to change at discretion of SBICPSL and non-refundable."
+    },
+    {
+      "type": "Renewal Fee",
+      "amount": "Rs. 999",
+      "waiver_conditions": "Reversed if annual spends for last year >= Rs. 2,00,000.",
+      "frequency": "Per annum from second year onwards",
+      "terms_and_conditions": "Subject to change at discretion of SBICPSL."
+    },
+    {
+      "type": "Add-on Card Fee",
+      "amount": "NIL",
+      "waiver_conditions": null,
+      "frequency": "Per annum",
+      "terms_and_conditions": null
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-08-12T18:01:17.604Z",
+    "confidence_score": 1,
+    "missing_data": [],
+    "processed_links": 4,
+    "token_usage": {
+      "input_tokens": 235172,
+      "output_tokens": 2924,
+      "total_tokens": 238096
+    },
+    "failed_links": 0,
+    "failed_link_details": []
+  }
+}

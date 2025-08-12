@@ -1,0 +1,273 @@
+{
+  "id": "2f439a06c8d35683",
+  "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/freedom-card-new",
+  "scraped_at": "2025-08-12T17:42:55.059Z",
+  "card": {
+    "name": "Freedom Credit Card",
+    "bank": "HDFC Bank",
+    "variant": "Freedom",
+    "description": "Best Card for your Everyday Spends & Big Purchases with rewards on select merchants and fuel surcharge waiver.",
+    "target_audience": "Salaried and Self Employed individuals with minimum age 21 years."
+  },
+  "rewards": {
+    "program": "CashPoints",
+    "type": "Reward Points",
+    "earning": {
+      "base_rate": 1,
+      "categories": [
+        {
+          "name": "10X CashPoints on select merchants",
+          "rate": 10,
+          "cap": 2500,
+          "description": "Earn 10 CashPoints per ₹150 spent on BigBasket, BookMyShow, OYO, Swiggy & Uber (non-EMI spends).",
+          "terms_and_conditions": "Applicable on non-EMI spends on the 5 merchants. Maximum 2,500 CashPoints per calendar month. Excludes fuel, EMI, wallet loads/prepaid card loads & voucher purchases. Terminal/Merchant IDs must be recognized. Returns/refunds adjust points.",
+          "how_to_earn": "Spend on select merchants via app or website.",
+          "validity": "CashPoints valid for 2 years from transaction date.",
+          "exclusions": "Fuel spends, rent payments, government transactions, wallet/gift/prepaid card loads, voucher purchases, cash advances, payment of fees, Smart EMI/Dial an EMI."
+        },
+        {
+          "name": "1 CashPoint per ₹150 on other spends",
+          "rate": 1,
+          "cap": null,
+          "description": "Earn 1 CashPoint per ₹150 spent on other spends excluding EMI, fuel, wallet loads/prepaid card loads & voucher purchases.",
+          "terms_and_conditions": "Excludes fuel, rent payments, government transactions, wallet/gift/prepaid card loads, voucher purchases, cash advances, payment of fees, EMI transactions.",
+          "how_to_earn": "Spend on other eligible transactions.",
+          "validity": "CashPoints valid for 2 years from transaction date.",
+          "exclusions": "Fuel spends, rent payments, government transactions, wallet/gift/prepaid card loads, voucher purchases, cash advances, payment of fees, EMI."
+        }
+      ],
+      "bonus_rates": [
+        {
+          "condition": "Swiggy Dineout payments using coupon code HDFCCARDS",
+          "rate": 0,
+          "validity": null,
+          "terms_and_conditions": "Get 10% additional discount on Swiggy Dineout payments."
+        }
+      ]
+    },
+    "redemption": [
+      {
+        "option": "Statement balance cashback",
+        "minimum": 3334,
+        "value": 0.15,
+        "process": "Redeem via Net Banking login, Phone Banking, or physical redemption form.",
+        "terms_and_conditions": "Minimum 3,334 CashPoints (₹500 equivalent) required. Redemption fee of ₹50 applicable from 1st August 2024. CashPoints expire after 2 years.",
+        "validity": "CashPoints expire after 2 years.",
+        "processing_time": "CashPoints posted in 1st week of subsequent calendar month."
+      },
+      {
+        "option": "Travel bookings and Rewards Catalogue",
+        "minimum": null,
+        "value": 0.15,
+        "process": "Redeem via SmartBuy Rewards Portal for flights, hotels, and products.",
+        "terms_and_conditions": "Can redeem up to 50% of booking value through CashPoints. Redemption capped at 50,000 points per calendar month for flights and hotels. Up to 70% redemption on select vouchers/products from 1st February 2023.",
+        "validity": "CashPoints expire after 2 years.",
+        "processing_time": "CashPoints posted in 1st week of subsequent calendar month."
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "category": "Fuel",
+      "name": "Fuel Surcharge Waiver",
+      "description": "1% fuel surcharge waiver on fuel transactions.",
+      "how_to_avail": "Use card for fuel transactions with minimum ₹400 and maximum ₹5,000 per transaction.",
+      "value": "1% waiver, maximum ₹250 per statement cycle.",
+      "terms_and_conditions": "Minimum transaction ₹400, maximum ₹5,000 per transaction, maximum waiver ₹250 per statement cycle. Rate may vary depending on fuel station and acquiring bank.",
+      "validity": null,
+      "eligibility": null,
+      "usage_limit": "Maximum waiver ₹250 per statement cycle."
+    },
+    {
+      "category": "Dining",
+      "name": "Exclusive Dining Privileges",
+      "description": "Up to 20% savings on restaurant bills via Swiggy Dineout.",
+      "how_to_avail": "Pay via Swiggy App using the offer.",
+      "value": "Up to 20% off at 20,000+ restaurants.",
+      "terms_and_conditions": "Offer inclusive of restaurant and Swiggy discount. Valid only on payments via Swiggy App.",
+      "validity": null,
+      "eligibility": null,
+      "usage_limit": null
+    },
+    {
+      "category": "Credit",
+      "name": "Interest Free Credit Period",
+      "description": "Up to 50 days interest free period from date of purchase.",
+      "how_to_avail": "Pay full outstanding by due date.",
+      "value": "Up to 50 days interest free.",
+      "terms_and_conditions": "Subject to submission of charge by merchant.",
+      "validity": null,
+      "eligibility": null,
+      "usage_limit": null
+    },
+    {
+      "category": "Credit",
+      "name": "Revolving Credit",
+      "description": "Enjoy revolving credit at nominal interest rate.",
+      "how_to_avail": "Pay minimum amount due to avail.",
+      "value": "Nominal interest rate as per fees and charges.",
+      "terms_and_conditions": "Refer to Fees and Charges section for details.",
+      "validity": null,
+      "eligibility": null,
+      "usage_limit": null
+    },
+    {
+      "category": "Security",
+      "name": "Zero Lost Card Liability",
+      "description": "Zero liability on fraudulent transactions if loss reported immediately.",
+      "how_to_avail": "Report lost card immediately to 24-hour call centre.",
+      "value": "Zero liability on fraudulent transactions.",
+      "terms_and_conditions": "Report loss immediately to toll free numbers 1800 1600/1800 2600 or +91 22 61606160 for overseas customers.",
+      "validity": null,
+      "eligibility": null,
+      "usage_limit": null
+    },
+    {
+      "category": "Payment",
+      "name": "Smart EMI",
+      "description": "Option to convert big spends into EMI after purchase.",
+      "how_to_avail": "Use Smart EMI option post purchase.",
+      "value": null,
+      "terms_and_conditions": "Refer to Smart EMI terms for details.",
+      "validity": null,
+      "eligibility": null,
+      "usage_limit": null
+    },
+    {
+      "category": "Payment",
+      "name": "Contactless Payment",
+      "description": "Enabled for contactless payments up to ₹5,000 without PIN.",
+      "how_to_avail": "Look for contactless symbol on card and use at enabled terminals.",
+      "value": "Fast, convenient and secure payments.",
+      "terms_and_conditions": "Payments ≥ ₹5,000 require PIN entry for security.",
+      "validity": null,
+      "eligibility": null,
+      "usage_limit": "Maximum ₹5,000 per contactless transaction without PIN."
+    }
+  ],
+  "current_offers": [
+    {
+      "title": "Renewal Fee Waiver",
+      "description": "Renewal membership fee waived off by spending ₹50,000 and above in an annual year.",
+      "validity": null,
+      "terms_and_conditions": "Applicable only on payment of membership fee.",
+      "activation_required": false,
+      "how_to_activate": "Spend ₹50,000 or more annually.",
+      "eligibility": null,
+      "maximum_benefit": "₹500 renewal fee waived.",
+      "offer_code": null,
+      "exclusions": null
+    }
+  ],
+  "perks": [
+    {
+      "name": "Welcome Benefit",
+      "description": "500 CashPoints on payment of joining membership fee.",
+      "category": "Reward",
+      "usage_limit": null,
+      "how_to_use": "Receive on payment of joining fee.",
+      "terms_and_conditions": "Applicable only on payment of membership fee.",
+      "value": "500 CashPoints",
+      "validity": null
+    }
+  ],
+  "partnerships": [
+    {
+      "partner": "BigBasket, BookMyShow, OYO, Swiggy & Uber",
+      "benefit": "Earn 10X CashPoints on spends",
+      "category": "Rewards",
+      "validity": null,
+      "how_to_avail": "Spend on these merchants using the card.",
+      "terms_and_conditions": "Non-EMI spends only, capped at 2,500 CashPoints per calendar month.",
+      "discount_percentage": null,
+      "maximum_discount": null
+    },
+    {
+      "partner": "Swiggy Dineout",
+      "benefit": "Up to 20% discount on dining",
+      "category": "Dining",
+      "validity": null,
+      "how_to_avail": "Use coupon code HDFCCARDS on Swiggy Dineout app.",
+      "terms_and_conditions": "Offer valid only on payments done via Swiggy App.",
+      "discount_percentage": "Up to 20%",
+      "maximum_discount": null
+    }
+  ],
+  "fees_and_charges": [
+    {
+      "type": "Joining Fee",
+      "amount": "₹500 + applicable taxes",
+      "waiver_conditions": null,
+      "frequency": "One time",
+      "terms_and_conditions": "Fee applicable on joining; welcome benefit given on payment."
+    },
+    {
+      "type": "Renewal Fee",
+      "amount": "₹500 + applicable taxes",
+      "waiver_conditions": "Waived if spend ₹50,000 or more annually.",
+      "frequency": "Annual",
+      "terms_and_conditions": "Renewal fee applicable annually; waiver on eligible spends."
+    },
+    {
+      "type": "Fuel Surcharge",
+      "amount": "1% of transaction amount",
+      "waiver_conditions": "Minimum transaction ₹400, maximum ₹5,000; maximum waiver ₹250 per statement cycle.",
+      "frequency": "Per transaction",
+      "terms_and_conditions": "Fuel surcharge waiver applies as per terms."
+    },
+    {
+      "type": "Late Payment Charges",
+      "amount": "Varies as per outstanding amount slab",
+      "waiver_conditions": "No late payment charges if Minimum Amount Due paid by due date.",
+      "frequency": "Per occurrence",
+      "terms_and_conditions": "Charges applicable on late payment."
+    },
+    {
+      "type": "Finance Charges",
+      "amount": "3.75% per month on revolving credit",
+      "waiver_conditions": null,
+      "frequency": "Monthly",
+      "terms_and_conditions": "Applicable on revolving credit balances."
+    },
+    {
+      "type": "Easy-EMI Processing Fee",
+      "amount": "Up to ₹299 + GST",
+      "waiver_conditions": null,
+      "frequency": "Per EMI transaction",
+      "terms_and_conditions": "Processing fee applicable on Easy-EMI transactions."
+    },
+    {
+      "type": "Cash Advance Fee",
+      "amount": "As per applicable rates",
+      "waiver_conditions": null,
+      "frequency": "Per transaction",
+      "terms_and_conditions": "Charges applicable on cash advances."
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-08-12T17:42:55.059Z",
+    "confidence_score": 1,
+    "missing_data": [],
+    "processed_links": 22,
+    "token_usage": {
+      "input_tokens": 81948,
+      "output_tokens": 3668,
+      "total_tokens": 85616
+    },
+    "failed_links": 2,
+    "failed_link_details": [
+      {
+        "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+        "type": "general",
+        "error": "Navigation timeout of 60000 ms exceeded",
+        "text": "Credit Card"
+      },
+      {
+        "url": "https://v.hdfcbank.com/htdocs/common/cardless-cash/index.html",
+        "type": "general",
+        "error": "Navigation timeout of 60000 ms exceeded",
+        "text": "Contactless Cards"
+      }
+    ]
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "id": "e73f41aca13f0079",
+  "url": "https://www.sbicard.com/en/personal/credit-cards/lifestyle/tata-neu-infinity-sbi-card.page",
+  "scraped_at": "2025-08-12T18:07:17.835Z",
+  "card": {
+    "name": "Tata Neu Infinity SBI Card",
+    "bank": "SBI Cards and Payment Services Limited",
+    "variant": "Premium Rewards & Benefits",
+    "description": "A premium co-branded credit card offering rewards in NeuCoins, lounge access, fuel surcharge waiver, and other benefits.",
+    "target_audience": "Individuals seeking premium rewards and benefits with Tata Neu and SBI Card partnership."
+  },
+  "rewards": {
+    "program": "SBI Card Rewards Program",
+    "type": "NeuCoins Loyalty Points",
+    "earning": {
+      "base_rate": 1.5,
+      "categories": [
+        {
+          "name": "Tata Neu App/Website and partner Tata Brands",
+          "rate": 5,
+          "cap": null,
+          "description": "5% value back as NeuCoins on spends",
+          "terms_and_conditions": "NeuCoins accrual as per updated MID list; excludes balance transfers, cash advances, financial charges, disputed transactions, petrol pumps (except specified MCCs), Merchant EMI, Flexipay, and e-wallet loading transactions.",
+          "how_to_earn": "Spend on Tata Neu App/Website and partner Tata Brands",
+          "validity": "NeuCoins posted within 7 working days of statement cycle",
+          "exclusions": "Balance transfers, cash advances, financial charges, disputed transactions, petrol pumps (MCCs excluded-5172, 5541, 5542, 5983), Merchant EMI, Flexipay, e-wallet loading MCCs 6540 and 6541"
+        },
+        {
+          "name": "Select category spends on Tata Neu App/Website",
+          "rate": 5,
+          "cap": null,
+          "description": "Extra 5% value back as NeuCoins on select categories",
+          "terms_and_conditions": "NeuCoins accrual as per updated MID list; same exclusions as above.",
+          "how_to_earn": "Spend on select categories on Tata Neu App/Website",
+          "validity": "NeuCoins posted within 7 working days of statement cycle",
+          "exclusions": "Same as above"
+        },
+        {
+          "name": "Other spends including UPI transactions (RuPay Variant)",
+          "rate": 1.5,
+          "cap": 500,
+          "description": "1.5% value back as NeuCoins; UPI spends capped at 500 NeuCoins per month",
+          "terms_and_conditions": "Applicable on RuPay variant spends; capped monthly.",
+          "how_to_earn": "Spend on other merchants including UPI transactions",
+          "validity": "NeuCoins posted within 7 working days of statement cycle",
+          "exclusions": "Same as above"
+        }
+      ],
+      "bonus_rates": [
+        {
+          "condition": "Welcome benefit on payment of joining fee",
+          "rate": 1499,
+          "validity": "Within 15 days of realization of joining fee",
+          "terms_and_conditions": "NeuCoins credited to Tata NeuPass account"
+        }
+      ]
+    },
+    "redemption": [
+      {
+        "option": "NeuCoins redemption via Tata Neu App/Website and partner brands",
+        "minimum": null,
+        "value": "1 NeuCoin = INR 1",
+        "process": "NeuCoins automatically transferred to NeuPass account within 7 working days of statement cycle; redeem via Tata Pay or loyalty redemption options on app/website or at partner stores",
+        "terms_and_conditions": "Card must not be overdue, suspended, blocked, cancelled or terminated; points not exchangeable for cash or credit; non-transferable",
+        "validity": null,
+        "processing_time": "7 working days"
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "category": "Lounge Access",
+      "name": "Domestic Airport Lounge Access",
+      "description": "8 complimentary domestic airport lounge visits per year (2 per quarter)",
+      "how_to_avail": "Use Tata Neu Infinity SBI Card at participating lounges; eligibility based on minimum spend of Rs. 75,000 in previous calendar quarter",
+      "value": "8 visits/year",
+      "terms_and_conditions": "Spend criteria waived for newly issued cards; only primary cardholders eligible; add-on cardholders pay for access; spend based eligibility applies from 7th day of first month of every quarter",
+      "validity": "Annual",
+      "eligibility": "Primary cardholders with required spend",
+      "usage_limit": "2 per quarter"
+    },
+    {
+      "category": "Lounge Access",
+      "name": "International Airport Lounge Access",
+      "description": "4 complimentary international airport lounge visits per year (1 per quarter) via Priority Pass membership",
+      "how_to_avail": "Complimentary Priority Pass membership valid for 2 years; usage fee applies after complimentary visits",
+      "value": "4 visits/year",
+      "terms_and_conditions": "Only primary cardholders eligible; charges apply after 4 visits; membership worth $99",
+      "validity": "2 years",
+      "eligibility": "Primary cardholders",
+      "usage_limit": "1 per quarter"
+    },
+    {
+      "category": "Fuel",
+      "name": "Fuel Surcharge Waiver",
+      "description": "1% fuel surcharge waiver on transactions between Rs. 500 and Rs. 4,000 at petrol pumps across India",
+      "how_to_avail": "Use Tata Neu Infinity SBI Card for fuel purchase within specified range",
+      "value": "1% waiver, max Rs. 500 per statement cycle",
+      "terms_and_conditions": "Maximum waiver Rs. 500 per statement cycle; excludes GST and other charges",
+      "validity": "Ongoing",
+      "eligibility": "All cardholders",
+      "usage_limit": "Max Rs. 500 per statement cycle"
+    },
+    {
+      "category": "Add-on Cards",
+      "name": "Add-on Cards",
+      "description": "Add-on cards available for family members above 18 years",
+      "how_to_avail": "Apply for add-on cards for parents, spouse, children, siblings",
+      "value": "Additional cards",
+      "terms_and_conditions": "Add-on fee nil",
+      "validity": "Ongoing",
+      "eligibility": "Family members above 18 years",
+      "usage_limit": null
+    },
+    {
+      "category": "Cash Access",
+      "name": "Cash Withdrawal",
+      "description": "Withdraw cash from over 1 million Visa/Mastercard/American Express ATMs worldwide",
+      "how_to_avail": "Use Tata Neu Infinity SBI Card at ATMs",
+      "value": "Global ATM access",
+      "terms_and_conditions": "Cash advance fees apply",
+      "validity": "Ongoing",
+      "eligibility": "Cardholders",
+      "usage_limit": null
+    },
+    {
+      "category": "Security",
+      "name": "Chip and PIN Security",
+      "description": "Enhanced security against counterfeiting and skimming with EMV chip and PIN",
+      "how_to_avail": "Use chip and PIN enabled card",
+      "value": "Enhanced security",
+      "terms_and_conditions": null,
+      "validity": "Ongoing",
+      "eligibility": "Cardholders",
+      "usage_limit": null
+    },
+    {
+      "category": "Payment Flexibility",
+      "name": "Flexipay",
+      "description": "Convert transactions of Rs. 2,500 or more into easy monthly installments",
+      "how_to_avail": "Transact and convert within 30 days via sbicard.com",
+      "value": "EMI facility",
+      "terms_and_conditions": "Interest charges apply; minimum transaction Rs. 2,500",
+      "validity": "Ongoing",
+      "eligibility": "Cardholders",
+      "usage_limit": null
+    },
+    {
+      "category": "Balance Transfer",
+      "name": "Balance Transfer on EMI",
+      "description": "Transfer outstanding balances from other credit cards to Tata Neu Infinity SBI Card at lower interest rates",
+      "how_to_avail": "Apply via sbicard.com",
+      "value": "Lower interest EMI",
+      "terms_and_conditions": "Minimum transfer Rs. 5,000; max 75% of available credit limit; processing fee applies",
+      "validity": "Ongoing",
+      "eligibility": "Cardholders",
+      "usage_limit": null
+    }
+  ],
+  "current_offers": [],
+  "perks": [],
+  "partnerships": [
+    {
+      "partner": "Tata Neu and partner Tata Brands",
+      "benefit": "NeuCoins rewards on spends",
+      "category": "Rewards",
+      "validity": "Ongoing",
+      "how_to_avail": "Spend on Tata Neu App/Website and partner brands",
+      "terms_and_conditions": "NeuCoins accrual as per updated MID list; exclusions apply",
+      "discount_percentage": null,
+      "maximum_discount": null
+    },
+    {
+      "partner": "Priority Pass",
+      "benefit": "Complimentary international lounge access",
+      "category": "Lounge Access",
+      "validity": "2 years",
+      "how_to_avail": "Use Tata Neu Infinity SBI Card to access lounges",
+      "terms_and_conditions": "Only primary cardholders eligible; charges apply after 4 visits",
+      "discount_percentage": null,
+      "maximum_discount": null
+    }
+  ],
+  "fees_and_charges": [
+    {
+      "type": "Joining Fee",
+      "amount": "Rs. 1,499 + Taxes",
+      "waiver_conditions": "None specified",
+      "frequency": "One-time",
+      "terms_and_conditions": "Non-refundable"
+    },
+    {
+      "type": "Annual Fee",
+      "amount": "Rs. 1,499 + Taxes",
+      "waiver_conditions": "Annual fee reversal on annual spends of Rs. 3 Lakh or more",
+      "frequency": "Annual",
+      "terms_and_conditions": "Subject to change at discretion of SBICPSL"
+    },
+    {
+      "type": "Renewal Fee",
+      "amount": "Rs. 1,499 + Taxes",
+      "waiver_conditions": "Annual fee reversal on annual spends of Rs. 3 Lakh or more",
+      "frequency": "Annual",
+      "terms_and_conditions": "Subject to change at discretion of SBICPSL"
+    },
+    {
+      "type": "Add-on Card Fee",
+      "amount": "Nil",
+      "waiver_conditions": null,
+      "frequency": "Annual",
+      "terms_and_conditions": null
+    },
+    {
+      "type": "Cash Advance Fee",
+      "amount": "As applicable",
+      "waiver_conditions": null,
+      "frequency": "Per transaction",
+      "terms_and_conditions": "Billed to Cardholder"
+    },
+    {
+      "type": "Late Payment Fee",
+      "amount": "As per Most Important Terms & Conditions",
+      "waiver_conditions": null,
+      "frequency": "Per occurrence",
+      "terms_and_conditions": "Charged if minimum amount due not paid by due date"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-08-12T18:07:17.834Z",
+    "confidence_score": 1,
+    "missing_data": [],
+    "processed_links": 2,
+    "token_usage": {
+      "input_tokens": 201762,
+      "output_tokens": 3139,
+      "total_tokens": 204901
+    },
+    "failed_links": 0,
+    "failed_link_details": []
+  }
+}

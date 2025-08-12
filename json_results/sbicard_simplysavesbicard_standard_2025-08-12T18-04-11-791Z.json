@@ -1,0 +1,202 @@
+{
+  "id": "63169da0bb540cf7",
+  "url": "https://www.sbicard.com/en/personal/credit-cards/shopping/simplysave-sbi-card.page",
+  "scraped_at": "2025-08-12T18:04:11.791Z",
+  "card": {
+    "name": "SimplySAVE SBI Card",
+    "bank": "SBI Card",
+    "variant": "SimplySAVE",
+    "description": "A credit card offering unlimited privileges including reward points on spends, fuel surcharge waiver, and worldwide acceptance.",
+    "target_audience": "Personal users looking for rewards on shopping, dining, movies, departmental stores, grocery spends, and fuel surcharge waiver."
+  },
+  "rewards": {
+    "program": "SimplySAVE Rewards",
+    "type": "Points-based",
+    "earning": {
+      "base_rate": 1,
+      "categories": [
+        {
+          "name": "Dining, Movies, Departmental Stores, Grocery Spends",
+          "rate": 10,
+          "cap": null,
+          "description": "Earn 10 Reward Points per Rs 150 spent on these categories.",
+          "terms_and_conditions": "Reward Points earned at 4 points = Rs. 1 value.",
+          "how_to_earn": "Spend Rs 150 in the specified categories to earn 10 points.",
+          "validity": null,
+          "exclusions": null
+        },
+        {
+          "name": "Other spends",
+          "rate": 1,
+          "cap": null,
+          "description": "Earn 1 Reward Point per Rs 150 spent on all other spends.",
+          "terms_and_conditions": "Reward Points earned at 4 points = Rs. 1 value.",
+          "how_to_earn": "Spend Rs 150 on other categories to earn 1 point.",
+          "validity": null,
+          "exclusions": null
+        }
+      ],
+      "bonus_rates": [
+        {
+          "condition": "Spend Rs. 2,000 or more in first 60 days",
+          "rate": 2000,
+          "validity": "Within 60 days of receiving the card",
+          "terms_and_conditions": "Bonus Points credited within 60 days of eligible transactions; valid only for new SimplySAVE SBI Card holders; not applicable on cash withdrawals, balance transfer, and easy money draft spends."
+        }
+      ]
+    },
+    "redemption": [
+      {
+        "option": "Redeem against gifts or pay outstanding balance",
+        "minimum": null,
+        "value": null,
+        "process": "Use Reward Points to pay outstanding balance or redeem through Rewards Catalogue.",
+        "terms_and_conditions": "Reward Redemption fee applicable on every redemption request.",
+        "validity": null,
+        "processing_time": null
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "category": "Fuel",
+      "name": "Fuel Surcharge Waiver",
+      "description": "Get freedom from paying the 1% fuel surcharge at any petrol pump in India.",
+      "how_to_avail": "Transact between Rs. 500 to Rs. 3,000 at any petrol pump.",
+      "value": "Maximum surcharge waiver of up to Rs. 100 per statement cycle.",
+      "terms_and_conditions": null,
+      "validity": null,
+      "eligibility": null,
+      "usage_limit": "Up to Rs. 100 waiver per statement cycle"
+    },
+    {
+      "category": "Contactless Payment",
+      "name": "Contactless Advantage",
+      "description": "Make daily purchases easy and secure with Visa payWave contactless technology.",
+      "how_to_avail": "Wave card at a secure reader for small ticket purchases.",
+      "value": "Fast and convenient transactions without handing over card.",
+      "terms_and_conditions": "Unique security key ensures only one transaction goes through even if card is waved multiple times.",
+      "validity": null,
+      "eligibility": null,
+      "usage_limit": null
+    },
+    {
+      "category": "Worldwide Acceptance",
+      "name": "Global Usage",
+      "description": "Use your SimplySAVE SBI Card in over 24 million outlets worldwide including 3,25,000 outlets in India.",
+      "how_to_avail": "Use card at any outlet accepting Visa or MasterCard.",
+      "value": null,
+      "terms_and_conditions": null,
+      "validity": null,
+      "eligibility": null,
+      "usage_limit": null
+    },
+    {
+      "category": "Add-on Cards",
+      "name": "Add-on Cards for Family",
+      "description": "Empower family members with add-on cards for parents, spouse, children or siblings above 18 years.",
+      "how_to_avail": "Apply for add-on cards linked to primary SimplySAVE SBI Card.",
+      "value": "No add-on fee per annum.",
+      "terms_and_conditions": null,
+      "validity": null,
+      "eligibility": "Family members above 18 years",
+      "usage_limit": null
+    },
+    {
+      "category": "Cash Withdrawal",
+      "name": "Cash on the Go",
+      "description": "Withdraw cash from over 1 million Visa or MasterCard ATMs globally.",
+      "how_to_avail": "Use SimplySAVE SBI Card at ATMs worldwide.",
+      "value": null,
+      "terms_and_conditions": null,
+      "validity": null,
+      "eligibility": null,
+      "usage_limit": null
+    },
+    {
+      "category": "Utility Payments",
+      "name": "Utility Bill Payment Facility",
+      "description": "Pay electricity, telephone, mobile and other utility bills using Easy Bill Pay facility.",
+      "how_to_avail": "Use SimplySAVE SBI Card for utility bill payments.",
+      "value": null,
+      "terms_and_conditions": null,
+      "validity": null,
+      "eligibility": null,
+      "usage_limit": null
+    },
+    {
+      "category": "Balance Transfer",
+      "name": "Balance Transfer on EMI",
+      "description": "Transfer outstanding balances from other banks’ credit cards to SimplySAVE SBI Card and pay back in EMIs at lower interest rates.",
+      "how_to_avail": "Log on to sbicard.com with user ID and password to avail service.",
+      "value": "Lower interest rate on balance transfer.",
+      "terms_and_conditions": null,
+      "validity": null,
+      "eligibility": null,
+      "usage_limit": null
+    },
+    {
+      "category": "Flexipay",
+      "name": "Flexipay Installments",
+      "description": "Convert transactions of Rs. 2,500 or more into easy monthly installments.",
+      "how_to_avail": "Log in to sbicard.com within 30 days of purchase to convert transaction into Flexipay.",
+      "value": null,
+      "terms_and_conditions": null,
+      "validity": null,
+      "eligibility": null,
+      "usage_limit": null
+    }
+  ],
+  "current_offers": [
+    {
+      "title": "Extravaganza Offer",
+      "description": "Spend Rs. 2,000 or more in first 60 days and get 2,000 bonus Reward Points.",
+      "validity": "Within 60 days of receiving the card",
+      "terms_and_conditions": "Valid only for new SimplySAVE SBI Card holders; not valid on cash withdrawals, balance transfer, and easy money draft spends; bonus points credited within 60 days of eligible transactions; maximum 2000 points per account.",
+      "activation_required": false,
+      "how_to_activate": "",
+      "eligibility": "New SimplySAVE SBI Card holders only",
+      "maximum_benefit": "2000 bonus points",
+      "offer_code": "",
+      "exclusions": "Cash withdrawals, balance transfer, easy money draft spends"
+    }
+  ],
+  "perks": [],
+  "partnerships": [],
+  "fees_and_charges": [
+    {
+      "type": "Annual Fee (one-time)",
+      "amount": "Rs. 499 + Taxes",
+      "waiver_conditions": null,
+      "frequency": "One-time",
+      "terms_and_conditions": null
+    },
+    {
+      "type": "Renewal Fee",
+      "amount": "Rs. 499 + Taxes",
+      "waiver_conditions": "Renewal Fee reversed if annual spends for last year >= Rs. 1,00,000",
+      "frequency": "Per annum from second year onwards",
+      "terms_and_conditions": null
+    },
+    {
+      "type": "Add-on Fee",
+      "amount": "Nil",
+      "waiver_conditions": null,
+      "frequency": "Per annum",
+      "terms_and_conditions": null
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-08-12T18:04:11.790Z",
+    "confidence_score": 1,
+    "missing_data": [],
+    "processed_links": 1,
+    "token_usage": {
+      "input_tokens": 2891,
+      "output_tokens": 2333,
+      "total_tokens": 5224
+    },
+    "failed_links": 0,
+    "failed_link_details": []
+  }
+}

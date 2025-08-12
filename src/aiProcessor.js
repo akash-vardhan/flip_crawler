@@ -1,6 +1,7 @@
 const OpenAI = require('openai');
 const config = require('../config/config');
 const Utils = require('./utils');
+const axios = require('axios');
 
 class AIProcessor {
     constructor(apiKey) {
@@ -11,22 +12,26 @@ class AIProcessor {
     }
 
     /**
-     * Process listing page to extract card URLs with improved filtering
+     * Process listing page to extract card URLs with enhanced Know More detection
      */
     async extractCardUrls(listingContent, baseUrl) {
         try {
             console.log('🔍 Extracting card URLs from listing page with OpenAI...');
             
-            const prompt = this.buildListingExtractionPrompt(listingContent, baseUrl);
-            const estimatedInputTokens = Math.ceil(prompt.length / 4);
-            console.log(`📊 Estimated input tokens for listing: ${estimatedInputTokens}`);
+            const prompt = this.buildEnhancedListingPrompt(listingContent, baseUrl);
+            const estimatedTokens = prompt.length / 4;
+            
+            if (estimatedTokens > 15000) {
+                console.log(`⚠️ Content too long (${Math.round(estimatedTokens)} tokens), chunking...`);
+                return await this.processListingInChunks(listingContent, baseUrl);
+            }
 
             const response = await this.openai.chat.completions.create({
                 model: this.config.model,
                 messages: [
                     {
                         role: "system",
-                        content: this.getListingSystemPrompt()
+                        content: this.getEnhancedListingSystemPrompt()
                     },
                     {
                         role: "user",
@@ -34,11 +39,10 @@ class AIProcessor {
                     }
                 ],
                 temperature: 0.1,
-                max_tokens: 4000,
+                max_tokens: 3500,
                 response_format: { type: "json_object" }
             });
 
-            // Track token usage
             const usage = response.usage;
             this.totalInputTokens += usage.prompt_tokens;
             this.totalOutputTokens += usage.completion_tokens;
@@ -49,45 +53,746 @@ class AIProcessor {
             console.log(`   Total: ${usage.total_tokens} tokens`);
 
             const responseContent = response.choices[0].message.content.trim();
-            const extractedData = this.cleanAndParseResponse(responseContent);
-
-            // Post-process and filter the results
-            const filteredData = this.postProcessCardUrls(extractedData, baseUrl);
             
-            console.log(`🎯 Before filtering: ${extractedData.cards?.length || 0} cards`);
-            console.log(`✅ After filtering: ${filteredData.cards?.length || 0} cards`);
+            if (response.choices[0].finish_reason === 'length') {
+                console.warn('⚠️ Response was truncated. Retrying with chunks...');
+                return await this.processListingInChunks(listingContent, baseUrl);
+            }
 
-            return filteredData;
+            const extractedData = this.cleanAndParseResponse(responseContent);
+            
+            console.log(`🔍 GPT Response: Found ${extractedData.cards?.length || 0} cards`);
+            if (extractedData.cards?.length > 0) {
+                console.log(`📋 Sample card: ${extractedData.cards[0].name} -> ${extractedData.cards[0].url}`);
+            }
+            
+            const validatedData = await this.postProcessAndValidateUrls(extractedData, baseUrl);
+            
+            console.log(`🎯 Before validation: ${extractedData.cards?.length || 0} cards`);
+            console.log(`✅ After validation: ${validatedData.cards?.length || 0} valid cards`);
+
+            return validatedData;
 
         } catch (error) {
             console.error('❌ Listing extraction error:', error.message);
-            return { cards: [] };
+            if (error.message.includes('JSON')) {
+                console.log('🔄 JSON parsing failed, attempting retry with chunks...');
+                return await this.processListingInChunks(listingContent, baseUrl);
+            }
+            return { cards: [], invalid_urls: [] };
         }
     }
 
     /**
-     * Post-process and filter card URLs to remove irrelevant ones
+     * Enhanced system prompt that specifically targets Know More buttons and card links
      */
-    postProcessCardUrls(extractedData, baseUrl) {
-        if (!extractedData.cards || !Array.isArray(extractedData.cards)) {
-            return { cards: [], total_cards_found: 0 };
+    getEnhancedListingSystemPrompt() {
+        return `You are a specialized credit card URL extractor. You MUST respond with ONLY valid JSON.
+
+CRITICAL RESPONSE RULES:
+- Start response immediately with {
+- End response with }
+- NO explanations before or after JSON
+- NO markdown code blocks
+- Only valid JSON syntax
+
+EXTRACTION MISSION:
+Find ALL individual credit card page URLs from a listing page. Focus specifically on:
+
+1. "Know More" buttons/links next to each card
+2. "Learn More" / "View Details" / "Apply Now" links  
+3. Card names that are clickable links
+4. Any clickable element that leads to individual card pages
+
+CRITICAL: Look for patterns like:
+- Links containing card names (pixel-play, freedom, millennia, regalia, etc.)
+- URLs ending with specific card identifiers
+- Buttons or links in card sections/containers
+- Both anchor tags <a> and button elements with onclick handlers`;
+    }
+
+    /**
+     * Enhanced listing prompt that gives GPT better context to find Know More links
+     */
+    buildEnhancedListingPrompt(listingContent, baseUrl) {
+        const title = listingContent.title || '';
+        const textContent = listingContent.content?.text || '';
+        const htmlContent = listingContent.content?.html || '';
+        const links = listingContent.links || [];
+        
+        // Filter and prepare relevant links for GPT
+        const relevantLinks = links.filter(link => {
+            const href = link.href || link.url || '';
+            const text = (link.text || link.title || '').toLowerCase();
+            const context = (link.context || '').toLowerCase();
+            
+            // Look for credit card related links
+            return href.includes('credit-card') || 
+                   href.includes('/cards/') ||
+                   text.includes('know more') || 
+                   text.includes('learn more') || 
+                   text.includes('view details') || 
+                   text.includes('apply') ||
+                   href.includes('pixel') ||
+                   href.includes('freedom') ||
+                   href.includes('millennia') ||
+                   href.includes('regalia') ||
+                   href.includes('diners') ||
+                   context.includes('card');
+        });
+
+        return `EXTRACT CREDIT CARD URLs FROM THIS HDFC BANK LISTING PAGE:
+
+BASE URL: ${baseUrl}
+PAGE TITLE: ${title}
+
+CONTENT TEXT (First 12000 chars):
+${textContent.slice(0, 12000)}
+
+RELEVANT LINKS FOUND ON PAGE:
+${relevantLinks.slice(0, 50).map(link => 
+    `- URL: ${link.href || link.url || 'N/A'}
+  TEXT: "${link.text || link.title || 'N/A'}"
+  CONTEXT: ${link.context || 'N/A'}`
+).join('\n')}
+
+HTML SAMPLE (First 5000 chars):
+${htmlContent.slice(0, 5000)}
+
+EXTRACTION INSTRUCTIONS:
+1. Look for individual credit card pages (NOT the main listing page)
+2. Each card should have a "Know More" / "Learn More" / "View Details" button/link
+3. Extract the URL that each button/link points to
+4. Card names to look for: PIXEL Play, Freedom, Millennia, Regalia, Diners Club, MoneyBack, IndianOil, etc.
+5. URLs should contain specific card names or identifiers
+6. Convert relative URLs to absolute using base URL: ${baseUrl}
+
+REQUIRED JSON FORMAT:
+{
+  "cards": [
+    {
+      "name": "Specific Card Name (e.g., PIXEL Play Credit Card)",
+      "description": "Brief card description from page",
+      "url": "Complete absolute URL to individual card page", 
+      "category": "Personal Credit Card",
+      "key_features": ["feature1", "feature2"],
+      "annual_fee": null,
+      "link_context": "Know More / Learn More / View Details",
+      "extraction_source": "Where you found this link"
+    }
+  ],
+  "total_cards_found": 0
+}
+
+CRITICAL SUCCESS CRITERIA:
+- MUST find the "Know More", "Learn more" etc button URLs for each card
+- Each URL should lead to a SPECIFIC card's detail page
+- Do NOT include the main listing page URL
+- Look in BOTH the content text AND the links array
+- Pay special attention to button elements and their associated URLs
+
+Return ONLY the JSON object with ALL credit card URLs you can find.`;
+    }
+
+    /**
+     * Process listing in chunks with enhanced extraction
+     */
+    async processListingInChunks(listingContent, baseUrl) {
+        console.log('📝 Processing listing in chunks with enhanced extraction...');
+        
+        const allCards = [];
+        const content = listingContent.content?.text || '';
+        const links = listingContent.links || [];
+        const chunkSize = 6000;
+        
+        // First, try to extract from links directly
+        const cardLinksFromList = this.extractCardLinksFromArray(links, baseUrl);
+        if (cardLinksFromList.length > 0) {
+            console.log(`🎯 Found ${cardLinksFromList.length} card links directly from links array`);
+            allCards.push(...cardLinksFromList);
+        }
+        
+        // Then chunk the content for additional extraction
+        const chunks = [];
+        for (let i = 0; i < content.length; i += chunkSize) {
+            chunks.push(content.slice(i, i + chunkSize));
         }
 
-        const filteredCards = extractedData.cards
-            .filter(card => this.isValidCreditCard(card))
-            .map(card => this.normalizeCardData(card, baseUrl));
+        console.log(`📋 Processing ${chunks.length} content chunks...`);
+
+        for (let i = 0; i < Math.min(chunks.length, 5); i++) { // Limit to 5 chunks
+            try {
+                console.log(`🔍 Processing chunk ${i + 1}...`);
+                
+                const chunkContent = {
+                    title: `${listingContent.title} (Part ${i + 1})`,
+                    content: { text: chunks[i] },
+                    links: i === 0 ? links.slice(0, 100) : [] // Include links only in first chunk
+                };
+
+                const prompt = this.buildEnhancedListingPrompt(chunkContent, baseUrl);
+                
+                const response = await this.openai.chat.completions.create({
+                    model: this.config.model,
+                    messages: [
+                        {
+                            role: "system",
+                            content: this.getEnhancedListingSystemPrompt()
+                        },
+                        {
+                            role: "user",
+                            content: prompt
+                        }
+                    ],
+                    temperature: 0.1,
+                    max_tokens: 3000,
+                    response_format: { type: "json_object" }
+                });
+
+                const usage = response.usage;
+                this.totalInputTokens += usage.prompt_tokens;
+                this.totalOutputTokens += usage.completion_tokens;
+
+                const responseContent = response.choices[0].message.content.trim();
+                const extractedData = this.cleanAndParseResponse(responseContent);
+                
+                if (extractedData.cards && Array.isArray(extractedData.cards)) {
+                    allCards.push(...extractedData.cards);
+                    console.log(`📍 Chunk ${i + 1} found: ${extractedData.cards.length} cards`);
+                }
+
+                await Utils.sleep(1000);
+
+            } catch (error) {
+                console.error(`❌ Error processing chunk ${i + 1}:`, error.message);
+                continue;
+            }
+        }
+
+        // Remove duplicates
+        const uniqueCards = allCards.filter((card, index, self) => 
+            index === self.findIndex(c => c.url === card.url && c.name === card.name)
+        );
+
+        console.log(`🎯 Total extracted: ${allCards.length}, Unique: ${uniqueCards.length}`);
+
+        const consolidatedData = { 
+            cards: uniqueCards, 
+            total_cards_found: uniqueCards.length 
+        };
+        
+        return await this.postProcessAndValidateUrls(consolidatedData, baseUrl);
+    }
+
+    /**
+     * Extract card links directly from the links array
+     */
+    extractCardLinksFromArray(links, baseUrl) {
+        const cardLinks = [];
+        
+        links.forEach(link => {
+            const href = link.href || link.url || '';
+            const text = (link.text || link.title || '').toLowerCase();
+            const context = (link.context || '').toLowerCase();
+            
+            // Check if this looks like a credit card link
+            const isCardLink = href.includes('credit-card') || 
+                              href.includes('/cards/') ||
+                              text.includes('know more') ||
+                              text.includes('learn more') ||
+                              text.includes('view details');
+                              
+            const isPersonalCard = !href.includes('business') && 
+                                   !href.includes('corporate') &&
+                                   !href.includes('debit');
+                                   
+            if (isCardLink && isPersonalCard && href !== baseUrl) {
+                // Try to extract card name from URL or text
+                let cardName = this.extractCardNameFromUrl(href) || 
+                              this.extractCardNameFromText(text) || 
+                              'Unknown Card';
+                
+                let normalizedUrl = href;
+                if (href.startsWith('/')) {
+                    const base = new URL(baseUrl);
+                    normalizedUrl = `${base.protocol}//${base.host}${href}`;
+                }
+                
+                cardLinks.push({
+                    name: cardName,
+                    description: `Credit card extracted from ${text}`,
+                    url: normalizedUrl,
+                    category: "Personal Credit Card",
+                    key_features: [],
+                    annual_fee: null,
+                    link_context: text,
+                    extraction_source: "links_array"
+                });
+            }
+        });
+        
+        return cardLinks;
+    }
+
+    /**
+     * Extract card name from URL
+     */
+    extractCardNameFromUrl(url) {
+        const urlLower = url.toLowerCase();
+        
+        // Common HDFC card patterns
+        if (urlLower.includes('pixel-play')) return 'PIXEL Play Credit Card';
+        if (urlLower.includes('freedom')) return 'Freedom Credit Card';
+        if (urlLower.includes('millennia')) return 'Millennia Credit Card';
+        if (urlLower.includes('regalia')) return 'Regalia Credit Card';
+        if (urlLower.includes('diners')) return 'Diners Club Credit Card';
+        if (urlLower.includes('moneyback')) return 'MoneyBack Credit Card';
+        if (urlLower.includes('indianoil')) return 'IndianOil HDFC Bank Credit Card';
+        if (urlLower.includes('infinia')) return 'INFINIA Credit Card';
+        if (urlLower.includes('marriott')) return 'Marriott Bonvoy Credit Card';
+        if (urlLower.includes('irctc')) return 'IRCTC HDFC Bank Credit Card';
+        
+        // Try to extract from URL path
+        const pathParts = url.split('/').filter(part => part.length > 3);
+        const lastPart = pathParts[pathParts.length - 1];
+        if (lastPart && lastPart.includes('-')) {
+            return lastPart.split('-').map(word => 
+                word.charAt(0).toUpperCase() + word.slice(1)
+            ).join(' ') + ' Credit Card';
+        }
+        
+        return null;
+    }
+
+    /**
+     * Extract card name from link text
+     */
+    extractCardNameFromText(text) {
+        if (text.includes('pixel')) return 'PIXEL Play Credit Card';
+        if (text.includes('freedom')) return 'Freedom Credit Card';  
+        if (text.includes('millennia')) return 'Millennia Credit Card';
+        if (text.includes('regalia')) return 'Regalia Credit Card';
+        return null;
+    }
+
+    /**
+     * Process content with flexible JSON structure - NO TRUNCATION
+     */
+    async processContent(mainContent, linkedContents, url) {
+        try {
+            console.log('🤖 Processing content with OpenAI for DUAL format output...');
+            
+            const prompt = this.buildFlexibleComprehensivePrompt(mainContent, linkedContents, url);
+            
+            const response = await this.openai.chat.completions.create({
+                model: this.config.model,
+                messages: [
+                    {
+                        role: "system",
+                        content: this.getFlexibleSystemPrompt()
+                    },
+                    {
+                        role: "user",
+                        content: prompt
+                    }
+                ],
+                temperature: this.config.temperature,
+                max_tokens: 4000,
+                response_format: { type: "json_object" }
+            });
+
+            const usage = response.usage;
+            this.totalInputTokens += usage.prompt_tokens;
+            this.totalOutputTokens += usage.completion_tokens;
+
+            console.log(`📈 Token Usage:`);
+            console.log(`   Input: ${usage.prompt_tokens} tokens`);
+            console.log(`   Output: ${usage.completion_tokens} tokens`);
+            console.log(`   Total: ${usage.total_tokens} tokens`);
+
+            if (response.choices[0].finish_reason === 'length') {
+                throw new Error('Response was truncated due to token limit');
+            }
+
+            let responseContent = response.choices[0].message.content.trim();
+            const extractedData = this.cleanAndParseResponse(responseContent);
+
+            // Handle dual format response
+            if (extractedData.standard_format && extractedData.structured_format) {
+                const standardJson = {
+                    ...extractedData.standard_format,
+                    metadata: {
+                        last_updated: new Date().toISOString(),
+                        confidence_score: this.calculateConfidenceScore(extractedData.standard_format),
+                        missing_data: this.findMissingData(extractedData.standard_format),
+                        processed_links: linkedContents.length,
+                        token_usage: {
+                            input_tokens: usage.prompt_tokens,
+                            output_tokens: usage.completion_tokens,
+                            total_tokens: usage.total_tokens
+                        }
+                    }
+                };
+
+                return {
+                    standardJson: standardJson,
+                    structuredJson: extractedData.structured_format
+                };
+            } else {
+                // Fallback to conversion
+                const standardData = extractedData.standard_format || extractedData;
+                const structuredData = this.convertToStructuredFormat(standardData, url);
+                
+                return {
+                    standardJson: {
+                        ...standardData,
+                        metadata: {
+                            last_updated: new Date().toISOString(),
+                            confidence_score: this.calculateConfidenceScore(standardData),
+                            missing_data: this.findMissingData(standardData),
+                            processed_links: linkedContents.length,
+                            token_usage: {
+                                input_tokens: usage.prompt_tokens,
+                                output_tokens: usage.completion_tokens,
+                                total_tokens: usage.total_tokens
+                            }
+                        }
+                    },
+                    structuredJson: structuredData
+                };
+            }
+
+        } catch (error) {
+            console.error('❌ OpenAI processing error:', error.message);
+            return {
+                standardJson: this.createFallbackExtraction(mainContent, url),
+                structuredJson: this.createFallbackStructuredFormat(url)
+            };
+        }
+    }
+
+    /**
+     * Flexible system prompt for content processing
+     */
+    getFlexibleSystemPrompt() {
+        return `You are a JSON data processor with flexible output structure. You MUST respond with ONLY valid JSON.
+
+CRITICAL RESPONSE RULES:
+- Start with {
+- End with }  
+- NO explanations
+- NO markdown blocks
+- NO comments
+- Only valid JSON syntax
+
+Extract credit card information and return both standard and structured formats with flexibility to add additional fields as needed but only in standard_resposne.`;
+    }
+
+    /**
+     * Build flexible comprehensive prompt with the user's preferred structure
+     */
+    buildFlexibleComprehensivePrompt(mainContent, linkedContents, url) {
+        let contentSections = [];
+
+        // Add main content with strict limits
+        const mainText = mainContent.content?.text || '';
+        contentSections.push(`MAIN PAGE:
+URL: ${url}
+TITLE: ${mainContent.title}
+CONTENT: ${mainText}`); // NO TRUNCATION as requested
+
+        // Add linked content
+        linkedContents.forEach((link, index) => {
+            if (link.content?.text) {
+                contentSections.push(`LINKED PAGE ${index + 1}:
+URL: ${link.url}
+CONTENT: ${link.content.text}`); // NO TRUNCATION as requested
+            }
+        });
+
+        const allContent = contentSections.join('\n\n');
+
+        return `Extract credit card information from provided content and return BOTH formats.
+
+${allContent}
+
+Return JSON with BOTH formats - you can ADD additional fields as needed:
+{
+  "standard_format": {
+    "card": {"name": "", "bank": "", "variant": "", "description": "", "target_audience": ""},
+    "rewards": {
+      "program": "", 
+      "type": "",
+      "earning": {
+        "base_rate": 0,
+        "categories": [
+          {
+            "name": "",
+            "rate": 0,
+            "cap": null,
+            "description": "",
+            "terms_and_conditions": "",
+            "how_to_earn": "",
+            "validity": "",
+            "exclusions": ""
+          }
+        ],
+        "bonus_rates": [
+          {
+            "condition": "",
+            "rate": 0,
+            "validity": "",
+            "terms_and_conditions": ""
+          }
+        ]
+      },
+      "redemption": [
+        {
+          "option": "",
+          "minimum": null,
+          "value": null,
+          "process": "",
+          "terms_and_conditions": "",
+          "validity": "",
+          "processing_time": ""
+        }
+      ]
+    },
+    "benefits": [
+      {
+        "category": "",
+        "name": "",
+        "description": "",
+        "how_to_avail": "",
+        "value": "",
+        "terms_and_conditions": "",
+        "validity": "",
+        "eligibility": "",
+        "usage_limit": ""
+      }
+    ],
+    "current_offers": [
+      {
+        "title": "",
+        "description": "",
+        "validity": "",
+        "terms_and_conditions": "",
+        "activation_required": false,
+        "how_to_activate": "",
+        "eligibility": "",
+        "maximum_benefit": "",
+        "offer_code": "",
+        "exclusions": ""
+      }
+    ],
+    "perks": [
+      {
+        "name": "",
+        "description": "",
+        "category": "",
+        "usage_limit": "",
+        "how_to_use": "",
+        "terms_and_conditions": "",
+        "value": "",
+        "validity": ""
+      }
+    ],
+    "partnerships": [
+      {
+        "partner": "",
+        "benefit": "",
+        "category": "",
+        "validity": "",
+        "how_to_avail": "",
+        "terms_and_conditions": "",
+        "discount_percentage": "",
+        "maximum_discount": ""
+      }
+    ],
+    "fees_and_charges": [
+      {
+        "type": "",
+        "amount": "",
+        "waiver_conditions": "",
+        "frequency": "",
+        "terms_and_conditions": ""
+      }
+    ]
+  },
+  "structured_format": {
+    "Metadata": {"PK": "CARD#BANK_NAME", "SK": "METADATA", "card_name": "", "issuer": "", "network": [], "type": "Credit Card", "category": []},
+    "features": {"PK": "CARD#BANK_NAME", "SK": "FEATURES", "digital_onboarding": false, "contactless_payments": false, "customization_options": {}, "app_management": [], "security_features": []},
+    "rewards": {"PK": "CARD#BANK_NAME", "SK": "REWARDS", "reward_currency": "", "cashback_program": [], "earning_structure": [], "redemption": {}},
+    "fees": {"PK": "CARD#BANK_NAME", "SK": "FEES", "joining_fee": null, "renewal_fee": null, "tax_applicable": true, "renewal_waiver_condition": "", "joining_fee_waiver_condition": "", "other_charges": {}},
+    "eligibility": {"PK": "CARD#BANK_NAME", "SK": "ELIGIBILITY", "salaried": {}, "self_employed": {}},
+    "related_docs": {"PK": "CARD#BANK_NAME", "SK": "PDFS", "pdfs": []}
+  }
+}
+
+FLEXIBILITY RULES:
+- You CAN add additional fields to any section in standard_format
+- You CAN add new top-level sections in standard_format if needed
+- You HAVE full flexibility in standard_format, make sure all relevant information is captured.
+- You CANNOT modify anything in structured_format it should be exactly the format given 
+- Extract information ONLY from provided content
+- If information is not found, use null or appropriate empty values
+- Be comprehensive but stay within the provided content scope
+
+Return ONLY the JSON object with BOTH formats.`;
+    }
+
+    /**
+     * Enhanced JSON parsing with markdown checking REMOVED
+     */
+    cleanAndParseResponse(responseContent) {
+        try {
+            // Only basic cleaning - NO markdown checking
+            let cleaned = responseContent.trim();
+            
+            // Try to fix common JSON issues only
+            cleaned = cleaned.replace(/,(\s*[}\]])/g, '$1'); // Remove trailing commas
+            cleaned = cleaned.replace(/([}\]])\s*,\s*([}\]])/g, '$1$2'); // Fix double commas
+            
+            return JSON.parse(cleaned);
+            
+        } catch (error) {
+            console.error('Failed to parse OpenAI response:', error.message);
+            console.error('Raw response length:', responseContent.length);
+            console.error('First 500 chars:', responseContent.slice(0, 500));
+            console.error('Last 500 chars:', responseContent.slice(-500));
+            
+            // Try to extract partial JSON
+            try {
+                const jsonMatch = responseContent.match(/\{[\s\S]*\}/);
+                if (jsonMatch) {
+                    let partialJson = jsonMatch[0];
+                    partialJson = partialJson.replace(/,(\s*[}\]])/g, '$1');
+                    return JSON.parse(partialJson);
+                }
+            } catch (e) {
+                console.error('Failed to extract partial JSON:', e.message);
+            }
+            
+            throw new Error(`Invalid JSON response from OpenAI: ${error.message}`);
+        }
+    }
+
+    /**
+     * Post-process and validate URLs to remove 404s and broken links
+     */
+    async postProcessAndValidateUrls(extractedData, baseUrl) {
+        if (!extractedData.cards || !Array.isArray(extractedData.cards)) {
+            return { cards: [], invalid_urls: [], total_cards_found: 0 };
+        }
+
+        console.log('🔗 Validating URLs for accessibility...');
+        const validCards = [];
+        const invalidUrls = [];
+
+        for (let i = 0; i < extractedData.cards.length; i++) {
+            const card = extractedData.cards[i];
+            
+            try {
+                console.log(`🔍 Validating ${i + 1}/${extractedData.cards.length}: ${card.name}`);
+                
+                if (!this.isValidCreditCard(card)) {
+                    invalidUrls.push({
+                        ...card,
+                        validation_error: 'Content filtering - not a valid credit card',
+                        error_type: 'CONTENT_FILTER'
+                    });
+                    continue;
+                }
+
+                const normalizedCard = this.normalizeCardData(card, baseUrl);
+                const isAccessible = await this.validateUrlAccessibility(normalizedCard.url);
+                
+                if (isAccessible.valid) {
+                    validCards.push({
+                        ...normalizedCard,
+                        validation_status: 'VALID',
+                        response_code: isAccessible.statusCode
+                    });
+                    console.log(`✅ Valid: ${card.name} (${isAccessible.statusCode})`);
+                } else {
+                    invalidUrls.push({
+                        ...normalizedCard,
+                        validation_error: isAccessible.error,
+                        error_type: isAccessible.errorType,
+                        response_code: isAccessible.statusCode
+                    });
+                    console.log(`❌ Invalid: ${card.name} - ${isAccessible.error}`);
+                }
+
+                await Utils.sleep(500);
+
+            } catch (error) {
+                console.error(`❌ Error validating ${card.name}: ${error.message}`);
+                invalidUrls.push({
+                    ...card,
+                    validation_error: error.message,
+                    error_type: 'VALIDATION_ERROR'
+                });
+            }
+        }
 
         return {
-            cards: filteredCards,
-            total_cards_found: filteredCards.length,
+            cards: validCards,
+            invalid_urls: invalidUrls,
+            total_cards_found: validCards.length,
             original_count: extractedData.cards.length,
-            filtered_out: extractedData.cards.length - filteredCards.length
+            filtered_out: invalidUrls.length,
+            validation_summary: {
+                total_checked: extractedData.cards.length,
+                valid_urls: validCards.length,
+                invalid_urls: invalidUrls.length,
+                success_rate: extractedData.cards.length > 0 ? 
+                    Math.round((validCards.length / extractedData.cards.length) * 100) / 100 : 0
+            }
         };
     }
 
-    /**
-     * Validate if a card entry is a legitimate credit card
-     */
+    async validateUrlAccessibility(url) {
+        try {
+            const response = await axios.head(url, {
+                timeout: 10000,
+                maxRedirects: 5,
+                validateStatus: function (status) {
+                    return status >= 200 && status < 400;
+                },
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+                }
+            });
+
+            return { valid: true, statusCode: response.status, error: null, errorType: null };
+
+        } catch (error) {
+            let errorType = 'UNKNOWN';
+            let errorMessage = error.message;
+
+            if (error.response) {
+                errorType = 'HTTP_ERROR';
+                errorMessage = `HTTP ${error.response.status} - ${error.response.statusText}`;
+                if (error.response.status === 404) {
+                    errorType = 'NOT_FOUND_404';
+                    errorMessage = '404 Not Found';
+                }
+            } else if (error.code === 'ECONNREFUSED') {
+                errorType = 'CONNECTION_REFUSED';
+                errorMessage = 'Connection refused';
+            } else if (error.code === 'ENOTFOUND') {
+                errorType = 'DNS_ERROR';
+                errorMessage = 'Domain not found';
+            } else if (error.code === 'ETIMEDOUT') {
+                errorType = 'TIMEOUT';
+                errorMessage = 'Request timeout';
+            }
+
+            return { valid: false, statusCode: error.response?.status || null, error: errorMessage, errorType: errorType };
+        }
+    }
+
     isValidCreditCard(card) {
         if (!card.url || !card.name) {
             console.log(`⚠️ Filtering out: Missing URL or name`);
@@ -98,540 +803,321 @@ class AIProcessor {
         const name = card.name.toLowerCase();
         const description = (card.description || '').toLowerCase();
 
-        // EXCLUDE: Business cards, debit cards, forex cards, etc.
         const excludePatterns = [
-            'business', 'corporate', 'commercial', 'enterprise',
-            'debit', 'prepaid', 'gift-card', 'forex', 'travel-card',
-            'salary-account', 'savings-account', 'current-account',
-            'loan', 'personal-loan', 'home-loan', 'vehicle-loan',
-            'insurance', 'mutual-fund', 'investment', 'fixed-deposit',
-            'nri', 'student-account', 'pension', 'senior-citizen',
-            'apply-now', 'eligibility', 'documents', 'fees-charges',
-            'terms-conditions', 'offers-only', 'calculator',
-            'branch-locator', 'customer-care', 'support', 'help'
+            'business', 'corporate', 'commercial', 'enterprise', 'debit', 'prepaid',
+            'gift-card', 'forex', 'travel-card', 'salary-account', 'savings-account',
+            'loan', 'insurance', 'mutual-fund', 'investment'
         ];
 
-        // Check URL for exclusion patterns
-        const urlExcluded = excludePatterns.some(pattern => url.includes(pattern));
-        if (urlExcluded) {
-            console.log(`⚠️ Filtering out URL pattern: ${card.name} - ${card.url}`);
-            return false;
-        }
-
-        // Check name and description for exclusion patterns
-        const nameExcluded = excludePatterns.some(pattern => 
-            name.includes(pattern) || description.includes(pattern)
+        const shouldExclude = excludePatterns.some(pattern => 
+            url.includes(pattern) || name.includes(pattern) || description.includes(pattern)
         );
-        if (nameExcluded) {
-            console.log(`⚠️ Filtering out name/desc pattern: ${card.name}`);
+
+        if (shouldExclude) {
+            console.log(`⚠️ Filtering out: ${card.name} - contains excluded pattern`);
             return false;
         }
 
-        // INCLUDE: Must contain credit card indicators
         const includePatterns = [
-            'credit-card', 'credit card', 'creditcard',
-            'rewards', 'cashback', 'points', 'miles',
-            'platinum', 'gold', 'silver', 'premium',
-            'classic', 'signature', 'infinite', 'world',
-            'millennia', 'regalia', 'diners', 'times',
-            'freedom', 'pixel', 'moneyback', 'indianoil'
+            'credit-card', 'credit card', 'creditcard', 'rewards', 'cashback',
+            'points', 'platinum', 'gold', 'premium', 'prime', 'elite'
         ];
 
-        const urlIncluded = includePatterns.some(pattern => url.includes(pattern.replace(/\s+/g, '-')));
-        const nameIncluded = includePatterns.some(pattern => 
-            name.includes(pattern) || description.includes(pattern)
+        const hasIncludePattern = includePatterns.some(pattern => 
+            url.includes(pattern.replace(/\s+/g, '-')) || 
+            name.includes(pattern) || 
+            description.includes(pattern)
         );
 
-        if (!urlIncluded && !nameIncluded) {
-            console.log(`⚠️ Filtering out - no credit card indicators: ${card.name}`);
+        if (!hasIncludePattern) {
+            console.log(`⚠️ Filtering out: ${card.name} - no credit card indicators`);
             return false;
         }
 
-        // Must have a proper URL structure
-        if (!url.includes('/credit-card') && !url.includes('/card') && !url.includes('card')) {
-            console.log(`⚠️ Filtering out - URL doesn't seem card-related: ${card.url}`);
-            return false;
-        }
-
-        console.log(`✅ Valid credit card: ${card.name}`);
         return true;
     }
 
-    /**
-     * Normalize card data and ensure proper URL format
-     */
     normalizeCardData(card, baseUrl) {
-        // Ensure absolute URL
         let normalizedUrl = card.url;
         if (card.url.startsWith('/')) {
             const base = new URL(baseUrl);
             normalizedUrl = `${base.protocol}//${base.host}${card.url}`;
         }
 
-        // Clean up the name
-        const normalizedName = card.name.replace(/\s+/g, ' ').trim();
-
         return {
             ...card,
             url: normalizedUrl,
-            name: normalizedName,
+            name: card.name.replace(/\s+/g, ' ').trim(),
             category: card.category || 'Personal Credit Card',
             key_features: card.key_features || [],
             annual_fee: card.annual_fee || null
         };
     }
 
-    /**
-     * Get system prompt for listing extraction
-     */
-    getListingSystemPrompt() {
-        return `You are an expert at extracting PERSONAL CREDIT CARD information from listing pages.
+    convertToStructuredFormat(data, url) {
+        const cardName = data.card?.name || 'Unknown Card';
+        const issuer = data.card?.bank || 'Unknown Bank';
+        const pkValue = `CARD#${issuer.toUpperCase().replace(/\s+/g, '_')}_${cardName.toUpperCase().replace(/[^A-Z0-9]/g, '_')}`;
 
-CRITICAL RESPONSE FORMAT RULES:
-- You MUST respond with ONLY raw JSON
-- DO NOT use markdown code blocks
-- DO NOT add any explanations before or after the JSON
-- Start your response immediately with the opening brace {
-- End your response with the closing brace }
-
-IMPORTANT FILTERING RULES:
-- ONLY extract PERSONAL CREDIT CARDS (not business, corporate, or commercial cards)
-- EXCLUDE debit cards, prepaid cards, forex cards, travel cards
-- EXCLUDE loan products, insurance, investments, or bank accounts
-- EXCLUDE general pages like "apply now", "eligibility", "documents"
-- FOCUS on individual credit card product pages with specific card names
-
-Your task is to analyze a credit card listing page and extract individual PERSONAL credit card URLs and basic information.`;
-    }
-
-    /**
-     * Build listing extraction prompt with enhanced filtering instructions
-     */
-    buildListingExtractionPrompt(listingContent, baseUrl) {
-        return `
-Analyze this credit card listing page and extract ONLY PERSONAL CREDIT CARD URLs and information.
-
-BASE URL: ${baseUrl}
-LISTING PAGE CONTENT:
-Title: ${listingContent.title}
-Content: ${Utils.truncateText(listingContent.content?.text || '', 15000)}
-
-STRICT FILTERING REQUIREMENTS:
-
-✅ INCLUDE ONLY:
-- Personal credit cards with specific names (like "Regalia Credit Card", "Millennia Credit Card")
-- Individual credit card product pages 
-- Links containing "credit-card" in URL
-- Cards with specific features like rewards, cashback, points
-- Named card variants (Classic, Gold, Platinum, Signature, etc.)
-
-❌ EXCLUDE ALL:
-- Business credit cards, corporate cards, commercial cards
-- Debit cards, prepaid cards, gift cards, forex cards
-- Loan products (personal loan, home loan, etc.)
-- Bank accounts (savings, current, salary accounts)
-- Insurance products, mutual funds, investments
-- General pages: "Apply Now", "Eligibility", "Documents", "Terms & Conditions"
-- Customer service pages, branch locators, calculators
-- NRI products, student accounts, senior citizen accounts
-
-URL VALIDATION:
-- Must contain "/credit-card" OR "/card" OR specific card names
-- Must lead to individual product pages, not category pages
-- Convert relative URLs to absolute URLs using: ${baseUrl}
-
-RESPONSE FORMAT: Return ONLY raw JSON (no markdown formatting).
-
-JSON STRUCTURE:
-{
-  "cards": [
-    {
-      "name": "exact_card_name_from_page",
-      "description": "brief_description_of_card", 
-      "url": "complete_absolute_url_to_card_page",
-      "category": "Personal Credit Card",
-      "key_features": ["feature1", "feature2", "feature3"],
-      "annual_fee": "fee_amount_or_null"
-    }
-  ],
-  "total_cards_found": "number_of_valid_cards_extracted"
-}
-
-EXTRACTION STRATEGY:
-1. Look for "Know More", "View Details", "Apply Now" buttons that lead to specific card pages
-2. Find card names mentioned in headers, titles, or prominent text
-3. Extract key features like rewards rate, cashback percentage, annual fee
-4. Ensure each URL is a unique credit card product page
-5. Ignore duplicate links to the same card
-6. Focus on cards actually available for application
-
-Extract ONLY legitimate personal credit cards that consumers can apply for.
-Return ONLY the JSON object with NO markdown formatting.
-`;
-    }
-
-    // ... rest of existing methods remain the same ...
-
-    /**
-     * Process all content with OpenAI
-     */
-    async processContent(mainContent, linkedContents, url) {
-        try {
-            console.log('🤖 Processing content with OpenAI...');
-            const prompt = this.buildComprehensivePrompt(mainContent, linkedContents, url);
-            
-            // Calculate approximate input tokens (rough estimate: 1 token ≈ 4 characters)
-            const estimatedInputTokens = Math.ceil(prompt.length / 4);
-            console.log(`📊 Estimated input tokens: ${estimatedInputTokens}`);
-
-            const response = await this.openai.chat.completions.create({
-                model: this.config.model,
-                messages: [
-                    {
-                        role: "system",
-                        content: this.getSystemPrompt()
-                    },
-                    {
-                        role: "user",
-                        content: prompt
-                    }
-                ],
-                temperature: this.config.temperature,
-                max_tokens: this.config.maxTokens,
-                response_format: { type: "json_object" }
-            });
-
-            // Track actual token usage
-            const usage = response.usage;
-            this.totalInputTokens += usage.prompt_tokens;
-            this.totalOutputTokens += usage.completion_tokens;
-
-            console.log(`📈 Token Usage:`);
-            console.log(`   Input: ${usage.prompt_tokens} tokens`);
-            console.log(`   Output: ${usage.completion_tokens} tokens`);
-            console.log(`   Total: ${usage.total_tokens} tokens`);
-            console.log(`📊 Session Totals:`);
-            console.log(`   Total Input: ${this.totalInputTokens} tokens`);
-            console.log(`   Total Output: ${this.totalOutputTokens} tokens`);
-            console.log(`   Grand Total: ${this.totalInputTokens + this.totalOutputTokens} tokens`);
-
-            let responseContent = response.choices[0].message.content.trim();
-            const extractedData = this.cleanAndParseResponse(responseContent);
-
-            // Add metadata
-            extractedData.metadata = {
-                last_updated: new Date().toISOString(),
-                confidence_score: this.calculateConfidenceScore(extractedData),
-                missing_data: this.findMissingData(extractedData),
-                processed_links: linkedContents.length,
-                token_usage: {
-                    input_tokens: usage.prompt_tokens,
-                    output_tokens: usage.completion_tokens,
-                    total_tokens: usage.total_tokens
-                }
-            };
-
-            return extractedData;
-        } catch (error) {
-            console.error('❌ OpenAI processing error:', error.message);
-            return this.createFallbackExtraction(mainContent, url);
-        }
-    }
-
-    /**
-     * Get session token totals
-     */
-    getTokenTotals() {
         return {
-            totalInputTokens: this.totalInputTokens,
-            totalOutputTokens: this.totalOutputTokens,
-            totalTokens: this.totalInputTokens + this.totalOutputTokens
+            Metadata: {
+                PK: pkValue,
+                SK: "METADATA",
+                card_name: cardName,
+                issuer: issuer,
+                network: this.extractNetworks(data),
+                type: "Credit Card",
+                category: this.extractCategories(data)
+            },
+            features: {
+                PK: pkValue,
+                SK: "FEATURES",
+                digital_onboarding: this.extractDigitalOnboarding(data),
+                contactless_payments: this.extractContactlessPayments(data),
+                customization_options: {
+                    merchant_cashback_selection: false,
+                    card_design_selection: [],
+                    billing_cycle_selection: false
+                },
+                app_management: this.extractAppFeatures(data),
+                security_features: this.extractSecurityFeatures(data)
+            },
+            rewards: {
+                PK: pkValue,
+                SK: "REWARDS",
+                reward_currency: this.extractRewardCurrency(data),
+                cashback_program: this.extractCashbackProgram(data),
+                earning_structure: this.extractEarningStructure(data),
+                redemption: this.extractRedemptionInfo(data)
+            },
+            fees: {
+                PK: pkValue,
+                SK: "FEES",
+                joining_fee: this.extractJoiningFee(data),
+                renewal_fee: this.extractRenewalFee(data),
+                tax_applicable: true,
+                renewal_waiver_condition: this.extractRenewalWaiver(data),
+                joining_fee_waiver_condition: this.extractJoiningWaiver(data),
+                other_charges: this.extractOtherCharges(data)
+            },
+            eligibility: {
+                PK: pkValue,
+                SK: "ELIGIBILITY",
+                salaried: this.extractSalariedEligibility(data),
+                self_employed: this.extractSelfEmployedEligibility(data)
+            },
+            related_docs: {
+                PK: pkValue,
+                SK: "PDFS",
+                pdfs: this.extractPdfReferences(data, pkValue)
+            }
         };
     }
 
-    // ... rest of existing methods (getSystemPrompt, buildComprehensivePrompt, etc.) remain unchanged ...
-    
-    /**
-     * Clean and parse OpenAI response
-     */
-    cleanAndParseResponse(responseContent) {
-        try {
-            const cleaned = responseContent.trim();
-            return JSON.parse(cleaned);
-        } catch (error) {
-            console.error('Failed to parse OpenAI response:', error.message);
-            console.error('Raw response:', responseContent);
-            throw new Error(`Invalid JSON response from OpenAI: ${error.message}`);
+    // Helper methods for structured format conversion
+    extractNetworks(data) {
+        const networks = [];
+        const content = JSON.stringify(data).toLowerCase();
+        if (content.includes('visa')) networks.push('Visa');
+        if (content.includes('mastercard')) networks.push('Mastercard');
+        if (content.includes('rupay')) networks.push('RuPay');
+        return networks.length > 0 ? networks : ['Visa'];
+    }
+
+    extractCategories(data) {
+        const categories = [];
+        const content = JSON.stringify(data).toLowerCase();
+        if (content.includes('cashback')) categories.push('Cashback');
+        if (content.includes('travel')) categories.push('Travel');
+        if (content.includes('lifestyle')) categories.push('Lifestyle');
+        if (content.includes('premium')) categories.push('Premium');
+        if (content.includes('reward')) categories.push('Rewards');
+        if (content.includes('digital')) categories.push('Digital');
+        return categories.length > 0 ? categories : ['Credit Card'];
+    }
+
+    extractDigitalOnboarding(data) {
+        const content = JSON.stringify(data).toLowerCase();
+        return content.includes('digital') || content.includes('online application');
+    }
+
+    extractContactlessPayments(data) {
+        const content = JSON.stringify(data).toLowerCase();
+        return content.includes('contactless') || content.includes('tap');
+    }
+
+    extractAppFeatures(data) {
+        const features = ['Card Controls', 'Rewards', 'Statement', 'Bill Payment'];
+        const content = JSON.stringify(data).toLowerCase();
+        if (content.includes('emi')) features.push('EMI Dashboard');
+        if (content.includes('transaction')) features.push('Recent Transactions');
+        if (content.includes('dispute')) features.push('Disputes');
+        return features;
+    }
+
+    extractSecurityFeatures(data) {
+        return ['SMS Alerts', 'Transaction Limits', 'Card Lock/Unlock'];
+    }
+
+    extractRewardCurrency(data) {
+        if (data.rewards?.program) return data.rewards.program;
+        const content = JSON.stringify(data).toLowerCase();
+        if (content.includes('cashpoint')) return 'CashPoints';
+        if (content.includes('reward point')) return 'Reward Points';
+        return 'Reward Points';
+    }
+
+    extractCashbackProgram(data) {
+        const program = [];
+        if (data.rewards?.earning?.categories) {
+            data.rewards.earning.categories.forEach(category => {
+                program.push({
+                    rate: category.rate || 1,
+                    categories: [{ pack: category.name || 'General', merchants: [] }],
+                    max_points_per_month: category.cap || null
+                });
+            });
         }
+        return program;
     }
 
-    /**
-     * Get system prompt
-     */
-    getSystemPrompt() {
-        return `You are an expert at extracting credit card benefits information for existing cardholders.
-
-CRITICAL RESPONSE FORMAT RULES:
-- You MUST respond with ONLY raw JSON
-- DO NOT use markdown code blocks
-- DO NOT add any explanations before or after the JSON
-- Start your response immediately with the opening brace {
-- End your response with the closing brace }
-- Your entire response must be valid, parseable JSON
-
-Your task is to analyze webpage content and extract comprehensive information about current offers, benefits, rewards, and perks that existing cardholders can use RIGHT NOW.`;
-    }
-
-    /**
-     * Build comprehensive prompt with enhanced extraction instructions
-     */
-    buildComprehensivePrompt(mainContent, linkedContents, url) {
-        let contentSections = [];
-
-        // Add main content
-        contentSections.push(`MAIN PAGE CONTENT:
-URL: ${url}
-Title: ${mainContent.title}
-Content: ${Utils.truncateText(mainContent.content?.text || '', 10000)}`);
-
-        // Add linked content with more detail
-        linkedContents.forEach((link, index) => {
-            if (link.content?.text) {
-                contentSections.push(`LINKED PAGE ${index + 1}:
-URL: ${link.url}
-Type: ${link.type}
-Link Text: ${link.text}
-Content: ${Utils.truncateText(link.content.text, 6000)}`);
-            } else {
-                contentSections.push(`LINKED DOCUMENT ${index + 1}:
-URL: ${link.url}
-Type: ${link.type}
-Summary: ${link.summary}`);
-            }
-        });
-
-        const allContent = contentSections.join('\n\n' + '='.repeat(80) + '\n\n');
-
-        return `
-You are analyzing a credit card webpage and ALL its linked content to extract COMPREHENSIVE information for existing cardholders.
-
-EXTRACTION PHILOSOPHY:
-- Extract EVERY piece of useful information
-- Include specific terms and conditions WITH each benefit/offer (not separately)
-- Add ANY additional relevant information you find, even if it doesn't fit the predefined structure
-- Be thorough and detailed - cardholders want complete information
-
-RESPONSE FORMAT: Return ONLY raw JSON (no markdown formatting).
-
-BASE JSON STRUCTURE (You can ADD additional fields as needed):
-{
-  "card": {
-    "name": "string",
-    "bank": "string",
-    "variant": "string",
-    "description": "string",
-    "target_audience": "string"
-  },
-  "rewards": {
-    "program": "string",
-    "type": "string",
-    "earning": {
-      "base_rate": "number",
-      "categories": [
-        {
-          "name": "string",
-          "rate": "number",
-          "cap": "number or null",
-          "description": "string",
-          "terms_and_conditions": "string",
-          "how_to_earn": "string",
-          "validity": "string or null",
-          "exclusions": "string or null"
+    extractEarningStructure(data) {
+        const structure = [];
+        if (data.rewards?.earning?.categories) {
+            data.rewards.earning.categories.forEach(category => {
+                structure.push({
+                    rate: category.rate || 1,
+                    category: category.name || 'General',
+                    cap_per_month: category.cap || null
+                });
+            });
         }
-      ],
-      "bonus_rates": [
-        {
-          "condition": "string",
-          "rate": "number",
-          "validity": "string",
-          "terms_and_conditions": "string"
+        return structure.length > 0 ? structure : [
+            { rate: 1, category: 'All spends', cap_per_month: null }
+        ];
+    }
+
+    extractRedemptionInfo(data) {
+        if (data.rewards?.redemption?.length > 0) {
+            const redemption = data.rewards.redemption[0];
+            return {
+                rate: redemption.value || '1 Point = ₹0.25',
+                minimum_points: redemption.minimum || 1000,
+                validity_years: 3
+            };
         }
-      ]
-    },
-    "redemption": [
-      {
-        "option": "string",
-        "minimum": "number or null",
-        "value": "number or null",
-        "process": "string",
-        "terms_and_conditions": "string",
-        "validity": "string or null",
-        "processing_time": "string or null"
-      }
-    ]
-  },
-  "benefits": [
-    {
-      "category": "string",
-      "name": "string",
-      "description": "string",
-      "how_to_avail": "string",
-      "value": "string or null",
-      "terms_and_conditions": "string",
-      "validity": "string or null",
-      "eligibility": "string or null",
-      "usage_limit": "string or null"
-    }
-  ],
-  "current_offers": [
-    {
-      "title": "string",
-      "description": "string",
-      "validity": "string",
-      "terms_and_conditions": "string",
-      "activation_required": "boolean",
-      "how_to_activate": "string or null",
-      "eligibility": "string or null",
-      "maximum_benefit": "string or null",
-      "offer_code": "string or null",
-      "exclusions": "string or null"
-    }
-  ],
-  "perks": [
-    {
-      "name": "string",
-      "description": "string",
-      "category": "string",
-      "usage_limit": "string or null",
-      "how_to_use": "string",
-      "terms_and_conditions": "string",
-      "value": "string or null",
-      "validity": "string or null"
-    }
-  ],
-  "partnerships": [
-    {
-      "partner": "string",
-      "benefit": "string",
-      "category": "string",
-      "validity": "string or null",
-      "how_to_avail": "string",
-      "terms_and_conditions": "string",
-      "discount_percentage": "string or null",
-      "maximum_discount": "string or null"
-    }
-  ],
-  "fees_and_charges": [
-    {
-      "type": "string",
-      "amount": "string",
-      "waiver_conditions": "string or null",
-      "frequency": "string",
-      "terms_and_conditions": "string"
-    }
-  ]
-}
-
-ALL CONTENT TO ANALYZE:
-${Utils.truncateText(allContent, 45000)}
-
-COMPREHENSIVE EXTRACTION INSTRUCTIONS:
-1. Analyze ALL content sources (main page + ALL linked pages/documents)
-2. Extract EVERY benefit, offer, perk, and feature mentioned
-3. Include specific terms_and_conditions for EACH item (not as separate section)
-4. Add ANY additional fields you think are relevant to each section
-5. If you find information that doesn't fit existing categories, ADD new sections
-6. Include specific details: rates, caps, conditions, processes, exclusions
-7. Extract fee information with their specific terms and waiver conditions
-8. Don't miss any partnerships, special offers, or bonus categories
-9. Use descriptive and detailed text - be comprehensive
-10. Feel free to expand the JSON structure if you find additional relevant information
-
-FLEXIBILITY RULES:
-- You can add new fields to any existing object
-- You can add entirely new top-level sections if needed
-- Always include terms_and_conditions specific to each benefit/offer
-- If terms apply to multiple items, repeat them for each relevant item
-- Add fields like "exclusions", "fine_print", "special_notes" where relevant
-
-Extract everything useful and structure it logically - no detail should be left behind!
-Return ONLY the JSON object with NO markdown formatting.
-`;
+        return {
+            rate: '1 Point = ₹0.25',
+            minimum_points: 1000,
+            validity_years: 3
+        };
     }
 
-    /**
-     * Calculate confidence score
-     */
+    extractJoiningFee(data) {
+        const content = JSON.stringify(data).toLowerCase();
+        const feeMatch = content.match(/joining.*?fee.*?₹?(\d+)/i) || content.match(/₹(\d+).*?joining/i);
+        return feeMatch ? parseInt(feeMatch[1]) : null;
+    }
+
+    extractRenewalFee(data) {
+        const content = JSON.stringify(data).toLowerCase();
+        const feeMatch = content.match(/renewal.*?fee.*?₹?(\d+)/i) || content.match(/annual.*?fee.*?₹?(\d+)/i);
+        return feeMatch ? parseInt(feeMatch[1]) : null;
+    }
+
+    extractRenewalWaiver(data) {
+        const content = JSON.stringify(data).toLowerCase();
+        const waiverMatch = content.match(/waiver.*?₹?(\d+,?\d*)/i) || content.match(/spend.*?₹?(\d+,?\d*)/i);
+        return waiverMatch ? `Spend ₹${waiverMatch[1]} or more in a year` : null;
+    }
+
+    extractJoiningWaiver(data) {
+        const content = JSON.stringify(data).toLowerCase();
+        const waiverMatch = content.match(/joining.*?waiver.*?₹?(\d+,?\d*)/i);
+        return waiverMatch ? `Spend ₹${waiverMatch[1]} within 90 days` : null;
+    }
+
+    extractOtherCharges(data) {
+        return {
+            cash_advance: '3.5% (Min ₹500)',
+            foreign_transaction: '3.5%',
+            overlimit: '2.5% (Min ₹500)'
+        };
+    }
+
+    extractSalariedEligibility(data) {
+        return {
+            age: { min: 21, max: 60 },
+            min_income_per_month: 25000
+        };
+    }
+
+    extractSelfEmployedEligibility(data) {
+        return {
+            age: { min: 21, max: 65 },
+            min_itr_per_annum: 600000
+        };
+    }
+
+    extractPdfReferences(data, pkValue) {
+        const pdfs = [];
+        const content = JSON.stringify(data);
+        if (content.includes('terms') || content.includes('condition')) {
+            pdfs.push({
+                type: 'terms_and_conditions',
+                storage: {
+                    s3_key: `creditcards/${pkValue.toLowerCase()}/terms.pdf`,
+                    extracted_text_key: `creditcards/${pkValue.toLowerCase()}/terms.txt`
+                }
+            });
+        }
+        if (content.includes('fees') || content.includes('charges')) {
+            pdfs.push({
+                type: 'fees_and_charges',
+                storage: {
+                    s3_key: `creditcards/${pkValue.toLowerCase()}/fees.pdf`,
+                    extracted_text_key: `creditcards/${pkValue.toLowerCase()}/fees.txt`
+                }
+            });
+        }
+        return pdfs;
+    }
+
+    createFallbackStructuredFormat(url) {
+        const pkValue = `CARD#UNKNOWN_${Date.now()}`;
+        return {
+            Metadata: { PK: pkValue, SK: "METADATA", card_name: "Unknown Card", issuer: "Unknown Bank", network: ["Visa"], type: "Credit Card", category: ["General"] },
+            features: { PK: pkValue, SK: "FEATURES", digital_onboarding: false, contactless_payments: false, customization_options: {}, app_management: [], security_features: [] },
+            rewards: { PK: pkValue, SK: "REWARDS", reward_currency: "Points", cashback_program: [], earning_structure: [], redemption: {} },
+            fees: { PK: pkValue, SK: "FEES", joining_fee: null, renewal_fee: null, tax_applicable: true, renewal_waiver_condition: null, joining_fee_waiver_condition: null, other_charges: {} },
+            eligibility: { PK: pkValue, SK: "ELIGIBILITY", salaried: {}, self_employed: {} },
+            related_docs: { PK: pkValue, SK: "PDFS", pdfs: [] }
+        };
+    }
+
     calculateConfidenceScore(data) {
         let score = 0;
-        let maxScore = 0;
-
-        // Card info (15%)
-        maxScore += 15;
-        if (data.card?.name) score += 8;
-        if (data.card?.bank) score += 7;
-
-        // Rewards (25%)
-        maxScore += 25;
-        if (data.rewards?.program) score += 5;
-        if (data.rewards?.type) score += 5;
-        if (data.rewards?.earning?.categories?.length > 0) score += 10;
-        if (data.rewards?.redemption?.length > 0) score += 5;
-
-        // Benefits (25%)
-        maxScore += 25;
-        if (data.benefits?.length > 0) score += 25;
-
-        // Offers (20%)
-        maxScore += 20;
+        if (data.card?.name) score += 20;
+        if (data.card?.bank) score += 20;
+        if (data.rewards?.earning?.categories?.length > 0) score += 20;
+        if (data.benefits?.length > 0) score += 20;
         if (data.current_offers?.length > 0) score += 20;
-
-        // Perks (10%)
-        maxScore += 10;
-        if (data.perks?.length > 0) score += 10;
-
-        // Partnerships (5%)
-        maxScore += 5;
-        if (data.partnerships?.length > 0) score += 5;
-
-        return Math.round((score / maxScore) * 100) / 100;
+        return Math.round(score / 100);
     }
 
-    /**
-     * Find missing data sections
-     */
     findMissingData(data) {
         const missing = [];
         if (!data.card?.name) missing.push("card_name");
         if (!data.card?.bank) missing.push("bank_name");
-        if (!data.rewards?.program) missing.push("rewards_program");
         if (!data.rewards?.earning?.categories?.length) missing.push("reward_categories");
         if (!data.benefits?.length) missing.push("benefits");
-        if (!data.current_offers?.length) missing.push("current_offers");
-        if (!data.perks?.length) missing.push("perks");
-        if (!data.partnerships?.length) missing.push("partnerships");
         return missing;
     }
 
-    /**
-     * Create fallback extraction
-     */
     createFallbackExtraction(content, url) {
         return {
-            card: {
-                name: content?.title || null,
-                bank: null,
-                variant: null
-            },
-            rewards: {
-                program: null,
-                type: null,
-                earning: {
-                    base_rate: null,
-                    categories: []
-                },
-                redemption: []
-            },
+            card: { name: content?.title || null, bank: null, variant: null },
+            rewards: { program: null, type: null, earning: { base_rate: null, categories: [] }, redemption: [] },
             benefits: [],
             current_offers: [],
             perks: [],
@@ -643,6 +1129,14 @@ Return ONLY the JSON object with NO markdown formatting.
                 processed_links: 0,
                 fallback_used: true
             }
+        };
+    }
+
+    getTokenTotals() {
+        return {
+            totalInputTokens: this.totalInputTokens,
+            totalOutputTokens: this.totalOutputTokens,
+            totalTokens: this.totalInputTokens + this.totalOutputTokens
         };
     }
 }

@@ -1,0 +1,109 @@
+{
+  "Metadata": {
+    "PK": "CARD#SBI CARDS AND PAYMENT SERVICES LIMITED",
+    "SK": "METADATA",
+    "card_name": "PhonePe SBI Card SELECT BLACK",
+    "issuer": "SBI Cards and Payment Services Limited",
+    "network": [
+      "Visa"
+    ],
+    "type": "Credit Card",
+    "category": [
+      "Rewards",
+      "Travel",
+      "Fuel Surcharge Waiver",
+      "Contactless Payment"
+    ]
+  },
+  "features": {
+    "PK": "CARD#SBI CARDS AND PAYMENT SERVICES LIMITED",
+    "SK": "FEATURES",
+    "digital_onboarding": true,
+    "contactless_payments": true,
+    "customization_options": {},
+    "app_management": [
+      "SBI Card Mobile App",
+      "PhonePe App integration"
+    ],
+    "security_features": [
+      "VISA PayWave security key",
+      "Card never leaves hand during contactless transaction"
+    ]
+  },
+  "rewards": {
+    "PK": "CARD#SBI CARDS AND PAYMENT SERVICES LIMITED",
+    "SK": "REWARDS",
+    "reward_currency": "Reward Points",
+    "cashback_program": [
+      {
+        "condition": "Scan & Pay transactions",
+        "rate": 1,
+        "type": "Value Back"
+      }
+    ],
+    "earning_structure": [
+      {
+        "category": "PhonePe & Pincode spends",
+        "rate": 10,
+        "cap": 2000,
+        "exclusions": "No rewards on fuel, wallet upload, rent, education, government spends, EMI, cash withdrawal"
+      },
+      {
+        "category": "Online spends",
+        "rate": 5,
+        "cap": 2000,
+        "exclusions": "Same as above"
+      },
+      {
+        "category": "Other spends",
+        "rate": 1,
+        "cap": 2000,
+        "exclusions": "Same as above"
+      }
+    ],
+    "redemption": {
+      "options": [
+        "Vouchers",
+        "Cash"
+      ],
+      "conversion_rate": "1 Reward Point = Re. 1",
+      "terms_and_conditions": "Points forfeited on non-payment, fraud, inactivity, or card closure."
+    }
+  },
+  "fees": {
+    "PK": "CARD#SBI CARDS AND PAYMENT SERVICES LIMITED",
+    "SK": "FEES",
+    "joining_fee": 1499,
+    "renewal_fee": 1499,
+    "tax_applicable": true,
+    "renewal_waiver_condition": "Spends of Rs. 3 lakh or more in previous membership year",
+    "joining_fee_waiver_condition": null,
+    "other_charges": {
+      "add_on_fee": 0
+    }
+  },
+  "eligibility": {
+    "PK": "CARD#SBI CARDS AND PAYMENT SERVICES LIMITED",
+    "SK": "ELIGIBILITY",
+    "salaried": {},
+    "self_employed": {}
+  },
+  "related_docs": {
+    "PK": "CARD#SBI CARDS AND PAYMENT SERVICES LIMITED",
+    "SK": "PDFS",
+    "pdfs": [
+      {
+        "title": "PhonePe SBI Card SELECT BLACK - Welcome Benefit Terms and Conditions",
+        "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/phone-pe-tncs/PhonePe-SBI-Card-SELECT-BLACK-Welcome-benefit.pdf"
+      },
+      {
+        "title": "PhonePe SBI Card SELECT BLACK - Reward Program Terms and Conditions",
+        "url": "https://www.sbicard.com/sbi-card-en/assets/media/images/personal/credit-cards/rewards/phonepe/tnc/RP-tnc.pdf"
+      },
+      {
+        "title": "PhonePe SBI Card SELECT BLACK - Milestone Benefit Terms and Conditions",
+        "url": "https://www.sbicard.com/sbi-card-en/assets/media/images/personal/credit-cards/rewards/phonepe/tnc/milestone-TnC-PhonePe-SBI-Card-SELECT.pdf"
+      }
+    ]
+  }
+}

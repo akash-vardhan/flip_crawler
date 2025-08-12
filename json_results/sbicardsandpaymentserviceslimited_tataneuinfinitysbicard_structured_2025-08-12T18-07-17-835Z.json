@@ -1,0 +1,106 @@
+{
+  "Metadata": {
+    "PK": "CARD#SBI",
+    "SK": "METADATA",
+    "card_name": "Tata Neu Infinity SBI Card",
+    "issuer": "SBI Cards and Payment Services Limited",
+    "network": [
+      "VISA",
+      "RuPay"
+    ],
+    "type": "Credit Card",
+    "category": [
+      "Premium",
+      "Rewards",
+      "Lifestyle"
+    ]
+  },
+  "features": {
+    "PK": "CARD#SBI",
+    "SK": "FEATURES",
+    "digital_onboarding": true,
+    "contactless_payments": true,
+    "customization_options": {},
+    "app_management": [
+      "SBI Card Mobile App",
+      "Online Account Management"
+    ],
+    "security_features": [
+      "EMV Chip",
+      "PIN",
+      "Contactless Technology"
+    ]
+  },
+  "rewards": {
+    "PK": "CARD#SBI",
+    "SK": "REWARDS",
+    "reward_currency": "NeuCoins",
+    "cashback_program": [
+      {
+        "condition": "Spend on Tata Neu App/Website and partner Tata Brands",
+        "rate": 5,
+        "cap": null
+      },
+      {
+        "condition": "Select category spends on Tata Neu App/Website",
+        "rate": 5,
+        "cap": null
+      },
+      {
+        "condition": "Other spends including UPI transactions (RuPay Variant)",
+        "rate": 1.5,
+        "cap": 500
+      }
+    ],
+    "earning_structure": [
+      {
+        "name": "Welcome Benefit",
+        "points": 1499,
+        "condition": "On payment of joining fee"
+      }
+    ],
+    "redemption": {
+      "options": [
+        "Redeem via Tata Neu App/Website",
+        "Redeem at partner stores",
+        "Redeem via Tata Pay"
+      ],
+      "processing_time": "7 working days",
+      "terms": "Points not exchangeable for cash or credit; card must be in good standing"
+    }
+  },
+  "fees": {
+    "PK": "CARD#SBI",
+    "SK": "FEES",
+    "joining_fee": 1499,
+    "renewal_fee": 1499,
+    "tax_applicable": true,
+    "renewal_waiver_condition": "Annual fee reversal on annual spends of Rs. 3 Lakh or more",
+    "joining_fee_waiver_condition": null,
+    "other_charges": {
+      "cash_advance_fee": "Applicable per transaction",
+      "late_payment_fee": "As per MITC",
+      "add_on_card_fee": "Nil"
+    }
+  },
+  "eligibility": {
+    "PK": "CARD#SBI",
+    "SK": "ELIGIBILITY",
+    "salaried": {},
+    "self_employed": {}
+  },
+  "related_docs": {
+    "PK": "CARD#SBI",
+    "SK": "PDFS",
+    "pdfs": [
+      {
+        "title": "Tata Neu Infinity SBI Credit Card Terms & Conditions",
+        "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Tata-neu-infinty-tnc.pdf"
+      },
+      {
+        "title": "Tata Neu SBI Cards Domestic Lounge List",
+        "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/Tata-Neu-SBI-Cards-Domestic-Lounge-List.pdf"
+      }
+    ]
+  }
+}

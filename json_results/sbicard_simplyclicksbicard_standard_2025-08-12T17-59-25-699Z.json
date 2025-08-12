@@ -1,0 +1,302 @@
+{
+  "id": "47121096573a36f6",
+  "url": "https://www.sbicard.com/en/personal/credit-cards/shopping/simplyclick-sbi-card.page",
+  "scraped_at": "2025-08-12T17:59:25.699Z",
+  "card": {
+    "name": "SimplyCLICK SBI Card",
+    "bank": "SBI Card",
+    "variant": "SimplyCLICK",
+    "description": "SimplyCLICK SBI Card offers unlimited privileges including Amazon.in gift card worth Rs.500 on payment of Annual Fee, accelerated reward points on online spends, milestone e-vouchers on annual online spends, fuel surcharge waiver, contactless technology, worldwide acceptance, add-on cards, cash withdrawal, utility bill payment facility, balance transfer on EMI and Flexipay.",
+    "target_audience": "Individuals who shop online frequently and want accelerated rewards and shopping benefits."
+  },
+  "rewards": {
+    "program": "SimplyCLICK Rewards Program",
+    "type": "Reward Points",
+    "earning": {
+      "base_rate": 1,
+      "categories": [
+        {
+          "name": "All other spends",
+          "rate": 1,
+          "cap": null,
+          "description": "Earn 1 reward point per Rs.100 on all other spends.",
+          "terms_and_conditions": "Refer to detailed Terms and Conditions on SBI Card website.",
+          "how_to_earn": "Use SimplyCLICK SBI Card for transactions other than online spends with exclusive partners.",
+          "validity": null,
+          "exclusions": "Cash Advance, Balance Transfer, Encash, Flexipay and Offline Fuel transactions are excluded."
+        },
+        {
+          "name": "All other online spends",
+          "rate": 5,
+          "cap": 10000,
+          "description": "Earn 5X Reward Points on all other online spends.",
+          "terms_and_conditions": "Capped at 10,000 Reward Points per calendar month. Post cap, 1 Reward Point per Rs.100 spent.",
+          "how_to_earn": "Use SimplyCLICK SBI Card for online spends excluding exclusive partners.",
+          "validity": null,
+          "exclusions": "Utility Bill Payments on SBI Card website/mobile app do not accrue 5X points."
+        },
+        {
+          "name": "Online spends with exclusive partners",
+          "rate": 10,
+          "cap": null,
+          "description": "Earn 10X Reward Points on online spends with exclusive partners: Apollo 24x7, BookMyShow, Cleartrip, Dominos, IGP, Myntra, Netmeds, Yatra.",
+          "terms_and_conditions": "Applicable only when payment is done in INR. Dependent on merchant network acceptability and Merchant Identifiers provided by partners.",
+          "how_to_earn": "Use SimplyCLICK SBI Card for online spends with exclusive partners.",
+          "validity": null,
+          "exclusions": "Transactions from affiliate channels for Cleartrip and Yatra are excluded."
+        }
+      ],
+      "bonus_rates": [
+        {
+          "condition": "Spend Rs. 1,00,000 annually",
+          "rate": 0,
+          "validity": "Subsequent year",
+          "terms_and_conditions": "Annual fee of Rs. 499 reversed for the SimplyCLICK SBI card in the subsequent year."
+        }
+      ]
+    },
+    "redemption": [
+      {
+        "option": "Amazon.in Gift Card",
+        "minimum": null,
+        "value": 500,
+        "process": "Voucher Code sent on registered mobile number within 21 days from payment of membership fee.",
+        "terms_and_conditions": "Voucher valid for 12 months from date of adding to Amazon Pay. Cannot be redeemed in parts or for cash.",
+        "validity": "12 months from adding to Amazon Pay",
+        "processing_time": "Within 21 days from payment of membership fee"
+      },
+      {
+        "option": "E-Vouchers on milestone spends",
+        "minimum": 100000,
+        "value": 2000,
+        "process": "E-Voucher details sent via SMS on registered mobile number within 30 days of reaching spend milestone.",
+        "terms_and_conditions": "Voucher issued is final and cannot be substituted. Valid for Cleartrip or Yatra bookings as per respective terms.",
+        "validity": "4 months from date of sharing coupon code",
+        "processing_time": "Within 30 days of reaching milestone"
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "category": "Welcome Gift",
+      "name": "Amazon.in Gift Card",
+      "description": "Get Amazon.in gift card worth Rs.500 on payment of Annual Fee of Rs. 499 + taxes.",
+      "how_to_avail": "Pay the annual membership fee of Rs. 499 + taxes.",
+      "value": "Rs. 500",
+      "terms_and_conditions": "Account must be in good standing. Voucher valid for 12 months from adding to Amazon Pay.",
+      "validity": "12 months from adding to Amazon Pay",
+      "eligibility": "Payment of annual membership fee and account in good standing.",
+      "usage_limit": "One time"
+    },
+    {
+      "category": "Reward Points",
+      "name": "Accelerated Reward Points",
+      "description": "Earn 10X Reward Points on online spends with exclusive partners and 5X on other online spends.",
+      "how_to_avail": "Use SimplyCLICK SBI Card for eligible online transactions.",
+      "value": "Up to 10X Reward Points",
+      "terms_and_conditions": "10X applicable only on INR payments. Caps and exclusions apply.",
+      "validity": null,
+      "eligibility": "SimplyCLICK SBI Cardholders",
+      "usage_limit": "Monthly cap of 10,000 points on 5X category"
+    },
+    {
+      "category": "Milestone Benefits",
+      "name": "E-Vouchers on Annual Online Spends",
+      "description": "E-Vouchers worth Rs. 2,000 each on reaching annual online spends of Rs. 1 Lakh and Rs. 2 Lakh respectively.",
+      "how_to_avail": "Reach the specified annual online spend milestones.",
+      "value": "Rs. 2,000 per milestone",
+      "terms_and_conditions": "Voucher issued at discretion of SBI Card. Valid for Cleartrip or Yatra bookings only.",
+      "validity": "4 months from date of issue",
+      "eligibility": "SimplyCLICK SBI Cardholders reaching spend milestones",
+      "usage_limit": "Two milestones per year"
+    },
+    {
+      "category": "Fuel",
+      "name": "Fuel Surcharge Waiver",
+      "description": "1% fuel surcharge waiver for transactions between Rs 500 & Rs 3000, max Rs 100 per statement cycle.",
+      "how_to_avail": "Use SimplyCLICK SBI Card for fuel transactions within specified limits.",
+      "value": "1% waiver up to Rs. 100 per statement cycle",
+      "terms_and_conditions": "Excludes GST and other charges.",
+      "validity": null,
+      "eligibility": "SimplyCLICK SBI Cardholders",
+      "usage_limit": "Max Rs. 100 per statement cycle"
+    },
+    {
+      "category": "Technology",
+      "name": "Contactless Payments",
+      "description": "Make fast and secure contactless payments by waving your card at a secured reader.",
+      "how_to_avail": "Use card at contactless enabled POS terminals.",
+      "value": "Convenience and security",
+      "terms_and_conditions": "Max payment of Rs. 5,000 per contactless transaction.",
+      "validity": null,
+      "eligibility": "SimplyCLICK SBI Cardholders",
+      "usage_limit": "Max Rs. 5,000 per transaction"
+    }
+  ],
+  "current_offers": [
+    {
+      "title": "Amazon.in Gift Card on Annual Fee Payment",
+      "description": "Get Amazon.in gift card worth Rs.500 on payment of Annual Fee of Rs. 499 + taxes.",
+      "validity": null,
+      "terms_and_conditions": "Account must be in good standing. Voucher sent within 21 days.",
+      "activation_required": true,
+      "how_to_activate": "Pay annual membership fee.",
+      "eligibility": "SimplyCLICK SBI Cardholders",
+      "maximum_benefit": "Rs. 500 gift card",
+      "offer_code": null,
+      "exclusions": null
+    },
+    {
+      "title": "Milestone E-Vouchers",
+      "description": "E-Vouchers worth Rs. 2,000 each on reaching annual online spends of Rs. 1 Lakh and Rs. 2 Lakh.",
+      "validity": "4 months from issue",
+      "terms_and_conditions": "Voucher issued at discretion of SBI Card. Valid for Cleartrip or Yatra bookings only.",
+      "activation_required": false,
+      "how_to_activate": "Reach spend milestones.",
+      "eligibility": "SimplyCLICK SBI Cardholders",
+      "maximum_benefit": "Rs. 4,000 total per year",
+      "offer_code": null,
+      "exclusions": null
+    }
+  ],
+  "perks": [
+    {
+      "name": "Add-on Cards",
+      "description": "Empower family members with add-on cards for parents, spouse, children or siblings above 18.",
+      "category": "Family Benefits",
+      "usage_limit": "Up to 2 add-on cards",
+      "how_to_use": "Apply for add-on cards through SBI Card services.",
+      "terms_and_conditions": "Add-on Fee is Nil.",
+      "value": "Convenience for family spending",
+      "validity": null
+    },
+    {
+      "name": "Worldwide Acceptance",
+      "description": "Use SimplyCLICK SBI Card at over 24 million outlets globally including 3,25,000 in India.",
+      "category": "Acceptance",
+      "usage_limit": null,
+      "how_to_use": "Use card at any Visa or MasterCard accepting outlet.",
+      "terms_and_conditions": null,
+      "value": "Global usability",
+      "validity": null
+    },
+    {
+      "name": "Cash on the Go",
+      "description": "Withdraw cash from over 1 million Visa or MasterCard ATMs worldwide.",
+      "category": "Cash Withdrawal",
+      "usage_limit": null,
+      "how_to_use": "Use SimplyCLICK SBI Card at ATMs.",
+      "terms_and_conditions": null,
+      "value": "Cash availability",
+      "validity": null
+    },
+    {
+      "name": "Utility Bill Payment Facility",
+      "description": "Pay electricity, telephone, mobile and other utility bills using Easy Bill Pay facility.",
+      "category": "Bill Payment",
+      "usage_limit": null,
+      "how_to_use": "Use Easy Bill Pay on SBI Card platform.",
+      "terms_and_conditions": null,
+      "value": "Convenience",
+      "validity": null
+    },
+    {
+      "name": "Balance Transfer on EMI",
+      "description": "Transfer outstanding balance of other banks’ credit cards to SimplyCLICK SBI Card and pay back in EMIs at lower interest.",
+      "category": "EMI Facility",
+      "usage_limit": null,
+      "how_to_use": "Log on to sbicard.com with user ID and password to avail.",
+      "terms_and_conditions": null,
+      "value": "Interest savings",
+      "validity": null
+    },
+    {
+      "name": "Flexipay",
+      "description": "Convert transactions of Rs. 2,500 or more into easy monthly installments.",
+      "category": "EMI Facility",
+      "usage_limit": null,
+      "how_to_use": "Log in to sbicard.com within 30 days of purchase to convert.",
+      "terms_and_conditions": null,
+      "value": "Payment flexibility",
+      "validity": null
+    }
+  ],
+  "partnerships": [
+    {
+      "partner": "Amazon.in",
+      "benefit": "Amazon.in gift card worth Rs. 500 on annual fee payment",
+      "category": "Welcome Gift",
+      "validity": "12 months from adding to Amazon Pay",
+      "how_to_avail": "Pay annual membership fee and redeem voucher sent on registered mobile.",
+      "terms_and_conditions": "Voucher cannot be redeemed in parts or for cash.",
+      "discount_percentage": null,
+      "maximum_discount": "Rs. 500"
+    },
+    {
+      "partner": "Cleartrip",
+      "benefit": "E-Vouchers worth Rs. 2,000 on reaching annual online spends",
+      "category": "Milestone Benefits",
+      "validity": "4 months from issue",
+      "how_to_avail": "Enter coupon code at payment page on Cleartrip website or app.",
+      "terms_and_conditions": "Coupon valid for single transaction only, non-transferable, non-refundable.",
+      "discount_percentage": null,
+      "maximum_discount": "Rs. 2,000"
+    },
+    {
+      "partner": "Yatra",
+      "benefit": "E-Vouchers worth Rs. 2,000 on reaching annual online spends",
+      "category": "Milestone Benefits",
+      "validity": "4 months from issue",
+      "how_to_avail": "Enter e-Voucher code at checkout on Yatra website or app.",
+      "terms_and_conditions": "Voucher valid for flights, hotels, holidays bookings only. Non-refundable.",
+      "discount_percentage": null,
+      "maximum_discount": "Rs. 2,000"
+    },
+    {
+      "partner": "Apollo 24x7, BookMyShow, Dominos, IGP, Myntra, Netmeds",
+      "benefit": "10X Reward Points on online spends",
+      "category": "Reward Points",
+      "validity": null,
+      "how_to_avail": "Use SimplyCLICK SBI Card for online spends on partner platforms.",
+      "terms_and_conditions": "10X points applicable only on INR payments.",
+      "discount_percentage": null,
+      "maximum_discount": null
+    }
+  ],
+  "fees_and_charges": [
+    {
+      "type": "Annual Fee (one time)",
+      "amount": "Rs. 499 + Taxes",
+      "waiver_conditions": "Annual fee reversed if annual spends for last year >= Rs. 1,00,000",
+      "frequency": "One time",
+      "terms_and_conditions": "All taxes applicable as per government regulations."
+    },
+    {
+      "type": "Renewal Fee (per annum)",
+      "amount": "Rs. 499 + Taxes",
+      "waiver_conditions": "Renewal Fee reversed if annual spends for last year >= Rs. 1,00,000",
+      "frequency": "Per annum",
+      "terms_and_conditions": "All taxes applicable as per government regulations."
+    },
+    {
+      "type": "Add-on Fee (per annum)",
+      "amount": "Nil",
+      "waiver_conditions": null,
+      "frequency": "Per annum",
+      "terms_and_conditions": null
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-08-12T17:59:25.698Z",
+    "confidence_score": 1,
+    "missing_data": [],
+    "processed_links": 6,
+    "token_usage": {
+      "input_tokens": 32528,
+      "output_tokens": 3902,
+      "total_tokens": 36430
+    },
+    "failed_links": 0,
+    "failed_link_details": []
+  }
+}

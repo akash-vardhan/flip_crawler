@@ -1,0 +1,98 @@
+{
+  "Metadata": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "METADATA",
+    "card_name": "Diners Club Privilege Credit Card",
+    "issuer": "HDFC Bank",
+    "network": [
+      "Diners Club"
+    ],
+    "type": "Credit Card",
+    "category": [
+      "Premium",
+      "Travel",
+      "Lifestyle"
+    ]
+  },
+  "features": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "FEATURES",
+    "digital_onboarding": false,
+    "contactless_payments": true,
+    "customization_options": {},
+    "app_management": [],
+    "security_features": [
+      "Credit Liability Cover",
+      "Travel Insurance",
+      "Emergency Medical Cover"
+    ]
+  },
+  "rewards": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "REWARDS",
+    "reward_currency": "Reward Points",
+    "cashback_program": [],
+    "earning_structure": [
+      {
+        "category": "Retail",
+        "rate": 4,
+        "unit": "Points per ₹150",
+        "cap": null
+      },
+      {
+        "category": "Swiggy and Zomato",
+        "rate": 20,
+        "unit": "Points per ₹150",
+        "cap": 2500
+      },
+      {
+        "category": "SmartBuy",
+        "rate": 10,
+        "unit": "Points per ₹150",
+        "cap": null
+      }
+    ],
+    "redemption": {
+      "flights_hotels": {
+        "value_per_point": 0.5,
+        "max_redeem_percent": 70
+      },
+      "dining_catalogue": {
+        "value_per_point": 0.5
+      },
+      "cashback": {
+        "value_per_point": 0.2
+      }
+    }
+  },
+  "fees": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "FEES",
+    "joining_fee": null,
+    "renewal_fee": null,
+    "tax_applicable": true,
+    "renewal_waiver_condition": "Spend Rs. 3 lakh in card anniversary year",
+    "joining_fee_waiver_condition": null,
+    "other_charges": {
+      "foreign_currency_markup": "3.5% per transaction",
+      "credit_liability_cover": "₹9,00,000"
+    }
+  },
+  "eligibility": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "ELIGIBILITY",
+    "salaried": {},
+    "self_employed": {}
+  },
+  "related_docs": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "PDFS",
+    "pdfs": [
+      "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/Know-more-Privilege-Portfolio-Communication.pdf",
+      "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/Diners-Club-Privilege-domestic-lounge.pdf",
+      "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/International-Lounge-List.pdf",
+      "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/DNP-ProductFeature-TnC.pdf",
+      "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/PDFs/Covers_Dinersaug.pdf"
+    ]
+  }
+}

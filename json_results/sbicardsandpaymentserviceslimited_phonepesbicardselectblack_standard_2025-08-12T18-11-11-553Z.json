@@ -1,0 +1,221 @@
+{
+  "id": "c7d2e2c25ca0ccc4",
+  "url": "https://www.sbicard.com/en/personal/credit-cards/rewards/phonepe-sbi-card-select-black.page",
+  "scraped_at": "2025-08-12T18:11:11.553Z",
+  "card": {
+    "name": "PhonePe SBI Card SELECT BLACK",
+    "bank": "SBI Cards and Payment Services Limited",
+    "variant": "SELECT BLACK",
+    "description": "A credit card offering rewards and benefits tailored for PhonePe users with privileges including welcome benefits, reward points, milestone benefits, lounge access, fuel surcharge waiver, and more.",
+    "target_audience": "Individuals who frequently use PhonePe and seek rewards on PhonePe spends, online spends, and other spends with additional travel and lifestyle benefits."
+  },
+  "rewards": {
+    "program": "PhonePe SBI Card SELECT BLACK Reward Program",
+    "type": "Reward Points",
+    "earning": {
+      "base_rate": 1,
+      "categories": [
+        {
+          "name": "PhonePe & Pincode spends",
+          "rate": 10,
+          "cap": 2000,
+          "description": "Earn 10 Reward Points per Rs. 100 on eligible PhonePe and Pincode spends.",
+          "terms_and_conditions": "Accelerated RPs on PhonePe spends applicable only on select categories - Recharges, Utilities, Bill Payments, Insurance, Travel and PhonePe PINCODE. Identification based on PhonePe’s MID or TID. Max 2000 points per month.",
+          "how_to_earn": "Make transactions on PhonePe app or Pincode spends using the card.",
+          "validity": "Points forfeited if no transaction for 13 months or on card closure after 30 days.",
+          "exclusions": "No reward points on fuel transactions, wallet upload, rent payment, education services, government spends, EMI transactions, cash withdrawal."
+        },
+        {
+          "name": "Online spends",
+          "rate": 5,
+          "cap": 2000,
+          "description": "Earn 5 Reward Points per Rs. 100 on eligible online spends.",
+          "terms_and_conditions": "Max 2000 points per month. Utilities and Insurance spends outside PhonePe accrue base points only.",
+          "how_to_earn": "Make online transactions using the card.",
+          "validity": "Same as above.",
+          "exclusions": "Same as above."
+        },
+        {
+          "name": "Other spends",
+          "rate": 1,
+          "cap": 2000,
+          "description": "Earn 1 Reward Point per Rs. 100 on other spends.",
+          "terms_and_conditions": "Max 2000 points per month.",
+          "how_to_earn": "Use card for other transactions.",
+          "validity": "Same as above.",
+          "exclusions": "Same as above."
+        }
+      ],
+      "bonus_rates": [
+        {
+          "condition": "Scan & Pay transactions using PhonePe SBI Card SELECT BLACK",
+          "rate": 1,
+          "validity": null,
+          "terms_and_conditions": "All Scan & Pay transactions made using the card will accrue 1% Value Back."
+        }
+      ]
+    },
+    "redemption": [
+      {
+        "option": "Redeem Reward Points for vouchers or cash",
+        "minimum": null,
+        "value": "1 Reward Point = Re. 1",
+        "process": "Redeem points against a wide array of vouchers or for cash via the SBI Card platform.",
+        "terms_and_conditions": "Points forfeited on non-payment, fraud, card closure, or inactivity. Taxes or charges on redemption borne by cardholder.",
+        "validity": "Points forfeited after 13 months of inactivity or 30 days after card closure.",
+        "processing_time": null
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "category": "Welcome Benefit",
+      "name": "PhonePe Gift Card",
+      "description": "Rs. 1,500 PhonePe Gift Card issued after payment of joining fee.",
+      "how_to_avail": "Gift card sent to registered mobile number within 45 days of joining fee realization.",
+      "value": "Rs. 1,500",
+      "terms_and_conditions": "Card account must be in good standing. Voucher valid for 12 months from adding to gift card balance. Cannot be redeemed in parts or for cash.",
+      "validity": "12 months from adding to gift card balance",
+      "eligibility": "Payment of joining fee Rs. 1,499 + taxes",
+      "usage_limit": "One-time"
+    },
+    {
+      "category": "Milestone Benefit",
+      "name": "Yatra Voucher",
+      "description": "Yatra Voucher worth Rs. 5,000 on achieving annual spends of Rs. 5 lakh.",
+      "how_to_avail": "Voucher sent to registered mobile number/email within 30 days of reaching spend milestone.",
+      "value": "Rs. 5,000",
+      "terms_and_conditions": "Voucher valid for flight, hotel, holiday bookings on Yatra. Single transaction use only. Non-refundable, non-transferable. Valid for 4 months from issue date.",
+      "validity": "4 months from issue date",
+      "eligibility": "Annual spends of Rs. 5 lakh",
+      "usage_limit": "One-time per year"
+    },
+    {
+      "category": "Lounge Access",
+      "name": "International Lounge Program",
+      "description": "Complimentary Priority Pass membership worth $99 for first two years.",
+      "how_to_avail": "Membership provided with cardholder membership.",
+      "value": "Worth $99",
+      "terms_and_conditions": "Complimentary for first two years.",
+      "validity": "First two years of membership",
+      "eligibility": "Cardholder membership",
+      "usage_limit": null
+    },
+    {
+      "category": "Lounge Access",
+      "name": "Domestic Lounge Program",
+      "description": "4 complimentary domestic lounge visits per year (max 1 per quarter).",
+      "how_to_avail": "Use card at domestic lounges.",
+      "value": "4 visits per year",
+      "terms_and_conditions": "Max 1 visit per quarter.",
+      "validity": "Annual",
+      "eligibility": "Cardholder",
+      "usage_limit": "4 visits per year"
+    },
+    {
+      "category": "Fuel Surcharge Waiver",
+      "name": "Fuel Surcharge Waiver",
+      "description": "1% fuel surcharge waiver on transactions from Rs. 500 to Rs. 4,000 at petrol pumps in India.",
+      "how_to_avail": "Use card for fuel transactions within specified limits.",
+      "value": "Max Rs. 250 per statement cycle",
+      "terms_and_conditions": "Waiver excludes GST and other charges.",
+      "validity": "Per statement cycle",
+      "eligibility": "Cardholder",
+      "usage_limit": "Max Rs. 250 waiver per statement cycle"
+    },
+    {
+      "category": "Contactless Payment",
+      "name": "Contactless Advantage",
+      "description": "Tap to pay with VISA PayWave for fast, secure transactions.",
+      "how_to_avail": "Tap card at contactless reader.",
+      "value": null,
+      "terms_and_conditions": "Unique security key ensures only one transaction per tap.",
+      "validity": null,
+      "eligibility": "Cardholder",
+      "usage_limit": null
+    },
+    {
+      "category": "Cash Access",
+      "name": "Cash Withdrawal",
+      "description": "Withdraw cash from over 1 million ATMs worldwide.",
+      "how_to_avail": "Use card at ATMs globally.",
+      "value": null,
+      "terms_and_conditions": null,
+      "validity": null,
+      "eligibility": "Cardholder",
+      "usage_limit": null
+    },
+    {
+      "category": "Add-on Cards",
+      "name": "Add-on Cards",
+      "description": "Empower up to 3 family members with add-on cards.",
+      "how_to_avail": "Request add-on cards for eligible family members above 18 years.",
+      "value": null,
+      "terms_and_conditions": "Add-on fee Nil per annum.",
+      "validity": null,
+      "eligibility": "Family members above 18 years",
+      "usage_limit": "Up to 3 add-on cards"
+    },
+    {
+      "category": "Flexipay",
+      "name": "Flexipay",
+      "description": "Convert transactions of Rs. 2,500 or more into easy monthly installments.",
+      "how_to_avail": "Transact Rs. 2,500+ and convert within 30 days on sbicard.com.",
+      "value": null,
+      "terms_and_conditions": null,
+      "validity": null,
+      "eligibility": "Cardholder",
+      "usage_limit": null
+    },
+    {
+      "category": "Balance Transfer",
+      "name": "Balance Transfer on EMI",
+      "description": "Transfer outstanding balances from other credit cards to this card at lower interest and pay in EMIs.",
+      "how_to_avail": "Log in to sbicard.com to avail.",
+      "value": null,
+      "terms_and_conditions": null,
+      "validity": null,
+      "eligibility": "Cardholder",
+      "usage_limit": null
+    }
+  ],
+  "current_offers": [],
+  "perks": [],
+  "partnerships": [],
+  "fees_and_charges": [
+    {
+      "type": "Annual Fee (Joining Fee)",
+      "amount": "Rs. 1,499 + Taxes",
+      "waiver_conditions": "Annual fee reversed on spends of Rs. 3 lakh or more in previous membership year.",
+      "frequency": "One-time at joining",
+      "terms_and_conditions": "Fee reversal preconditioned on fee levied during renewal cycle."
+    },
+    {
+      "type": "Renewal Fee",
+      "amount": "Rs. 1,499 + Taxes",
+      "waiver_conditions": "Reversal on spends of Rs. 3 lakh or more in previous membership year.",
+      "frequency": "Per annum from second year onwards",
+      "terms_and_conditions": "Fee reversal preconditioned on fee levied during renewal cycle."
+    },
+    {
+      "type": "Add-on Card Fee",
+      "amount": "Nil",
+      "waiver_conditions": null,
+      "frequency": "Per annum",
+      "terms_and_conditions": null
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-08-12T18:11:11.552Z",
+    "confidence_score": 1,
+    "missing_data": [],
+    "processed_links": 3,
+    "token_usage": {
+      "input_tokens": 5230,
+      "output_tokens": 3079,
+      "total_tokens": 8309
+    },
+    "failed_links": 0,
+    "failed_link_details": []
+  }
+}

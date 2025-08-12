@@ -1,0 +1,263 @@
+{
+  "id": "574d823e48ab0591",
+  "url": "https://www.sbicard.com/en/personal/credit-cards/lifestyle/sbi-card-elite.page",
+  "scraped_at": "2025-08-12T18:03:13.745Z",
+  "card": {
+    "name": "SBI Card ELITE",
+    "bank": "State Bank of India",
+    "variant": "Elite",
+    "description": "Premium lifestyle credit card offering exclusive privileges including welcome gift, reward points, complimentary movie tickets, lounge access, and concierge services.",
+    "target_audience": "Individuals seeking premium lifestyle benefits and rewards on credit card spends."
+  },
+  "rewards": {
+    "program": "SBI Card Rewards Program",
+    "type": "Reward Points",
+    "earning": {
+      "base_rate": 2,
+      "categories": [
+        {
+          "name": "Dining, Departmental Stores & Grocery",
+          "rate": 10,
+          "cap": 10000,
+          "description": "Earn 10 Reward Points for every Rs. 100 spent on Dining, Departmental Stores and Grocery.",
+          "terms_and_conditions": "Reward Points on accelerated categories are subject to a monthly cap of 10,000 points. After reaching the cap, earn 2 Reward Points per Rs. 100.",
+          "how_to_earn": "Use SBI Card ELITE for spends in specified categories.",
+          "validity": null,
+          "exclusions": "Purchases at petrol pumps/service stations excluded (MCCs 5172, 5541, 5542, 5983)."
+        },
+        {
+          "name": "All other spends except fuel",
+          "rate": 2,
+          "cap": null,
+          "description": "Earn 2 Reward Points for every Rs. 100 spent on all other spends except fuel.",
+          "terms_and_conditions": "",
+          "how_to_earn": "Use SBI Card ELITE for spends outside accelerated categories.",
+          "validity": null,
+          "exclusions": "Fuel spends excluded."
+        }
+      ],
+      "bonus_rates": [
+        {
+          "condition": "Annual spends of Rs. 3 lakh",
+          "rate": 10000,
+          "validity": "Credited within 21 days of achievement",
+          "terms_and_conditions": "Bonus Reward Points credited on achieving annual spends milestones."
+        },
+        {
+          "condition": "Annual spends of Rs. 4 lakh",
+          "rate": 10000,
+          "validity": "Credited within 21 days of achievement",
+          "terms_and_conditions": "Bonus Reward Points credited on achieving annual spends milestones."
+        },
+        {
+          "condition": "Annual spends of Rs. 5 lakh",
+          "rate": 15000,
+          "validity": "Credited within 21 days of achievement",
+          "terms_and_conditions": "Bonus Reward Points credited on achieving annual spends milestones."
+        },
+        {
+          "condition": "Annual spends of Rs. 8 lakh",
+          "rate": 15000,
+          "validity": "Credited within 21 days of achievement",
+          "terms_and_conditions": "Bonus Reward Points credited on achieving annual spends milestones."
+        }
+      ]
+    },
+    "redemption": [
+      {
+        "option": "Reward Points redemption",
+        "minimum": null,
+        "value": "4 Reward Points = Rs. 1",
+        "process": "Redeem points via SBI Card rewards portal or as per program guidelines.",
+        "terms_and_conditions": "Points can be redeemed for gifts, vouchers, or to pay card outstanding.",
+        "validity": null,
+        "processing_time": null
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "category": "Welcome Gift",
+      "name": "Welcome e-Gift Voucher",
+      "description": "Welcome e-Gift Voucher worth Rs. 5,000 from travel and lifestyle brands.",
+      "how_to_avail": "Receive SMS within 30 days of annual fee payment to choose voucher. Redeem via code at brand stores or online.",
+      "value": "Rs. 5,000",
+      "terms_and_conditions": "Voucher valid for 6 months from receipt. No extension or replacement allowed.",
+      "validity": "6 months from communication",
+      "eligibility": "Eligible on payment of annual fee and account in good standing.",
+      "usage_limit": null
+    },
+    {
+      "category": "Entertainment",
+      "name": "Complimentary Movie Tickets",
+      "description": "Free movie tickets worth Rs. 6,000 every year.",
+      "how_to_avail": "Valid for at least 2 tickets per booking per month on primary cards only.",
+      "value": "Rs. 6,000 per year",
+      "terms_and_conditions": "Maximum discount Rs. 250/ticket for 2 tickets only. Convenience fee applicable.",
+      "validity": "Annual",
+      "eligibility": "Primary cardholders only.",
+      "usage_limit": "2 tickets per booking per month"
+    },
+    {
+      "category": "Lounge Access",
+      "name": "International Lounge Program",
+      "description": "Complimentary Priority Pass membership with 6 complimentary airport lounge visits per calendar year outside India.",
+      "how_to_avail": "Request Priority Pass via SBI helpline or website. Valid for 2 years.",
+      "value": "Membership worth $99",
+      "terms_and_conditions": "Only primary cardholders eligible. Usage fee applies after complimentary visits.",
+      "validity": "2 years",
+      "eligibility": "Primary cardholders only.",
+      "usage_limit": "6 visits per year, max 2 per quarter"
+    },
+    {
+      "category": "Lounge Access",
+      "name": "Domestic Lounge Program",
+      "description": "2 complimentary domestic airport lounge visits every quarter in India.",
+      "how_to_avail": "Use SBI Card ELITE at respective lounges.",
+      "value": null,
+      "terms_and_conditions": "Offer valid for limited period and subject to lounge availability.",
+      "validity": null,
+      "eligibility": "Cardholders",
+      "usage_limit": "2 visits per quarter"
+    },
+    {
+      "category": "Fuel",
+      "name": "Fuel Surcharge Waiver",
+      "description": "1% fuel surcharge waiver on transactions between Rs. 500 to Rs. 4,000 at petrol pumps.",
+      "how_to_avail": "Use SBI Card ELITE for fuel purchase within specified range.",
+      "value": "Max waiver Rs. 250 per statement cycle",
+      "terms_and_conditions": "Government service tax extra as applicable.",
+      "validity": null,
+      "eligibility": "Cardholders",
+      "usage_limit": "Max Rs. 250 per statement cycle"
+    },
+    {
+      "category": "Insurance",
+      "name": "Fraud Liability Cover",
+      "description": "Complimentary credit card fraud liability cover of Rs. 1 lakh.",
+      "how_to_avail": "Report loss immediately to SBI Card helpline.",
+      "value": "Rs. 1,00,000",
+      "terms_and_conditions": "Coverage from 48 hours prior to reporting loss till 7 days post reporting.",
+      "validity": "Coverage period as stated",
+      "eligibility": "Cardholders",
+      "usage_limit": null
+    },
+    {
+      "category": "Concierge",
+      "name": "Exclusive Concierge Service",
+      "description": "Dedicated assistance for flower delivery, gift delivery, online doctor consultation.",
+      "how_to_avail": "Call 1800-2121-68168 or email support@premiumconcierge.in",
+      "value": null,
+      "terms_and_conditions": null,
+      "validity": null,
+      "eligibility": "Cardholders",
+      "usage_limit": null
+    }
+  ],
+  "current_offers": [
+    {
+      "title": "Welcome Gift",
+      "description": "Welcome e-Gift Voucher worth Rs. 5,000 on joining.",
+      "validity": "6 months from communication",
+      "terms_and_conditions": "Voucher redemption within 6 months only. No extension or replacement.",
+      "activation_required": true,
+      "how_to_activate": "Pay annual fee and respond to SMS to select voucher.",
+      "eligibility": "New cardholders paying annual fee.",
+      "maximum_benefit": "Rs. 5,000",
+      "offer_code": null,
+      "exclusions": null
+    },
+    {
+      "title": "Complimentary Movie Tickets",
+      "description": "Free movie tickets worth Rs. 6,000 every year.",
+      "validity": "Annual",
+      "terms_and_conditions": "Valid for primary cards only. Convenience fee applicable.",
+      "activation_required": false,
+      "how_to_activate": null,
+      "eligibility": "Primary cardholders only.",
+      "maximum_benefit": "Rs. 6,000 per year",
+      "offer_code": null,
+      "exclusions": "Max 2 tickets per booking per month."
+    }
+  ],
+  "perks": [
+    {
+      "name": "Contactless Payment",
+      "description": "Visa payWave/MasterCard Contactless for fast, secure transactions up to Rs. 5,000 without PIN.",
+      "category": "Payment Convenience",
+      "usage_limit": "Rs. 5,000 per transaction",
+      "how_to_use": "Wave card within 4 cm of contactless reader.",
+      "terms_and_conditions": "Transactions above Rs. 5,000 require PIN.",
+      "value": null,
+      "validity": null
+    },
+    {
+      "name": "Cash Access",
+      "description": "Withdraw cash from over 1 million Visa/Mastercard/Amex ATMs worldwide.",
+      "category": "Cash Withdrawal",
+      "usage_limit": null,
+      "how_to_use": "Use card at ATMs with PIN.",
+      "terms_and_conditions": "Cash advance fees applicable.",
+      "value": null,
+      "validity": null
+    }
+  ],
+  "partnerships": [
+    {
+      "partner": "BookMyShow",
+      "benefit": "Discount on movie tickets up to Rs. 500 per booking.",
+      "category": "Entertainment",
+      "validity": null,
+      "how_to_avail": "Book tickets on www.bookmyshow.com using SBI Card ELITE and apply offer.",
+      "terms_and_conditions": "Max 2 tickets per booking per month. Convenience fee applicable.",
+      "discount_percentage": null,
+      "maximum_discount": "Rs. 500"
+    },
+    {
+      "partner": "Priority Pass",
+      "benefit": "Complimentary membership with 6 international lounge visits per year.",
+      "category": "Travel",
+      "validity": "2 years",
+      "how_to_avail": "Request via SBI helpline or website.",
+      "terms_and_conditions": "Primary cardholders only. Usage fee applies after complimentary visits.",
+      "discount_percentage": null,
+      "maximum_discount": null
+    }
+  ],
+  "fees_and_charges": [
+    {
+      "type": "Annual Fee",
+      "amount": "Rs. 4,999 + Taxes",
+      "waiver_conditions": "Reversal on spends of Rs. 10 Lakhs",
+      "frequency": "One-time and renewal annually",
+      "terms_and_conditions": "Subject to change at discretion of SBI Card."
+    },
+    {
+      "type": "Renewal Fee",
+      "amount": "Rs. 4,999 + Taxes",
+      "waiver_conditions": "Spend based reversal on spends of Rs. 10 Lakhs",
+      "frequency": "Annual",
+      "terms_and_conditions": "Subject to change at discretion of SBI Card."
+    },
+    {
+      "type": "Add-on Card Fee",
+      "amount": "Nil",
+      "waiver_conditions": null,
+      "frequency": "Annual",
+      "terms_and_conditions": null
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-08-12T18:03:13.745Z",
+    "confidence_score": 1,
+    "missing_data": [],
+    "processed_links": 5,
+    "token_usage": {
+      "input_tokens": 52194,
+      "output_tokens": 3103,
+      "total_tokens": 55297
+    },
+    "failed_links": 0,
+    "failed_link_details": []
+  }
+}

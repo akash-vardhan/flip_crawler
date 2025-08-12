@@ -1,0 +1,81 @@
+{
+  "Metadata": {
+    "PK": "CARD#SBI",
+    "SK": "METADATA",
+    "card_name": "SimplySAVE SBI Card",
+    "issuer": "SBI Card",
+    "network": [
+      "Visa",
+      "MasterCard"
+    ],
+    "type": "Credit Card",
+    "category": [
+      "Shopping",
+      "Rewards",
+      "Fuel Surcharge Waiver"
+    ]
+  },
+  "features": {
+    "PK": "CARD#SBI",
+    "SK": "FEATURES",
+    "digital_onboarding": false,
+    "contactless_payments": true,
+    "customization_options": {},
+    "app_management": [
+      "SBI Card Mobile App"
+    ],
+    "security_features": [
+      "Visa payWave contactless security key"
+    ]
+  },
+  "rewards": {
+    "PK": "CARD#SBI",
+    "SK": "REWARDS",
+    "reward_currency": "Reward Points",
+    "cashback_program": [],
+    "earning_structure": [
+      {
+        "category": "Dining, Movies, Departmental Stores, Grocery Spends",
+        "rate": 10,
+        "per_amount": 150
+      },
+      {
+        "category": "Other spends",
+        "rate": 1,
+        "per_amount": 150
+      }
+    ],
+    "redemption": {
+      "options": [
+        "Pay outstanding balance",
+        "Redeem gifts"
+      ],
+      "redemption_fee_applicable": true
+    }
+  },
+  "fees": {
+    "PK": "CARD#SBI",
+    "SK": "FEES",
+    "joining_fee": 499,
+    "renewal_fee": 499,
+    "tax_applicable": true,
+    "renewal_waiver_condition": "Annual spends >= Rs. 1,00,000 in previous year",
+    "joining_fee_waiver_condition": "",
+    "other_charges": {
+      "add_on_fee": 0
+    }
+  },
+  "eligibility": {
+    "PK": "CARD#SBI",
+    "SK": "ELIGIBILITY",
+    "salaried": {},
+    "self_employed": {}
+  },
+  "related_docs": {
+    "PK": "CARD#SBI",
+    "SK": "PDFS",
+    "pdfs": [
+      "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/Simplysave%20card/simplysave-welcome-rewards.pdf"
+    ]
+  }
+}

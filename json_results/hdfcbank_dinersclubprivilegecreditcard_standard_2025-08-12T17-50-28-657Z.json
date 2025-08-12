@@ -1,0 +1,290 @@
+{
+  "id": "440bcb6452cac55e",
+  "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/diners-privilege",
+  "scraped_at": "2025-08-12T17:50:28.657Z",
+  "card": {
+    "name": "Diners Club Privilege Credit Card",
+    "bank": "HDFC Bank",
+    "variant": "Privilege",
+    "description": "A premium credit card offering exclusive rewards, dining, travel, and lifestyle benefits for global citizens who cherish the unexplored and savor the exotic.",
+    "target_audience": "Global citizens, frequent travelers, premium lifestyle seekers"
+  },
+  "rewards": {
+    "program": "Diners Club Privilege Rewards Program",
+    "type": "Reward Points",
+    "earning": {
+      "base_rate": 4,
+      "categories": [
+        {
+          "name": "Retail spends",
+          "rate": 4,
+          "cap": null,
+          "description": "Earn 4 Reward Points for every ₹150 spent on retail purchases excluding rent and government spends.",
+          "terms_and_conditions": "Excludes rent and government spends.",
+          "how_to_earn": "Use the card for retail purchases.",
+          "validity": null,
+          "exclusions": "Rent and government spends"
+        },
+        {
+          "name": "Swiggy and Zomato",
+          "rate": 20,
+          "cap": 2500,
+          "description": "Earn 5X Reward Points (20 points per ₹150) on Swiggy and Zomato spends with an additional 4X capped at 2500 points per calendar month.",
+          "terms_and_conditions": "Minimum transaction value ₹150. Only transactions settled from merchant eligible. Capped at 2500 reward points per calendar month.",
+          "how_to_earn": "Use card directly on Swiggy and Zomato.",
+          "validity": null,
+          "exclusions": "Wallet payments not eligible."
+        },
+        {
+          "name": "SmartBuy purchases",
+          "rate": 10,
+          "cap": null,
+          "description": "Earn up to 10X Reward Points on purchases via SmartBuy platform.",
+          "terms_and_conditions": "Applicable only on SmartBuy purchases.",
+          "how_to_earn": "Use card on SmartBuy platform.",
+          "validity": null,
+          "exclusions": null
+        }
+      ],
+      "bonus_rates": [
+        {
+          "condition": "Quarterly spends of Rs. 1.5 lakh",
+          "rate": null,
+          "validity": "Quarterly",
+          "terms_and_conditions": "Get vouchers worth ₹1,500 from Marriott, Decathlon, Barbeque Nation, O2 Spa or Lakme Salon."
+        }
+      ]
+    },
+    "redemption": [
+      {
+        "option": "SmartBuy flights and hotels",
+        "minimum": null,
+        "value": "1 Reward Point = Rs 0.5",
+        "process": "Redeem reward points on SmartBuy or NetBanking for flights and hotel bookings.",
+        "terms_and_conditions": "Redeem up to 70% of booking value through Reward Points.",
+        "validity": null,
+        "processing_time": null
+      },
+      {
+        "option": "Exclusive Privilege Dining Catalogue",
+        "minimum": null,
+        "value": "1 Reward Point = Rs 0.5",
+        "process": "Redeem reward points on exclusive dining catalogue via SmartBuy.",
+        "terms_and_conditions": "Visit offers.smartbuy.hdfcbank.com/diners and select 'Exclusive Dining Catalogue'.",
+        "validity": null,
+        "processing_time": null
+      },
+      {
+        "option": "Cashback",
+        "minimum": null,
+        "value": "1 Reward Point = Rs 0.20",
+        "process": "Redeem reward points for cashback.",
+        "terms_and_conditions": null,
+        "validity": null,
+        "processing_time": null
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "category": "Entertainment",
+      "name": "Buy 1 Get 1 Free on BookMyShow",
+      "description": "Get Buy 1 Get 1 Free on movie/non-movie weekend tickets via BookMyShow for shows on Friday, Saturday, and Sunday.",
+      "how_to_avail": "Use HDFC Diners Club Privilege Credit Card on BookMyShow website or app and validate card number at payment page.",
+      "value": "Maximum discount Rs. 250 per ticket, up to 2 free tickets per calendar month.",
+      "terms_and_conditions": "Offer valid only on BookMyShow website/app, excludes gift cards, F&B, and BMS Stream.",
+      "validity": null,
+      "eligibility": "Applicable for cardholders",
+      "usage_limit": "2 free tickets per calendar month"
+    },
+    {
+      "category": "Travel",
+      "name": "Airport Lounge Access",
+      "description": "2 complimentary airport lounge accesses every calendar quarter worldwide.",
+      "how_to_avail": "Present your Diners Club Privilege Credit Card at participating lounges.",
+      "value": "2 accesses per calendar quarter",
+      "terms_and_conditions": "Complimentary on spends of Rs. 15,000 in previous calendar quarter.",
+      "validity": "Worldwide",
+      "eligibility": "Primary and add-on cardholders",
+      "usage_limit": "2 per calendar quarter"
+    },
+    {
+      "category": "Welcome Benefits",
+      "name": "Complimentary Annual Memberships",
+      "description": "Complimentary annual memberships of Swiggy One and Times Prime on spending Rs. 75,000 within first 90 days of card issuance.",
+      "how_to_avail": "Spend Rs. 75,000 within 90 days of card issuance.",
+      "value": "Annual memberships",
+      "terms_and_conditions": "Memberships unlocked within 48 hours of meeting criteria.",
+      "validity": "90 days from card issuance",
+      "eligibility": "New cardholders",
+      "usage_limit": "One-time"
+    },
+    {
+      "category": "Milestone Benefits",
+      "name": "Quarterly Vouchers",
+      "description": "Get vouchers worth Rs. 1,500 from Marriott, Decathlon, Barbeque Nation, O2 Spa, or Lakme Salon on spends of Rs. 1.5 lakh in a calendar quarter.",
+      "how_to_avail": "Track and redeem via SmartBuy portal.",
+      "value": "Rs. 1,500 voucher",
+      "terms_and_conditions": "One voucher per quarter.",
+      "validity": "Quarterly",
+      "eligibility": "Cardholders with qualifying spends",
+      "usage_limit": "One voucher per quarter"
+    },
+    {
+      "category": "Renewal",
+      "name": "Renewal Fee Waiver",
+      "description": "Renewal fee waiver on spends of Rs. 3 lakh in card anniversary year.",
+      "how_to_avail": "Spend Rs. 3 lakh in anniversary year.",
+      "value": "Renewal fee waived",
+      "terms_and_conditions": null,
+      "validity": "Anniversary year",
+      "eligibility": "Cardholders",
+      "usage_limit": "Once per year"
+    },
+    {
+      "category": "Insurance",
+      "name": "Travel and Accident Insurance",
+      "description": "Air accident cover worth ₹1 crore, emergency overseas hospitalization up to ₹25 Lacs, baggage delay cover up to ₹50,000, and credit liability cover up to ₹9 Lakh.",
+      "how_to_avail": "Insurance activated when tickets purchased using Diners Club Privilege Credit Card.",
+      "value": "Coverage as specified",
+      "terms_and_conditions": "Valid for international travel only, subject to policy terms.",
+      "validity": "Up to 22 July 2026",
+      "eligibility": "Primary cardholders",
+      "usage_limit": null
+    }
+  ],
+  "current_offers": [
+    {
+      "title": "Good Food Trail Program",
+      "description": "Flat 10% extra off on dining bills at 35,000+ restaurants when paying with HDFC Bank Credit Card via Swiggy Dineout.",
+      "validity": null,
+      "terms_and_conditions": "Offer inclusive of restaurant and Swiggy discount. T&C apply.",
+      "activation_required": false,
+      "how_to_activate": null,
+      "eligibility": "HDFC Bank Credit Card holders",
+      "maximum_benefit": null,
+      "offer_code": null,
+      "exclusions": null
+    }
+  ],
+  "perks": [
+    {
+      "name": "Contactless Payment",
+      "description": "Enabled for contactless payments on HDFC Bank POS machines for fast, convenient, and secure payments.",
+      "category": "Payment",
+      "usage_limit": "Up to ₹5,000 per transaction without PIN in India",
+      "how_to_use": "Look for contactless symbol on card and tap on POS machine.",
+      "terms_and_conditions": "For transactions ₹5,000 or more, PIN required.",
+      "value": null,
+      "validity": null
+    },
+    {
+      "name": "Smart EMI",
+      "description": "Option to convert big spends into EMI after purchase.",
+      "category": "Payment",
+      "usage_limit": null,
+      "how_to_use": "Available on HDFC Bank Diners Club Privilege Credit Card.",
+      "terms_and_conditions": "Refer to Fees and Charges section for details.",
+      "value": null,
+      "validity": null
+    },
+    {
+      "name": "Concierge Service",
+      "description": "24/7 exclusive concierge services for cardholders.",
+      "category": "Service",
+      "usage_limit": null,
+      "how_to_use": "Call toll-free 1860 425 1188.",
+      "terms_and_conditions": null,
+      "value": null,
+      "validity": null
+    }
+  ],
+  "partnerships": [
+    {
+      "partner": "Marriott",
+      "benefit": "₹1,500 worth vouchers on quarterly spends of Rs. 1.5 lakh",
+      "category": "Lifestyle",
+      "validity": "Quarterly",
+      "how_to_avail": "Redeem via SmartBuy Milestone Page.",
+      "terms_and_conditions": "Voucher valid at participating Marriott hotels in India.",
+      "discount_percentage": null,
+      "maximum_discount": "₹1,500"
+    },
+    {
+      "partner": "Decathlon",
+      "benefit": "₹1,500 voucher on quarterly spends of Rs. 1.5 lakh",
+      "category": "Lifestyle",
+      "validity": "Quarterly",
+      "how_to_avail": "Redeem via SmartBuy Milestone Page.",
+      "terms_and_conditions": "Voucher valid at Decathlon retail outlets and website.",
+      "discount_percentage": null,
+      "maximum_discount": "₹1,500"
+    },
+    {
+      "partner": "Barbeque Nation",
+      "benefit": "₹1,500 voucher on quarterly spends of Rs. 1.5 lakh",
+      "category": "Lifestyle",
+      "validity": "Quarterly",
+      "how_to_avail": "Redeem via SmartBuy Milestone Page.",
+      "terms_and_conditions": "Voucher valid for dine-in only at Barbeque Nation restaurants.",
+      "discount_percentage": null,
+      "maximum_discount": "₹1,500"
+    },
+    {
+      "partner": "Lakme Salon",
+      "benefit": "₹1,500 voucher on quarterly spends of Rs. 1.5 lakh",
+      "category": "Lifestyle",
+      "validity": "Quarterly",
+      "how_to_avail": "Redeem via SmartBuy Milestone Page.",
+      "terms_and_conditions": "Voucher valid at Lakme Salon network.",
+      "discount_percentage": null,
+      "maximum_discount": "₹1,500"
+    },
+    {
+      "partner": "O2 Spa",
+      "benefit": "₹1,500 voucher on quarterly spends of Rs. 1.5 lakh",
+      "category": "Lifestyle",
+      "validity": "Quarterly",
+      "how_to_avail": "Redeem via SmartBuy Milestone Page and book appointment via call center.",
+      "terms_and_conditions": "Voucher valid at O2 Spa outlets.",
+      "discount_percentage": null,
+      "maximum_discount": "₹1,500"
+    }
+  ],
+  "fees_and_charges": [
+    {
+      "type": "Foreign Currency Markup",
+      "amount": "3.5%",
+      "waiver_conditions": null,
+      "frequency": "Per transaction",
+      "terms_and_conditions": "Charged on all foreign currency spends, billed within 60 days from date of visit."
+    },
+    {
+      "type": "Credit Liability Cover",
+      "amount": "₹9,00,000",
+      "waiver_conditions": null,
+      "frequency": "Coverage limit",
+      "terms_and_conditions": "Coverage for credit liability up to ₹9 lakh."
+    },
+    {
+      "type": "Renewal Fee",
+      "amount": null,
+      "waiver_conditions": "Waived on spends of Rs. 3 lakh in card anniversary year.",
+      "frequency": "Annual",
+      "terms_and_conditions": null
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-08-12T17:50:28.657Z",
+    "confidence_score": 1,
+    "missing_data": [],
+    "processed_links": 18,
+    "token_usage": {
+      "input_tokens": 82865,
+      "output_tokens": 3795,
+      "total_tokens": 86660
+    },
+    "failed_links": 0,
+    "failed_link_details": []
+  }
+}

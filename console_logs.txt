@@ -1,0 +1,1858 @@
+
+F:\FLIP\flip_offer_fetcher>node test.js
+[dotenv@17.2.1] injecting env (1) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+
+========================================================================================================================
+🎯 Testing SMART DETECTION with URL VALIDATION for: https://www.hdfcbank.com/personal/pay/cards/credit-cards
+🔥 NO LIMITS - Will validate all URLs and process ALL accessible cards
+🧹 Enhanced filtering + URL validation to prevent 404 errors
+========================================================================================================================
+🏷️ Detected as LISTING page - will extract all cards
+🚀 Starting listing page crawl with dual JSON output: https://www.hdfcbank.com/personal/pay/cards/credit-cards
+🔥 Will generate both standard and structured JSON formats for all cards
+🔍 Extracting content from: https://www.hdfcbank.com/personal/pay/cards/credit-cards
+✅ Successfully extracted content from: https://www.hdfcbank.com/personal/pay/cards/credit-cards
+📊 Found 578 links
+✅ Successfully extracted listing page content
+🔍 Extracting card URLs from listing page with OpenAI...
+📈 Listing Token Usage:
+   Input: 6902 tokens
+   Output: 1366 tokens
+   Total: 8268 tokens
+🔍 GPT Response: Found 6 cards
+📋 Sample card: PIXEL Play Credit Card -> https://www.hdfcbank.com/personal/pay/cards/credit-cards/pixel-play-credit-card
+🔗 Validating URLs for accessibility...
+🔍 Validating 1/6: PIXEL Play Credit Card
+✅ Valid: PIXEL Play Credit Card (200)
+🔍 Validating 2/6: Freedom Credit Card
+✅ Valid: Freedom Credit Card (200)
+🔍 Validating 3/6: IndianOil HDFC Bank Credit Card
+✅ Valid: IndianOil HDFC Bank Credit Card (200)
+🔍 Validating 4/6: Diners Club Privilege Credit Card
+✅ Valid: Diners Club Privilege Credit Card (200)
+🔍 Validating 5/6: Millennia Credit Card
+❌ Invalid: Millennia Credit Card - 404 Not Found
+🔍 Validating 6/6: MoneyBack+ Credit Card
+✅ Valid: MoneyBack+ Credit Card (200)
+🎯 Before validation: 6 cards
+✅ After validation: 5 valid cards
+🎯 Found 5 VALID and ACCESSIBLE credit cards
+🗑️ Filtered out 1 invalid/broken URLs
+📊 Invalid URL breakdown:
+   - NOT_FOUND_404: 1 URLs
+📋 Processing ALL 5 validated cards...
+
+================================================================================
+🔍 Processing card 1/5: PIXEL Play Credit Card
+🌐 URL: https://www.hdfcbank.com/personal/pay/cards/credit-cards/pixel-play-credit-card
+✅ Validation Status: VALID (200)
+================================================================================
+🚀 Starting comprehensive crawl for: https://www.hdfcbank.com/personal/pay/cards/credit-cards/pixel-play-credit-card
+🔥 Will generate both standard and structured JSON formats
+🔍 Extracting content from: https://www.hdfcbank.com/personal/pay/cards/credit-cards/pixel-play-credit-card
+✅ Successfully extracted content from: https://www.hdfcbank.com/personal/pay/cards/credit-cards/pixel-play-credit-card
+📊 Found 409 links
+🔍 Processing 409 links from Puppeteer extraction...
+📄 PDF link found: "click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/PIXEL-Rupay-Credit-Card-FAQs.pdf
+📄 Classifying as PDF: "click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/PIXEL-Rupay-Credit-Card-FAQs.pdf
+📄 PDF link found: "Click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Common/Campaign/PDFs/2023/Nov/Terms-and-Conditions-ZappMax-Credit-Card.pdf
+📄 Classifying as PDF: "Click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Common/Campaign/PDFs/2023/Nov/Terms-and-Conditions-ZappMax-Credit-Card.pdf
+📄 PDF link found: "click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/Pay-in-Parts-Terms-and-Condition.pdf
+📄 Classifying as PDF: "click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/Pay-in-Parts-Terms-and-Condition.pdf
+📊 Found 13 relevant links to process
+📋 Link breakdown by type:
+   pdf: 3 links
+   offers: 1 links
+   partnerships: 4 links
+   general: 5 links
+🔍 Found 13 relevant links to process
+🔗 Processing ALL 13 relevant links...
+📄 [1/13] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/PIXEL-Rupay-Credit-Card-FAQs.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/PIXEL-Rupay-Credit-Card-FAQs.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/PIXEL-Rupay-Credit-Card-FAQs.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/PIXEL-Rupay-Credit-Card-FAQs.pdf
+✅ PDF downloaded: 160750 bytes
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [2/13] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Common/Campaign/PDFs/2023/Nov/Terms-and-Conditions-ZappMax-Credit-Card.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Common/Campaign/PDFs/2023/Nov/Terms-and-Conditions-ZappMax-Credit-Card.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Common/Campaign/PDFs/2023/Nov/Terms-and-Conditions-ZappMax-Credit-Card.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Common/Campaign/PDFs/2023/Nov/Terms-and-Conditions-ZappMax-Credit-Card.pdf
+✅ PDF downloaded: 289121 bytes
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [3/13] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/Pay-in-Parts-Terms-and-Condition.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/Pay-in-Parts-Terms-and-Condition.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/Pay-in-Parts-Terms-and-Condition.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Pixel Play Credit Card/Pay-in-Parts-Terms-and-Condition.pdf
+✅ PDF downloaded: 128096 bytes
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [4/13] Processing: offers - https://offers.smartbuy.hdfcbank.com/deals
+📄 [5/13] Processing: partnerships - https://offers.smartbuy.hdfcbank.com
+📊 Progress: 5/13 processed (5 success, 0 failed)
+📄 [6/13] Processing: partnerships - https://offers.smartbuy.hdfcbank.com/compare-fly
+📄 [7/13] Processing: partnerships - https://offers.smartbuy.hdfcbank.com/compare-fly#mhotel
+📄 [8/13] Processing: partnerships - https://offers.smartbuy.hdfcbank.com/offer_details/swiggy-dineout/26020/Z2mjlWM%3D
+📄 [9/13] Processing: general - https://v.hdfcbank.com/pixel-credit-card/index.html?icid=backbase_navbar&mc_id=backbase_navbar
+📄 [10/13] Processing: general - https://v.hdfcbank.com/payzapp/index.html?icid=website:Payzapp:navigation
+📊 Progress: 10/13 processed (9 success, 1 failed)
+📄 [11/13] Processing: general - https://mycards.hdfcbank.com/?lgcode=mktg&?mc_id=website_organic_CC_dropdown&icid=website_organic_CC_dropdown
+📄 [12/13] Processing: general - https://v.hdfcbank.com/payzapp/index.html
+📄 [13/13] Processing: general - https://applyonline.hdfcbank.com/cards/credit-cards.html?CHANNELSOURCE=ZETA&LGCode=MKTG&mcid=website_pixel_play_prod_pg_sticky_footer
+✅ Completed processing: 12 successful, 1 failed
+
+🚨 FAILED LINKS SUMMARY:
+   1. [partnerships] https://offers.smartbuy.hdfcbank.com/offer_details/swiggy-dineout/26020/Z2mjlWM%3D
+      Error: net::ERR_SOCKET_NOT_CONNECTED at https://offers.smartbuy.hdfcbank.com/offer_details/swiggy-dineout/26020/Z2mjlWM%3D
+🤖 Processing all content with OpenAI...
+🤖 Processing content with OpenAI for DUAL format output...
+📈 Token Usage:
+   Input: 42672 tokens
+   Output: 3558 tokens
+   Total: 46230 tokens
+💾 Standard JSON saved to: hdfcbank_pixelplaycreditcard_standard_2025-08-12T17-36-39-141Z.json
+💾 Structured JSON saved to: hdfcbank_pixelplaycreditcard_structured_2025-08-12T17-36-39-141Z.json
+✅ Crawling completed successfully
+📈 Confidence Score: 1
+🔗 Processed 12 additional pages
+❌ Failed to process 1 links
+✅ Successfully processed: PIXEL Play Credit Card
+📊 Confidence: 1
+🎁 Benefits: 3, Offers: 2
+📄 Files: hdfcbank_pixelplaycreditcard_standard_2025-08-12T17-36-39-141Z.json, hdfcbank_pixelplaycreditcard_structured_2025-08-12T17-36-39-141Z.json
+⏳ Waiting 3000ms before next card...
+
+================================================================================
+🔍 Processing card 2/5: Freedom Credit Card
+🌐 URL: https://www.hdfcbank.com/personal/pay/cards/credit-cards/freedom-card-new
+✅ Validation Status: VALID (200)
+================================================================================
+🚀 Starting comprehensive crawl for: https://www.hdfcbank.com/personal/pay/cards/credit-cards/freedom-card-new
+🔥 Will generate both standard and structured JSON formats
+🔍 Extracting content from: https://www.hdfcbank.com/personal/pay/cards/credit-cards/freedom-card-new
+✅ Successfully extracted content from: https://www.hdfcbank.com/personal/pay/cards/credit-cards/freedom-card-new
+📊 Found 453 links
+🔍 Processing 453 links from Puppeteer extraction...
+📄 PDF link found: "TnC" -> https://webviews.swiggy.com/portal-static-page/dineout-hdfc-tnc/
+📄 Classifying as PDF: "TnC" -> https://webviews.swiggy.com/portal-static-page/dineout-hdfc-tnc/
+📄 PDF link found: "Click here" -> https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/6d0db352-ab1f-420b-bec5-fdb38c73a02f?#    /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Freedom Card New/Terms-and-Conditions-HDFC-Bank-Freedom-Credit-Card.pdf
+📄 Classifying as PDF: "Click here" -> https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/6d0db352-ab1f-420b-bec5-fdb38c73a02f?#        /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Freedom Card New/Terms-and-Conditions-HDFC-Bank-Freedom-Credit-Card.pdf
+📄 PDF link found: "FAQs" -> https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/0c8931ba-b4d4-437f-9bb9-84b41d896657?#/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Freedom Card New/HDFC-Bank-Freedom-Credit-Card.pdf
+📄 Classifying as PDF: "FAQs" -> https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/0c8931ba-b4d4-437f-9bb9-84b41d896657?#/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Freedom Card New/HDFC-Bank-Freedom-Credit-Card.pdf
+📄 PDF link found: "Active Channel Partners" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 Classifying as PDF: "Active Channel Partners" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 PDF link found: "Active Channel Partners" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 PDF link found: "Credit Cards Policy" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/HDFC-Bank-Credit-Cards-Policy -Conditions-Ver-1-1st-July22.pdf
+📄 Classifying as PDF: "Credit Cards Policy" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/HDFC-Bank-Credit-Cards-Policy -Conditions-Ver-1-1st-July22.pdf
+📄 PDF link found: "DSA code of conduct" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/dsa_cc.pdf
+📄 Classifying as PDF: "DSA code of conduct" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/dsa_cc.pdf
+📄 PDF link found: "Fair practices code" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/fair_practice.pdf
+📄 Classifying as PDF: "Fair practices code" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/fair_practice.pdf
+📄 PDF link found: "Transaction alerts" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/TransactionAlerts.pdf
+📄 Classifying as PDF: "Transaction alerts" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/TransactionAlerts.pdf
+📄 PDF link found: "Statement Payment Related Info" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/statement_related_payment_info.pdf
+📄 Classifying as PDF: "Statement Payment Related Info" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/statement_related_payment_info.pdf
+📄 PDF link found: "Retail Card Member Agreement" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/card-member-agreement-29-10-2019.pdf
+📄 Classifying as PDF: "Retail Card Member Agreement" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/card-member-agreement-29-10-2019.pdf
+📄 PDF link found: "Corporate Card Member Agreement" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/Cardmember-Agreement-Corp-Cards.pdf
+📄 Classifying as PDF: "Corporate Card Member Agreement" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/Cardmember-Agreement-Corp-Cards.pdf
+📄 PDF link found: "Co-Brand Credit Card Revenue Sharing Disclosure" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Co-Brand-Credit-Card-Revenue-Sharing-disclosure.pdf
+📄 Classifying as PDF: "Co-Brand Credit Card Revenue Sharing Disclosure" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Co-Brand-Credit-Card-Revenue-Sharing-disclosure.pdf
+📄 PDF link found: "Key Fact Statement- Purchase Card" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/KEY-FACT-STATEMENT(Commercial-Cards).pdf
+📄 Classifying as PDF: "Key Fact Statement- Purchase Card" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/KEY-FACT-STATEMENT(Commercial-Cards).pdf
+📄 PDF link found: "Key Fact Statement- Corporate Card" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/KEY-FACT-STATEMENT-Corp-Card.pdf
+📄 Classifying as PDF: "Key Fact Statement- Corporate Card" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/KEY-FACT-STATEMENT-Corp-Card.pdf
+📄 PDF link found: "MyRewards Program Terms & Conditions" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/my-rewards-oct-17.pdf
+📄 Classifying as PDF: "MyRewards Program Terms & Conditions" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/my-rewards-oct-17.pdf
+📄 PDF link found: "Active List of Digital Channel Partner - Credit Cards" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 Classifying as PDF: "Active List of Digital Channel Partner - Credit Cards" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📊 Found 31 relevant links to process
+📋 Link breakdown by type:
+   pdf: 16 links
+   offers: 1 links
+   partnerships: 3 links
+   general: 11 links
+🔍 Found 31 relevant links to process
+🔗 Processing ALL 31 relevant links...
+📄 [1/31] Processing: pdf - https://webviews.swiggy.com/portal-static-page/dineout-hdfc-tnc/
+📄 Extracting PDF from: https://webviews.swiggy.com/portal-static-page/dineout-hdfc-tnc/
+🔄 Trying PDF URL: https://webviews.swiggy.com/portal-static-page/dineout-hdfc-tnc/
+✅ PDF downloaded: 12872 bytes
+Warning: Ignoring invalid character "33" in hex string
+Warning: Ignoring invalid character "79" in hex string
+Warning: Ignoring invalid character "84" in hex string
+Warning: Ignoring invalid character "89" in hex string
+Warning: Ignoring invalid character "80" in hex string
+Warning: Ignoring invalid character "104" in hex string
+Warning: Ignoring invalid character "116" in hex string
+Warning: Ignoring invalid character "109" in hex string
+Warning: Ignoring invalid character "108" in hex string
+Warning: Ignoring invalid character "104" in hex string
+Warning: Ignoring invalid character "116" in hex string
+Warning: Ignoring invalid character "109" in hex string
+Warning: Ignoring invalid character "108" in hex string
+Warning: Ignoring invalid character "104" in hex string
+Warning: Ignoring invalid character "116" in hex string
+Warning: Ignoring invalid character "105" in hex string
+Warning: Ignoring invalid character "116" in hex string
+Warning: Ignoring invalid character "108" in hex string
+Warning: Ignoring invalid character "33" in hex string
+Warning: Ignoring invalid character "79" in hex string
+Warning: Ignoring invalid character "84" in hex string
+Warning: Ignoring invalid character "89" in hex string
+Warning: Ignoring invalid character "80" in hex string
+Warning: Ignoring invalid character "104" in hex string
+Warning: Ignoring invalid character "116" in hex string
+Warning: Ignoring invalid character "109" in hex string
+Warning: Ignoring invalid character "108" in hex string
+Warning: Ignoring invalid character "104" in hex string
+Warning: Ignoring invalid character "116" in hex string
+Warning: Ignoring invalid character "109" in hex string
+Warning: Ignoring invalid character "108" in hex string
+Warning: Ignoring invalid character "104" in hex string
+Warning: Indexing all PDF objects
+❌ Failed with https://webviews.swiggy.com/portal-static-page/dineout-hdfc-tnc/: Invalid PDF structure
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [2/31] Processing: pdf - https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/6d0db352-ab1f-420b-bec5-fdb38c73a02f?#   /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Freedom Card New/Terms-and-Conditions-HDFC-Bank-Freedom-Credit-Card.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/6d0db352-ab1f-420b-bec5-fdb38c73a02f?#       /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Freedom Card New/Terms-and-Conditions-HDFC-Bank-Freedom-Credit-Card.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/6d0db352-ab1f-420b-bec5-fdb38c73a02f?#    /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Freedom Card New/Terms-and-Conditions-HDFC-Bank-Freedom-Credit-Card.pdf
+✅ PDF downloaded: 313798 bytes
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [3/31] Processing: pdf - https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/0c8931ba-b4d4-437f-9bb9-84b41d896657?#/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Freedom Card New/HDFC-Bank-Freedom-Credit-Card.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/0c8931ba-b4d4-437f-9bb9-84b41d896657?#/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Freedom Card New/HDFC-Bank-Freedom-Credit-Card.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/0c8931ba-b4d4-437f-9bb9-84b41d896657?#/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/CASH BACK/Freedom Card New/HDFC-Bank-Freedom-Credit-Card.pdf
+✅ PDF downloaded: 310391 bytes
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [4/31] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/List-of-Active-Digital-Channel-Partners.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/List-of-Active-Digital-Channel-Partners.pdf
+✅ PDF downloaded: 398424 bytes
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [5/31] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/HDFC-Bank-Credit-Cards-Policy%20-Conditions-Ver-1-1st-July22.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/HDFC-Bank-Credit-Cards-Policy%20-Conditions-Ver-1-1st-July22.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/HDFC-Bank-Credit-Cards-Policy -Conditions-Ver-1-1st-July22.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/HDFC-Bank-Credit-Cards-Policy%20-Conditions-Ver-1-1st-July22.pdf
+✅ PDF downloaded: 219010 bytes
+Warning: TT: undefined function: 21
+Warning: TT: undefined function: 21
+📄 Extracted 1 paragraphs from PDF
+📊 Progress: 5/31 processed (5 success, 0 failed)
+📄 [6/31] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/dsa_cc.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/dsa_cc.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/dsa_cc.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/dsa_cc.pdf
+✅ PDF downloaded: 73474 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [7/31] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/fair_practice.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/fair_practice.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/fair_practice.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/fair_practice.pdf
+✅ PDF downloaded: 137790 bytes
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [8/31] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/TransactionAlerts.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/TransactionAlerts.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/TransactionAlerts.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/TransactionAlerts.pdf
+✅ PDF downloaded: 70436 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [9/31] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/statement_related_payment_info.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/statement_related_payment_info.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/statement_related_payment_info.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/statement_related_payment_info.pdf
+✅ PDF downloaded: 7820022 bytes
+📄 Extracted 0 paragraphs from PDF
+📄 [10/31] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/card-member-agreement-29-10-2019.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/card-member-agreement-29-10-2019.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/card-member-agreement-29-10-2019.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/card-member-agreement-29-10-2019.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📊 Progress: 10/31 processed (10 success, 0 failed)
+📄 [11/31] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/Cardmember-Agreement-Corp-Cards.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/Cardmember-Agreement-Corp-Cards.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/Cardmember-Agreement-Corp-Cards.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/Cardmember-Agreement-Corp-Cards.pdf
+✅ PDF downloaded: 5276817 bytes
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 21
+Warning: TT: undefined function: 21
+📄 Extracted 1 paragraphs from PDF
+📄 [12/31] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Co-Brand-Credit-Card-Revenue-Sharing-disclosure.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Co-Brand-Credit-Card-Revenue-Sharing-disclosure.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Co-Brand-Credit-Card-Revenue-Sharing-disclosure.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Co-Brand-Credit-Card-Revenue-Sharing-disclosure.pdf
+✅ PDF downloaded: 37376 bytes
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [13/31] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/KEY-FACT-STATEMENT(Commercial-Cards).pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/KEY-FACT-STATEMENT(Commercial-Cards).pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/KEY-FACT-STATEMENT(Commercial-Cards).pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/KEY-FACT-STATEMENT(Commercial-Cards).pdf
+✅ PDF downloaded: 2410770 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [14/31] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/KEY-FACT-STATEMENT-Corp-Card.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/KEY-FACT-STATEMENT-Corp-Card.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/KEY-FACT-STATEMENT-Corp-Card.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/KEY-FACT-STATEMENT-Corp-Card.pdf
+✅ PDF downloaded: 2768463 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [15/31] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/my-rewards-oct-17.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/my-rewards-oct-17.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/my-rewards-oct-17.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/my-rewards-oct-17.pdf
+✅ PDF downloaded: 75151 bytes
+📄 Extracted 1 paragraphs from PDF
+📊 Progress: 15/31 processed (15 success, 0 failed)
+📄 [16/31] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/List-of-Active-Digital-Channel-Partners.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/List-of-Active-Digital-Channel-Partners.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/List-of-Active-Digital-Channel-Partners.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [23/31] Processing: general - https://applyonline.hdfcbank.com/cards/credit-cards.html?utm_content=MKTG&icid=website_target_CC_ProdPg_TopNavCTA_ApplyNowD
+📄 [25/31] Processing: general - https://www.hdfcbank.com/personal/pay/cards/credit-cards
+📊 Progress: 25/31 processed (17 success, 1 failed)
+📄 [26/31] Processing: general - https://mycards.hdfcbank.com/?mc_id=rhs_cc&icid=rhs_cc
+📄 [27/31] Processing: general - https://www.hdfcbank.com/personal/pay/cards/credit-cards/personal-mitc
+📄 [28/31] Processing: general - https://www.hdfcbank.com/personal/pay/cards/credit-cards/purchase-mitc
+📄 [29/31] Processing: general - https://v.hdfcbank.com/htdocs/common/cardless-cash/index.html
+📄 [30/31] Processing: general - https://www.hdfcbank.com/personal/pay/cards/credit-cards/chip-pin-credit-card
+📊 Progress: 30/31 processed (21 success, 2 failed)
+📄 [31/31] Processing: general - https://applyonline.hdfcbank.com/cards/credit-cards.html?LGCode=MKTG&utm_content=MKTG&mcid=website_freedom_prodpg_stickyfooter
+✅ Completed processing: 22 successful, 2 failed
+
+🚨 FAILED LINKS SUMMARY:
+   1. [general] https://www.hdfcbank.com/personal/pay/cards/credit-cards
+      Error: Navigation timeout of 60000 ms exceeded
+   2. [general] https://v.hdfcbank.com/htdocs/common/cardless-cash/index.html
+      Error: Navigation timeout of 60000 ms exceeded
+🤖 Processing all content with OpenAI...
+🤖 Processing content with OpenAI for DUAL format output...
+📈 Token Usage:
+   Input: 81948 tokens
+   Output: 3668 tokens
+   Total: 85616 tokens
+💾 Standard JSON saved to: hdfcbank_freedomcreditcard_standard_2025-08-12T17-42-55-059Z.json
+💾 Structured JSON saved to: hdfcbank_freedomcreditcard_structured_2025-08-12T17-42-55-059Z.json
+✅ Crawling completed successfully
+📈 Confidence Score: 1
+🔗 Processed 22 additional pages
+❌ Failed to process 2 links
+✅ Successfully processed: Freedom Credit Card
+📊 Confidence: 1
+🎁 Benefits: 7, Offers: 1
+📄 Files: hdfcbank_freedomcreditcard_standard_2025-08-12T17-42-55-059Z.json, hdfcbank_freedomcreditcard_structured_2025-08-12T17-42-55-059Z.json
+⏳ Waiting 3000ms before next card...
+
+================================================================================
+🔍 Processing card 3/5: IndianOil HDFC Bank Credit Card
+🌐 URL: https://www.hdfcbank.com/personal/pay/cards/credit-cards/indianoil-hdfc-bank-credit-card
+✅ Validation Status: VALID (200)
+================================================================================
+🚀 Starting comprehensive crawl for: https://www.hdfcbank.com/personal/pay/cards/credit-cards/indianoil-hdfc-bank-credit-card
+🔥 Will generate both standard and structured JSON formats
+🔍 Extracting content from: https://www.hdfcbank.com/personal/pay/cards/credit-cards/indianoil-hdfc-bank-credit-card
+✅ Successfully extracted content from: https://www.hdfcbank.com/personal/pay/cards/credit-cards/indianoil-hdfc-bank-credit-card
+📊 Found 518 links
+🔍 Processing 518 links from Puppeteer extraction...
+📄 PDF link found: "Active Channel Partners" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 Classifying as PDF: "Active Channel Partners" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 PDF link found: "Co-Brand Credit Card Revenue Sharing Disclosure" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Co-Brand-Credit-Card-Revenue-Sharing-disclosure.pdf
+📄 Classifying as PDF: "Co-Brand Credit Card Revenue Sharing Disclosure" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Co-Brand-Credit-Card-Revenue-Sharing-disclosure.pdf
+📄 PDF link found: "Retail Card Member Agreement" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/card-member-agreement-29-10-2019.pdf
+📄 Classifying as PDF: "Retail Card Member Agreement" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/card-member-agreement-29-10-2019.pdf
+📄 PDF link found: "Credit Cards Policy" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/HDFC-Bank-Credit-Cards-Policy -Conditions-Ver-1-1st-July22.pdf
+📄 Classifying as PDF: "Credit Cards Policy" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/HDFC-Bank-Credit-Cards-Policy -Conditions-Ver-1-1st-July22.pdf
+📄 PDF link found: "DSA code of conduct" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/dsa_cc.pdf
+📄 Classifying as PDF: "DSA code of conduct" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/dsa_cc.pdf
+📄 PDF link found: "Fair practices code" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/fair_practice.pdf
+📄 Classifying as PDF: "Fair practices code" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/fair_practice.pdf
+📄 PDF link found: "Transaction alerts" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/TransactionAlerts.pdf
+📄 Classifying as PDF: "Transaction alerts" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/TransactionAlerts.pdf
+📄 PDF link found: "Statement Payment Related Info" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/statement_related_payment_info.pdf
+📄 Classifying as PDF: "Statement Payment Related Info" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/statement_related_payment_info.pdf
+📄 PDF link found: "MyRewards Program Terms & Conditions" -> #
+📄 PDF link found: "Active List of Digital Channel Partner - Credit Cards" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 Classifying as PDF: "Active List of Digital Channel Partner - Credit Cards" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 PDF link found: "Read Entire Terms and Conditions" -> #
+📄 PDF link found: "English" -> /Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/Purchase%20Card/Purchase_MITC_new.pdf
+📄 Classifying as PDF: "English" -> /Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/Purchase%20Card/Purchase_MITC_new.pdf
+📄 PDF link found: "Hindi" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Hindi.pdf
+📄 Classifying as PDF: "Hindi" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Hindi.pdf
+📄 PDF link found: "Kannada" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Kannada.pdf
+📄 Classifying as PDF: "Kannada" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Kannada.pdf
+📄 PDF link found: "Malyalam" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Malayalam.pdf
+📄 Classifying as PDF: "Malyalam" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Malayalam.pdf
+📄 PDF link found: "Telugu" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Telugu.pdf
+📄 Classifying as PDF: "Telugu" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Telugu.pdf
+📄 PDF link found: "Tamil" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Tamil.pdf
+📄 Classifying as PDF: "Tamil" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Tamil.pdf
+📄 PDF link found: "Bengali" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Bengali.pdf
+📄 Classifying as PDF: "Bengali" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Bengali.pdf
+📄 PDF link found: "Marathi" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Marathi.pdf
+📄 Classifying as PDF: "Marathi" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Marathi.pdf
+📄 PDF link found: "Gujarati" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Gujarati.pdf
+📄 Classifying as PDF: "Gujarati" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Gujarati.pdf
+📄 PDF link found: "Punjabi" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Punjabi.pdf
+📄 Classifying as PDF: "Punjabi" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Punjabi.pdf
+📄 PDF link found: "Oriya" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Oriya.pdf
+📄 Classifying as PDF: "Oriya" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Oriya.pdf
+📄 PDF link found: "Assamese" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Assamese.pdf
+📄 Classifying as PDF: "Assamese" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Assamese.pdf
+📄 PDF link found: "Urdu" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Urdu.pdf
+📄 Classifying as PDF: "Urdu" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Urdu.pdf
+📄 PDF link found: "Sindhi" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Sindhi.pdf
+📄 Classifying as PDF: "Sindhi" -> /Personal/Pay/Cards/Popup/MITC_Purchase_Card_Sindhi.pdf
+📄 PDF link found: "English" -> /Personal/Pay/Cards/Popup/Corporate_Card_Eng.pdf
+📄 Classifying as PDF: "English" -> /Personal/Pay/Cards/Popup/Corporate_Card_Eng.pdf
+📄 PDF link found: "Hindi" -> /Personal/Pay/Cards/Popup/Corporate_Card_Hindi.pdf
+📄 Classifying as PDF: "Hindi" -> /Personal/Pay/Cards/Popup/Corporate_Card_Hindi.pdf
+📄 PDF link found: "Kannada" -> /Personal/Pay/Cards/Popup/Corporate_Card_Kannada.pdf
+📄 Classifying as PDF: "Kannada" -> /Personal/Pay/Cards/Popup/Corporate_Card_Kannada.pdf
+📄 PDF link found: "Malayalam" -> /Personal/Pay/Cards/Popup/Corporate_Card_Malayalam.pdf
+📄 Classifying as PDF: "Malayalam" -> /Personal/Pay/Cards/Popup/Corporate_Card_Malayalam.pdf
+📄 PDF link found: "Telugu" -> /Personal/Pay/Cards/Popup/Corporate_Card_Telugu.pdf
+📄 Classifying as PDF: "Telugu" -> /Personal/Pay/Cards/Popup/Corporate_Card_Telugu.pdf
+📄 PDF link found: "Tamil" -> /Personal/Pay/Cards/Popup/Corporate_Card_Tamil.pdf
+📄 Classifying as PDF: "Tamil" -> /Personal/Pay/Cards/Popup/Corporate_Card_Tamil.pdf
+📄 PDF link found: "Bengali" -> /Personal/Pay/Cards/Popup/Corporate_Card_Bengali.pdf
+📄 Classifying as PDF: "Bengali" -> /Personal/Pay/Cards/Popup/Corporate_Card_Bengali.pdf
+📄 PDF link found: "Marathi" -> /Personal/Pay/Cards/Popup/Corporate_Card_Marathi.pdf
+📄 Classifying as PDF: "Marathi" -> /Personal/Pay/Cards/Popup/Corporate_Card_Marathi.pdf
+📄 PDF link found: "Gujarati" -> /Personal/Pay/Cards/Popup/Corporate_Card_Gujrati.pdf
+📄 Classifying as PDF: "Gujarati" -> /Personal/Pay/Cards/Popup/Corporate_Card_Gujrati.pdf
+📄 PDF link found: "Punjabi" -> /Personal/Pay/Cards/Popup/Corporate_Card_Punjabi.pdf
+📄 Classifying as PDF: "Punjabi" -> /Personal/Pay/Cards/Popup/Corporate_Card_Punjabi.pdf
+📄 PDF link found: "Oriya" -> /Personal/Pay/Cards/Popup/Corporate_Card_Oriya.pdf
+📄 Classifying as PDF: "Oriya" -> /Personal/Pay/Cards/Popup/Corporate_Card_Oriya.pdf
+📄 PDF link found: "Assamese" -> /Personal/Pay/Cards/Popup/Corporate_Card_Assamese.pdf
+📄 Classifying as PDF: "Assamese" -> /Personal/Pay/Cards/Popup/Corporate_Card_Assamese.pdf
+📄 PDF link found: "Urdu" -> /Personal/Pay/Cards/Popup/Corporate_Card_Urdu.pdf
+📄 Classifying as PDF: "Urdu" -> /Personal/Pay/Cards/Popup/Corporate_Card_Urdu.pdf
+📄 PDF link found: "Sindhi" -> /Personal/Pay/Cards/Popup/Corporate_Card_Sindhi.pdf
+📄 Classifying as PDF: "Sindhi" -> /Personal/Pay/Cards/Popup/Corporate_Card_Sindhi.pdf
+📄 PDF link found: "English" -> /Personal/Pay/Cards/Popup/cc_common_MITC.pdf
+📄 Classifying as PDF: "English" -> /Personal/Pay/Cards/Popup/cc_common_MITC.pdf
+📄 PDF link found: "Hindi" -> /Personal/Pay/Cards/Popup/HDFC_MITC_HINDI.pdf
+📄 Classifying as PDF: "Hindi" -> /Personal/Pay/Cards/Popup/HDFC_MITC_HINDI.pdf
+📄 PDF link found: "Kannada" -> /Personal/Pay/Cards/Popup/HDFC_MITC_KANNADA.pdf
+📄 Classifying as PDF: "Kannada" -> /Personal/Pay/Cards/Popup/HDFC_MITC_KANNADA.pdf
+📄 PDF link found: "Malyalam" -> /Personal/Pay/Cards/Popup/HDFC_MITC_MALAYALAM.pdf
+📄 Classifying as PDF: "Malyalam" -> /Personal/Pay/Cards/Popup/HDFC_MITC_MALAYALAM.pdf
+📄 PDF link found: "Telugu" -> /Personal/Pay/Cards/Popup/HDFC_MITC_TELUGU.pdf
+📄 Classifying as PDF: "Telugu" -> /Personal/Pay/Cards/Popup/HDFC_MITC_TELUGU.pdf
+📄 PDF link found: "Tamil" -> /Personal/Pay/Cards/Popup/HDFC_MITC_TAMIL.pdf
+📄 Classifying as PDF: "Tamil" -> /Personal/Pay/Cards/Popup/HDFC_MITC_TAMIL.pdf
+📄 PDF link found: "Bengali" -> /Personal/Pay/Cards/Popup/HDFC_MITC_BENGALI.pdf
+📄 Classifying as PDF: "Bengali" -> /Personal/Pay/Cards/Popup/HDFC_MITC_BENGALI.pdf
+📄 PDF link found: "Marathi" -> /Personal/Pay/Cards/Popup/HDFC_MITC_MARATHI.pdf
+📄 Classifying as PDF: "Marathi" -> /Personal/Pay/Cards/Popup/HDFC_MITC_MARATHI.pdf
+📄 PDF link found: "Gujarati" -> /Personal/Pay/Cards/Popup/HDFC_MITC_GUJARATI.pdf
+📄 Classifying as PDF: "Gujarati" -> /Personal/Pay/Cards/Popup/HDFC_MITC_GUJARATI.pdf
+📄 PDF link found: "Punjabi" -> /Personal/Pay/Cards/Popup/HDFC_MITC_Punjabi.pdf
+📄 Classifying as PDF: "Punjabi" -> /Personal/Pay/Cards/Popup/HDFC_MITC_Punjabi.pdf
+📄 PDF link found: "Oriya" -> /Personal/Pay/Cards/Popup/hdfc_mitc_oriya.pdf
+📄 Classifying as PDF: "Oriya" -> /Personal/Pay/Cards/Popup/hdfc_mitc_oriya.pdf
+📄 PDF link found: "Assamese" -> /Personal/Pay/Cards/Popup/HDFC_MITC_Assamese.pdf
+📄 Classifying as PDF: "Assamese" -> /Personal/Pay/Cards/Popup/HDFC_MITC_Assamese.pdf
+📄 PDF link found: "Urdu" -> /Personal/Pay/Cards/Popup/HDFC_MITC_urdu.pdf
+📄 Classifying as PDF: "Urdu" -> /Personal/Pay/Cards/Popup/HDFC_MITC_urdu.pdf
+📄 PDF link found: "Sindhi" -> /Personal/Pay/Cards/Popup/HDFC_MITC_sindhi.pdf
+📄 Classifying as PDF: "Sindhi" -> /Personal/Pay/Cards/Popup/HDFC_MITC_sindhi.pdf
+📄 PDF link found: "Download "Rewards Redemption Form"" -> /Personal/Pay/Cards/Popup/redeem_form.pdf
+📄 Classifying as PDF: "Download "Rewards Redemption Form"" -> /Personal/Pay/Cards/Popup/redeem_form.pdf
+📊 Found 65 relevant links to process
+📋 Link breakdown by type:
+   pdf: 52 links
+   offers: 1 links
+   partnerships: 3 links
+   general: 9 links
+🔍 Found 65 relevant links to process
+🔗 Processing ALL 65 relevant links...
+📄 [3/65] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/card-member-agreement-29-10-2019.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/card-member-agreement-29-10-2019.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/card-member-agreement-29-10-2019.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/card-member-agreement-29-10-2019.pdf
+✅ PDF downloaded: 401035 bytes
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [10/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/Purchase%20Card/Purchase_MITC_new.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/Purchase%20Card/Purchase_MITC_new.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/Purchase%20Card/Purchase_MITC_new.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/Purchase%20Card/Purchase_MITC_new.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📊 Progress: 10/65 processed (2 success, 0 failed)
+📄 [11/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Hindi.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Hindi.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Hindi.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Hindi.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [12/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Kannada.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Kannada.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Kannada.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Kannada.pdf: Request failed with status code 520
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [13/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Malayalam.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Malayalam.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Malayalam.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Malayalam.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [14/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Telugu.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Telugu.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Telugu.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Telugu.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [15/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Tamil.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Tamil.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Tamil.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Tamil.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📊 Progress: 15/65 processed (7 success, 0 failed)
+📄 [16/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Bengali.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Bengali.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Bengali.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Bengali.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [17/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Marathi.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Marathi.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Marathi.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Marathi.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [18/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Gujarati.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Gujarati.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Gujarati.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Gujarati.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [19/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Punjabi.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Punjabi.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Punjabi.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Punjabi.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [20/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Oriya.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Oriya.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Oriya.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Oriya.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📊 Progress: 20/65 processed (12 success, 0 failed)
+📄 [21/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Assamese.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Assamese.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Assamese.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Assamese.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [22/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Urdu.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Urdu.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Urdu.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Urdu.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [23/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Sindhi.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Sindhi.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Sindhi.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/MITC_Purchase_Card_Sindhi.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [24/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Eng.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Eng.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Eng.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Eng.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [25/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Hindi.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Hindi.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Hindi.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Hindi.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📊 Progress: 25/65 processed (17 success, 0 failed)
+📄 [26/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Kannada.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Kannada.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Kannada.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Kannada.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [27/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Malayalam.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Malayalam.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Malayalam.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Malayalam.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [28/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Telugu.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Telugu.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Telugu.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Telugu.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [29/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Tamil.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Tamil.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Tamil.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Tamil.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [30/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Bengali.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Bengali.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Bengali.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Bengali.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📊 Progress: 30/65 processed (22 success, 0 failed)
+📄 [31/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Marathi.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Marathi.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Marathi.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Marathi.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [32/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Gujrati.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Gujrati.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Gujrati.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Gujrati.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [33/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Punjabi.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Punjabi.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Punjabi.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Punjabi.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [34/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Oriya.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Oriya.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Oriya.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Oriya.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [35/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Assamese.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Assamese.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Assamese.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Assamese.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📊 Progress: 35/65 processed (27 success, 0 failed)
+📄 [36/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Urdu.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Urdu.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Urdu.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Urdu.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [37/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Sindhi.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Sindhi.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Sindhi.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/Corporate_Card_Sindhi.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [38/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/cc_common_MITC.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/cc_common_MITC.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/cc_common_MITC.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/cc_common_MITC.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [39/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_HINDI.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_HINDI.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_HINDI.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_HINDI.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [40/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_KANNADA.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_KANNADA.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_KANNADA.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_KANNADA.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📊 Progress: 40/65 processed (32 success, 0 failed)
+📄 [41/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_MALAYALAM.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_MALAYALAM.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_MALAYALAM.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_MALAYALAM.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [42/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_TELUGU.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_TELUGU.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_TELUGU.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_TELUGU.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [43/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_TAMIL.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_TAMIL.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_TAMIL.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_TAMIL.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [44/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_BENGALI.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_BENGALI.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_BENGALI.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_BENGALI.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [45/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_MARATHI.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_MARATHI.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_MARATHI.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_MARATHI.pdf: Request failed with status code 520
+❌ PDF extraction failed: All PDF extraction attempts failed
+📊 Progress: 45/65 processed (37 success, 0 failed)
+📄 [46/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_GUJARATI.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_GUJARATI.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_GUJARATI.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_GUJARATI.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [47/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_Punjabi.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_Punjabi.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_Punjabi.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_Punjabi.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [48/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/hdfc_mitc_oriya.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/hdfc_mitc_oriya.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/hdfc_mitc_oriya.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/hdfc_mitc_oriya.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [49/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_Assamese.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_Assamese.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_Assamese.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_Assamese.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [50/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_urdu.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_urdu.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_urdu.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_urdu.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📊 Progress: 50/65 processed (42 success, 0 failed)
+📄 [51/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_sindhi.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_sindhi.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_sindhi.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/HDFC_MITC_sindhi.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [52/65] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Popup/redeem_form.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/redeem_form.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Popup/redeem_form.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Popup/redeem_form.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [60/65] Processing: general - https://applyonline.hdfcbank.com/credit-cards/pre-approved-credit-cards?LGCODE=MKTC&mc_id=website_organic_CCcatpage_ccpreapprovedoffer&ICID=website_organic:CCcatpage:ccpreapprovedoffer#nbb
+📊 Progress: 60/65 processed (45 success, 0 failed)
+📄 [62/65] Processing: general - https://www.hdfcbank.com/#
+📄 [63/65] Processing: general - https://applyonline.hdfcbank.com/cards/credit-cards.html?LGCODE=MKTC&mc_id=website_organic_CCcatpage_ccpreapprovedoffer&ICID=website_organic:CCcatpage:ccpreapprovedoffer
+📄 [64/65] Processing: general - https://applyonline.hdfcbank.com/credit-cards/pre-approved-credit-cards?LGCODE=MKTC&mc_id=website_organic_CCcatpage_ccpreapprovedoffer&ICID=website_organic:CCcatpage:ccpreapprovedoffer
+📄 [65/65] Processing: general - https://www.hdfcbank.com/personal/find-your-nearest/find-phone-banking?utm_tag=PhoneBanking&utm_campaign=Aadhaar_Updation_LP&utm_medium=email&utm_source=April17_Aadhaar_Updation_LP&utm_content=PhoneBanking
+📊 Progress: 65/65 processed (49 success, 0 failed)
+✅ Completed processing: 49 successful, 0 failed
+🤖 Processing all content with OpenAI...
+🤖 Processing content with OpenAI for DUAL format output...
+📈 Token Usage:
+   Input: 82525 tokens
+   Output: 2761 tokens
+   Total: 85286 tokens
+💾 Standard JSON saved to: hdfcbank_indianoilhdfcbankcreditcard_standard_2025-08-12T17-47-25-088Z.json
+💾 Structured JSON saved to: hdfcbank_indianoilhdfcbankcreditcard_structured_2025-08-12T17-47-25-088Z.json
+✅ Crawling completed successfully
+📈 Confidence Score: 1
+🔗 Processed 49 additional pages
+❌ Failed to process 0 links
+✅ Successfully processed: IndianOil HDFC Bank Credit Card
+📊 Confidence: 1
+🎁 Benefits: 4, Offers: 1
+📄 Files: hdfcbank_indianoilhdfcbankcreditcard_standard_2025-08-12T17-47-25-088Z.json, hdfcbank_indianoilhdfcbankcreditcard_structured_2025-08-12T17-47-25-088Z.json
+
+📈 Progress: 3/5 (60%) - 3 successful, 0 failed
+⏳ Waiting 3000ms before next card...
+
+================================================================================
+🔍 Processing card 4/5: Diners Club Privilege Credit Card
+🌐 URL: https://www.hdfcbank.com/personal/pay/cards/credit-cards/diners-privilege
+✅ Validation Status: VALID (200)
+================================================================================
+🚀 Starting comprehensive crawl for: https://www.hdfcbank.com/personal/pay/cards/credit-cards/diners-privilege
+🔥 Will generate both standard and structured JSON formats
+🔍 Extracting content from: https://www.hdfcbank.com/personal/pay/cards/credit-cards/diners-privilege
+✅ Successfully extracted content from: https://www.hdfcbank.com/personal/pay/cards/credit-cards/diners-privilege
+📊 Found 465 links
+🔍 Processing 465 links from Puppeteer extraction...
+📄 PDF link found: "Click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/Know-more-Privilege-Portfolio-Communication.pdf
+📄 Classifying as PDF: "Click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/Know-more-Privilege-Portfolio-Communication.pdf
+📄 PDF link found: "click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/Diners-Club-Privilege-domestic-lounge.pdf
+📄 Classifying as PDF: "click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/Diners-Club-Privilege-domestic-lounge.pdf
+📄 PDF link found: "click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/International-Lounge-List.pdf
+📄 Classifying as PDF: "click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/International-Lounge-List.pdf
+📄 PDF link found: "Click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/DNP-ProductFeature-TnC.pdf
+📄 Classifying as PDF: "Click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/DNP-ProductFeature-TnC.pdf
+📄 PDF link found: "Click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/DNP-ProductFeature-TnC.pdf
+📄 PDF link found: "Click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/DNP-ProductFeature-TnC.pdf
+📄 PDF link found: "Click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/PDFs/Covers_Dinersaug.pdf
+📄 Classifying as PDF: "Click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/PDFs/Covers_Dinersaug.pdf
+📄 PDF link found: "Active Channel Partners" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 Classifying as PDF: "Active Channel Partners" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 PDF link found: "Active Channel Partners" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 Classifying as PDF: "Active Channel Partners" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 PDF link found: "Credit Cards Policy" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/HDFC-Bank-Credit-Cards-Policy -Conditions-Ver-1-1st-July22.pdf
+📄 Classifying as PDF: "Credit Cards Policy" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/HDFC-Bank-Credit-Cards-Policy -Conditions-Ver-1-1st-July22.pdf
+📄 PDF link found: "DSA code of conduct" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/dsa_cc.pdf
+📄 Classifying as PDF: "DSA code of conduct" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/dsa_cc.pdf
+📄 PDF link found: "Fair practices code" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/fair_practice.pdf
+📄 Classifying as PDF: "Fair practices code" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/fair_practice.pdf
+📄 PDF link found: "Transaction alerts" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/TransactionAlerts.pdf
+📄 Classifying as PDF: "Transaction alerts" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/TransactionAlerts.pdf
+📄 PDF link found: "Statement Payment Related Info" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/statement_related_payment_info.pdf
+📄 Classifying as PDF: "Statement Payment Related Info" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/statement_related_payment_info.pdf
+📄 PDF link found: "Retail Card Member Agreement" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/card-member-agreement-29-10-2019.pdf
+📄 Classifying as PDF: "Retail Card Member Agreement" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/card-member-agreement-29-10-2019.pdf
+📄 PDF link found: "Corporate Card Member Agreement" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/Cardmember-Agreement-Corp-Cards.pdf
+📄 Classifying as PDF: "Corporate Card Member Agreement" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/Cardmember-Agreement-Corp-Cards.pdf
+📄 PDF link found: "Co-Brand Credit Card Revenue Sharing Disclosure" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Co-Brand-Credit-Card-Revenue-Sharing-disclosure.pdf
+📄 Classifying as PDF: "Co-Brand Credit Card Revenue Sharing Disclosure" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Co-Brand-Credit-Card-Revenue-Sharing-disclosure.pdf
+📄 PDF link found: "Key Fact Statement- Purchase Card" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/KEY-FACT-STATEMENT(Commercial-Cards).pdf
+📄 Classifying as PDF: "Key Fact Statement- Purchase Card" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/KEY-FACT-STATEMENT(Commercial-Cards).pdf
+📄 PDF link found: "Key Fact Statement- Corporate Card" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/KEY-FACT-STATEMENT-Corp-Card.pdf
+📄 Classifying as PDF: "Key Fact Statement- Corporate Card" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/KEY-FACT-STATEMENT-Corp-Card.pdf
+📄 PDF link found: "MyRewards Program Terms & Conditions" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/my-rewards-oct-17.pdf
+📄 Classifying as PDF: "MyRewards Program Terms & Conditions" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/my-rewards-oct-17.pdf
+📄 PDF link found: "Active List of Digital Channel Partner - Credit Cards" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📊 Found 34 relevant links to process
+📋 Link breakdown by type:
+   pdf: 18 links
+   offers: 4 links
+   partnerships: 3 links
+   general: 9 links
+🔍 Found 34 relevant links to process
+🔗 Processing ALL 34 relevant links...
+📄 [1/34] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/Know-more-Privilege-Portfolio-Communication.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/Know-more-Privilege-Portfolio-Communication.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/Know-more-Privilege-Portfolio-Communication.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/Know-more-Privilege-Portfolio-Communication.pdf
+✅ PDF downloaded: 191219 bytes
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [2/34] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/Diners-Club-Privilege-domestic-lounge.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/Diners-Club-Privilege-domestic-lounge.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/Diners-Club-Privilege-domestic-lounge.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/Diners-Club-Privilege-domestic-lounge.pdf
+✅ PDF downloaded: 91821 bytes
+Warning: TT: undefined function: 21
+📄 Extracted 1 paragraphs from PDF
+📄 [3/34] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/International-Lounge-List.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/International-Lounge-List.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/International-Lounge-List.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/International-Lounge-List.pdf
+✅ PDF downloaded: 1280561 bytes
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [4/34] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/DNP-ProductFeature-TnC.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/DNP-ProductFeature-TnC.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/DNP-ProductFeature-TnC.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Super Premium/Diners Club Privilege New/DNP-ProductFeature-TnC.pdf
+✅ PDF downloaded: 258959 bytes
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [5/34] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/PDFs/Covers_Dinersaug.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/PDFs/Covers_Dinersaug.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/PDFs/Covers_Dinersaug.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/PDFs/Covers_Dinersaug.pdf
+✅ PDF downloaded: 187705 bytes
+Warning: TT: undefined function: 21
+Warning: TT: undefined function: 21
+📄 Extracted 1 paragraphs from PDF
+📊 Progress: 5/34 processed (5 success, 0 failed)
+📄 [8/34] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/HDFC-Bank-Credit-Cards-Policy%20-Conditions-Ver-1-1st-July22.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/HDFC-Bank-Credit-Cards-Policy%20-Conditions-Ver-1-1st-July22.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/HDFC-Bank-Credit-Cards-Policy%20-Conditions-Ver-1-1st-July22.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/HDFC-Bank-Credit-Cards-Policy%20-Conditions-Ver-1-1st-July22.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [9/34] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/dsa_cc.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/dsa_cc.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/dsa_cc.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/dsa_cc.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [10/34] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/fair_practice.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/fair_practice.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/fair_practice.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/fair_practice.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📊 Progress: 10/34 processed (8 success, 0 failed)
+📄 [11/34] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/TransactionAlerts.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/TransactionAlerts.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/TransactionAlerts.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/TransactionAlerts.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [12/34] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/statement_related_payment_info.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/statement_related_payment_info.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/statement_related_payment_info.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/statement_related_payment_info.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [15/34] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Co-Brand-Credit-Card-Revenue-Sharing-disclosure.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Co-Brand-Credit-Card-Revenue-Sharing-disclosure.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Co-Brand-Credit-Card-Revenue-Sharing-disclosure.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Co-Brand-Credit-Card-Revenue-Sharing-disclosure.pdf: Request failed with status code 520
+❌ PDF extraction failed: All PDF extraction attempts failed
+📊 Progress: 15/34 processed (11 success, 0 failed)
+📄 [16/34] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/KEY-FACT-STATEMENT(Commercial-Cards).pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/KEY-FACT-STATEMENT(Commercial-Cards).pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/KEY-FACT-STATEMENT(Commercial-Cards).pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/KEY-FACT-STATEMENT(Commercial-Cards).pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [17/34] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/KEY-FACT-STATEMENT-Corp-Card.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/KEY-FACT-STATEMENT-Corp-Card.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/KEY-FACT-STATEMENT-Corp-Card.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/KEY-FACT-STATEMENT-Corp-Card.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [18/34] Processing: pdf - https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/my-rewards-oct-17.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/my-rewards-oct-17.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/my-rewards-oct-17.pdf
+❌ Failed with https://www.hdfcbank.com/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/my-rewards-oct-17.pdf: Request failed with status code 404
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [20/34] Processing: offers - https://applyonline.hdfcbank.com/cards/credit-cards.html?CHANNELSOURCE=DINE&LGcode=MKTG&icid=website_target_ProdPg_CC_CheckOffer_DinersPrivilege
+📊 Progress: 20/34 processed (15 success, 0 failed)
+📄 [21/34] Processing: offers - https://ind01.safelinks.protection.outlook.com/?url=https%3A%2F%2Foffers.smartbuy.hdfcbank.com%2Fdiners&data=05%7C01%7CEuroMoney%40hdfcbank.com%7Cec97ed89b9114e80077908db79473696%7C827fd02205a64e57be9ccc069b6ae62d%7C0%7C0%7C638237118988693881%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=jfbpScSLxeTFeKwgrFEWiEi9W4rup2%2BZzovTa6JlowA%3D&reserved=0
+📄 [22/34] Processing: offers - https://ind01.safelinks.protection.outlook.com/?url=https%3A%2F%2Foffers.smartbuy.hdfcbank.com%2Fdiners&data=05%7C01%7CEuroMoney%40hdfcbank.com%7C72f5c55e0a9841315af408db970b83ec%7C827fd02205a64e57be9ccc069b6ae62d%7C0%7C0%7C638269847931494165%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=BVQnjkRlw40x6zS8y3imSok0hY0IfFaahJpfh6TbQl4%3D&reserved=0
+📄 [34/34] Processing: general - https://applyonline.hdfcbank.com/cards/credit-cards.html?utm_content=MKTG&mc_id=website_organic_dc&icid=website_organic_dc#nbb
+✅ Completed processing: 18 successful, 0 failed
+🤖 Processing all content with OpenAI...
+🤖 Processing content with OpenAI for DUAL format output...
+📈 Token Usage:
+   Input: 82865 tokens
+   Output: 3795 tokens
+   Total: 86660 tokens
+💾 Standard JSON saved to: hdfcbank_dinersclubprivilegecreditcard_standard_2025-08-12T17-50-28-657Z.json
+💾 Structured JSON saved to: hdfcbank_dinersclubprivilegecreditcard_structured_2025-08-12T17-50-28-657Z.json
+✅ Crawling completed successfully
+📈 Confidence Score: 1
+🔗 Processed 18 additional pages
+❌ Failed to process 0 links
+✅ Successfully processed: Diners Club Privilege Credit Card
+📊 Confidence: 1
+🎁 Benefits: 6, Offers: 1
+📄 Files: hdfcbank_dinersclubprivilegecreditcard_standard_2025-08-12T17-50-28-657Z.json, hdfcbank_dinersclubprivilegecreditcard_structured_2025-08-12T17-50-28-657Z.json
+⏳ Waiting 3000ms before next card...
+
+================================================================================
+🔍 Processing card 5/5: MoneyBack+ Credit Card
+🌐 URL: https://www.hdfcbank.com/personal/pay/cards/credit-cards/moneyback-plus
+✅ Validation Status: VALID (200)
+================================================================================
+🚀 Starting comprehensive crawl for: https://www.hdfcbank.com/personal/pay/cards/credit-cards/moneyback-plus
+🔥 Will generate both standard and structured JSON formats
+🔍 Extracting content from: https://www.hdfcbank.com/personal/pay/cards/credit-cards/moneyback-plus
+✅ Successfully extracted content from: https://www.hdfcbank.com/personal/pay/cards/credit-cards/moneyback-plus
+📊 Found 446 links
+🔍 Processing 446 links from Puppeteer extraction...
+📄 PDF link found: "Click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/HDFC Bank MoneyBack/Offer-Booklet.pdf
+📄 Classifying as PDF: "Click here" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/HDFC Bank MoneyBack/Offer-Booklet.pdf
+📄 PDF link found: "TnC" -> https://webviews.swiggy.com/portal-static-page/dineout-hdfc-tnc/
+📄 Classifying as PDF: "TnC" -> https://webviews.swiggy.com/portal-static-page/dineout-hdfc-tnc/
+📄 PDF link found: "Click here" -> https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/a932c3e5-ff6f-43e2-8722-cb84c2530399?#/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/HDFC Bank MoneyBack/Terms-and-Conditions-HDFC-Bank-MoneyBack-Credit-Card.pdf
+📄 Classifying as PDF: "Click here" -> https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/a932c3e5-ff6f-43e2-8722-cb84c2530399?#/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/HDFC Bank MoneyBack/Terms-and-Conditions-HDFC-Bank-MoneyBack-Credit-Card.pdf
+📄 PDF link found: "FAQs" -> https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/1256ebd5-a8e6-49d3-b4ba-54a93a0acb51?#/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/HDFC Bank MoneyBack/HDFC-Bank-MoneyBack-Credit-Card-FAQs.pdf
+📄 Classifying as PDF: "FAQs" -> https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/1256ebd5-a8e6-49d3-b4ba-54a93a0acb51?#/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/HDFC Bank MoneyBack/HDFC-Bank-MoneyBack-Credit-Card-FAQs.pdf
+📄 PDF link found: "Active Channel Partners" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 Classifying as PDF: "Active Channel Partners" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 PDF link found: "Active Channel Partners" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/List-of-Active-Digital-Channel-Partners.pdf
+📄 PDF link found: "Credit Cards Policy" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/HDFC-Bank-Credit-Cards-Policy -Conditions-Ver-1-1st-July22.pdf
+📄 Classifying as PDF: "Credit Cards Policy" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/HDFC-Bank-Credit-Cards-Policy -Conditions-Ver-1-1st-July22.pdf
+📄 PDF link found: "DSA code of conduct" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/dsa_cc.pdf
+📄 Classifying as PDF: "DSA code of conduct" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/dsa_cc.pdf
+📄 PDF link found: "Fair practices code" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/fair_practice.pdf
+📄 Classifying as PDF: "Fair practices code" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/fair_practice.pdf
+📄 PDF link found: "Transaction alerts" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/TransactionAlerts.pdf
+📄 Classifying as PDF: "Transaction alerts" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/TransactionAlerts.pdf
+📄 PDF link found: "Statement Payment Related Info" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/statement_related_payment_info.pdf
+📄 Classifying as PDF: "Statement Payment Related Info" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/statement_related_payment_info.pdf
+📄 PDF link found: "Retail Card Member Agreement" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/card-member-agreement-29-10-2019.pdf
+📄 Classifying as PDF: "Retail Card Member Agreement" -> /Personal/Pay/Cards/Credit Card/Credit Card Landing Page/card-member-agreement-29-10-2019.pdf
+📄 PDF link found: "Corporate Card Member Agreement" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/Cardmember-Agreement-Corp-Cards.pdf
+📄 Classifying as PDF: "Corporate Card Member Agreement" -> https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Commercial/Cardmember-Agreement-Corp-Cards.pdf
+📄 PDF link found: "Co-Brand Credit Card Revenue Sharing Disclosure" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Co-Brand-Credit-Card-Revenue-Sharing-disclosure.pdf
+📄 Classifying as PDF: "Co-Brand Credit Card Revenue Sharing Disclosure" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Co-Brand-Credit-Card-Revenue-Sharing-disclosure.pdf
+📄 PDF link found: "Key Fact Statement- Purchase Card" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/KEY-FACT-STATEMENT(Commercial-Cards).pdf
+📄 Classifying as PDF: "Key Fact Statement- Purchase Card" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/KEY-FACT-STATEMENT(Commercial-Cards).pdf
+📄 PDF link found: "Key Fact Statement- Corporate Card" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/KEY-FACT-STATEMENT-Corp-Card.pdf
+📄 Classifying as PDF: "Key Fact Statement- Corporate Card" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/KEY-FACT-STATEMENT-Corp-Card.pdf
+📄 PDF link found: "MyRewards Program Terms & Conditions" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/my-rewards-oct-17.pdf
+📄 Classifying as PDF: "MyRewards Program Terms & Conditions" -> /content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/my-rewards-oct-17.pdf
+📊 Found 29 relevant links to process
+📋 Link breakdown by type:
+   pdf: 16 links
+   offers: 1 links
+   partnerships: 3 links
+   general: 9 links
+🔍 Found 29 relevant links to process
+🔗 Processing ALL 29 relevant links...
+📄 [1/29] Processing: pdf - https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/HDFC Bank MoneyBack/Offer-Booklet.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/HDFC Bank MoneyBack/Offer-Booklet.pdf
+🔧 Repository URL converted: https://www.hdfcbank.com/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/HDFC Bank MoneyBack/Offer-Booklet.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/HDFC Bank MoneyBack/Offer-Booklet.pdf
+✅ PDF downloaded: 142735 bytes
+Warning: TT: undefined function: 21
+📄 Extracted 1 paragraphs from PDF
+📄 [3/29] Processing: pdf - https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/a932c3e5-ff6f-43e2-8722-cb84c2530399?#/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/HDFC Bank MoneyBack/Terms-and-Conditions-HDFC-Bank-MoneyBack-Credit-Card.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/a932c3e5-ff6f-43e2-8722-cb84c2530399?#/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/HDFC Bank MoneyBack/Terms-and-Conditions-HDFC-Bank-MoneyBack-Credit-Card.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/a932c3e5-ff6f-43e2-8722-cb84c2530399?#/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/HDFC Bank MoneyBack/Terms-and-Conditions-HDFC-Bank-MoneyBack-Credit-Card.pdf
+✅ PDF downloaded: 287241 bytes
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [4/29] Processing: pdf - https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/1256ebd5-a8e6-49d3-b4ba-54a93a0acb51?#/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/HDFC Bank MoneyBack/HDFC-Bank-MoneyBack-Credit-Card-FAQs.pdf
+📄 Extracting PDF from: https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/1256ebd5-a8e6-49d3-b4ba-54a93a0acb51?#/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/HDFC Bank MoneyBack/HDFC-Bank-MoneyBack-Credit-Card-FAQs.pdf
+🔄 Trying PDF URL: https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/1256ebd5-a8e6-49d3-b4ba-54a93a0acb51?#/Personal/Pay/Cards/Credit Card/Credit Card Landing Page/Credit Cards/Commercial/HDFC Bank MoneyBack/HDFC-Bank-MoneyBack-Credit-Card-FAQs.pdf
+✅ PDF downloaded: 306590 bytes
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [29/29] Processing: general - https://applyonline.hdfcbank.com/cards/credit-cards.html?LGCode=MKTG&utm_content=MKTG&mc_id=website_organic_prodPg_applynow_moneybackplus_CC&icid=website_organic:prodPg_applynow:moneybackplus
+✅ Completed processing: 4 successful, 0 failed
+🤖 Processing all content with OpenAI...
+🤖 Processing content with OpenAI for DUAL format output...
+📈 Token Usage:
+   Input: 23736 tokens
+   Output: 4000 tokens
+   Total: 27736 tokens
+❌ OpenAI processing error: Response was truncated due to token limit
+💾 Standard JSON saved to: bank_moneybackcreditcard_standard_2025-08-12T17-52-07-827Z.json
+💾 Structured JSON saved to: bank_moneybackcreditcard_structured_2025-08-12T17-52-07-827Z.json
+✅ Crawling completed successfully
+📈 Confidence Score: 0.1
+🔗 Processed 4 additional pages
+❌ Failed to process 0 links
+✅ Successfully processed: MoneyBack+ Credit Card
+📊 Confidence: 0.1
+🎁 Benefits: 0, Offers: 0
+📄 Files: bank_moneybackcreditcard_standard_2025-08-12T17-52-07-827Z.json, bank_moneybackcreditcard_structured_2025-08-12T17-52-07-827Z.json
+
+📈 Progress: 5/5 (100%) - 5 successful, 0 failed
+
+🎉 LISTING CRAWL WITH DUAL JSON OUTPUT COMPLETED!
+📊 URL Validation Results:
+   - Total URLs checked: 6
+   - Valid URLs: 5
+   - Invalid URLs: 1
+   - URL Success Rate: 83.0%
+📈 Processing Results:
+   - Cards processed: 5
+   - Cards failed: 0
+   - Processing Success Rate: 100%
+🔥 Token Usage: 8268 total tokens
+❌ Listing crawl with validation failed: standardListingFile is not defined
+
+📊 RESULTS SUMMARY:
+⏱️ Total processing time: 1269 seconds (21 minutes)
+📋 LISTING RESULTS WITH URL VALIDATION:
+- Total URLs found initially: 0
+- Valid URLs after validation: 0
+- Invalid URLs filtered out: 0
+- URL validation success rate: 0.0%
+- Cards successfully processed: 0
+- Cards failed processing: 0
+- Processing success rate: 0.0%
+- Average confidence: 0
+- Processing mode: ERROR
+🔗 URL Validation Breakdown:
+- Total checked: undefined
+- Valid: undefined
+- Invalid: undefined
+💾 Complete results saved to listing_validated_2025-08-12T17-52-07-985Z.json
+
+⏳ Waiting 15 seconds before next test...
+
+========================================================================================================================
+🎯 Testing SMART DETECTION with URL VALIDATION for: https://www.sbicard.com/en/personal/credit-cards.page
+🔥 NO LIMITS - Will validate all URLs and process ALL accessible cards
+🧹 Enhanced filtering + URL validation to prevent 404 errors
+========================================================================================================================
+🏷️ Detected as LISTING page - will extract all cards
+🚀 Starting listing page crawl with dual JSON output: https://www.sbicard.com/en/personal/credit-cards.page
+🔥 Will generate both standard and structured JSON formats for all cards
+🔍 Extracting content from: https://www.sbicard.com/en/personal/credit-cards.page
+✅ Successfully extracted content from: https://www.sbicard.com/en/personal/credit-cards.page
+📊 Found 458 links
+✅ Successfully extracted listing page content
+🔍 Extracting card URLs from listing page with OpenAI...
+📈 Listing Token Usage:
+   Input: 6844 tokens
+   Output: 2906 tokens
+   Total: 9750 tokens
+🔍 GPT Response: Found 13 cards
+📋 Sample card: SBI Card Miles Elite -> https://www.sbicard.com/en/personal/credit-cards/travel/sbi-card-miles-elite.page
+🔗 Validating URLs for accessibility...
+🔍 Validating 1/13: SBI Card Miles Elite
+✅ Valid: SBI Card Miles Elite (200)
+🔍 Validating 2/13: SBI Card PULSE
+✅ Valid: SBI Card PULSE (200)
+🔍 Validating 3/13: SimplyCLICK SBI Card
+✅ Valid: SimplyCLICK SBI Card (200)
+🔍 Validating 4/13: CASHBACK SBI Card
+✅ Valid: CASHBACK SBI Card (200)
+🔍 Validating 5/13: SBI Card ELITE
+✅ Valid: SBI Card ELITE (200)
+🔍 Validating 6/13: SimplySAVE SBI Card
+✅ Valid: SimplySAVE SBI Card (200)
+🔍 Validating 7/13: SBI Card PRIME
+✅ Valid: SBI Card PRIME (200)
+🔍 Validating 8/13: Tata Neu Infinity SBI Card
+✅ Valid: Tata Neu Infinity SBI Card (200)
+🔍 Validating 9/13: Tata Neu Plus SBI Card
+✅ Valid: Tata Neu Plus SBI Card (200)
+🔍 Validating 10/13: Doctor's SBI Card (in association with IMA)
+⚠️ Filtering out: Doctor's SBI Card (in association with IMA) - contains excluded pattern
+🔍 Validating 11/13: SBI Card ELITE Advantage
+✅ Valid: SBI Card ELITE Advantage (200)
+🔍 Validating 12/13: Doctor's SBI Card
+⚠️ Filtering out: Doctor's SBI Card - contains excluded pattern
+🔍 Validating 13/13: PhonePe SBI Card SELECT BLACK
+✅ Valid: PhonePe SBI Card SELECT BLACK (200)
+🎯 Before validation: 13 cards
+✅ After validation: 11 valid cards
+🎯 Found 11 VALID and ACCESSIBLE credit cards
+🗑️ Filtered out 2 invalid/broken URLs
+📊 Invalid URL breakdown:
+   - CONTENT_FILTER: 2 URLs
+📋 Processing ALL 11 validated cards...
+
+================================================================================
+🔍 Processing card 1/11: SBI Card Miles Elite
+🌐 URL: https://www.sbicard.com/en/personal/credit-cards/travel/sbi-card-miles-elite.page
+✅ Validation Status: VALID (200)
+================================================================================
+🚀 Starting comprehensive crawl for: https://www.sbicard.com/en/personal/credit-cards/travel/sbi-card-miles-elite.page
+🔥 Will generate both standard and structured JSON formats
+🔍 Extracting content from: https://www.sbicard.com/en/personal/credit-cards/travel/sbi-card-miles-elite.page
+✅ Successfully extracted content from: https://www.sbicard.com/en/personal/credit-cards/travel/sbi-card-miles-elite.page
+📊 Found 51 links
+🔍 Processing 51 links from Puppeteer extraction...
+📄 PDF link found: "Click Here" -> /sbi-card-en/assets/docs/pdf/tnc/rewards-program-TnC-miles.pdf
+📄 Classifying as PDF: "Click Here" -> /sbi-card-en/assets/docs/pdf/tnc/rewards-program-TnC-miles.pdf
+📄 PDF link found: "MasterCard" -> https://specials.priceless.com/mastercard/images/05c74b3e-7c36-477c-8665-8d62e4aa62cf.pdf
+📄 Classifying as PDF: "MasterCard" -> https://specials.priceless.com/mastercard/images/05c74b3e-7c36-477c-8665-8d62e4aa62cf.pdf
+📄 PDF link found: "click here" -> /sbi-card-en/assets/docs/pdf/tnc/sbi-card-miles-elite-tnc.pdf
+📄 Classifying as PDF: "click here" -> /sbi-card-en/assets/docs/pdf/tnc/sbi-card-miles-elite-tnc.pdf
+📄 PDF link found: "Click here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature%20Contactless%20FAQ.pdf
+📄 Classifying as PDF: "Click here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature%20Contactless%20FAQ.pdf
+📄 PDF link found: "Click here" -> /sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 Classifying as PDF: "Click here" -> /sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 PDF link found: "Most Important Terms & Conditions" -> /en/most-important-terms-and-conditions.page
+📊 Found 6 relevant links to process
+📋 Link breakdown by type:
+   pdf: 5 links
+   general: 1 links
+🔍 Found 6 relevant links to process
+🔗 Processing ALL 6 relevant links...
+📄 [1/6] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/rewards-program-TnC-miles.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/rewards-program-TnC-miles.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/rewards-program-TnC-miles.pdf
+✅ PDF downloaded: 511953 bytes
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [2/6] Processing: pdf - https://specials.priceless.com/mastercard/images/05c74b3e-7c36-477c-8665-8d62e4aa62cf.pdf
+📄 Extracting PDF from: https://specials.priceless.com/mastercard/images/05c74b3e-7c36-477c-8665-8d62e4aa62cf.pdf
+🔄 Trying PDF URL: https://specials.priceless.com/mastercard/images/05c74b3e-7c36-477c-8665-8d62e4aa62cf.pdf
+✅ PDF downloaded: 126826 bytes
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [3/6] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/sbi-card-miles-elite-tnc.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/sbi-card-miles-elite-tnc.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/sbi-card-miles-elite-tnc.pdf
+✅ PDF downloaded: 1467737 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [4/6] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature%20Contactless%20FAQ.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature%20Contactless%20FAQ.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature%20Contactless%20FAQ.pdf
+✅ PDF downloaded: 123542 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [5/6] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+✅ PDF downloaded: 343198 bytes
+📄 Extracted 1 paragraphs from PDF
+📊 Progress: 5/6 processed (5 success, 0 failed)
+📄 [6/6] Processing: general - https://www.sbicard.com/en/most-important-terms-and-conditions.page
+✅ Completed processing: 6 successful, 0 failed
+🤖 Processing all content with OpenAI...
+🤖 Processing content with OpenAI for DUAL format output...
+📈 Token Usage:
+   Input: 312934 tokens
+   Output: 4000 tokens
+   Total: 316934 tokens
+❌ OpenAI processing error: Response was truncated due to token limit
+💾 Standard JSON saved to: bank_mileselitesbicardbenefitsfeaturesapplynowsbicard_standard_2025-08-12T17-55-24-501Z.json
+💾 Structured JSON saved to: bank_mileselitesbicardbenefitsfeaturesapplynowsbicard_structured_2025-08-12T17-55-24-501Z.json
+✅ Crawling completed successfully
+📈 Confidence Score: 0.1
+🔗 Processed 6 additional pages
+❌ Failed to process 0 links
+✅ Successfully processed: SBI Card Miles Elite
+📊 Confidence: 0.1
+🎁 Benefits: 0, Offers: 0
+📄 Files: bank_mileselitesbicardbenefitsfeaturesapplynowsbicard_standard_2025-08-12T17-55-24-501Z.json, bank_mileselitesbicardbenefitsfeaturesapplynowsbicard_structured_2025-08-12T17-55-24-501Z.json
+⏳ Waiting 3000ms before next card...
+
+================================================================================
+🔍 Processing card 2/11: SBI Card PULSE
+🌐 URL: https://www.sbicard.com/en/personal/credit-cards/lifestyle/sbi-card-pulse.page
+✅ Validation Status: VALID (200)
+================================================================================
+🚀 Starting comprehensive crawl for: https://www.sbicard.com/en/personal/credit-cards/lifestyle/sbi-card-pulse.page
+🔥 Will generate both standard and structured JSON formats
+🔍 Extracting content from: https://www.sbicard.com/en/personal/credit-cards/lifestyle/sbi-card-pulse.page
+✅ Successfully extracted content from: https://www.sbicard.com/en/personal/credit-cards/lifestyle/sbi-card-pulse.page
+📊 Found 51 links
+🔍 Processing 51 links from Puppeteer extraction...
+📄 PDF link found: "here" -> /sbi-card-en/assets/docs/pdf/personal/cards/Noise_Smartwatch_TnC.pdf
+📄 Classifying as PDF: "here" -> /sbi-card-en/assets/docs/pdf/personal/cards/Noise_Smartwatch_TnC.pdf
+📄 PDF link found: "Here" -> /sbi-card-en/assets/docs/pdf/Health_Benefits_Activation_TnC.pdf
+📄 Classifying as PDF: "Here" -> /sbi-card-en/assets/docs/pdf/Health_Benefits_Activation_TnC.pdf
+📄 PDF link found: "here" -> /sbi-card-en/assets/docs/pdf/personal/cards/Milestone-Voucher_TnC.pdf
+📄 Classifying as PDF: "here" -> /sbi-card-en/assets/docs/pdf/personal/cards/Milestone-Voucher_TnC.pdf
+📄 PDF link found: "Click Here" -> /sbi-card-en/assets/docs/pdf/Insurance-Benefit_TnC.pdf
+📄 Classifying as PDF: "Click Here" -> /sbi-card-en/assets/docs/pdf/Insurance-Benefit_TnC.pdf
+📄 PDF link found: "here" -> /sbi-card-en/assets/docs/pdf/personal/cards/Lounge-Benefits_TnC.pdf
+📄 Classifying as PDF: "here" -> /sbi-card-en/assets/docs/pdf/personal/cards/Lounge-Benefits_TnC.pdf
+📄 PDF link found: "here" -> /sbi-card-en/assets/media/images/personal/credit-cards/lifestyle/sbi-card-pulse/tnc-sbi-pulse.pdf
+📄 Classifying as PDF: "here" -> /sbi-card-en/assets/media/images/personal/credit-cards/lifestyle/sbi-card-pulse/tnc-sbi-pulse.pdf
+📄 PDF link found: "click here" -> https://specials.priceless.com/mastercard/images/ed4d9995-6ea9-4b0a-9775-c6623e79e979.pdf
+📄 Classifying as PDF: "click here" -> https://specials.priceless.com/mastercard/images/ed4d9995-6ea9-4b0a-9775-c6623e79e979.pdf
+📄 PDF link found: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature%20Contactless%20FAQ.pdf
+📄 Classifying as PDF: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature%20Contactless%20FAQ.pdf
+📄 PDF link found: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 Classifying as PDF: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 PDF link found: "Most Important Terms & Conditions" -> /en/most-important-terms-and-conditions.page
+📊 Found 11 relevant links to process
+📋 Link breakdown by type:
+   pdf: 9 links
+   general: 2 links
+🔍 Found 11 relevant links to process
+🔗 Processing ALL 11 relevant links...
+📄 [1/11] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/Noise_Smartwatch_TnC.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/Noise_Smartwatch_TnC.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/Noise_Smartwatch_TnC.pdf
+✅ PDF downloaded: 164088 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [2/11] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Health_Benefits_Activation_TnC.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Health_Benefits_Activation_TnC.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Health_Benefits_Activation_TnC.pdf
+✅ PDF downloaded: 136971 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [3/11] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/Milestone-Voucher_TnC.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/Milestone-Voucher_TnC.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/Milestone-Voucher_TnC.pdf
+✅ PDF downloaded: 128509 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [4/11] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Insurance-Benefit_TnC.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Insurance-Benefit_TnC.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Insurance-Benefit_TnC.pdf
+✅ PDF downloaded: 428596 bytes
+Warning: TT: undefined function: 21
+Warning: TT: undefined function: 21
+📄 Extracted 1 paragraphs from PDF
+📄 [5/11] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/Lounge-Benefits_TnC.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/Lounge-Benefits_TnC.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/Lounge-Benefits_TnC.pdf
+✅ PDF downloaded: 447807 bytes
+📄 Extracted 1 paragraphs from PDF
+📊 Progress: 5/11 processed (5 success, 0 failed)
+📄 [6/11] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/media/images/personal/credit-cards/lifestyle/sbi-card-pulse/tnc-sbi-pulse.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/media/images/personal/credit-cards/lifestyle/sbi-card-pulse/tnc-sbi-pulse.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/media/images/personal/credit-cards/lifestyle/sbi-card-pulse/tnc-sbi-pulse.pdf
+✅ PDF downloaded: 10648597 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [7/11] Processing: pdf - https://specials.priceless.com/mastercard/images/ed4d9995-6ea9-4b0a-9775-c6623e79e979.pdf
+📄 Extracting PDF from: https://specials.priceless.com/mastercard/images/ed4d9995-6ea9-4b0a-9775-c6623e79e979.pdf
+🔄 Trying PDF URL: https://specials.priceless.com/mastercard/images/ed4d9995-6ea9-4b0a-9775-c6623e79e979.pdf
+✅ PDF downloaded: 122073 bytes
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [10/11] Processing: general - https://www.sbicard.com/en/personal/benefits/lower-interest-option/balance-transfer-on-emi.page
+📊 Progress: 10/11 processed (8 success, 0 failed)
+✅ Completed processing: 8 successful, 0 failed
+🤖 Processing all content with OpenAI...
+🤖 Processing content with OpenAI for DUAL format output...
+📈 Token Usage:
+   Input: 188393 tokens
+   Output: 4000 tokens
+   Total: 192393 tokens
+❌ OpenAI processing error: Response was truncated due to token limit
+💾 Standard JSON saved to: bank_sbicardpulsebenefitsfeaturesapplynowsbicard_standard_2025-08-12T17-57-11-347Z.json
+💾 Structured JSON saved to: bank_sbicardpulsebenefitsfeaturesapplynowsbicard_structured_2025-08-12T17-57-11-347Z.json
+✅ Crawling completed successfully
+📈 Confidence Score: 0.1
+🔗 Processed 8 additional pages
+❌ Failed to process 0 links
+✅ Successfully processed: SBI Card PULSE
+📊 Confidence: 0.1
+🎁 Benefits: 0, Offers: 0
+📄 Files: bank_sbicardpulsebenefitsfeaturesapplynowsbicard_standard_2025-08-12T17-57-11-347Z.json, bank_sbicardpulsebenefitsfeaturesapplynowsbicard_structured_2025-08-12T17-57-11-347Z.json
+⏳ Waiting 3000ms before next card...
+
+================================================================================
+🔍 Processing card 3/11: SimplyCLICK SBI Card
+🌐 URL: https://www.sbicard.com/en/personal/credit-cards/shopping/simplyclick-sbi-card.page
+✅ Validation Status: VALID (200)
+================================================================================
+🚀 Starting comprehensive crawl for: https://www.sbicard.com/en/personal/credit-cards/shopping/simplyclick-sbi-card.page
+🔥 Will generate both standard and structured JSON formats
+🔍 Extracting content from: https://www.sbicard.com/en/personal/credit-cards/shopping/simplyclick-sbi-card.page
+✅ Successfully extracted content from: https://www.sbicard.com/en/personal/credit-cards/shopping/simplyclick-sbi-card.page
+📊 Found 47 links
+🔍 Processing 47 links from Puppeteer extraction...
+📄 PDF link found: "click here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/simplyclick-welcome.pdf
+📄 Classifying as PDF: "click here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/simplyclick-welcome.pdf
+📄 PDF link found: "here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/simplyclick-sbi-card-rp-tnc.pdf
+📄 Classifying as PDF: "here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/simplyclick-sbi-card-rp-tnc.pdf
+📄 PDF link found: "Cleartrip" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/Cleartrip%20Gift Card Combine -revised.pdf
+📄 Classifying as PDF: "Cleartrip" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/Cleartrip%20Gift Card Combine -revised.pdf
+📄 PDF link found: "Yatra" -> /sbi-card-en/assets/docs/pdf/Yatra-SBI-SimplyCLICk-tnc.pdf
+📄 Classifying as PDF: "Yatra" -> /sbi-card-en/assets/docs/pdf/Yatra-SBI-SimplyCLICk-tnc.pdf
+📄 PDF link found: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature%20Contactless%20FAQ.pdf
+📄 Classifying as PDF: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature%20Contactless%20FAQ.pdf
+📄 PDF link found: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 Classifying as PDF: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 PDF link found: "Most Important Terms & Conditions" -> /en/most-important-terms-and-conditions.page
+📊 Found 9 relevant links to process
+📋 Link breakdown by type:
+   pdf: 6 links
+   partnerships: 1 links
+   general: 2 links
+🔍 Found 9 relevant links to process
+🔗 Processing ALL 9 relevant links...
+📄 [1/9] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/simplyclick-welcome.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/simplyclick-welcome.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/simplyclick-welcome.pdf
+✅ PDF downloaded: 139893 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [2/9] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/simplyclick-sbi-card-rp-tnc.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/simplyclick-sbi-card-rp-tnc.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/simplyclick-sbi-card-rp-tnc.pdf
+✅ PDF downloaded: 492341 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [3/9] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/Cleartrip%20Gift%20Card%20Combine%20-revised.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/Cleartrip%20Gift%20Card%20Combine%20-revised.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/Cleartrip%20Gift%20Card%20Combine%20-revised.pdf
+✅ PDF downloaded: 371480 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [4/9] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Yatra-SBI-SimplyCLICk-tnc.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Yatra-SBI-SimplyCLICk-tnc.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Yatra-SBI-SimplyCLICk-tnc.pdf
+✅ PDF downloaded: 617562 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [7/9] Processing: partnerships - https://www.sbicard.com/en/personal/credit-cards.page#shopping
+📄 [8/9] Processing: general - https://www.sbicard.com/en/personal/credit-cards.page
+✅ Completed processing: 6 successful, 0 failed
+🤖 Processing all content with OpenAI...
+🤖 Processing content with OpenAI for DUAL format output...
+📈 Token Usage:
+   Input: 32528 tokens
+   Output: 3902 tokens
+   Total: 36430 tokens
+💾 Standard JSON saved to: sbicard_simplyclicksbicard_standard_2025-08-12T17-59-25-699Z.json
+💾 Structured JSON saved to: sbicard_simplyclicksbicard_structured_2025-08-12T17-59-25-699Z.json
+✅ Crawling completed successfully
+📈 Confidence Score: 1
+🔗 Processed 6 additional pages
+❌ Failed to process 0 links
+✅ Successfully processed: SimplyCLICK SBI Card
+📊 Confidence: 1
+🎁 Benefits: 5, Offers: 2
+📄 Files: sbicard_simplyclicksbicard_standard_2025-08-12T17-59-25-699Z.json, sbicard_simplyclicksbicard_structured_2025-08-12T17-59-25-699Z.json
+
+📈 Progress: 3/11 (27%) - 3 successful, 0 failed
+⏳ Waiting 3000ms before next card...
+
+================================================================================
+🔍 Processing card 4/11: CASHBACK SBI Card
+🌐 URL: https://www.sbicard.com/en/personal/credit-cards/rewards/cashback-sbi-card.page
+✅ Validation Status: VALID (200)
+================================================================================
+🚀 Starting comprehensive crawl for: https://www.sbicard.com/en/personal/credit-cards/rewards/cashback-sbi-card.page
+🔥 Will generate both standard and structured JSON formats
+🔍 Extracting content from: https://www.sbicard.com/en/personal/credit-cards/rewards/cashback-sbi-card.page
+✅ Successfully extracted content from: https://www.sbicard.com/en/personal/credit-cards/rewards/cashback-sbi-card.page
+📊 Found 42 links
+🔍 Processing 42 links from Puppeteer extraction...
+📄 PDF link found: "www.sbicard.com/CashbackCardTnC" -> http://www.sbicard.com/CashbackCardTnC
+📄 Classifying as PDF: "www.sbicard.com/CashbackCardTnC" -> http://www.sbicard.com/CashbackCardTnC
+📄 PDF link found: "click here" -> /sbi-card-en/assets/docs/pdf/cashback-tnc-booklet.pdf
+📄 Classifying as PDF: "click here" -> /sbi-card-en/assets/docs/pdf/cashback-tnc-booklet.pdf
+📄 PDF link found: "Click here" -> /sbi-card-en/assets/docs/pdf/cashback-card-brochure.pdf
+📄 Classifying as PDF: "Click here" -> /sbi-card-en/assets/docs/pdf/cashback-card-brochure.pdf
+📄 PDF link found: "www.sbicard.com/CashbackCardTnC" -> http://www.sbicard.com/CashbackCardTnC
+📄 PDF link found: "click here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature%20Contactless%20FAQ.pdf
+📄 Classifying as PDF: "click here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature%20Contactless%20FAQ.pdf
+📄 PDF link found: "click here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 Classifying as PDF: "click here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 PDF link found: "Most Important Terms & Conditions" -> /en/most-important-terms-and-conditions.page
+📊 Found 9 relevant links to process
+📋 Link breakdown by type:
+   pdf: 5 links
+   rewards: 1 links
+   general: 3 links
+🔍 Found 9 relevant links to process
+🔗 Processing ALL 9 relevant links...
+📄 [1/9] Processing: pdf - http://www.sbicard.com/CashbackCardTnC
+📄 Extracting PDF from: http://www.sbicard.com/CashbackCardTnC
+🔄 Trying PDF URL: http://www.sbicard.com/CashbackCardTnC
+❌ Failed with http://www.sbicard.com/CashbackCardTnC: read ECONNRESET
+❌ PDF extraction failed: All PDF extraction attempts failed
+📄 [2/9] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-tnc-booklet.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-tnc-booklet.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-tnc-booklet.pdf
+✅ PDF downloaded: 1399222 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [3/9] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-card-brochure.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-card-brochure.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-card-brochure.pdf
+✅ PDF downloaded: 9165117 bytes
+📄 Extracted 0 paragraphs from PDF
+📄 [6/9] Processing: rewards - https://www.sbicard.com/en/personal/credit-cards.page#reward
+✅ Completed processing: 4 successful, 0 failed
+🤖 Processing all content with OpenAI...
+🤖 Processing content with OpenAI for DUAL format output...
+📈 Token Usage:
+   Input: 235172 tokens
+   Output: 2924 tokens
+   Total: 238096 tokens
+💾 Standard JSON saved to: sbicardsandpaymentserviceslimited_cashbacksbicard_standard_2025-08-12T18-01-17-605Z.json
+💾 Structured JSON saved to: sbicardsandpaymentserviceslimited_cashbacksbicard_structured_2025-08-12T18-01-17-605Z.json
+✅ Crawling completed successfully
+📈 Confidence Score: 1
+🔗 Processed 4 additional pages
+❌ Failed to process 0 links
+✅ Successfully processed: CASHBACK SBI Card
+📊 Confidence: 1
+🎁 Benefits: 7, Offers: 3
+📄 Files: sbicardsandpaymentserviceslimited_cashbacksbicard_standard_2025-08-12T18-01-17-605Z.json, sbicardsandpaymentserviceslimited_cashbacksbicard_structured_2025-08-12T18-01-17-605Z.json
+⏳ Waiting 3000ms before next card...
+
+================================================================================
+🔍 Processing card 5/11: SBI Card ELITE
+🌐 URL: https://www.sbicard.com/en/personal/credit-cards/lifestyle/sbi-card-elite.page
+✅ Validation Status: VALID (200)
+================================================================================
+🚀 Starting comprehensive crawl for: https://www.sbicard.com/en/personal/credit-cards/lifestyle/sbi-card-elite.page
+🔥 Will generate both standard and structured JSON formats
+🔍 Extracting content from: https://www.sbicard.com/en/personal/credit-cards/lifestyle/sbi-card-elite.page
+✅ Successfully extracted content from: https://www.sbicard.com/en/personal/credit-cards/lifestyle/sbi-card-elite.page
+📊 Found 65 links
+🔍 Processing 65 links from Puppeteer extraction...
+📄 PDF link found: "Visa" -> https://in.review.visa.com/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf
+📄 Classifying as PDF: "Visa" -> https://in.review.visa.com/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf
+📄 PDF link found: "Mastercard" -> https://specials.priceless.com/mastercard/images/05c74b3e-7c36-477c-8665-8d62e4aa62cf.pdf
+📄 Classifying as PDF: "Mastercard" -> https://specials.priceless.com/mastercard/images/05c74b3e-7c36-477c-8665-8d62e4aa62cf.pdf
+📄 PDF link found: "American Express" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/elite-lounge-list.pdf
+📄 Classifying as PDF: "American Express" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/elite-lounge-list.pdf
+📄 PDF link found: "click here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-card-elite/elite-terms-and-conditions-2016.pdf
+📄 Classifying as PDF: "click here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-card-elite/elite-terms-and-conditions-2016.pdf
+📄 PDF link found: "Click here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature Contactless FAQ.pdf
+📄 Classifying as PDF: "Click here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature Contactless FAQ.pdf
+📄 PDF link found: "Click here" -> /sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 Classifying as PDF: "Click here" -> /sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 PDF link found: "here" -> /sbi-card-en/assets/docs/pdf/personal/cards/gcas-numbers.pdf
+📄 Classifying as PDF: "here" -> /sbi-card-en/assets/docs/pdf/personal/cards/gcas-numbers.pdf
+📄 PDF link found: "Most Important Terms & Conditions" -> /en/most-important-terms-and-conditions.page
+📊 Found 10 relevant links to process
+📋 Link breakdown by type:
+   pdf: 7 links
+   general: 3 links
+🔍 Found 10 relevant links to process
+🔗 Processing ALL 10 relevant links...
+📄 [1/10] Processing: pdf - https://in.review.visa.com/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf
+📄 Extracting PDF from: https://in.review.visa.com/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf
+🔄 Trying PDF URL: https://in.review.visa.com/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf
+✅ PDF downloaded: 234915 bytes
+Warning: TT: undefined function: 21
+Warning: TT: undefined function: 21
+📄 Extracted 1 paragraphs from PDF
+📄 [3/10] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/elite-lounge-list.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/elite-lounge-list.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/elite-lounge-list.pdf
+✅ PDF downloaded: 4046768 bytes
+📄 Extracted 0 paragraphs from PDF
+📄 [4/10] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-card-elite/elite-terms-and-conditions-2016.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-card-elite/elite-terms-and-conditions-2016.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-card-elite/elite-terms-and-conditions-2016.pdf
+✅ PDF downloaded: 2422616 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [7/10] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/gcas-numbers.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/gcas-numbers.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/gcas-numbers.pdf
+✅ PDF downloaded: 324741 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [9/10] Processing: general - https://www.sbicard.com/en/personal/credit-cards.page#lifestyle
+✅ Completed processing: 5 successful, 0 failed
+🤖 Processing all content with OpenAI...
+🤖 Processing content with OpenAI for DUAL format output...
+📈 Token Usage:
+   Input: 52194 tokens
+   Output: 3103 tokens
+   Total: 55297 tokens
+💾 Standard JSON saved to: statebankofindia_sbicardelite_standard_2025-08-12T18-03-13-745Z.json
+💾 Structured JSON saved to: statebankofindia_sbicardelite_structured_2025-08-12T18-03-13-745Z.json
+✅ Crawling completed successfully
+📈 Confidence Score: 1
+🔗 Processed 5 additional pages
+❌ Failed to process 0 links
+✅ Successfully processed: SBI Card ELITE
+📊 Confidence: 1
+🎁 Benefits: 7, Offers: 2
+📄 Files: statebankofindia_sbicardelite_standard_2025-08-12T18-03-13-745Z.json, statebankofindia_sbicardelite_structured_2025-08-12T18-03-13-745Z.json
+⏳ Waiting 3000ms before next card...
+
+================================================================================
+🔍 Processing card 6/11: SimplySAVE SBI Card
+🌐 URL: https://www.sbicard.com/en/personal/credit-cards/shopping/simplysave-sbi-card.page
+✅ Validation Status: VALID (200)
+================================================================================
+🚀 Starting comprehensive crawl for: https://www.sbicard.com/en/personal/credit-cards/shopping/simplysave-sbi-card.page
+🔥 Will generate both standard and structured JSON formats
+🔍 Extracting content from: https://www.sbicard.com/en/personal/credit-cards/shopping/simplysave-sbi-card.page
+✅ Successfully extracted content from: https://www.sbicard.com/en/personal/credit-cards/shopping/simplysave-sbi-card.page
+📊 Found 40 links
+🔍 Processing 40 links from Puppeteer extraction...
+📄 PDF link found: "here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/Simplysave card/simplysave-welcome-rewards.pdf
+📄 Classifying as PDF: "here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/Simplysave card/simplysave-welcome-rewards.pdf
+📄 PDF link found: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature%20Contactless%20FAQ.pdf
+📄 Classifying as PDF: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature%20Contactless%20FAQ.pdf
+📄 PDF link found: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 Classifying as PDF: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 PDF link found: "Most Important Terms & Conditions" -> /en/most-important-terms-and-conditions.page
+📊 Found 6 relevant links to process
+📋 Link breakdown by type:
+   pdf: 3 links
+   partnerships: 1 links
+   general: 2 links
+🔍 Found 6 relevant links to process
+🔗 Processing ALL 6 relevant links...
+📄 [1/6] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/Simplysave%20card/simplysave-welcome-rewards.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/Simplysave%20card/simplysave-welcome-rewards.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/Simplysave%20card/simplysave-welcome-rewards.pdf
+✅ PDF downloaded: 37876 bytes
+📄 Extracted 1 paragraphs from PDF
+✅ Completed processing: 1 successful, 0 failed
+🤖 Processing all content with OpenAI...
+🤖 Processing content with OpenAI for DUAL format output...
+📈 Token Usage:
+   Input: 2891 tokens
+   Output: 2333 tokens
+   Total: 5224 tokens
+💾 Standard JSON saved to: sbicard_simplysavesbicard_standard_2025-08-12T18-04-11-791Z.json
+💾 Structured JSON saved to: sbicard_simplysavesbicard_structured_2025-08-12T18-04-11-791Z.json
+✅ Crawling completed successfully
+📈 Confidence Score: 1
+🔗 Processed 1 additional pages
+❌ Failed to process 0 links
+✅ Successfully processed: SimplySAVE SBI Card
+📊 Confidence: 1
+🎁 Benefits: 8, Offers: 1
+📄 Files: sbicard_simplysavesbicard_standard_2025-08-12T18-04-11-791Z.json, sbicard_simplysavesbicard_structured_2025-08-12T18-04-11-791Z.json
+
+📈 Progress: 6/11 (55%) - 6 successful, 0 failed
+⏳ Waiting 3000ms before next card...
+
+================================================================================
+🔍 Processing card 7/11: SBI Card PRIME
+🌐 URL: https://www.sbicard.com/en/personal/credit-cards/rewards/sbi-card-prime.page
+✅ Validation Status: VALID (200)
+================================================================================
+🚀 Starting comprehensive crawl for: https://www.sbicard.com/en/personal/credit-cards/rewards/sbi-card-prime.page
+🔥 Will generate both standard and structured JSON formats
+🔍 Extracting content from: https://www.sbicard.com/en/personal/credit-cards/rewards/sbi-card-prime.page
+✅ Successfully extracted content from: https://www.sbicard.com/en/personal/credit-cards/rewards/sbi-card-prime.page
+📊 Found 57 links
+🔍 Processing 57 links from Puppeteer extraction...
+📄 PDF link found: "Visa" -> https://in.review.visa.com/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf
+📄 Classifying as PDF: "Visa" -> https://in.review.visa.com/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf
+📄 PDF link found: "Mastercard" -> https://specials.priceless.com/mastercard/images/05c74b3e-7c36-477c-8665-8d62e4aa62cf.pdf
+📄 Classifying as PDF: "Mastercard" -> https://specials.priceless.com/mastercard/images/05c74b3e-7c36-477c-8665-8d62e4aa62cf.pdf
+📄 PDF link found: "American Express" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/prime-lounge-list.pdf
+📄 Classifying as PDF: "American Express" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/prime-lounge-list.pdf
+📄 PDF link found: "here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/rewards/sbi-card-prime/prime-tnc-booklet-combined.pdf
+📄 Classifying as PDF: "here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/rewards/sbi-card-prime/prime-tnc-booklet-combined.pdf
+📄 PDF link found: "Click Here" -> /sbi-card-en/assets/docs/pdf/tnc/Dining-Offer-Terms.pdf
+📄 Classifying as PDF: "Click Here" -> /sbi-card-en/assets/docs/pdf/tnc/Dining-Offer-Terms.pdf
+📄 PDF link found: "Click Here" -> /sbi-card-en/assets/docs/pdf/tnc/Dining-Offer-Locator%20.pdf
+📄 Classifying as PDF: "Click Here" -> /sbi-card-en/assets/docs/pdf/tnc/Dining-Offer-Locator%20.pdf
+📄 PDF link found: "American Express privileges" -> /sbi-card-en/assets/docs/pdf/tnc/American-Express-Network-Offers.pdf
+📄 Classifying as PDF: "American Express privileges" -> /sbi-card-en/assets/docs/pdf/tnc/American-Express-Network-Offers.pdf
+📄 PDF link found: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature%20Contactless%20FAQ.pdf
+📄 Classifying as PDF: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature%20Contactless%20FAQ.pdf
+📄 PDF link found: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 Classifying as PDF: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 PDF link found: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/gcas-numbers.pdf
+📄 Classifying as PDF: "here" -> https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/gcas-numbers.pdf
+📄 PDF link found: "Most Important Terms & Conditions" -> /en/most-important-terms-and-conditions.page
+📊 Found 14 relevant links to process
+📋 Link breakdown by type:
+   pdf: 10 links
+   rewards: 1 links
+   general: 3 links
+🔍 Found 14 relevant links to process
+🔗 Processing ALL 14 relevant links...
+📄 [3/14] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/prime-lounge-list.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/prime-lounge-list.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/prime-lounge-list.pdf
+✅ PDF downloaded: 6322577 bytes
+📄 Extracted 0 paragraphs from PDF
+📄 [4/14] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/rewards/sbi-card-prime/prime-tnc-booklet-combined.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/rewards/sbi-card-prime/prime-tnc-booklet-combined.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/rewards/sbi-card-prime/prime-tnc-booklet-combined.pdf
+✅ PDF downloaded: 2313699 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [5/14] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/Dining-Offer-Terms.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/Dining-Offer-Terms.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/Dining-Offer-Terms.pdf
+✅ PDF downloaded: 41781 bytes
+📄 Extracted 1 paragraphs from PDF
+📊 Progress: 5/14 processed (3 success, 0 failed)
+📄 [6/14] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/Dining-Offer-Locator%20.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/Dining-Offer-Locator%20.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/Dining-Offer-Locator%20.pdf
+✅ PDF downloaded: 482335 bytes
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+📄 Extracted 1 paragraphs from PDF
+📄 [7/14] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/American-Express-Network-Offers.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/American-Express-Network-Offers.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/American-Express-Network-Offers.pdf
+✅ PDF downloaded: 170165 bytes
+📄 Extracted 1 paragraphs from PDF
+✅ Completed processing: 5 successful, 0 failed
+🤖 Processing all content with OpenAI...
+🤖 Processing content with OpenAI for DUAL format output...
+📈 Token Usage:
+   Input: 52910 tokens
+   Output: 4000 tokens
+   Total: 56910 tokens
+❌ OpenAI processing error: Response was truncated due to token limit
+💾 Standard JSON saved to: bank_sbiprimecreditcardprivilegesfeaturesapplynowsbicard_standard_2025-08-12T18-06-04-956Z.json
+💾 Structured JSON saved to: bank_sbiprimecreditcardprivilegesfeaturesapplynowsbicard_structured_2025-08-12T18-06-04-956Z.json
+✅ Crawling completed successfully
+📈 Confidence Score: 0.1
+🔗 Processed 5 additional pages
+❌ Failed to process 0 links
+✅ Successfully processed: SBI Card PRIME
+📊 Confidence: 0.1
+🎁 Benefits: 0, Offers: 0
+📄 Files: bank_sbiprimecreditcardprivilegesfeaturesapplynowsbicard_standard_2025-08-12T18-06-04-956Z.json, bank_sbiprimecreditcardprivilegesfeaturesapplynowsbicard_structured_2025-08-12T18-06-04-956Z.json
+⏳ Waiting 3000ms before next card...
+
+================================================================================
+🔍 Processing card 8/11: Tata Neu Infinity SBI Card
+🌐 URL: https://www.sbicard.com/en/personal/credit-cards/lifestyle/tata-neu-infinity-sbi-card.page
+✅ Validation Status: VALID (200)
+================================================================================
+🚀 Starting comprehensive crawl for: https://www.sbicard.com/en/personal/credit-cards/lifestyle/tata-neu-infinity-sbi-card.page
+🔥 Will generate both standard and structured JSON formats
+🔍 Extracting content from: https://www.sbicard.com/en/personal/credit-cards/lifestyle/tata-neu-infinity-sbi-card.page
+✅ Successfully extracted content from: https://www.sbicard.com/en/personal/credit-cards/lifestyle/tata-neu-infinity-sbi-card.page
+📊 Found 40 links
+🔍 Processing 40 links from Puppeteer extraction...
+📄 PDF link found: "click here" -> /sbi-card-en/assets/docs/pdf/Tata-neu-infinty-tnc.pdf
+📄 Classifying as PDF: "click here" -> /sbi-card-en/assets/docs/pdf/Tata-neu-infinty-tnc.pdf
+📄 PDF link found: "Click Here" -> /sbi-card-en/assets/docs/pdf/tnc/Tata-Neu-SBI-Cards-Domestic-Lounge-List.pdf
+📄 Classifying as PDF: "Click Here" -> /sbi-card-en/assets/docs/pdf/tnc/Tata-Neu-SBI-Cards-Domestic-Lounge-List.pdf
+📄 PDF link found: "Most Important Terms & Conditions" -> /en/most-important-terms-and-conditions.page
+📊 Found 3 relevant links to process
+📋 Link breakdown by type:
+   pdf: 2 links
+   general: 1 links
+🔍 Found 3 relevant links to process
+🔗 Processing ALL 3 relevant links...
+📄 [1/3] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Tata-neu-infinty-tnc.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Tata-neu-infinty-tnc.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Tata-neu-infinty-tnc.pdf
+✅ PDF downloaded: 1292818 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [2/3] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/Tata-Neu-SBI-Cards-Domestic-Lounge-List.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/Tata-Neu-SBI-Cards-Domestic-Lounge-List.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/Tata-Neu-SBI-Cards-Domestic-Lounge-List.pdf
+✅ PDF downloaded: 87312 bytes
+📄 Extracted 1 paragraphs from PDF
+✅ Completed processing: 2 successful, 0 failed
+🤖 Processing all content with OpenAI...
+🤖 Processing content with OpenAI for DUAL format output...
+📈 Token Usage:
+   Input: 201762 tokens
+   Output: 3139 tokens
+   Total: 204901 tokens
+💾 Standard JSON saved to: sbicardsandpaymentserviceslimited_tataneuinfinitysbicard_standard_2025-08-12T18-07-17-835Z.json
+💾 Structured JSON saved to: sbicardsandpaymentserviceslimited_tataneuinfinitysbicard_structured_2025-08-12T18-07-17-835Z.json
+✅ Crawling completed successfully
+📈 Confidence Score: 1
+🔗 Processed 2 additional pages
+❌ Failed to process 0 links
+✅ Successfully processed: Tata Neu Infinity SBI Card
+📊 Confidence: 1
+🎁 Benefits: 8, Offers: 0
+📄 Files: sbicardsandpaymentserviceslimited_tataneuinfinitysbicard_standard_2025-08-12T18-07-17-835Z.json, sbicardsandpaymentserviceslimited_tataneuinfinitysbicard_structured_2025-08-12T18-07-17-835Z.json
+⏳ Waiting 3000ms before next card...
+
+================================================================================
+🔍 Processing card 9/11: Tata Neu Plus SBI Card
+🌐 URL: https://www.sbicard.com/en/personal/credit-cards/lifestyle/tata-neu-plus-sbi-card.page
+✅ Validation Status: VALID (200)
+================================================================================
+🚀 Starting comprehensive crawl for: https://www.sbicard.com/en/personal/credit-cards/lifestyle/tata-neu-plus-sbi-card.page
+🔥 Will generate both standard and structured JSON formats
+🔍 Extracting content from: https://www.sbicard.com/en/personal/credit-cards/lifestyle/tata-neu-plus-sbi-card.page
+✅ Successfully extracted content from: https://www.sbicard.com/en/personal/credit-cards/lifestyle/tata-neu-plus-sbi-card.page
+📊 Found 39 links
+🔍 Processing 39 links from Puppeteer extraction...
+📄 PDF link found: "click here" -> /sbi-card-en/assets/docs/pdf/Tata-neu-plus-tnc.pdf
+📄 Classifying as PDF: "click here" -> /sbi-card-en/assets/docs/pdf/Tata-neu-plus-tnc.pdf
+📄 PDF link found: "Click Here" -> /sbi-card-en/assets/docs/pdf/tnc/Tata-Neu-SBI-Cards-Domestic-Lounge-List.pdf
+📄 Classifying as PDF: "Click Here" -> /sbi-card-en/assets/docs/pdf/tnc/Tata-Neu-SBI-Cards-Domestic-Lounge-List.pdf
+📄 PDF link found: "Click here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature Contactless FAQ.pdf
+📄 Classifying as PDF: "Click here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature Contactless FAQ.pdf
+📄 PDF link found: "Click here" -> /sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 Classifying as PDF: "Click here" -> /sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 PDF link found: "Most Important Terms & Conditions" -> /en/most-important-terms-and-conditions.page
+📊 Found 5 relevant links to process
+📋 Link breakdown by type:
+   pdf: 4 links
+   general: 1 links
+🔍 Found 5 relevant links to process
+🔗 Processing ALL 5 relevant links...
+📄 [1/5] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Tata-neu-plus-tnc.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Tata-neu-plus-tnc.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Tata-neu-plus-tnc.pdf
+✅ PDF downloaded: 1272101 bytes
+📄 Extracted 1 paragraphs from PDF
+✅ Completed processing: 1 successful, 0 failed
+🤖 Processing all content with OpenAI...
+🤖 Processing content with OpenAI for DUAL format output...
+📈 Token Usage:
+   Input: 196970 tokens
+   Output: 3065 tokens
+   Total: 200035 tokens
+💾 Standard JSON saved to: sbicardsandpaymentserviceslimited_tataneuplussbicard_standard_2025-08-12T18-08-19-031Z.json
+💾 Structured JSON saved to: sbicardsandpaymentserviceslimited_tataneuplussbicard_structured_2025-08-12T18-08-19-031Z.json
+✅ Crawling completed successfully
+📈 Confidence Score: 1
+🔗 Processed 1 additional pages
+❌ Failed to process 0 links
+✅ Successfully processed: Tata Neu Plus SBI Card
+📊 Confidence: 1
+🎁 Benefits: 9, Offers: 0
+📄 Files: sbicardsandpaymentserviceslimited_tataneuplussbicard_standard_2025-08-12T18-08-19-031Z.json, sbicardsandpaymentserviceslimited_tataneuplussbicard_structured_2025-08-12T18-08-19-031Z.json
+
+📈 Progress: 9/11 (82%) - 9 successful, 0 failed
+⏳ Waiting 3000ms before next card...
+
+================================================================================
+🔍 Processing card 10/11: SBI Card ELITE Advantage
+🌐 URL: https://www.sbicard.com/en/personal/credit-cards/lifestyle/sbi-card-elite-advantage.page
+✅ Validation Status: VALID (200)
+================================================================================
+🚀 Starting comprehensive crawl for: https://www.sbicard.com/en/personal/credit-cards/lifestyle/sbi-card-elite-advantage.page
+🔥 Will generate both standard and structured JSON formats
+🔍 Extracting content from: https://www.sbicard.com/en/personal/credit-cards/lifestyle/sbi-card-elite-advantage.page
+✅ Successfully extracted content from: https://www.sbicard.com/en/personal/credit-cards/lifestyle/sbi-card-elite-advantage.page
+📊 Found 59 links
+🔍 Processing 59 links from Puppeteer extraction...
+📄 PDF link found: "visasignature.com" -> https://in.review.visa.com/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf
+📄 Classifying as PDF: "visasignature.com" -> https://in.review.visa.com/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf
+📄 PDF link found: "click here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-card-elite/elite-terms-and-conditions-2016.pdf
+📄 Classifying as PDF: "click here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-card-elite/elite-terms-and-conditions-2016.pdf
+📄 PDF link found: "Click here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature Contactless FAQ.pdf
+📄 Classifying as PDF: "Click here" -> /sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-signature-contactless-card/Signature Contactless FAQ.pdf
+📄 PDF link found: "Click here" -> /sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 Classifying as PDF: "Click here" -> /sbi-card-en/assets/docs/pdf/personal/cards/list-of-stores.pdf
+📄 PDF link found: "here" -> /sbi-card-en/assets/docs/pdf/personal/cards/gcas-numbers.pdf
+📄 Classifying as PDF: "here" -> /sbi-card-en/assets/docs/pdf/personal/cards/gcas-numbers.pdf
+📄 PDF link found: "Most Important Terms & Conditions" -> /en/most-important-terms-and-conditions.page
+📊 Found 8 relevant links to process
+📋 Link breakdown by type:
+   pdf: 5 links
+   general: 3 links
+🔍 Found 8 relevant links to process
+🔗 Processing ALL 8 relevant links...
+✅ Completed processing: 0 successful, 0 failed
+🤖 Processing all content with OpenAI...
+🤖 Processing content with OpenAI for DUAL format output...
+📈 Token Usage:
+   Input: 3164 tokens
+   Output: 4000 tokens
+   Total: 7164 tokens
+❌ OpenAI processing error: Response was truncated due to token limit
+💾 Standard JSON saved to: bank_sbieliteadvantagecreditcardprivilegesfeaturesapplynowsbicard_standard_2025-08-12T18-09-46-777Z.json
+💾 Structured JSON saved to: bank_sbieliteadvantagecreditcardprivilegesfeaturesapplynowsbicard_structured_2025-08-12T18-09-46-777Z.json
+✅ Crawling completed successfully
+📈 Confidence Score: 0.1
+🔗 Processed 0 additional pages
+❌ Failed to process 0 links
+✅ Successfully processed: SBI Card ELITE Advantage
+📊 Confidence: 0.1
+🎁 Benefits: 0, Offers: 0
+📄 Files: bank_sbieliteadvantagecreditcardprivilegesfeaturesapplynowsbicard_standard_2025-08-12T18-09-46-777Z.json, bank_sbieliteadvantagecreditcardprivilegesfeaturesapplynowsbicard_structured_2025-08-12T18-09-46-777Z.json
+⏳ Waiting 3000ms before next card...
+
+================================================================================
+🔍 Processing card 11/11: PhonePe SBI Card SELECT BLACK
+🌐 URL: https://www.sbicard.com/en/personal/credit-cards/rewards/phonepe-sbi-card-select-black.page
+✅ Validation Status: VALID (200)
+================================================================================
+🚀 Starting comprehensive crawl for: https://www.sbicard.com/en/personal/credit-cards/rewards/phonepe-sbi-card-select-black.page
+🔥 Will generate both standard and structured JSON formats
+🔍 Extracting content from: https://www.sbicard.com/en/personal/credit-cards/rewards/phonepe-sbi-card-select-black.page
+✅ Successfully extracted content from: https://www.sbicard.com/en/personal/credit-cards/rewards/phonepe-sbi-card-select-black.page
+📊 Found 36 links
+🔍 Processing 36 links from Puppeteer extraction...
+📄 PDF link found: "click here" -> /sbi-card-en/assets/docs/pdf/tnc/phone-pe-tncs/PhonePe-SBI-Card-SELECT-BLACK-Welcome-benefit.pdf
+📄 Classifying as PDF: "click here" -> /sbi-card-en/assets/docs/pdf/tnc/phone-pe-tncs/PhonePe-SBI-Card-SELECT-BLACK-Welcome-benefit.pdf
+📄 PDF link found: "click here" -> /sbi-card-en/assets/media/images/personal/credit-cards/rewards/phonepe/tnc/RP-tnc.pdf
+📄 Classifying as PDF: "click here" -> /sbi-card-en/assets/media/images/personal/credit-cards/rewards/phonepe/tnc/RP-tnc.pdf
+📄 PDF link found: "click here" -> /sbi-card-en/assets/media/images/personal/credit-cards/rewards/phonepe/tnc/milestone-TnC-PhonePe-SBI-Card-SELECT.pdf
+📄 Classifying as PDF: "click here" -> /sbi-card-en/assets/media/images/personal/credit-cards/rewards/phonepe/tnc/milestone-TnC-PhonePe-SBI-Card-SELECT.pdf
+📄 PDF link found: "Most Important Terms & Conditions" -> /en/most-important-terms-and-conditions.page
+📊 Found 5 relevant links to process
+📋 Link breakdown by type:
+   pdf: 3 links
+   general: 2 links
+🔍 Found 5 relevant links to process
+🔗 Processing ALL 5 relevant links...
+📄 [1/5] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/phone-pe-tncs/PhonePe-SBI-Card-SELECT-BLACK-Welcome-benefit.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/phone-pe-tncs/PhonePe-SBI-Card-SELECT-BLACK-Welcome-benefit.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/phone-pe-tncs/PhonePe-SBI-Card-SELECT-BLACK-Welcome-benefit.pdf
+✅ PDF downloaded: 38313 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [2/5] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/media/images/personal/credit-cards/rewards/phonepe/tnc/RP-tnc.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/media/images/personal/credit-cards/rewards/phonepe/tnc/RP-tnc.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/media/images/personal/credit-cards/rewards/phonepe/tnc/RP-tnc.pdf
+✅ PDF downloaded: 54845 bytes
+📄 Extracted 1 paragraphs from PDF
+📄 [3/5] Processing: pdf - https://www.sbicard.com/sbi-card-en/assets/media/images/personal/credit-cards/rewards/phonepe/tnc/milestone-TnC-PhonePe-SBI-Card-SELECT.pdf
+📄 Extracting PDF from: https://www.sbicard.com/sbi-card-en/assets/media/images/personal/credit-cards/rewards/phonepe/tnc/milestone-TnC-PhonePe-SBI-Card-SELECT.pdf
+🔄 Trying PDF URL: https://www.sbicard.com/sbi-card-en/assets/media/images/personal/credit-cards/rewards/phonepe/tnc/milestone-TnC-PhonePe-SBI-Card-SELECT.pdf
+✅ PDF downloaded: 62106 bytes
+📄 Extracted 1 paragraphs from PDF
+✅ Completed processing: 3 successful, 0 failed
+🤖 Processing all content with OpenAI...
+🤖 Processing content with OpenAI for DUAL format output...
+📈 Token Usage:
+   Input: 5230 tokens
+   Output: 3079 tokens
+   Total: 8309 tokens
+💾 Standard JSON saved to: sbicardsandpaymentserviceslimited_phonepesbicardselectblack_standard_2025-08-12T18-11-11-553Z.json
+💾 Structured JSON saved to: sbicardsandpaymentserviceslimited_phonepesbicardselectblack_structured_2025-08-12T18-11-11-553Z.json
+✅ Crawling completed successfully
+📈 Confidence Score: 1
+🔗 Processed 3 additional pages
+❌ Failed to process 0 links
+✅ Successfully processed: PhonePe SBI Card SELECT BLACK
+📊 Confidence: 1
+🎁 Benefits: 10, Offers: 0
+📄 Files: sbicardsandpaymentserviceslimited_phonepesbicardselectblack_standard_2025-08-12T18-11-11-553Z.json, sbicardsandpaymentserviceslimited_phonepesbicardselectblack_structured_2025-08-12T18-11-11-553Z.json
+
+📈 Progress: 11/11 (100%) - 11 successful, 0 failed
+
+🎉 LISTING CRAWL WITH DUAL JSON OUTPUT COMPLETED!
+📊 URL Validation Results:
+   - Total URLs checked: 13
+   - Valid URLs: 11
+   - Invalid URLs: 2
+   - URL Success Rate: 85.0%
+📈 Processing Results:
+   - Cards processed: 11
+   - Cards failed: 0
+   - Processing Success Rate: 100%
+🔥 Token Usage: 9750 total tokens
+❌ Listing crawl with validation failed: standardListingFile is not defined
+
+📊 RESULTS SUMMARY:
+⏱️ Total processing time: 1129 seconds (19 minutes)
+📋 LISTING RESULTS WITH URL VALIDATION:
+- Total URLs found initially: 0
+- Valid URLs after validation: 0
+- Invalid URLs filtered out: 0
+- URL validation success rate: 0.0%
+- Cards successfully processed: 0
+- Cards failed processing: 0
+- Processing success rate: 0.0%
+- Average confidence: 0
+- Processing mode: ERROR
+🔗 URL Validation Breakdown:
+- Total checked: undefined
+- Valid: undefined
+- Invalid: undefined
+💾 Complete results saved to listing_validated_2025-08-12T18-11-11-656Z.json
+
+F:\FLIP\flip_offer_fetcher>

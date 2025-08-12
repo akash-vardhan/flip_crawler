@@ -1,0 +1,89 @@
+{
+  "Metadata": {
+    "PK": "CARD#SBI",
+    "SK": "METADATA",
+    "card_name": "Tata Neu Plus SBI Card",
+    "issuer": "SBI Cards and Payment Services Limited",
+    "network": [
+      "Visa",
+      "RuPay"
+    ],
+    "type": "Credit Card",
+    "category": [
+      "Lifestyle"
+    ]
+  },
+  "features": {
+    "PK": "CARD#SBI",
+    "SK": "FEATURES",
+    "digital_onboarding": false,
+    "contactless_payments": true,
+    "customization_options": {},
+    "app_management": [
+      "SBI Card Mobile App",
+      "sbicard.com"
+    ],
+    "security_features": [
+      "EMV Chip",
+      "Visa payWave contactless technology",
+      "PIN protection"
+    ]
+  },
+  "rewards": {
+    "PK": "CARD#SBI",
+    "SK": "REWARDS",
+    "reward_currency": "NeuCoins",
+    "cashback_program": [
+      "NeuCoins Loyalty Program"
+    ],
+    "earning_structure": [
+      {
+        "category": "Tata Neu App/Website and partner Tata Brands",
+        "rate": 2,
+        "cap": null
+      },
+      {
+        "category": "Select category spends on Tata Neu App/Website",
+        "rate": 5,
+        "cap": null
+      },
+      {
+        "category": "Other spends including UPI transactions (RuPay Variant)",
+        "rate": 1,
+        "cap": 500
+      }
+    ],
+    "redemption": {
+      "methods": [
+        "NeuCoins redemption via Tata Pay on Mobile App/Website",
+        "NeuCoins redemption at partner stores (Croma, IHCL Hotels, Westside, Tata Cliq, Tata 1 MG, Titan, Tanishq)"
+      ],
+      "processing_time": "Within 7 working days of statement cycle"
+    }
+  },
+  "fees": {
+    "PK": "CARD#SBI",
+    "SK": "FEES",
+    "joining_fee": 499,
+    "renewal_fee": 499,
+    "tax_applicable": true,
+    "renewal_waiver_condition": "Annual spends of Rs. 1 Lakh or more",
+    "joining_fee_waiver_condition": null,
+    "other_charges": {
+      "add_on_card_fee": 0
+    }
+  },
+  "eligibility": {
+    "PK": "CARD#SBI",
+    "SK": "ELIGIBILITY",
+    "salaried": {},
+    "self_employed": {}
+  },
+  "related_docs": {
+    "PK": "CARD#SBI",
+    "SK": "PDFS",
+    "pdfs": [
+      "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Tata-neu-plus-tnc.pdf"
+    ]
+  }
+}

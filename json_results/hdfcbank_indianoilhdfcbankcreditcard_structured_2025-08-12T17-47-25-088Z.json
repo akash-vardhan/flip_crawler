@@ -1,0 +1,122 @@
+{
+  "Metadata": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "METADATA",
+    "card_name": "IndianOil HDFC Bank Credit Card",
+    "issuer": "HDFC Bank",
+    "network": [
+      "MasterCard",
+      "Visa"
+    ],
+    "type": "Credit Card",
+    "category": [
+      "Fuel Credit Card",
+      "Rewards Card"
+    ]
+  },
+  "features": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "FEATURES",
+    "digital_onboarding": true,
+    "contactless_payments": true,
+    "customization_options": {},
+    "app_management": [
+      "NetBanking",
+      "Mobile Banking"
+    ],
+    "security_features": [
+      "Zero Lost Card Liability",
+      "PIN Protection"
+    ]
+  },
+  "rewards": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "REWARDS",
+    "reward_currency": "Fuel Points",
+    "cashback_program": [
+      {
+        "category": "Fuel",
+        "rate": 5,
+        "cap": 250,
+        "description": "5% Fuel Points on IndianOil outlets"
+      },
+      {
+        "category": "Groceries and Bill Payments",
+        "rate": 5,
+        "cap": 100,
+        "description": "5% Fuel Points on groceries and bill payments"
+      },
+      {
+        "category": "Other Purchases",
+        "rate": 1,
+        "cap": null,
+        "description": "1 Fuel Point per ₹150 spent"
+      }
+    ],
+    "earning_structure": [
+      {
+        "category": "Fuel",
+        "rate": 5,
+        "cap": 250,
+        "terms": "Max 250 Fuel Points per month in first 6 months, max 150 post 6 months"
+      },
+      {
+        "category": "Groceries and Bill Payments",
+        "rate": 5,
+        "cap": 100,
+        "terms": "Max 100 Fuel Points per month"
+      },
+      {
+        "category": "Other",
+        "rate": 1,
+        "cap": null,
+        "terms": "1 Fuel Point per ₹150 spent"
+      }
+    ],
+    "redemption": {
+      "free_fuel": {
+        "conversion_rate": "1 FP = 0.96 Rs",
+        "process": "Redeem at IndianOil Petrol Outlets via IXRP membership"
+      },
+      "catalogue_products": {
+        "conversion_rate": "1 FP = up to 0.20 Rs",
+        "process": "Redeem through NetBanking"
+      },
+      "cashback": {
+        "conversion_rate": "1 FP = 0.20 Rs",
+        "process": "Redeem as cashback on statement balance"
+      }
+    }
+  },
+  "fees": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "FEES",
+    "joining_fee": null,
+    "renewal_fee": "Waived on spending ₹50,000 in first year",
+    "tax_applicable": true,
+    "renewal_waiver_condition": "Spend ₹50,000 and above in first year",
+    "joining_fee_waiver_condition": null,
+    "other_charges": {
+      "fuel_surcharge": {
+        "amount": "1% waived on minimum ₹400 transaction",
+        "max_cashback": "₹250 per statement cycle"
+      }
+    }
+  },
+  "eligibility": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "ELIGIBILITY",
+    "salaried": {},
+    "self_employed": {}
+  },
+  "related_docs": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "PDFS",
+    "pdfs": [
+      {
+        "title": "Card Member Agreement",
+        "url": "https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/?path=/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/card-member-agreement-29-10-2019.pdf"
+      }
+    ]
+  }
+}

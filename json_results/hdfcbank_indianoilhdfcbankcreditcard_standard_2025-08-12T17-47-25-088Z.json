@@ -1,0 +1,201 @@
+{
+  "id": "62919a280ba661f3",
+  "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/indianoil-hdfc-bank-credit-card",
+  "scraped_at": "2025-08-12T17:47:25.088Z",
+  "card": {
+    "name": "IndianOil HDFC Bank Credit Card",
+    "bank": "HDFC Bank",
+    "variant": "Fuel Credit Card",
+    "description": "Earn up to 50 Litres of Free fuel annually with the IndianOil HDFC Bank Credit Card. Earn Fuel Points on spends at IndianOil outlets, groceries, and bill payments with additional benefits like fuel surcharge waiver and contactless payments.",
+    "target_audience": "Individuals who want to earn fuel benefits and cashback on everyday spends."
+  },
+  "rewards": {
+    "program": "IndianOil XTRAREWARDSTM Program (IXRP)",
+    "type": "Fuel Points",
+    "earning": {
+      "base_rate": 1,
+      "categories": [
+        {
+          "name": "IndianOil outlets",
+          "rate": 5,
+          "cap": 250,
+          "description": "Earn 5% of your spends as Fuel Points at IndianOil outlets (Max 250 Fuel Points per month in first 6 months, Max 150 Fuel Points post 6 months from card issuance).",
+          "terms_and_conditions": "Applicable on card swipes only.",
+          "how_to_earn": "Swipe card at IndianOil outlets.",
+          "validity": "2 years",
+          "exclusions": "No reward points on rental and government category payments."
+        },
+        {
+          "name": "Groceries and Bill Payments",
+          "rate": 5,
+          "cap": 100,
+          "description": "Earn 5% Fuel Points on groceries and bill payments (Max 100 Fuel Points per month on each category).",
+          "terms_and_conditions": "Applicable on POS and Ecomm transactions.",
+          "how_to_earn": "Use card for groceries and bill payments.",
+          "validity": "2 years",
+          "exclusions": "No reward points on rental and government category payments."
+        },
+        {
+          "name": "Other purchases",
+          "rate": 1,
+          "cap": null,
+          "description": "Earn 1 Fuel Point for every ₹150 spent on all other purchases including UPI transactions.",
+          "terms_and_conditions": "Applicable on all other spends.",
+          "how_to_earn": "Use card for other purchases.",
+          "validity": "2 years",
+          "exclusions": "No reward points on rental and government category payments."
+        }
+      ],
+      "bonus_rates": [
+        {
+          "condition": "First year spend of ₹50,000 and above",
+          "rate": 0,
+          "validity": "Renewal year",
+          "terms_and_conditions": "Waiver on renewal membership fee."
+        }
+      ]
+    },
+    "redemption": [
+      {
+        "option": "Free Fuel",
+        "minimum": null,
+        "value": "1 Fuel Point = 0.96 Rs",
+        "process": "Redeem Fuel Points for free fuel at participating IndianOil Petrol Outlets by converting Fuel Points into XRP.",
+        "terms_and_conditions": "Redemption at participating outlets only.",
+        "validity": "Fuel Points valid for 2 years",
+        "processing_time": null
+      },
+      {
+        "option": "Catalogue Products",
+        "minimum": null,
+        "value": "1 Fuel Point = up to 0.20 Rs",
+        "process": "Redeem Fuel Points through NetBanking towards catalogue products.",
+        "terms_and_conditions": "Redemption subject to catalogue availability.",
+        "validity": "Fuel Points valid for 2 years",
+        "processing_time": null
+      },
+      {
+        "option": "CashBack",
+        "minimum": null,
+        "value": "1 Fuel Point = 0.20 Rs",
+        "process": "Redeem Fuel Points as cashback on your IndianOil HDFC Bank Credit Card statement balance.",
+        "terms_and_conditions": "Cashback redemption against statement balance.",
+        "validity": "Fuel Points valid for 2 years",
+        "processing_time": null
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "category": "Fuel Benefits",
+      "name": "Fuel Points",
+      "description": "Earn Fuel Points on spends at IndianOil outlets, groceries, and bill payments.",
+      "how_to_avail": "Use card for eligible transactions.",
+      "value": "Up to 50 Litres of free fuel annually.",
+      "terms_and_conditions": "Max caps apply on Fuel Points accrual.",
+      "validity": "Fuel Points valid for 2 years.",
+      "eligibility": "Cardholders of IndianOil HDFC Bank Credit Card.",
+      "usage_limit": "Max 250 Fuel Points per month in first 6 months, max 150 post 6 months."
+    },
+    {
+      "category": "Fuel Surcharge Waiver",
+      "name": "Fuel Surcharge Waiver",
+      "description": "1% fuel surcharge waiver at all fuel stations across India on minimum transaction of ₹400.",
+      "how_to_avail": "Use card for fuel transactions.",
+      "value": "Max cashback of ₹250 per statement cycle.",
+      "terms_and_conditions": "Minimum transaction ₹400.",
+      "validity": "Ongoing",
+      "eligibility": "Cardholders of IndianOil HDFC Bank Credit Card.",
+      "usage_limit": "Max cashback ₹250 per statement cycle."
+    },
+    {
+      "category": "Contactless Payment",
+      "name": "Contactless Payment",
+      "description": "Enabled for contactless payments up to ₹5000 without PIN.",
+      "how_to_avail": "Look for contactless symbol on card and tap at retail outlets.",
+      "value": "Fast, convenient and secure payments.",
+      "terms_and_conditions": "For transactions ₹5000 or more, PIN required.",
+      "validity": "Ongoing",
+      "eligibility": "Cardholders of IndianOil HDFC Bank Credit Card.",
+      "usage_limit": "₹5000 per transaction without PIN."
+    },
+    {
+      "category": "Smart EMI",
+      "name": "Smart EMI",
+      "description": "Option to convert big spends into EMI after purchase.",
+      "how_to_avail": "Opt for EMI conversion post purchase.",
+      "value": "Flexible payment options.",
+      "terms_and_conditions": "Subject to eligibility and terms.",
+      "validity": "Ongoing",
+      "eligibility": "Cardholders of IndianOil HDFC Bank Credit Card.",
+      "usage_limit": null
+    }
+  ],
+  "current_offers": [
+    {
+      "title": "Renewal Fee Waiver",
+      "description": "Spend ₹50,000 and above in the first year and get a waiver on the renewal membership fee.",
+      "validity": "First year from card issuance",
+      "terms_and_conditions": "Spend criteria must be met.",
+      "activation_required": false,
+      "how_to_activate": null,
+      "eligibility": "IndianOil HDFC Bank Credit Cardholders.",
+      "maximum_benefit": "Waiver of renewal fee.",
+      "offer_code": null,
+      "exclusions": null
+    }
+  ],
+  "perks": [
+    {
+      "name": "IndianOil XTRAREWARDSTM Program (IXRP)",
+      "description": "Complimentary membership for Fuel Points redemption and benefits.",
+      "category": "Rewards Program",
+      "usage_limit": null,
+      "how_to_use": "Redeem Fuel Points via IXRP membership.",
+      "terms_and_conditions": "Membership complimentary with card.",
+      "value": null,
+      "validity": "Ongoing"
+    }
+  ],
+  "partnerships": [
+    {
+      "partner": "IndianOil",
+      "benefit": "Fuel Points and fuel surcharge waiver",
+      "category": "Fuel",
+      "validity": "Ongoing",
+      "how_to_avail": "Use card at IndianOil outlets.",
+      "terms_and_conditions": "Max caps on Fuel Points and cashback apply.",
+      "discount_percentage": "1%",
+      "maximum_discount": "₹250 per statement cycle"
+    }
+  ],
+  "fees_and_charges": [
+    {
+      "type": "Renewal Fee",
+      "amount": "Waived on spending ₹50,000 in first year",
+      "waiver_conditions": "Spend ₹50,000 and above in first year",
+      "frequency": "Annual",
+      "terms_and_conditions": "Renewal fee waiver applicable only if spend criteria met."
+    },
+    {
+      "type": "Fuel Surcharge",
+      "amount": "1% waived on minimum ₹400 transaction",
+      "waiver_conditions": "Minimum transaction ₹400",
+      "frequency": "Per transaction",
+      "terms_and_conditions": "Max cashback ₹250 per statement cycle."
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-08-12T17:47:25.088Z",
+    "confidence_score": 1,
+    "missing_data": [],
+    "processed_links": 49,
+    "token_usage": {
+      "input_tokens": 82525,
+      "output_tokens": 2761,
+      "total_tokens": 85286
+    },
+    "failed_links": 0,
+    "failed_link_details": []
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "id": "ea35f68681a9b971",
+  "url": "https://www.sbicard.com/en/personal/credit-cards/lifestyle/tata-neu-plus-sbi-card.page",
+  "scraped_at": "2025-08-12T18:08:19.031Z",
+  "card": {
+    "name": "Tata Neu Plus SBI Card",
+    "bank": "SBI Cards and Payment Services Limited",
+    "variant": "Lifestyle",
+    "description": "Earn NeuCoins & Exclusive Rewards with Tata Neu Plus SBI Card. Enjoy welcome benefits, reward points on spends, domestic lounge access, fuel surcharge waiver, and more.",
+    "target_audience": "Personal users interested in lifestyle benefits and rewards on Tata Neu App/Website and partner Tata Brands."
+  },
+  "rewards": {
+    "program": "SBI Card Rewards Program",
+    "type": "NeuCoins Loyalty Program",
+    "earning": {
+      "base_rate": 1,
+      "categories": [
+        {
+          "name": "Tata Neu App/Website and partner Tata Brands",
+          "rate": 2,
+          "cap": null,
+          "description": "2% value back as NeuCoins on spends",
+          "terms_and_conditions": "NeuCoins accrual in SBI card system will be done as per the updated MID list, reviewed monthly.",
+          "how_to_earn": "Spend on Tata Neu App/Website and partner Tata Brands",
+          "validity": "Ongoing",
+          "exclusions": "Fuel Spends, Wallet loads, Rental/Gift or Prepaid Card load, Voucher purchase, Cash Advances, Payment of Outstanding Balances, Payment of card fees and other charges, Flexipay, Rental and Government related transactions, Education payments."
+        },
+        {
+          "name": "Select category spends on Tata Neu App/Website",
+          "rate": 5,
+          "cap": null,
+          "description": "Extra 5% value back as NeuCoins",
+          "terms_and_conditions": "NeuCoins accrual as per updated MID list.",
+          "how_to_earn": "Spend on select categories on Tata Neu App/Website",
+          "validity": "Ongoing",
+          "exclusions": ""
+        },
+        {
+          "name": "Other spends including UPI transactions (RuPay Variant)",
+          "rate": 1,
+          "cap": 500,
+          "description": "1% value back as NeuCoins, capped at 500 NeuCoins per statement cycle for UPI spends",
+          "terms_and_conditions": "Applicable on spends on RuPay Variant",
+          "how_to_earn": "Spend on other categories including UPI transactions",
+          "validity": "Ongoing",
+          "exclusions": ""
+        }
+      ],
+      "bonus_rates": [
+        {
+          "condition": "Welcome Benefit",
+          "rate": 499,
+          "validity": "Within 15 days of realization of joining fee",
+          "terms_and_conditions": "Welcome gift of 499 NeuCoins credited to Tata NeuPass account post annual fee realization."
+        }
+      ]
+    },
+    "redemption": [
+      {
+        "option": "NeuCoins redemption via Tata Pay",
+        "minimum": null,
+        "value": "1 NeuCoin = INR 1 savings",
+        "process": "NeuCoins automatically transferred to cardholder’s NeuPass account within 7 working days of statement cycle. Redeem via Tata Pay on Mobile App/Website.",
+        "terms_and_conditions": "SBI Card must not be overdue, suspended, blocked, cancelled, or terminated at time of point transfer. Points cannot be exchanged for cash or credit or used for cash advances.",
+        "validity": "Ongoing",
+        "processing_time": "Within 7 working days of statement cycle"
+      },
+      {
+        "option": "NeuCoins redemption at partner stores",
+        "minimum": null,
+        "value": "1 NeuCoin = INR 1 savings",
+        "process": "Redeem via Loyalty Redemption option on order/payment page through Mobile App/Website or at Point of Sales partner stores.",
+        "terms_and_conditions": "Applicable brands and stores include Tata Neu, Air India Express, Big Basket, Croma, IHCL Hotels, Westside, Tata Cliq, Tata 1 MG, Titan, Tanishq.",
+        "validity": "Ongoing",
+        "processing_time": "Within 7 working days of statement cycle"
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "category": "Welcome Gift",
+      "name": "499 NeuCoins",
+      "description": "Welcome gift credited to Tata NeuPass account post annual fee realization.",
+      "how_to_avail": "Pay joining fee of Rs. 499 + taxes.",
+      "value": "499 NeuCoins (1 NeuCoin = Re 1 savings)",
+      "terms_and_conditions": "Credited within 15 days of joining fee realization.",
+      "validity": "Ongoing",
+      "eligibility": "New cardholders",
+      "usage_limit": null
+    },
+    {
+      "category": "Domestic Lounge Benefits",
+      "name": "4 complimentary domestic airport lounge accesses per year",
+      "description": "4 complimentary domestic airport lounge access per year (1 per quarter), applicable on achieving Rs. 50,000 spends in previous quarter.",
+      "how_to_avail": "Use Tata Neu Plus SBI Credit Card at respective lounges.",
+      "value": "4 visits per year",
+      "terms_and_conditions": "Spend Rs. 50,000 in previous quarter to avail. Waived for newly issued cards in issuance month and quarter.",
+      "validity": "Ongoing",
+      "eligibility": "Primary cardholders",
+      "usage_limit": "1 per quarter"
+    },
+    {
+      "category": "Fuel Surcharge Waiver",
+      "name": "1% fuel surcharge waiver",
+      "description": "1% fuel surcharge waiver on transactions from Rs. 500 up to Rs. 4,000 at petrol pumps across India.",
+      "how_to_avail": "Use Tata Neu Plus SBI Card for fuel purchase between Rs. 500 to Rs. 4,000.",
+      "value": "Maximum waiver Rs. 250 per statement cycle",
+      "terms_and_conditions": "Waiver applies per statement cycle, exclusive of GST and other charges.",
+      "validity": "Ongoing",
+      "eligibility": "Cardholders",
+      "usage_limit": "Max Rs. 250 per statement cycle"
+    },
+    {
+      "category": "Spend Based Reversal",
+      "name": "Annual Fee Reversal",
+      "description": "Annual fee reversal on annual spends of Rs. 1 Lakh or more.",
+      "how_to_avail": "Spend Rs. 1 Lakh or more annually.",
+      "value": "Annual fee Rs. 499 + taxes waived",
+      "terms_and_conditions": "Fee reversal is preconditioned on fee levied during renewal cycle.",
+      "validity": "Ongoing",
+      "eligibility": "Cardholders with annual spends >= Rs. 1 Lakh",
+      "usage_limit": "Once per year"
+    },
+    {
+      "category": "Add-on Cards",
+      "name": "Add-on Cards for family",
+      "description": "Empower family with add-on cards for parents, spouse, children or siblings above 18 years.",
+      "how_to_avail": "Request add-on cards from SBI Card.",
+      "value": "Additional cardholders share credit limit.",
+      "terms_and_conditions": "Add-on cards have no annual fee.",
+      "validity": "Ongoing",
+      "eligibility": "Primary cardholders",
+      "usage_limit": null
+    },
+    {
+      "category": "Contactless Advantage",
+      "name": "Contactless payments",
+      "description": "Fast, easy, and secure contactless payments with Visa payWave technology.",
+      "how_to_avail": "Wave card at secure reader for transactions up to Rs. 5000 without PIN.",
+      "value": "Convenience and security",
+      "terms_and_conditions": "Payment limit Rs. 5000 per transaction without PIN.",
+      "validity": "Ongoing",
+      "eligibility": "Cardholders",
+      "usage_limit": "Max Rs. 5000 per contactless transaction"
+    },
+    {
+      "category": "Easy Bill Pay Facility",
+      "name": "Utility bill payments",
+      "description": "Pay electricity, telephone, mobile and other utility bills using Easy Bill Pay facility.",
+      "how_to_avail": "Use Easy Bill Pay on Tata Neu Plus SBI Card.",
+      "value": "Convenient bill payments",
+      "terms_and_conditions": "Facility available on Tata Neu Plus SBI Card.",
+      "validity": "Ongoing",
+      "eligibility": "Cardholders",
+      "usage_limit": null
+    },
+    {
+      "category": "Flexipay",
+      "name": "Easy monthly installments",
+      "description": "Convert transactions of Rs. 2,500 or more into easy monthly installments.",
+      "how_to_avail": "Transact Rs. 2,500+ and convert within 30 days on sbicard.com.",
+      "value": "Flexible payments",
+      "terms_and_conditions": "Interest applicable as per plan selected.",
+      "validity": "Ongoing",
+      "eligibility": "Cardholders",
+      "usage_limit": null
+    },
+    {
+      "category": "Balance Transfer on EMI",
+      "name": "Balance transfer facility",
+      "description": "Transfer outstanding balances from other banks’ credit cards to Tata Neu Plus SBI Card at lower interest rates.",
+      "how_to_avail": "Apply on sbicard.com with user ID and password.",
+      "value": "Save money on credit card dues",
+      "terms_and_conditions": "Minimum transfer Rs. 5,000, max 75% of available credit limit.",
+      "validity": "Ongoing",
+      "eligibility": "Cardholders",
+      "usage_limit": null
+    }
+  ],
+  "current_offers": [],
+  "perks": [],
+  "partnerships": [
+    {
+      "partner": "Tata Brands",
+      "benefit": "NeuCoins rewards on spends",
+      "category": "Rewards",
+      "validity": "Ongoing",
+      "how_to_avail": "Spend on Tata Neu App/Website and partner Tata Brands",
+      "terms_and_conditions": "NeuCoins accrual as per updated MID list monthly.",
+      "discount_percentage": null,
+      "maximum_discount": null
+    }
+  ],
+  "fees_and_charges": [
+    {
+      "type": "Joining Fee",
+      "amount": "Rs. 499 + Taxes",
+      "waiver_conditions": "None specified",
+      "frequency": "One-time",
+      "terms_and_conditions": "Fee levied on opening of Card Account, subject to change at discretion of SBICPSL."
+    },
+    {
+      "type": "Annual Fee",
+      "amount": "Rs. 499 + Taxes",
+      "waiver_conditions": "Reversal on annual spends of Rs. 1 Lakh or more",
+      "frequency": "Annual",
+      "terms_and_conditions": "Fee levied annually during month of Card Account opening, subject to change."
+    },
+    {
+      "type": "Renewal Fee",
+      "amount": "Rs. 499 + Taxes",
+      "waiver_conditions": "Reversal on annual spends of Rs. 1 Lakh or more",
+      "frequency": "Annual",
+      "terms_and_conditions": "Fee levied from second year onwards, subject to change."
+    },
+    {
+      "type": "Add-on Card Fee",
+      "amount": "Nil",
+      "waiver_conditions": "N/A",
+      "frequency": "Annual",
+      "terms_and_conditions": "No fee for add-on cards."
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-08-12T18:08:19.031Z",
+    "confidence_score": 1,
+    "missing_data": [],
+    "processed_links": 1,
+    "token_usage": {
+      "input_tokens": 196970,
+      "output_tokens": 3065,
+      "total_tokens": 200035
+    },
+    "failed_links": 0,
+    "failed_link_details": []
+  }
+}

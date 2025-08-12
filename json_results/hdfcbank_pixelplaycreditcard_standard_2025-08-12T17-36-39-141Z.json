@@ -1,0 +1,237 @@
+{
+  "id": "02cdd28ec6a4ccee",
+  "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/pixel-play-credit-card",
+  "scraped_at": "2025-08-12T17:36:39.141Z",
+  "card": {
+    "name": "PIXEL Play Credit Card",
+    "bank": "HDFC Bank",
+    "variant": "RuPay and Visa",
+    "description": "PIXEL Play is a 100% digital credit card experience that allows customization of benefits to fit lifestyle, with seamless digital onboarding, card design selection, billing cycle choice, and app-based management.",
+    "target_audience": "Salaried and Self Employed Indian Nationals aged 21-60 years with minimum income criteria."
+  },
+  "rewards": {
+    "program": "PIXEL CashPoints",
+    "type": "Cashback",
+    "earning": {
+      "base_rate": 1,
+      "categories": [
+        {
+          "name": "Any two packs (Dining & Entertainment, Travel, Grocery, Electronics, Fashion)",
+          "rate": 5,
+          "cap": 500,
+          "description": "5% Cashback on choice of any two packs, each pack comprising two merchants.",
+          "terms_and_conditions": "CashPoints capped at 500 per calendar month per category. Transactions less than ₹100 not eligible. Excludes fuel, wallet spends, rent, government transactions, EMI, cash advances, fees, and charges.",
+          "how_to_earn": "Select two packs post card approval and transact with merchants in those packs.",
+          "validity": "CashPoints valid for 2 years from accumulation.",
+          "exclusions": "Fuel spends, wallet loads, rent payments, government transactions, EMI transactions, cash advances, payment of fees and charges."
+        },
+        {
+          "name": "SmartBuy Platform",
+          "rate": 5,
+          "cap": 500,
+          "description": "5% Cashback on SmartBuy spends on select categories.",
+          "terms_and_conditions": "CashPoints capped at 500 per calendar month. Not combinable with other merchant cashbacks.",
+          "how_to_earn": "Make transactions through SmartBuy platform categories.",
+          "validity": "CashPoints valid for 2 years.",
+          "exclusions": "Same as above."
+        },
+        {
+          "name": "Any one e-commerce merchant (PayZapp, Amazon, Flipkart)",
+          "rate": 3,
+          "cap": 500,
+          "description": "3% Cashback on choice of any one e-commerce merchant.",
+          "terms_and_conditions": "CashPoints capped at 500 per calendar month. Transactions less than ₹100 not eligible. Excludes wallet loads and EMI transactions.",
+          "how_to_earn": "Select one e-commerce merchant post card approval and transact.",
+          "validity": "CashPoints valid for 2 years.",
+          "exclusions": "Wallet loads, rent, government transactions, EMI, cash advances, fees."
+        },
+        {
+          "name": "All other spends",
+          "rate": 1,
+          "cap": null,
+          "description": "1% unlimited Cashback on all other spends.",
+          "terms_and_conditions": "Excludes fuel, wallet loads, rent, government transactions, EMI, cash advances, fees.",
+          "how_to_earn": "Use card for all other transactions.",
+          "validity": "CashPoints valid for 2 years.",
+          "exclusions": "Fuel spends, wallet loads, rent payments, government transactions, EMI transactions, cash advances, fees."
+        },
+        {
+          "name": "UPI spends (PIXEL RuPay Credit Card only)",
+          "rate": 1,
+          "cap": 500,
+          "description": "1% Cashback on UPI spends with PIXEL RuPay Credit Card.",
+          "terms_and_conditions": "CashPoints capped at 500 per calendar month. Excludes restricted merchant categories and transactions less than ₹100.",
+          "how_to_earn": "Use PIXEL RuPay Credit Card for UPI transactions.",
+          "validity": "CashPoints valid for 2 years.",
+          "exclusions": "Restricted categories like P2P, cash withdrawals, IPO, mutual funds, etc."
+        }
+      ],
+      "bonus_rates": [
+        {
+          "condition": "Spend ₹20,000 in first 90 days",
+          "rate": 0,
+          "validity": "Joining fee waiver",
+          "terms_and_conditions": "Joining fee of ₹500 waived on meeting spend criteria."
+        },
+        {
+          "condition": "Spend ₹1,00,000 or more in preceding 12 months",
+          "rate": 0,
+          "validity": "Renewal fee waiver",
+          "terms_and_conditions": "Annual fee of ₹500 waived on meeting spend criteria."
+        }
+      ]
+    },
+    "redemption": [
+      {
+        "option": "Redeem PIXEL CashPoints to PayZapp Wallet",
+        "minimum": 1000,
+        "value": "1 CashPoint = ₹1",
+        "process": "Redeem via Rewards Page in PIXEL Play Credit Card homepage via PayZapp app.",
+        "terms_and_conditions": "CashPoints expire after 2 years. Minimum 1000 points required for redemption.",
+        "validity": "2 years from accumulation",
+        "processing_time": "Immediate upon redemption request."
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "category": "Fuel",
+      "name": "Fuel Surcharge Waiver",
+      "description": "1% fuel surcharge waiver at all fuel stations across India on transactions between ₹400 and ₹5,000.",
+      "how_to_avail": "Use PIXEL Play Credit Card for fuel transactions.",
+      "value": "Up to ₹250 waiver per statement cycle.",
+      "terms_and_conditions": "Minimum transaction ₹400, maximum ₹5,000 per transaction. Maximum waiver ₹250 per statement cycle.",
+      "validity": null,
+      "eligibility": "PIXEL Play Credit Card holders.",
+      "usage_limit": "Max ₹250 waiver per statement cycle."
+    },
+    {
+      "category": "Dining",
+      "name": "Swiggy Dineout Offer",
+      "description": "Flat 10% savings on PIXEL Play credit card payments via Swiggy Dineout.",
+      "how_to_avail": "Pay using PIXEL Play Credit Card on Swiggy Dineout.",
+      "value": "10% discount",
+      "terms_and_conditions": "Offer valid till 31st December 2025. Max ₹300 per month.",
+      "validity": "Till 31st December 2025",
+      "eligibility": "PIXEL Play Credit Card holders.",
+      "usage_limit": "Max ₹300 per month."
+    },
+    {
+      "category": "EMI",
+      "name": "Pay in Parts",
+      "description": "Convert outstanding balance to EMIs instantly via PayZapp app with flexible tenures.",
+      "how_to_avail": "Use PayZapp app to convert balance to EMI.",
+      "value": "Flexible low cost EMIs",
+      "terms_and_conditions": "Gold & Jewelry transactions excluded. CashPoints reversed on EMI conversion. GST applicable on interest and processing fees.",
+      "validity": null,
+      "eligibility": "PIXEL Play Credit Card holders.",
+      "usage_limit": null
+    }
+  ],
+  "current_offers": [
+    {
+      "title": "Joining Fee Waiver",
+      "description": "Get joining fee waiver by spending ₹20,000 within 90 days of issuance.",
+      "validity": null,
+      "terms_and_conditions": "Spend ₹20,000 in first 90 days to waive ₹500 joining fee.",
+      "activation_required": false,
+      "how_to_activate": null,
+      "eligibility": "New PIXEL Play Credit Card holders.",
+      "maximum_benefit": "₹500 joining fee waiver",
+      "offer_code": null,
+      "exclusions": null
+    },
+    {
+      "title": "Renewal Fee Waiver",
+      "description": "Spend ₹1 lakh or more in preceding 12 months to get renewal fee waived off for next year.",
+      "validity": null,
+      "terms_and_conditions": "Spend ₹1,00,000 or more in preceding 12 months to waive ₹500 renewal fee.",
+      "activation_required": false,
+      "how_to_activate": null,
+      "eligibility": "Existing PIXEL Play Credit Card holders.",
+      "maximum_benefit": "₹500 renewal fee waiver",
+      "offer_code": null,
+      "exclusions": null
+    }
+  ],
+  "perks": [
+    {
+      "name": "Contactless Payment",
+      "description": "Tap & Pay and Swipe to Pay enabled for fast and secure payments without OTP.",
+      "category": "Payment Convenience",
+      "usage_limit": null,
+      "how_to_use": "Tap card or phone at contactless-enabled terminals.",
+      "terms_and_conditions": null,
+      "value": null,
+      "validity": null
+    },
+    {
+      "name": "Card Customization",
+      "description": "Choose card design (POP, LIT, ICE) and billing cycle date.",
+      "category": "Customization",
+      "usage_limit": null,
+      "how_to_use": "Select options during card setup in PayZapp app.",
+      "terms_and_conditions": "Design change allowed except when card is blocked or delinquent.",
+      "value": null,
+      "validity": null
+    },
+    {
+      "name": "Zero Lost Card Liability",
+      "description": "Zero liability on fraudulent transactions if card is reported lost immediately.",
+      "category": "Security",
+      "usage_limit": null,
+      "how_to_use": "Report lost card immediately to 24-hour call center.",
+      "terms_and_conditions": null,
+      "value": null,
+      "validity": null
+    }
+  ],
+  "partnerships": [
+    {
+      "partner": "Swiggy Dineout",
+      "benefit": "Flat 10% savings on payments via PIXEL Play Credit Card",
+      "category": "Dining",
+      "validity": "Till 31st December 2025",
+      "how_to_avail": "Pay using PIXEL Play Credit Card on Swiggy Dineout.",
+      "terms_and_conditions": "Max ₹300 per month.",
+      "discount_percentage": "10%",
+      "maximum_discount": "₹300 per month"
+    }
+  ],
+  "fees_and_charges": [
+    {
+      "type": "Joining Fee",
+      "amount": "₹500 + applicable taxes",
+      "waiver_conditions": "Waived on spend of ₹20,000 in first 90 days",
+      "frequency": "One-time",
+      "terms_and_conditions": null
+    },
+    {
+      "type": "Annual Fee",
+      "amount": "₹500 + applicable taxes",
+      "waiver_conditions": "Waived on annual spend of ₹1,00,000 or more",
+      "frequency": "Annual",
+      "terms_and_conditions": null
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-08-12T17:36:39.101Z",
+    "confidence_score": 1,
+    "missing_data": [],
+    "processed_links": 12,
+    "token_usage": {
+      "input_tokens": 42672,
+      "output_tokens": 3558,
+      "total_tokens": 46230
+    },
+    "failed_links": 1,
+    "failed_link_details": [
+      {
+        "url": "https://offers.smartbuy.hdfcbank.com/offer_details/swiggy-dineout/26020/Z2mjlWM%3D",
+        "type": "partnerships",
+        "error": "net::ERR_SOCKET_NOT_CONNECTED at https://offers.smartbuy.hdfcbank.com/offer_details/swiggy-dineout/26020/Z2mjlWM%3D",
+        "text": "click here"
+      }
+    ]
+  }
+}

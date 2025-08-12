@@ -1,0 +1,98 @@
+{
+  "Metadata": {
+    "PK": "CARD#SBI",
+    "SK": "METADATA",
+    "card_name": "SimplyCLICK SBI Card",
+    "issuer": "SBI Card",
+    "network": [
+      "Visa",
+      "MasterCard"
+    ],
+    "type": "Credit Card",
+    "category": [
+      "Shopping",
+      "Reward"
+    ]
+  },
+  "features": {
+    "PK": "CARD#SBI",
+    "SK": "FEATURES",
+    "digital_onboarding": false,
+    "contactless_payments": true,
+    "customization_options": {},
+    "app_management": [
+      "Manage your account on the go with the SBI Card Mobile App"
+    ],
+    "security_features": [
+      "Contactless Technology with Visa payWave security key feature"
+    ]
+  },
+  "rewards": {
+    "PK": "CARD#SBI",
+    "SK": "REWARDS",
+    "reward_currency": "Reward Points",
+    "cashback_program": [],
+    "earning_structure": [
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "unit": "point per Rs.100",
+        "cap": null
+      },
+      {
+        "category": "All other online spends",
+        "rate": 5,
+        "unit": "points per Rs.100",
+        "cap": 10000
+      },
+      {
+        "category": "Online spends with exclusive partners",
+        "rate": 10,
+        "unit": "points per Rs.100",
+        "cap": null
+      }
+    ],
+    "redemption": {
+      "options": [
+        {
+          "name": "Amazon.in Gift Card",
+          "value": 500,
+          "validity": "12 months from adding to Amazon Pay"
+        },
+        {
+          "name": "Milestone E-Vouchers",
+          "value": 2000,
+          "validity": "4 months from issue"
+        }
+      ]
+    }
+  },
+  "fees": {
+    "PK": "CARD#SBI",
+    "SK": "FEES",
+    "joining_fee": 499,
+    "renewal_fee": 499,
+    "tax_applicable": true,
+    "renewal_waiver_condition": "Annual spends >= Rs. 1,00,000",
+    "joining_fee_waiver_condition": null,
+    "other_charges": {
+      "add_on_fee": 0
+    }
+  },
+  "eligibility": {
+    "PK": "CARD#SBI",
+    "SK": "ELIGIBILITY",
+    "salaried": {},
+    "self_employed": {}
+  },
+  "related_docs": {
+    "PK": "CARD#SBI",
+    "SK": "PDFS",
+    "pdfs": [
+      "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/simplyclick-welcome.pdf",
+      "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/simplyclick-sbi-card-rp-tnc.pdf",
+      "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/value-savings/simplyclick/Cleartrip%20Gift%20Card%20Combine%20-revised.pdf",
+      "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Yatra-SBI-SimplyCLICk-tnc.pdf"
+    ]
+  }
+}

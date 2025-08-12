@@ -1,0 +1,84 @@
+{
+  "Metadata": {
+    "PK": "CARD#SBI",
+    "SK": "METADATA",
+    "card_name": "SBI Card ELITE",
+    "issuer": "State Bank of India",
+    "network": [
+      "Visa",
+      "MasterCard",
+      "American Express"
+    ],
+    "type": "Credit Card",
+    "category": [
+      "Lifestyle",
+      "Premium"
+    ]
+  },
+  "features": {
+    "PK": "CARD#SBI",
+    "SK": "FEATURES",
+    "digital_onboarding": true,
+    "contactless_payments": true,
+    "customization_options": {},
+    "app_management": [
+      "SBI Card Mobile App"
+    ],
+    "security_features": [
+      "EMV Chip",
+      "Contactless Chip Technology",
+      "Fraud Liability Cover"
+    ]
+  },
+  "rewards": {
+    "PK": "CARD#SBI",
+    "SK": "REWARDS",
+    "reward_currency": "Reward Points",
+    "cashback_program": [],
+    "earning_structure": [
+      {
+        "category": "Dining, Departmental Stores & Grocery",
+        "rate": 10,
+        "cap": 10000
+      },
+      {
+        "category": "Other spends except fuel",
+        "rate": 2,
+        "cap": null
+      }
+    ],
+    "redemption": {
+      "conversion_rate": "4 Reward Points = Rs. 1",
+      "methods": [
+        "Redeem for gifts, vouchers, or pay card outstanding"
+      ]
+    }
+  },
+  "fees": {
+    "PK": "CARD#SBI",
+    "SK": "FEES",
+    "joining_fee": 4999,
+    "renewal_fee": 4999,
+    "tax_applicable": true,
+    "renewal_waiver_condition": "Spend based reversal on spends of Rs. 10 Lakhs",
+    "joining_fee_waiver_condition": null,
+    "other_charges": {
+      "add_on_card_fee": 0
+    }
+  },
+  "eligibility": {
+    "PK": "CARD#SBI",
+    "SK": "ELIGIBILITY",
+    "salaried": {},
+    "self_employed": {}
+  },
+  "related_docs": {
+    "PK": "CARD#SBI",
+    "SK": "PDFS",
+    "pdfs": [
+      "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-card-elite/elite-terms-and-conditions-2016.pdf",
+      "https://in.review.visa.com/content/dam/VCOM/regional/ap/india/global-elements/documents/in-participating-airport-lounges.pdf",
+      "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/gcas-numbers.pdf"
+    ]
+  }
+}
