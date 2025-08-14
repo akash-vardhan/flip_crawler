@@ -1,0 +1,139 @@
+{
+  "id": "b83b40144e053538",
+  "url": "https://offers.smartbuy.hdfcbank.com/offer_details/lg/22777/Z2Wqmmo%3D",
+  "scraped_at": "2025-08-14T14:10:22.629Z",
+  "card": {
+    "name": "HDFC Bank Credit Cards",
+    "bank": "HDFC Bank Limited",
+    "variant": "Infinia, Regalia Gold, Regalia, Diners, Corporate, Business, payZapp, Others",
+    "description": "HDFC Bank SmartBuy offers valuable deals and cashback on purchases made using HDFC Bank credit and debit cards. The platform facilitates payments and provides reward points and cashback benefits on select transactions.",
+    "target_audience": "HDFC Bank customers using HDFC Bank payment instruments including credit cards, debit cards, and PayZapp."
+  },
+  "rewards": {
+    "program": "HDFC Bank SmartBuy Rewards",
+    "type": "Reward Points and Cashback",
+    "earning": {
+      "base_rate": 0,
+      "categories": [
+        {
+          "name": "Select HDFC Bank Credit Cards",
+          "rate": 3,
+          "cap": null,
+          "description": "Up to 3X Reward Points on select HDFC Bank Credit Cards",
+          "terms_and_conditions": "Offer valid on select credit cards only. Reward points are posted to active accounts only. Purchases eligible for instant discount/cashback will not qualify for reward points.",
+          "how_to_earn": "Use select HDFC Bank credit cards for transactions on SmartBuy.",
+          "validity": "Subject to change without notice",
+          "exclusions": "Virtual cards, Consumer Durable, VPA, Fleet, R&R Commercial, Purchase cards, Intermiles, Paytm, Equitas, Swiggy, Flipkart Wholesale, Pine Labs, Emirates, Harley, IBIBO, IRCTC, Times, Tata Neu, Shoppers, Bestprice, 6E Rewards, Marriott, PhonePay, Snapdeal Cards."
+        },
+        {
+          "name": "Other HDFC Bank Debit and Credit Cards & PayZapp",
+          "rate": 1,
+          "cap": null,
+          "description": "1% Cashback on other HDFC Bank Debit, Credit Cards & PayZapp offer",
+          "terms_and_conditions": "Applicable on transactions via SmartBuy platform only.",
+          "how_to_earn": "Use other HDFC Bank debit or credit cards or PayZapp for transactions.",
+          "validity": "Subject to change without notice",
+          "exclusions": "Same as above."
+        }
+      ],
+      "bonus_rates": [
+        {
+          "condition": "Using EASYEMI on HDFC Bank Credit Cards",
+          "rate": 26,
+          "validity": "2nd August 2025 to 31st August 2025",
+          "terms_and_conditions": "Up to 26% cashback with EASYEMI on select products including Televisions, Air Conditioners, Refrigerators, Washing Machines, Microwave Ovens, Dishwashers, Air Purifiers & Water Purifiers. Maximum cashback Rs. 50,000. Velocity: 1 transaction per card per month. Applicable tenures: 6, 8, 9, 10, 12 & 18 months at low cost."
+        },
+        {
+          "condition": "Full Swipe Credit Card Transactions on select products",
+          "rate": null,
+          "validity": "2nd August 2025 to 31st August 2025",
+          "terms_and_conditions": "Offer applicable on select products on Credit Card Full Swipe transactions."
+        }
+      ]
+    },
+    "redemption": [
+      {
+        "option": "Reward Points Redemption",
+        "minimum": null,
+        "value": null,
+        "process": "Reward points are posted to active accounts and can be redeemed as per HDFC Bank's reward program policies.",
+        "terms_and_conditions": "Reward points will not be posted on permanently delinquent or closed accounts or retail credit card accounts flagged for working capital usage.",
+        "validity": "Subject to account status at time of posting",
+        "processing_time": "Within 120 days of cashback posting month or end of offer month for instant discount offers."
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "category": "Cashback and Discounts",
+      "name": "Up to Rs. 50,000 Cashback at LG",
+      "description": "Up to 26% cashback at LG with EASYEMI on HDFC Bank Credit Cards on select products.",
+      "how_to_avail": "Purchase at LG Brand Shop, Authorized Dealer, Leading Retailer or online at www.lg.com/in using EASYEMI on HDFC Bank Credit Card.",
+      "value": "Up to Rs. 50,000 cashback",
+      "terms_and_conditions": "Offer valid from 2nd August 2025 to 31st August 2025. Velocity: 1 transaction per card per month. Preclosure interest charges and fees apply on EMI preclosure. Offer cannot be combined with other offers. Cashback and discounts are instant and upfront.",
+      "validity": "2nd August 2025 to 31st August 2025",
+      "eligibility": "Select HDFC Bank Credit Cardholders only",
+      "usage_limit": "1 transaction per card per month"
+    }
+  ],
+  "current_offers": [
+    {
+      "title": "Up to 10X Reward Points / 10% Cashback with HDFC Bank Cards & EasyEMI",
+      "description": "Earn up to 10X reward points or 10% cashback on purchases made using HDFC Bank cards and EasyEMI.",
+      "validity": null,
+      "terms_and_conditions": "Applicable on select merchants and categories. Subject to terms and conditions of HDFC Bank SmartBuy.",
+      "activation_required": false,
+      "how_to_activate": "Use eligible HDFC Bank cards for transactions on SmartBuy platform.",
+      "eligibility": "HDFC Bank cardholders",
+      "maximum_benefit": null,
+      "offer_code": null,
+      "exclusions": "Non-HDFC Bank payment instruments not eligible."
+    }
+  ],
+  "perks": [
+    {
+      "name": "EasyEMI",
+      "description": "Avail low-cost EMI options on select products with HDFC Bank Credit Cards.",
+      "category": "EMI",
+      "usage_limit": "1 transaction per card per month",
+      "how_to_use": "Choose EASYEMI option at checkout on eligible products.",
+      "terms_and_conditions": "Preclosure interest charges and 3% preclosure fee apply. Benefits like payback or instant discount offered by merchant will be debited within 120 days of EMI closure.",
+      "value": "Low-cost EMI tenures of 6, 8, 9, 10, 12 & 18 months",
+      "validity": "Offer valid from 2nd August 2025 to 31st August 2025"
+    }
+  ],
+  "partnerships": [
+    {
+      "partner": "LG",
+      "benefit": "Up to 26% Cashback with EASYEMI on HDFC Bank Credit Cards",
+      "category": "Electronics",
+      "validity": "2nd August 2025 to 31st August 2025",
+      "how_to_avail": "Purchase at LG Brand Shop, Authorized Dealer, Leading Retailer or online at www.lg.com/in using EASYEMI on HDFC Bank Credit Card.",
+      "terms_and_conditions": "Maximum cashback Rs. 50,000. Velocity: 1 transaction per card per month. Preclosure interest charges and fees apply on EMI preclosure. Offer cannot be combined with other offers.",
+      "discount_percentage": "Up to 26%",
+      "maximum_discount": "Rs. 50,000"
+    }
+  ],
+  "fees_and_charges": [
+    {
+      "type": "Preclosure Interest Charges",
+      "amount": "Applicable as per EMI terms",
+      "waiver_conditions": null,
+      "frequency": "One-time at preclosure",
+      "terms_and_conditions": "Preclosure interest charges plus 3% preclosure fee on principal outstanding apply on preclosure of EMI transactions."
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-08-14T14:10:22.585Z",
+    "confidence_score": 1,
+    "missing_data": [],
+    "processed_links": 12,
+    "token_usage": {
+      "input_tokens": 129917,
+      "output_tokens": 2324,
+      "total_tokens": 132241
+    },
+    "failed_links": 0,
+    "failed_link_details": []
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "7556f6854615002d",
+  "url": "https://images.samsung.com/is/content/samsung/assets/in/tnc/ce-emi-cb-tc-instantsbi.pdf",
+  "scraped_at": "2025-08-14T19:05:27.443Z",
+  "processing_time_seconds": 43,
+  "card": {
+    "name": "SBI Bank Credit Card EMI",
+    "bank": "State Bank of India",
+    "variant": "",
+    "description": "Credit Card EMI transactions on SBI Bank Credit Cards for purchasing Samsung Consumer Electronics products with additional instant discount offers.",
+    "target_audience": "SBI Bank Credit Card holders purchasing Samsung Consumer Electronics products via EMI"
+  },
+  "rewards": {
+    "program": "Additional Instant Discount on SBI Bank Credit Card EMI Transactions",
+    "type": "Instant Discount",
+    "earning": {
+      "base_rate": 0,
+      "categories": [
+        {
+          "name": "Instant Discount on EMI",
+          "rate": 0,
+          "cap": null,
+          "description": "Instant discount applied on total EMI amount at payment gateway for eligible SBI Credit Card EMI transactions.",
+          "terms_and_conditions": "Discount reflected only if shown on payment gateway; limited to one transaction per card during offer period; discount not applicable on corporate cards; delinquent and over-limit cards not eligible.",
+          "how_to_earn": "Make EMI transaction on SBI Credit Card for Samsung CE products on Samsung website during offer period.",
+          "validity": "1st July 2023 to 31st July 2023",
+          "exclusions": "Corporate cards, delinquent and over-limit cards, multiple transactions per card in a month."
+        }
+      ],
+      "bonus_rates": [
+        {
+          "condition": "EMI tenure of 3, 6, 9, or 12 months",
+          "rate": 5,
+          "validity": "1st July 2023 to 31st July 2023",
+          "terms_and_conditions": "Discount varies from 5% to 20% based on product and tenure; maximum discount limits apply per product category."
+        }
+      ]
+    },
+    "redemption": [
+      {
+        "option": "Instant discount credited on SBI Credit Card EMI payment",
+        "minimum": null,
+        "value": null,
+        "process": "Discount is automatically applied and reflected on payment gateway during EMI transaction.",
+        "terms_and_conditions": "Discount cannot be settled in cash; only one transaction per card allowed during offer period; discount not clubbable with other offers unless specified.",
+        "validity": "1st July 2023 to 31st July 2023",
+        "processing_time": "Instant at payment gateway"
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "category": "Discount",
+      "name": "Additional Instant Discount on SBI Credit Card EMI",
+      "description": "Additional discount ranging from 5% to 20% on Samsung Consumer Electronics products purchased via SBI Credit Card EMI.",
+      "how_to_avail": "Purchase Samsung CE products on Samsung website using SBI Credit Card EMI during offer period.",
+      "value": "5% / 7.5% / 10% / 12.5% / 15% / 20% depending on product and tenure",
+      "terms_and_conditions": "Discount reflected on payment gateway only; maximum discount limits apply per product category; one transaction per card per month; excludes corporate cards and delinquent cards.",
+      "validity": "1st July 2023 to 31st July 2023",
+      "eligibility": "SBI Credit Card holders with valid EMI transactions",
+      "usage_limit": "One transaction per card during offer period"
+    }
+  ],
+  "current_offers": [
+    {
+      "title": "Additional Instant Discount on SBI Bank EMI Transactions",
+      "description": "Get additional instant discount when purchasing Samsung Consumer Electronics products using SBI Bank Credit Card EMI.",
+      "validity": "1st July 2023 to 31st July 2023",
+      "terms_and_conditions": "Discount applicable only on SBI Credit Card EMI transactions of 3/6/9/12 month tenures; maximum discount capped per product category; excludes corporate cards; discount not clubbable with other offers unless specified; delinquent and over-limit cards not eligible.",
+      "activation_required": false,
+      "how_to_activate": "",
+      "eligibility": "SBI Credit Card holders making EMI transactions on Samsung website",
+      "maximum_benefit": "Up to ₹20,000 for Panels, ₹12,000 for Dish Washer, Refrigerator, Washing Machines at 20% discount tier, and other caps for other discount tiers.",
+      "offer_code": "",
+      "exclusions": "Corporate cards, delinquent and over-limit cards, multiple transactions per card in a month"
+    }
+  ],
+  "perks": [],
+  "partnerships": [
+    {
+      "partner": "Samsung",
+      "benefit": "Additional instant discount on purchase of Samsung Consumer Electronics products",
+      "category": "Consumer Electronics",
+      "validity": "1st July 2023 to 31st July 2023",
+      "how_to_avail": "Use SBI Bank Credit Card EMI on Samsung website during offer period",
+      "terms_and_conditions": "Discount reflected on payment gateway only; one transaction per card per month; excludes corporate cards; discount not clubbable with other offers unless specified.",
+      "discount_percentage": "5% to 20%",
+      "maximum_discount": "₹20,000 for Panels, ₹12,000 for Dish Washer, Refrigerator, Washing Machines at 20% tier, and other caps for other tiers"
+    }
+  ],
+  "fees_and_charges": [],
+  "metadata": {
+    "content_type": "pdf",
+    "processed_links": 0,
+    "failed_links": 0,
+    "total_links_found": 0,
+    "pdf_info": {
+      "title": "PDF Document from images.samsung.com",
+      "text_length": 2509,
+      "pages": 1,
+      "actual_url": "https://images.samsung.com/is/content/samsung/assets/in/tnc/ce-emi-cb-tc-instantsbi.pdf"
+    },
+    "data_quality": "minimal",
+    "files_generated": {
+      "standard": "pdf_statebankofindia_sbibankcreditcardemi_standard_2025-08-14T19-05-27-473Z.json",
+      "structured": "pdf_statebankofindia_sbibankcreditcardemi_structured_2025-08-14T19-05-27-473Z.json"
+    },
+    "extraction_completed_at": "2025-08-14T19:05:27.473Z"
+  }
+}

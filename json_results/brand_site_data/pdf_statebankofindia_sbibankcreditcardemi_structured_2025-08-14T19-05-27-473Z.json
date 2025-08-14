@@ -1,0 +1,78 @@
+{
+  "Metadata": {
+    "PK": "CARD#SBI",
+    "SK": "METADATA",
+    "card_name": "SBI Bank Credit Card EMI",
+    "issuer": "State Bank of India",
+    "network": [],
+    "type": "Credit Card",
+    "category": [
+      "EMI",
+      "Discount Offer"
+    ]
+  },
+  "features": {
+    "PK": "CARD#SBI",
+    "SK": "FEATURES",
+    "digital_onboarding": false,
+    "contactless_payments": false,
+    "customization_options": {},
+    "app_management": [],
+    "security_features": []
+  },
+  "rewards": {
+    "PK": "CARD#SBI",
+    "SK": "REWARDS",
+    "reward_currency": "INR",
+    "cashback_program": [
+      {
+        "program_name": "Additional Instant Discount on SBI Bank EMI Transactions",
+        "description": "Instant discount on EMI transactions for Samsung CE products",
+        "validity": "2023-07-01 to 2023-07-31",
+        "terms_and_conditions": "Discount reflected on payment gateway only; excludes corporate cards; one transaction per card per month; delinquent and over-limit cards not eligible."
+      }
+    ],
+    "earning_structure": [
+      {
+        "category": "EMI Transactions",
+        "rate": 5,
+        "cap": null,
+        "description": "Instant discount ranging from 5% to 20% based on product and tenure",
+        "terms_and_conditions": "Maximum discount capped per product category; only on 3/6/9/12 month tenures."
+      }
+    ],
+    "redemption": {
+      "method": "Instant discount applied at payment gateway",
+      "minimum_redemption": null,
+      "processing_time": "Instant",
+      "terms_and_conditions": "Discount cannot be redeemed as cash; only one transaction per card allowed during offer period."
+    }
+  },
+  "fees": {
+    "PK": "CARD#SBI",
+    "SK": "FEES",
+    "joining_fee": null,
+    "renewal_fee": null,
+    "tax_applicable": true,
+    "renewal_waiver_condition": "",
+    "joining_fee_waiver_condition": "",
+    "other_charges": {}
+  },
+  "eligibility": {
+    "PK": "CARD#SBI",
+    "SK": "ELIGIBILITY",
+    "salaried": {},
+    "self_employed": {}
+  },
+  "related_docs": {
+    "PK": "CARD#SBI",
+    "SK": "PDFS",
+    "pdfs": [
+      {
+        "title": "Additional Instant Discount on SBI Bank EMI Transactions",
+        "url": "https://images.samsung.com/is/content/samsung/assets/in/tnc/ce-emi-cb-tc-instantsbi.pdf",
+        "description": "Terms and conditions for additional instant discount offer on SBI Bank Credit Card EMI transactions for Samsung Consumer Electronics products."
+      }
+    ]
+  }
+}

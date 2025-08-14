@@ -1,0 +1,136 @@
+{
+  "id": "a468f7b3bacc3cfe",
+  "url": "https://www.oneplus.in/terms-and-conditions/all-bank-instant-discount",
+  "scraped_at": "2025-08-14T16:13:32.212Z",
+  "card": {
+    "name": "ICICI Bank Credit Card",
+    "bank": "ICICI Bank",
+    "variant": null,
+    "description": "ICICI Bank Credit Card offering Instant EMI and up to Rs.6000/- instant discount on OnePlus Mobiles and IOT Products.",
+    "target_audience": "Individual cardholders excluding Corporate and Business cardholders"
+  },
+  "rewards": {
+    "program": "Instant EMI and Instant Bank Discount",
+    "type": "Discount and EMI conversion",
+    "earning": {
+      "base_rate": 0,
+      "categories": [
+        {
+          "name": "OnePlus Mobiles and IOT Products",
+          "rate": 6000,
+          "cap": 6000,
+          "description": "Instant discount up to Rs.6000/- on purchase via ICICI Bank Credit Card (EMI & Non-EMI)",
+          "terms_and_conditions": "Offer valid till 31st August 2025; applicable on EMI and Non-EMI transactions; not valid on Corporate and Business cards; not valid on Debit Card Full Swipe Payment Mode; not valid on Card on Delivery transactions; one product per invoice; max 1 transaction per card/channel/category during offer period; not valid on cancelled/returned orders; not applicable on OnePlus Easy Upgrades program.",
+          "how_to_earn": "Purchase OnePlus products using ICICI Bank Credit Card on oneplus.in or participating stores during offer period.",
+          "validity": "1st August 2025 to 31st August 2025",
+          "exclusions": "Corporate and Business cards, Debit Card Full Swipe Payment Mode, Card on Delivery transactions, cancelled/returned orders, OnePlus Easy Upgrades program."
+        }
+      ],
+      "bonus_rates": []
+    },
+    "redemption": [
+      {
+        "option": "Instant discount applied at purchase",
+        "minimum": null,
+        "value": null,
+        "process": "Discount applied automatically on eligible transactions using ICICI Bank Credit Card",
+        "terms_and_conditions": "Offer applicable only on ICICI Bank Credit Card EMI/Non-EMI transactions; max 1 transaction per card/channel/category; one product per invoice; not valid on cancelled/returned orders.",
+        "validity": "Till 31st August 2025",
+        "processing_time": "Immediate at time of purchase"
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "category": "Discount",
+      "name": "Instant Bank Discount",
+      "description": "Up to Rs.6000/- instant discount on OnePlus Mobiles and IOT Products",
+      "how_to_avail": "Use ICICI Bank Credit Card for purchase on oneplus.in or participating stores",
+      "value": "Up to Rs.6000/-",
+      "terms_and_conditions": "Valid till 31st August 2025; applicable on EMI and Non-EMI transactions; exclusions apply as per offer details.",
+      "validity": "1st August 2025 to 31st August 2025",
+      "eligibility": "ICICI Bank Credit Card holders excluding Corporate and Business cards",
+      "usage_limit": "Max 1 transaction per card/channel/category during offer period"
+    },
+    {
+      "category": "EMI",
+      "name": "Instant EMI Facility",
+      "description": "Convert eligible transactions into EMI upon request",
+      "how_to_avail": "Request Instant EMI at time of purchase or via ICICI Bank Customer Care",
+      "value": "Interest rates between 14.99% and 20%; processing fee ₹199 + GST",
+      "terms_and_conditions": "Applicable on retail Credit Cards only; not applicable on EMI Card, Corporate Credit Card, Business Card, Amex; processing fee and interest apply; foreclosure charges up to 3% on outstanding principal plus next month’s interest; cancellation conditions apply.",
+      "validity": "Ongoing as per ICICI Bank terms",
+      "eligibility": "ICICI Bank retail Credit Card holders",
+      "usage_limit": null
+    }
+  ],
+  "current_offers": [
+    {
+      "title": "OnePlus Instant Bank Discount Offer",
+      "description": "Get up to Rs.6000/- instant discount on OnePlus Mobiles and IOT Products via ICICI Bank Credit Card (EMI & Non-EMI)",
+      "validity": "1st August 2025 to 31st August 2025",
+      "terms_and_conditions": "Offer valid on ICICI Bank Credit Card EMI/Non-EMI transactions; exclusions apply; max 1 transaction per card/channel/category; one product per invoice; not valid on cancelled/returned orders; not valid on Corporate and Business cards; not valid on Debit Card Full Swipe Payment Mode; not valid on Card on Delivery transactions.",
+      "activation_required": false,
+      "how_to_activate": "",
+      "eligibility": "ICICI Bank Credit Card holders excluding Corporate and Business cards",
+      "maximum_benefit": "Rs.6000/-",
+      "offer_code": "",
+      "exclusions": "Corporate and Business cards, Debit Card Full Swipe Payment Mode, Card on Delivery transactions, cancelled/returned orders, OnePlus Easy Upgrades program"
+    }
+  ],
+  "perks": [],
+  "partnerships": [
+    {
+      "partner": "OnePlus",
+      "benefit": "Instant discount up to Rs.6000/- on mobiles and IOT products",
+      "category": "Discount",
+      "validity": "1st August 2025 to 31st August 2025",
+      "how_to_avail": "Purchase on oneplus.in or participating stores using ICICI Bank Credit Card",
+      "terms_and_conditions": "Offer valid on EMI and Non-EMI transactions; exclusions apply; max 1 transaction per card/channel/category; one product per invoice.",
+      "discount_percentage": null,
+      "maximum_discount": "Rs.6000/-"
+    }
+  ],
+  "fees_and_charges": [
+    {
+      "type": "Instant EMI Processing Fee",
+      "amount": "₹199 + GST",
+      "waiver_conditions": null,
+      "frequency": "Per transaction",
+      "terms_and_conditions": "Applicable on all Instant EMI transactions w.e.f 15/09/2021"
+    },
+    {
+      "type": "Interest Rate on Instant EMI",
+      "amount": "14.99% to 20%",
+      "waiver_conditions": null,
+      "frequency": "Monthly reducing balance",
+      "terms_and_conditions": "Interest rate varies by card member and merchant; communicated at point of sale"
+    },
+    {
+      "type": "Foreclosure Charges",
+      "amount": "Up to 3% on outstanding principal plus next month’s interest",
+      "waiver_conditions": null,
+      "frequency": "One-time on prepayment",
+      "terms_and_conditions": "Applicable if EMI facility is foreclosed before tenure completion"
+    }
+  ],
+  "additional_information": {
+    "contact": "OnePlus customer care at 1800 102 8411; ICICI Bank Customer Care at 1800 1080",
+    "dispute_resolution": "All disputes subject to jurisdiction of courts in Mumbai",
+    "taxes": "All taxes, duties, levies payable by cardholder",
+    "eligibility_restrictions": "Not valid for Corporate and Business cards; not valid on Debit Card Full Swipe Payment Mode"
+  },
+  "metadata": {
+    "last_updated": "2025-08-14T16:13:32.212Z",
+    "confidence_score": 1,
+    "missing_data": [],
+    "processed_links": 1,
+    "token_usage": {
+      "input_tokens": 8185,
+      "output_tokens": 2042,
+      "total_tokens": 10227
+    },
+    "failed_links": 0,
+    "failed_link_details": []
+  }
+}

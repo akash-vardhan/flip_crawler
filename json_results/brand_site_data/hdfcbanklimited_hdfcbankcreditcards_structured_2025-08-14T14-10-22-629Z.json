@@ -1,0 +1,80 @@
+{
+  "Metadata": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "METADATA",
+    "card_name": "HDFC Bank Credit Cards",
+    "issuer": "HDFC Bank Limited",
+    "network": [],
+    "type": "Credit Card",
+    "category": []
+  },
+  "features": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "FEATURES",
+    "digital_onboarding": false,
+    "contactless_payments": false,
+    "customization_options": {},
+    "app_management": [],
+    "security_features": []
+  },
+  "rewards": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "REWARDS",
+    "reward_currency": "Reward Points",
+    "cashback_program": [
+      "Up to 3X Reward Points on select HDFC Bank Credit Cards",
+      "1% Cashback on other HDFC Bank Debit, Credit Cards & PayZapp",
+      "Up to 26% Cashback with EASYEMI on select products"
+    ],
+    "earning_structure": [
+      {
+        "category": "Select HDFC Bank Credit Cards",
+        "rate": 3,
+        "cap": null,
+        "description": "Up to 3X Reward Points"
+      },
+      {
+        "category": "Other HDFC Bank Debit and Credit Cards & PayZapp",
+        "rate": 1,
+        "cap": null,
+        "description": "1% Cashback"
+      },
+      {
+        "category": "EASYEMI on select products",
+        "rate": 26,
+        "cap": 50000,
+        "description": "Up to 26% Cashback"
+      }
+    ],
+    "redemption": {
+      "options": [
+        "Reward Points Redemption",
+        "Cashback credited to account"
+      ],
+      "terms_and_conditions": "Reward points posted to active accounts only. Cashback and discounts are instant and upfront. Purchases eligible for instant discount/cashback will not qualify for reward points."
+    }
+  },
+  "fees": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "FEES",
+    "joining_fee": null,
+    "renewal_fee": null,
+    "tax_applicable": true,
+    "renewal_waiver_condition": "",
+    "joining_fee_waiver_condition": "",
+    "other_charges": {
+      "preclosure_interest_charges": "Applicable as per EMI terms plus 3% preclosure fee on principal outstanding"
+    }
+  },
+  "eligibility": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "ELIGIBILITY",
+    "salaried": {},
+    "self_employed": {}
+  },
+  "related_docs": {
+    "PK": "CARD#HDFC_BANK",
+    "SK": "PDFS",
+    "pdfs": []
+  }
+}

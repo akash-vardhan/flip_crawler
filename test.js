@@ -4,8 +4,7 @@ require('dotenv').config();
 
 async function testCrawler() {
     const testUrls = [
-        'https://www.hdfcbank.com/personal/pay/cards/credit-cards',
-        'https://www.sbicard.com/en/personal/credit-cards.page'
+        'https://images.samsung.com/is/content/samsung/assets/in/tnc/ce-emi-cb-tc-instantsbi.pdf',
     ];
 
     const apiKey = process.env.OPENAI_API_KEY;

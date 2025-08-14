@@ -1,19 +1,15 @@
 {
   "Metadata": {
-    "PK": "CARD#UNKNOWN_1755022186776",
+    "PK": "CARD#SBI BANK",
     "SK": "METADATA",
-    "card_name": "Unknown Card",
-    "issuer": "Unknown Bank",
-    "network": [
-      "Visa"
-    ],
+    "card_name": "SBI Credit Card",
+    "issuer": "SBI Bank",
+    "network": [],
     "type": "Credit Card",
-    "category": [
-      "General"
-    ]
+    "category": []
   },
   "features": {
-    "PK": "CARD#UNKNOWN_1755022186776",
+    "PK": "CARD#SBI BANK",
     "SK": "FEATURES",
     "digital_onboarding": false,
     "contactless_payments": false,
@@ -22,31 +18,31 @@
     "security_features": []
   },
   "rewards": {
-    "PK": "CARD#UNKNOWN_1755022186776",
+    "PK": "CARD#SBI BANK",
     "SK": "REWARDS",
-    "reward_currency": "Points",
+    "reward_currency": "",
     "cashback_program": [],
     "earning_structure": [],
     "redemption": {}
   },
   "fees": {
-    "PK": "CARD#UNKNOWN_1755022186776",
+    "PK": "CARD#SBI BANK",
     "SK": "FEES",
     "joining_fee": null,
     "renewal_fee": null,
     "tax_applicable": true,
-    "renewal_waiver_condition": null,
-    "joining_fee_waiver_condition": null,
+    "renewal_waiver_condition": "",
+    "joining_fee_waiver_condition": "",
     "other_charges": {}
   },
   "eligibility": {
-    "PK": "CARD#UNKNOWN_1755022186776",
+    "PK": "CARD#SBI BANK",
     "SK": "ELIGIBILITY",
     "salaried": {},
     "self_employed": {}
   },
   "related_docs": {
-    "PK": "CARD#UNKNOWN_1755022186776",
+    "PK": "CARD#SBI BANK",
     "SK": "PDFS",
     "pdfs": []
   }

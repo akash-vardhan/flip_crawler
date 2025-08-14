@@ -1,0 +1,63 @@
+{
+  "Metadata": {
+    "PK": "CARD#ICICI_BANK",
+    "SK": "METADATA",
+    "card_name": "ICICI Bank Credit Card",
+    "issuer": "ICICI Bank",
+    "network": [
+      "VISA",
+      "Mastercard",
+      "Amex"
+    ],
+    "type": "Credit Card",
+    "category": [
+      "Retail",
+      "EMI",
+      "Discount"
+    ]
+  },
+  "features": {
+    "PK": "CARD#ICICI_BANK",
+    "SK": "FEATURES",
+    "digital_onboarding": false,
+    "contactless_payments": false,
+    "customization_options": {},
+    "app_management": [],
+    "security_features": []
+  },
+  "rewards": {
+    "PK": "CARD#ICICI_BANK",
+    "SK": "REWARDS",
+    "reward_currency": "INR",
+    "cashback_program": [],
+    "earning_structure": [],
+    "redemption": {}
+  },
+  "fees": {
+    "PK": "CARD#ICICI_BANK",
+    "SK": "FEES",
+    "joining_fee": null,
+    "renewal_fee": null,
+    "tax_applicable": true,
+    "renewal_waiver_condition": "",
+    "joining_fee_waiver_condition": "",
+    "other_charges": {
+      "instant_emi_processing_fee": "₹199 + GST per transaction",
+      "interest_rate": "14.99% to 20% monthly reducing balance",
+      "foreclosure_charges": "Up to 3% on outstanding principal plus next month’s interest"
+    }
+  },
+  "eligibility": {
+    "PK": "CARD#ICICI_BANK",
+    "SK": "ELIGIBILITY",
+    "salaried": {},
+    "self_employed": {}
+  },
+  "related_docs": {
+    "PK": "CARD#ICICI_BANK",
+    "SK": "PDFS",
+    "pdfs": [
+      "https://www.icicibank.com/Personal-Banking/cards/Consumer-Cards/Credit-Card/low-interest-emi-products/instant-emi/terms-and-condition.page"
+    ]
+  }
+}

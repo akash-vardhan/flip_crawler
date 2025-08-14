@@ -1,0 +1,84 @@
+{
+  "id": "9bdd0998cecf31ab",
+  "url": "https://www.nykaa.com/sbi-bank-online",
+  "scraped_at": "2025-08-14T18:46:21.057Z",
+  "card": {
+    "name": "SBI Credit Card",
+    "bank": "SBI Bank",
+    "variant": null,
+    "description": "SBI Credit Card and Debit card users get a flat Rs. 150 off on a purchase of Rs. 1500 & above only on Nykaa.com.",
+    "target_audience": "SBI Credit Card and Debit card holders shopping on Nykaa.com"
+  },
+  "rewards": {
+    "program": null,
+    "type": null,
+    "earning": {
+      "base_rate": 0,
+      "categories": [],
+      "bonus_rates": []
+    },
+    "redemption": [
+      {
+        "option": "Flat Rs. 150 off on purchase",
+        "minimum": 1500,
+        "value": 150,
+        "process": "Enter promo code NYKSBI on the cart page to get Rs 150 off your order",
+        "terms_and_conditions": "Offer valid only for SBI Credit Card and Debit card holders. Offer valid from 1/02/2016 to 15/02/2016. Can be availed by only one e-mail ID once. Bulk orders subject to Nykaa.com terms and conditions. Customers need to be signed in/logged in to Nykaa.com to avail the offer.",
+        "validity": "1/02/2016 to 15/02/2016",
+        "processing_time": null
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "category": "Discount",
+      "name": "Flat Rs. 150 off on purchase of Rs. 1500 & above",
+      "description": "Get Rs. 150 off on a purchase of Rs. 1500 and above on Nykaa.com using SBI Credit or Debit Card.",
+      "how_to_avail": "Use promo code NYKSBI at checkout on Nykaa.com",
+      "value": "Rs. 150 off",
+      "terms_and_conditions": "Offer valid only for SBI Credit Card and Debit card holders. Offer valid from 1/02/2016 to 15/02/2016. Can be availed by only one e-mail ID once. Bulk orders subject to Nykaa.com terms and conditions. Customers need to be signed in/logged in to Nykaa.com to avail the offer.",
+      "validity": "1/02/2016 to 15/02/2016",
+      "eligibility": "SBI Credit Card and Debit card holders",
+      "usage_limit": "One time per email ID"
+    }
+  ],
+  "current_offers": [
+    {
+      "title": "Nykaa SBI Bank Offer",
+      "description": "Flat Rs. 150 off on a purchase of Rs. 1500 & above only on Nykaa.com for SBI Credit Card and Debit card holders.",
+      "validity": "1/02/2016 to 15/02/2016",
+      "terms_and_conditions": "Offer valid only for SBI Credit Card and Debit card holders. Can be availed by only one e-mail ID once. Bulk orders subject to Nykaa.com terms and conditions. Customers need to be signed in/logged in to Nykaa.com to avail the offer.",
+      "activation_required": true,
+      "how_to_activate": "Enter promo code NYKSBI on the cart page",
+      "eligibility": "SBI Credit Card and Debit card holders",
+      "maximum_benefit": "Rs. 150 off",
+      "offer_code": "NYKSBI",
+      "exclusions": "Discount not applicable on personal care"
+    }
+  ],
+  "perks": [],
+  "partnerships": [],
+  "fees_and_charges": [],
+  "metadata": {
+    "last_updated": "2025-08-14T18:46:21.056Z",
+    "confidence_score": 1,
+    "missing_data": [
+      "reward_categories"
+    ],
+    "processed_links": 538,
+    "token_usage": {
+      "input_tokens": 153391,
+      "output_tokens": 1129,
+      "total_tokens": 154520
+    },
+    "failed_links": 1,
+    "failed_link_details": [
+      {
+        "url": "https://www.nykaa.com/brands/v-bath/c/9518?dir=desc&order=popularity&root=bsearch_brand,v-bath&ptype=brand&id=9518",
+        "type": "general",
+        "error": "net::ERR_CONNECTION_CLOSED at https://www.nykaa.com/brands/v-bath/c/9518?dir=desc&order=popularity&root=bsearch_brand,v-bath&ptype=brand&id=9518",
+        "text": "V-Bath"
+      }
+    ]
+  }
+}
