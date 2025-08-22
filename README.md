@@ -509,3 +509,102 @@ node test.js --single
 ```
 
 ---
+
+## Function Flow
+
+Below is the exact step-by-step flow of functions for both **listing** and **individual** card workflows, including the file and function names.
+
+---
+
+### 1. **Listing Workflow** (Bulk card extraction from a listing page)
+
+**Entry Point**
+- `extractCardListing(url, openaiApiKey, options)`  
+  _(index.js)_
+
+**Step-by-step Function Call Flow**
+1. **Create ListingCrawler instance**
+   - `new ListingCrawler(openaiApiKey, options)`  
+     _(src/listingCrawler.js, constructor)_
+
+2. **Crawl and Process Listing**
+   - `crawlCardListing(listingUrl)`  
+     _(src/listingCrawler.js)_
+   - Steps inside `crawlCardListing`:
+     1. `ContentExtractor.extractFromUrl(listingUrl)`  
+        _(src/contentExtractor.js)_  
+        → Pull listing page content.
+     2. `AIProcessor.extractCardUrls(listingContent, listingUrl)`  
+        _(src/aiProcessor.js)_  
+        → AI validates, extracts relevant card URLs.
+     3. For each card:
+        - `CardCrawler.crawlCardBenefits(cardMeta.url)`  
+          _(src/crawler.js)_  
+          → Scrape card details, features, offers, etc.
+        - PDF detection/classification occurs inline if needed, and PDF links processed.
+        - Results are accumulated as `processedCards` and `failedCards`.
+        - `Utils.sleep(delayBetweenCards)`  
+          _(src/utils.js)_  
+          → Polite delay between card requests.
+     4. `buildListingSummary(listingUrl, listingData, processedCards, failedCards)`  
+        _(src/listingCrawler.js)_  
+        → Build listing-level summary object.
+     5. `fs.writeFileSync(outPath, JSON.stringify(summary, null, 2))`  
+        _(node fs, called in src/listingCrawler.js)_  
+        → Write summary to output file.
+     6. Error handling:  
+        - `errorListingResult(listingUrl, err.message)`  
+          _(src/listingCrawler.js)_  
+        - Called on any exception.
+
+---
+
+### 2. **Individual Card Workflow** (Single card extraction)
+
+**Entry Point**
+- `extractSingleCard(url, openaiApiKey, options)`  
+  _(index.js)_
+
+**Step-by-step Function Call Flow**
+1. **Create CardholderBenefitsCrawler instance**
+   - `new CardholderBenefitsCrawler(openaiApiKey, options)`  
+     _(src/crawler.js, constructor)_
+
+2. **Extract individual card details**
+   - `crawlCardBenefits(url)`  
+     _(src/crawler.js)_
+   - Steps inside `crawlCardBenefits`:
+     1. If PDF detected, call:
+        - `processPdfDocument(pdfContent, url, startTime)`  
+          _(src/crawler.js)_  
+          → AI extraction from PDF, structure result.
+     2. If HTML (normal card page):
+        - `aiProcessor.processContent(cardContent, links, url)`  
+          _(src/aiProcessor.js)_  
+          → AI extraction from card HTML, structure result.
+     3. Results are built and checked for completeness.
+     4. `saveResults(standardResult, structuredJson, url, isPdf, startTime)`  
+        _(src/crawler.js)_  
+        → Write both standard and structured JSON results to disk.
+     5. Error handling inline:
+        - Logs error and throws if save fails.
+
+---
+
+### **Shared Utility Functions**
+
+- Sleep/delay: `Utils.sleep(...)` _(src/utils.js)_
+- ID Generation: `Utils.generateId(...)` _(src/utils.js)_
+- Logging: `console.log(...)` and `console.error(...)` _(all files)_
+- PDF detection/classification: Logic in `crawlCardBenefits` and PDF-related helpers.
+
+---
+
+## Summary Table
+
+| Workflow   | Entry Point                           | Main Functions (in order)                             | File(s)                |
+|------------|---------------------------------------|-------------------------------------------------------|------------------------|
+| Listing    | extractCardListing (index.js)         | ListingCrawler.constructor → crawlCardListing → extractFromUrl → extractCardUrls → crawlCardBenefits → buildListingSummary → writeFileSync | index.js, src/listingCrawler.js, src/crawler.js, src/aiProcessor.js, src/utils.js, src/contentExtractor.js |
+| Individual | extractSingleCard (index.js)          | CardholderBenefitsCrawler.constructor → crawlCardBenefits → processPdfDocument OR processContent → saveResults → writeFileSync | index.js, src/crawler.js, src/aiProcessor.js, src/utils.js |
+
+---
